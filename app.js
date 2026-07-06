@@ -16,8 +16,12 @@ function fmtDate(s) {
 }
 
 async function load() {
-  const res = await fetch("data/site-data.json", { cache: "no-store" });
-  DATA = await res.json();
+  if (window.__SITE_DATA__) {
+    DATA = window.__SITE_DATA__;
+  } else {
+    const res = await fetch("data/site-data.json", { cache: "no-store" });
+    DATA = await res.json();
+  }
   selectedDoc = DATA.latestCioNote || DATA.docs[0];
   renderShell();
   renderOverview();
