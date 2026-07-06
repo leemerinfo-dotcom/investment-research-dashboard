@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Investment Research Desk</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.7/dist/purify.min.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">G</div>
+        <div>
+          <h1>Research Desk</h1>
+          <p>Hypergrowth dashboard</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <button data-view="overview" class="active">Overview</button>
+        <button data-view="scorecard">Scorecard</button>
+        <button data-view="alerts">Alerts</button>
+        <button data-view="files">Files</button>
+      </nav>
+      <div class="searchbox">
+        <label for="search">Search files</label>
+        <input id="search" type="search" placeholder="ticker, theme, thesis-breaker…" />
+      </div>
+      <div id="fileList" class="file-list"></div>
+    </aside>
+
+    <main class="main">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Investment-banking-style public-market desk</p>
+          <h2 id="pageTitle">Investment Research Dashboard</h2>
+          <p id="generated" class="muted"></p>
+        </div>
+        <div class="hero-actions">
+          <button id="copyLink">Copy dashboard link</button>
+        </div>
+      </header>
+
+      <section id="overview" class="view active"></section>
+      <section id="scorecard" class="view"></section>
+      <section id="alerts" class="view"></section>
+      <section id="files" class="view"></section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
