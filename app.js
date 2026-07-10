@@ -7,15 +7,15 @@ const escapeHtml = (value = "") => String(value).replace(/[&<>'"]/g, char => ({ 
 
 const VIEW_META = {
   overview: {
-    title: "Investment Research",
-    dek: "Today’s desk view: market movement, active theses, and the conditions that change the call."
+    title: "Executive Office",
+    dek: "Actions, risk, active theses, and the evidence that changes the call."
   },
   tape: {
     title: "Market Tape",
     dek: "A compact ledger of public quote snapshots captured when this edition was generated."
   },
   scorecard: {
-    title: "Active Sleeve Scorecard",
+    title: "Underwriting Scorecard",
     dek: "Stance, add conditions, thesis-breakers, and the next evidence check for every covered name."
   },
   alerts: {
@@ -155,7 +155,7 @@ function switchView(view, { updateHash = true, scroll = true } = {}) {
   $$(".view").forEach(section => section.classList.toggle("active", section.id === view));
   $("#pageTitle").textContent = VIEW_META[view].title;
   $("#pageDek").textContent = VIEW_META[view].dek;
-  document.title = `${VIEW_META[view].title} — Gus Research Desk`;
+  document.title = `${VIEW_META[view].title} — Hermes Personal Investment Office`;
   if (updateHash && location.hash !== `#${view}`) history.pushState(null, "", `#${view}`);
   if (scroll) window.scrollTo({ top: 0, behavior: "smooth" });
 }
