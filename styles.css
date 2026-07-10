@@ -320,8 +320,9 @@ h2 {
 
 .overview-layout { display: grid; gap: 28px; }
 .briefing .section-header { align-items: flex-start; }
+.briefing .section-header > div { min-width: 190px; flex: 1 1 auto; }
 .briefing .text-button, .market-section .text-button { margin-top: 18px; }
-.briefing-stamp { color: var(--muted); font: 10px/1.35 var(--utility); text-align: right; text-transform: uppercase; letter-spacing: .06em; }
+.briefing-stamp { flex: 0 1 230px; max-width: 230px; overflow-wrap: anywhere; color: var(--muted); font: 10px/1.35 var(--utility); text-align: right; text-transform: uppercase; letter-spacing: .06em; }
 .mover-list { border-top: 1px solid var(--line); }
 .quote-row {
   display: grid;
@@ -568,6 +569,7 @@ h2 {
 
 @media (max-width: 520px) {
   .brand p { display: none; }
+  .metric { min-width: 90px; flex-basis: 90px; }
   .edition-line span:last-child, #editionStats { display: none; }
   .masthead-body { align-items: flex-start; }
   .section-header { align-items: flex-start; }

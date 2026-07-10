@@ -203,7 +203,7 @@ function renderOverview() {
           <div><p class="section-kicker">Morning manuscript</p><h3>Latest CIO note</h3></div>
           <p class="briefing-stamp">${note ? `${escapeHtml(note.source)}<br>${fmtDate(note.updated, { dateStyle: "medium", timeStyle: "short" })}` : "Awaiting next edition"}</p>
         </div>
-        <div class="markdown-body">${md(note ? firstSections(note.content, 2) : "No CIO note yet.")}</div>
+        <div class="markdown-body">${md(note ? firstSections(note.content, 1) : "No CIO note yet.")}</div>
         ${note ? `<button type="button" id="openCio" class="text-button">Continue reading in archive →</button>` : ""}
       </article>
 

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-10T10:04:43",
+    "generatedAt": "2026-07-10T10:12:34",
     "title": "Investment Research Desk",
     "subtitle": "Hypergrowth public-market research dashboard",
     "publicSafety": "Sanitized static export: no secrets, no raw local cron context, no exact portfolio amounts."
@@ -29,13 +29,13 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 114.6,
+      "price": 114.52,
       "previousClose": 120.95,
-      "changePct": -5.25,
+      "changePct": -5.32,
       "volume": 0,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         128.4201,
         128.16,
@@ -65,19 +65,19 @@
         124.3201,
         124.365,
         122.21,
-        114.45,
-        114.6
+        114.52,
+        114.52
       ]
     },
     {
       "ticker": "CRDO",
-      "price": 263.27,
+      "price": 263.0,
       "previousClose": 241.91,
-      "changePct": 8.83,
+      "changePct": 8.72,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         278.065,
         273.75,
@@ -107,19 +107,19 @@
         268.845,
         266.165,
         265.715,
-        263.55,
-        263.27
+        262.95,
+        263.0
       ]
     },
     {
       "ticker": "LITE",
-      "price": 774.33,
+      "price": 777.3,
       "previousClose": 728.32,
-      "changePct": 6.32,
+      "changePct": 6.73,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         743.525,
         739.675,
@@ -149,19 +149,19 @@
         787.89,
         795.82,
         785.77,
-        774.0225,
-        774.325
+        777.475,
+        777.305
       ]
     },
     {
       "ticker": "GEV",
-      "price": 1070.88,
+      "price": 1073.07,
       "previousClose": 1113.11,
-      "changePct": -3.79,
+      "changePct": -3.6,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         1183.3199,
         1166.22,
@@ -191,19 +191,19 @@
         1085.1851,
         1076.9351,
         1075.86,
-        1070.88,
-        1070.88
+        1072.25,
+        1073.075
       ]
     },
     {
       "ticker": "VRT",
-      "price": 320.46,
+      "price": 320.73,
       "previousClose": 300.53,
-      "changePct": 6.63,
+      "changePct": 6.72,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         328.0186,
         326.625,
@@ -233,19 +233,19 @@
         327.16,
         325.01,
         323.9,
-        320.22,
-        320.46
+        320.94,
+        320.725
       ]
     },
     {
       "ticker": "PWR",
-      "price": 657.71,
+      "price": 658.03,
       "previousClose": 668.31,
-      "changePct": -1.59,
+      "changePct": -1.54,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         687.05,
         684.89,
@@ -275,19 +275,19 @@
         672.495,
         668.46,
         668.14,
-        657.7,
-        657.71
+        657.78,
+        658.03
       ]
     },
     {
       "ticker": "ETN",
-      "price": 407.93,
+      "price": 407.42,
       "previousClose": 398.52,
-      "changePct": 2.36,
+      "changePct": 2.23,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         417.44,
         413.77,
@@ -317,19 +317,19 @@
         410.23,
         407.15,
         405.8,
-        407.95,
-        407.93
+        407.11,
+        407.42
       ]
     },
     {
       "ticker": "TSM",
-      "price": 433.86,
+      "price": 434.36,
       "previousClose": 434.16,
-      "changePct": -0.07,
+      "changePct": 0.04,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         457.26,
         457.87,
@@ -359,19 +359,19 @@
         439.05,
         438.365,
         437.025,
-        434.1899,
-        433.86
+        434.6,
+        434.355
       ]
     },
     {
       "ticker": "MU",
-      "price": 981.06,
+      "price": 974.4,
       "previousClose": 975.56,
-      "changePct": 0.56,
+      "changePct": -0.12,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         1004.6,
         1006.565,
@@ -401,19 +401,19 @@
         1017.95,
         1004.505,
         990.93,
-        979.4023,
-        981.06
+        977.47,
+        974.4
       ]
     },
     {
       "ticker": "PLTR",
-      "price": 127.85,
+      "price": 128.21,
       "previousClose": 129.3,
-      "changePct": -1.12,
+      "changePct": -0.84,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         130.81,
         133.05,
@@ -443,19 +443,19 @@
         128.135,
         128.565,
         129.05,
-        127.74,
-        127.8499
+        128.27,
+        128.215
       ]
     },
     {
       "ticker": "PANW",
-      "price": 336.02,
+      "price": 336.12,
       "previousClose": 348.06,
-      "changePct": -3.46,
+      "changePct": -3.43,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         366.21,
         360.66,
@@ -485,19 +485,19 @@
         335.905,
         336.44,
         338.33,
-        335.88,
-        336.025
+        336.93,
+        336.1195
       ]
     },
     {
       "ticker": "IONS",
-      "price": 59.5,
+      "price": 59.33,
       "previousClose": 81.8,
-      "changePct": -27.26,
+      "changePct": -27.47,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         82.42,
         83.785,
@@ -527,19 +527,19 @@
         64.57,
         64.65,
         64.28,
-        59.99,
-        59.5
+        59.29,
+        59.33
       ]
     },
     {
       "ticker": "RXRX",
-      "price": 3.58,
+      "price": 3.56,
       "previousClose": 3.8,
-      "changePct": -5.92,
+      "changePct": -6.32,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         3.705,
         3.86,
@@ -569,19 +569,19 @@
         3.795,
         3.76,
         3.77,
-        3.581,
-        3.575
+        3.56,
+        3.56
       ]
     },
     {
       "ticker": "KTOS",
-      "price": 47.64,
+      "price": 48.0,
       "previousClose": 55.35,
-      "changePct": -13.93,
+      "changePct": -13.28,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         53.8,
         54.065,
@@ -611,19 +611,19 @@
         48.9843,
         48.595,
         48.845,
-        47.66,
-        47.64
+        47.985,
+        47.9999
       ]
     },
     {
       "ticker": "COHR",
-      "price": 318.94,
+      "price": 319.56,
       "previousClose": 333.36,
-      "changePct": -4.33,
+      "changePct": -4.14,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         350.305,
         347.98,
@@ -653,19 +653,19 @@
         330.385,
         328.995,
         327.42,
-        319.635,
-        318.94
+        319.75,
+        319.56
       ]
     },
     {
       "ticker": "MRVL",
-      "price": 236.58,
+      "price": 237.35,
       "previousClose": 245.29,
-      "changePct": -3.55,
+      "changePct": -3.24,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         257.19,
         256.42,
@@ -695,19 +695,19 @@
         246.66,
         244.41,
         243.33,
-        236.5501,
-        236.58
+        237.09,
+        237.3499
       ]
     },
     {
       "ticker": "AVGO",
-      "price": 399.32,
+      "price": 399.72,
       "previousClose": 360.45,
-      "changePct": 10.78,
+      "changePct": 10.89,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         379.4,
         374.29,
@@ -737,19 +737,19 @@
         405.25,
         402.03,
         401.11,
-        400.11,
-        399.32
+        399.99,
+        399.72
       ]
     },
     {
       "ticker": "ANET",
-      "price": 186.83,
+      "price": 186.2,
       "previousClose": 159.99,
-      "changePct": 16.78,
+      "changePct": 16.38,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         174.125,
         175.17,
@@ -779,19 +779,19 @@
         185.025,
         184.625,
         184.64,
-        186.7825,
-        186.83
+        186.455,
+        186.2
       ]
     },
     {
       "ticker": "NVDA",
-      "price": 207.32,
+      "price": 207.49,
       "previousClose": 194.83,
-      "changePct": 6.41,
+      "changePct": 6.5,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         196.574,
         196.5135,
@@ -821,19 +821,19 @@
         203.51,
         203.79,
         202.73,
-        207.74,
-        207.32
+        207.265,
+        207.49
       ]
     },
     {
       "ticker": "CEG",
-      "price": 250.67,
+      "price": 251.07,
       "previousClose": 239.25,
-      "changePct": 4.77,
+      "changePct": 4.94,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         243.45,
         242.79,
@@ -863,19 +863,19 @@
         250.72,
         250.98,
         250.69,
-        249.97,
-        250.67
+        250.7,
+        251.0734
       ]
     },
     {
       "ticker": "VST",
-      "price": 158.37,
+      "price": 158.71,
       "previousClose": 151.05,
-      "changePct": 4.85,
+      "changePct": 5.07,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         154.22,
         153.07,
@@ -905,19 +905,19 @@
         158.555,
         158.76,
         158.01,
-        158.175,
-        158.37
+        158.565,
+        158.715
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 14.88,
+      "price": 14.68,
       "previousClose": 17.56,
-      "changePct": -15.29,
+      "changePct": -16.4,
       "volume": 0,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         16.84,
         17.82,
@@ -947,19 +947,19 @@
         15.64,
         15.485,
         15.45,
-        14.93,
-        14.875
+        14.67,
+        14.68
       ]
     },
     {
       "ticker": "TWST",
-      "price": 90.37,
+      "price": 90.13,
       "previousClose": 99.24,
-      "changePct": -8.94,
+      "changePct": -9.18,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         98.495,
         101.66,
@@ -989,19 +989,19 @@
         94.38,
         93.7,
         93.66,
-        90.6,
-        90.37
+        90.11,
+        90.13
       ]
     },
     {
       "ticker": "BWXT",
-      "price": 185.39,
+      "price": 185.65,
       "previousClose": 191.06,
-      "changePct": -2.97,
+      "changePct": -2.83,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         197.42,
         196.71,
@@ -1031,19 +1031,19 @@
         188.21,
         187.4,
         187.11,
-        185.38,
-        185.39
+        185.57,
+        185.65
       ]
     },
     {
       "ticker": "LEU",
-      "price": 172.9,
+      "price": 174.07,
       "previousClose": 162.13,
-      "changePct": 6.65,
+      "changePct": 7.36,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         175.92,
         176.83,
@@ -1073,19 +1073,19 @@
         174.065,
         173.19,
         173.76,
-        172.52,
-        172.905
+        174.04,
+        174.07
       ]
     },
     {
       "ticker": "OKLO",
-      "price": 48.22,
+      "price": 48.67,
       "previousClose": 52.36,
-      "changePct": -7.9,
+      "changePct": -7.05,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         51.9699,
         51.815,
@@ -1115,19 +1115,19 @@
         49.385,
         49.89,
         49.23,
-        48.215,
-        48.225
+        48.67,
+        48.67
       ]
     },
     {
       "ticker": "SMR",
-      "price": 8.89,
+      "price": 8.95,
       "previousClose": 9.76,
-      "changePct": -8.97,
+      "changePct": -8.3,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T10:04",
+      "quoteTime": "2026-07-10T10:12",
       "sparkline": [
         9.885,
         9.87,
@@ -1157,8 +1157,8 @@
         9.14,
         9.035,
         9.045,
-        8.851,
-        8.885
+        8.955,
+        8.9501
       ]
     }
   ],
@@ -1310,6 +1310,17 @@
   },
   "latestAlerts": [
     {
+      "file": "2026-07-10_10-08-22.md",
+      "title": "2026-07-10_10-08-22",
+      "levels": [
+        {
+          "level": 2,
+          "title": "AAOI price move trigger"
+        }
+      ],
+      "content": "# Investment Trigger Alerts — 2026-07-10 10:08 EDT\n\n## Level 2 — AAOI price move trigger\n- Theme: AI optical transceivers\n- Priority: core\n- Trigger: intraday move -6.25% vs threshold ±5.0%\n- Last price: 114.58\n- Change vs previous close: -6.25%\n- Change vs open: -3.48%\n- Volume: 1.82M; avg volume: 6.89M; volume ratio: 0.26x\n- Quote timestamp: 2026-07-10T10:08:17-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant."
+    },
+    {
       "file": "2026-07-10_09-37-43.md",
       "title": "2026-07-10_09-37-43",
       "levels": [
@@ -1421,17 +1432,6 @@
         }
       ],
       "content": "# Investment Trigger Alerts — 2026-07-08 12:42 EDT\n\n## Level 2 — ANET price move trigger\n- Theme: AI networking\n- Priority: high\n- Trigger: intraday move +6.12% vs threshold ±6.0%\n- Last price: 176.64\n- Change vs previous close: +6.12%\n- Change vs open: +6.29%\n- Volume: 5.71M; avg volume: 8.41M; volume ratio: 0.68x\n- Quote timestamp: 2026-07-08T12:41:02-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant."
-    },
-    {
-      "file": "2026-07-08_10-32-16.md",
-      "title": "2026-07-08_10-32-16",
-      "levels": [
-        {
-          "level": 1,
-          "title": "AAOI market data fetch error"
-        }
-      ],
-      "content": "# Investment Trigger Alerts — 2026-07-08 10:32 EDT\n\n## Level 1 — AAOI market data fetch error\nCould not fetch quote data: Remote end closed connection without response"
     }
   ],
   "docs": [
@@ -1535,6 +1535,15 @@
       "summary": "Semis / HBM / Accelerator SupplyChain Desk — PreMarket Analyst Note Date: Monday, July 6, 2026 Author: AI SupplyChain Specialist Desk For: Leemer Investment Research"
     },
     {
+      "id": "alert-2026-07-10_10-08-22",
+      "title": "Alert 2026-07-10 10-08-22",
+      "category": "Market Alerts",
+      "source": "alerts/2026-07-10_10-08-22.md",
+      "updated": "2026-07-10T10:08:22",
+      "content": "# Investment Trigger Alerts — 2026-07-10 10:08 EDT\n\n## Level 2 — AAOI price move trigger\n- Theme: AI optical transceivers\n- Priority: core\n- Trigger: intraday move -6.25% vs threshold ±5.0%\n- Last price: 114.58\n- Change vs previous close: -6.25%\n- Change vs open: -3.48%\n- Volume: 1.82M; avg volume: 6.89M; volume ratio: 0.26x\n- Quote timestamp: 2026-07-10T10:08:17-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.",
+      "summary": "Investment Trigger Alerts — 20260710 10:08 EDT Level 2 — AAOI price move trigger Theme: AI optical transceivers Priority: core"
+    },
+    {
       "id": "alert-2026-07-10_09-37-43",
       "title": "Alert 2026-07-10 09-37-43",
       "category": "Market Alerts",
@@ -1632,15 +1641,6 @@
       "updated": "2026-07-07T14:57:24",
       "content": "# Investment Trigger Alerts — 2026-07-07 14:57 EDT\n\n## Level 3 — AAOI price move trigger\n- Theme: AI optical transceivers\n- Priority: core\n- Trigger: intraday move -8.62% vs threshold ±5.0%\n- Last price: 112.73\n- Change vs previous close: -8.62%\n- Change vs open: -4.47%\n- Volume: 7.07M; avg volume: 9.02M; volume ratio: 0.78x\n- Quote timestamp: 2026-07-07T14:57:11-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.\n\n## Level 3 — MRVL price move trigger\n- Theme: custom silicon / optical DSP\n- Priority: high\n- Trigger: intraday move -8.55% vs threshold ±6.0%\n- Last price: 227.96\n- Change vs previous close: -8.55%\n- Change vs open: -2.96%\n- Volume: 24.14M; avg volume: 31.89M; volume ratio: 0.76x\n- Quote timestamp: 2026-07-07T14:57:14-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.\n\n## Level 2 — OKLO price move trigger\n- Theme: advanced nuclear optionality\n- Priority: watch\n- Trigger: intraday move -6.91% vs threshold ±6.0%\n- Last price: 48.26\n- Change vs previous close: -6.91%\n- Change vs open: -5.09%\n- Volume: 8.02M; avg volume: 8.60M; volume ratio: 0.93x\n- Quote timestamp: 2026-07-07T14:57:21-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.\n\n## Level 2 — TWST price move trigger\n- Theme: synthetic biology tools\n- Priority: medium\n- Trigger: intraday move -8.54% vs threshold ±6.0%\n- Last price: 91.40\n- Change vs previous close: -8.54%\n- Change vs open: -8.80%\n- Volume: 1.71M; avg volume: 1.63M; volume ratio: 1.04x\n- Quote timestamp: 2026-07-07T14:57:04-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.",
       "summary": "Investment Trigger Alerts — 20260707 14:57 EDT Level 3 — AAOI price move trigger Theme: AI optical transceivers Priority: core"
-    },
-    {
-      "id": "alert-2026-07-07_13-56-14",
-      "title": "Alert 2026-07-07 13-56-14",
-      "category": "Market Alerts",
-      "source": "alerts/2026-07-07_13-56-14.md",
-      "updated": "2026-07-07T13:56:14",
-      "content": "# Investment Trigger Alerts — 2026-07-07 13:56 EDT\n\n## Level 2 — COHR price move trigger\n- Theme: optical components\n- Priority: high\n- Trigger: intraday move -6.04% vs threshold ±6.0%\n- Last price: 315.41\n- Change vs previous close: -6.04%\n- Change vs open: -1.72%\n- Volume: 3.03M; avg volume: 4.40M; volume ratio: 0.69x\n- Quote timestamp: 2026-07-07T13:56:10-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.\n\n## Level 2 — GEV price move trigger\n- Theme: power equipment\n- Priority: high\n- Trigger: intraday move -7.09% vs threshold ±6.0%\n- Last price: 1.1K\n- Change vs previous close: -7.09%\n- Change vs open: -2.41%\n- Volume: 2.75M; avg volume: 2.69M; volume ratio: 1.02x\n- Quote timestamp: 2026-07-07T13:56:10-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.",
-      "summary": "Investment Trigger Alerts — 20260707 13:56 EDT Level 2 — COHR price move trigger Theme: optical components Priority: high"
     },
     {
       "id": "job-cb8832fa417e",
@@ -1745,10 +1745,10 @@
       "id": "job-04aa99181e16",
       "title": "Market Trigger Watcher",
       "category": "Desk Outputs",
-      "source": "cron/04aa99181e16/2026-07-10_08-37-43.md — final response only",
-      "updated": "2026-07-10T09:37:43",
-      "content": "# Investment Trigger Alerts — 2026-07-10 09:37 EDT\n\n## Level 2 — IONS price move trigger\n- Theme: RNA platform biotech\n- Priority: medium\n- Trigger: intraday move -7.90% vs threshold ±6.0%\n- Last price: 59.19\n- Change vs previous close: -7.90%\n- Change vs open: -7.90%\n- Volume: 741.5K; avg volume: 5.59M; volume ratio: 0.13x\n- Quote timestamp: 2026-07-10T09:37:41-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.\n\n\nSaved alert: [local-home]\\workspace\\investment-research\\alerts\\2026-07-10_09-37-43.md",
-      "summary": "Investment Trigger Alerts — 20260710 09:37 EDT Level 2 — IONS price move trigger Theme: RNA platform biotech Priority: medium"
+      "source": "cron/04aa99181e16/2026-07-10_09-08-22.md — final response only",
+      "updated": "2026-07-10T10:08:22",
+      "content": "# Investment Trigger Alerts — 2026-07-10 10:08 EDT\n\n## Level 2 — AAOI price move trigger\n- Theme: AI optical transceivers\n- Priority: core\n- Trigger: intraday move -6.25% vs threshold ±5.0%\n- Last price: 114.58\n- Change vs previous close: -6.25%\n- Change vs open: -3.48%\n- Volume: 1.82M; avg volume: 6.89M; volume ratio: 0.26x\n- Quote timestamp: 2026-07-10T10:08:17-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.\n\n\nSaved alert: [local-home]\\workspace\\investment-research\\alerts\\2026-07-10_10-08-22.md",
+      "summary": "Investment Trigger Alerts — 20260710 10:08 EDT Level 2 — AAOI price move trigger Theme: AI optical transceivers Priority: core"
     }
   ]
 }
