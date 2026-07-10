@@ -3,52 +3,67 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Investment Research Desk</title>
+  <meta name="theme-color" content="#f7f3e8" />
+  <meta name="description" content="Gus Research Desk — public-market research, scorecards, alerts, and market tape." />
+  <title>Gus Research Desk</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.7/dist/purify.min.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#mainContent">Skip to research</a>
   <div class="shell">
-    <aside class="sidebar">
+    <aside class="sidebar" aria-label="Research desk navigation">
       <div class="brand">
-        <div class="brand-mark">G</div>
-        <div>
-          <h1>Research Desk</h1>
-          <p>Hypergrowth dashboard</p>
+        <div class="brand-mark" aria-hidden="true">G</div>
+        <div class="brand-copy">
+          <h1>Gus Research Desk</h1>
+          <p>Public-markets manuscript</p>
         </div>
       </div>
-      <nav class="nav">
-        <button data-view="overview" class="active">Overview</button>
-        <button data-view="tape">Tape</button>
-        <button data-view="scorecard">Score</button>
-        <button data-view="alerts">Alerts</button>
-        <button data-view="files">Files</button>
+
+      <nav class="nav" aria-label="Dashboard sections">
+        <button type="button" data-view="overview" class="active"><span>01</span>Overview</button>
+        <button type="button" data-view="tape"><span>02</span>Market tape</button>
+        <button type="button" data-view="scorecard"><span>03</span>Scorecard</button>
+        <button type="button" data-view="alerts"><span>04</span>Alerts</button>
+        <button type="button" data-view="files"><span>05</span>Archive</button>
       </nav>
+
       <div class="searchbox">
-        <label for="search">Search files</label>
-        <input id="search" type="search" placeholder="ticker, theme, thesis-breaker…" />
+        <label for="search">Search the archive</label>
+        <input id="search" type="search" autocomplete="off" placeholder="Ticker, theme, thesis-breaker…" aria-controls="fileList" />
+        <div id="fileList" class="file-list" aria-label="Research documents"></div>
       </div>
-      <div id="fileList" class="file-list"></div>
+
+      <p class="sidebar-note">Sanitized static edition<br />No portfolio amounts or private context</p>
     </aside>
 
-    <main class="main">
-      <header class="hero">
-        <div>
-          <p class="eyebrow">Investment-banking-style public-market desk</p>
-          <h2 id="pageTitle">Investment Research Dashboard</h2>
-          <p id="generated" class="muted"></p>
+    <main id="mainContent" class="main" tabindex="-1">
+      <header class="masthead">
+        <div class="edition-line">
+          <span>Public markets</span>
+          <span>Hypergrowth · AI · Infrastructure</span>
         </div>
-        <div class="hero-actions">
-          <button id="copyLink">Copy dashboard link</button>
+        <div class="masthead-body">
+          <div>
+            <p class="eyebrow">Investment research / decision support</p>
+            <h2 id="pageTitle">Investment Research</h2>
+            <p id="pageDek" class="dek">Today’s desk view: market movement, active theses, and the conditions that change the call.</p>
+          </div>
+          <button type="button" id="copyLink" class="text-button">Copy edition link</button>
+        </div>
+        <div class="edition-meta">
+          <span id="generated"></span>
+          <span id="editionStats"></span>
         </div>
       </header>
 
-      <section id="overview" class="view active"></section>
-      <section id="tape" class="view"></section>
-      <section id="scorecard" class="view"></section>
-      <section id="alerts" class="view"></section>
-      <section id="files" class="view"></section>
+      <section id="overview" class="view active" aria-label="Overview"></section>
+      <section id="tape" class="view" aria-label="Market tape"></section>
+      <section id="scorecard" class="view" aria-label="Active sleeve scorecard"></section>
+      <section id="alerts" class="view" aria-label="Market alerts"></section>
+      <section id="files" class="view" aria-label="Research archive"></section>
     </main>
   </div>
   <script src="app.js"></script>

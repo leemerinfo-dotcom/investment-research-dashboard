@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-10T09:34:22",
+    "generatedAt": "2026-07-10T10:04:43",
     "title": "Investment Research Desk",
     "subtitle": "Hypergrowth public-market research dashboard",
     "publicSafety": "Sanitized static export: no secrets, no raw local cron context, no exact portfolio amounts."
@@ -12,7 +12,7 @@
     "activeTheses": 7,
     "sourceEntries": 43,
     "alerts": 8,
-    "quotes": 26
+    "quotes": 27
   },
   "focus": [
     "Broad public-market hypergrowth opportunities across sectors",
@@ -29,13 +29,13 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 124.17,
+      "price": 114.6,
       "previousClose": 120.95,
-      "changePct": 2.66,
+      "changePct": -5.25,
       "volume": 0,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         128.4201,
         128.16,
@@ -65,19 +65,19 @@
         124.3201,
         124.365,
         122.21,
-        123.44,
-        124.1701
+        114.45,
+        114.6
       ]
     },
     {
       "ticker": "CRDO",
-      "price": 267.08,
+      "price": 263.27,
       "previousClose": 241.91,
-      "changePct": 10.4,
+      "changePct": 8.83,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         278.065,
         273.75,
@@ -107,19 +107,19 @@
         268.845,
         266.165,
         265.715,
-        266.375,
-        267.075
+        263.55,
+        263.27
       ]
     },
     {
       "ticker": "LITE",
-      "price": 805.26,
+      "price": 774.33,
       "previousClose": 728.32,
-      "changePct": 10.56,
+      "changePct": 6.32,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         743.525,
         739.675,
@@ -149,19 +149,19 @@
         787.89,
         795.82,
         785.77,
-        804.61,
-        805.26
+        774.0225,
+        774.325
       ]
     },
     {
       "ticker": "GEV",
-      "price": 1067.68,
+      "price": 1070.88,
       "previousClose": 1113.11,
-      "changePct": -4.08,
+      "changePct": -3.79,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         1183.3199,
         1166.22,
@@ -191,19 +191,19 @@
         1085.1851,
         1076.9351,
         1075.86,
-        1063.4501,
-        1067.675
+        1070.88,
+        1070.88
       ]
     },
     {
       "ticker": "VRT",
-      "price": 318.79,
+      "price": 320.46,
       "previousClose": 300.53,
-      "changePct": 6.07,
+      "changePct": 6.63,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         328.0186,
         326.625,
@@ -233,23 +233,61 @@
         327.16,
         325.01,
         323.9,
-        318.84,
-        318.785
+        320.22,
+        320.46
       ]
     },
     {
       "ticker": "PWR",
-      "error": "HTTPError"
-    },
-    {
-      "ticker": "ETN",
-      "price": 403.92,
-      "previousClose": 398.52,
-      "changePct": 1.36,
+      "price": 657.71,
+      "previousClose": 668.31,
+      "changePct": -1.59,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
+      "sparkline": [
+        687.05,
+        684.89,
+        683.275,
+        680.295,
+        678.3825,
+        673.15,
+        673.95,
+        651.095,
+        647.6,
+        648.06,
+        650.025,
+        650.85,
+        651.455,
+        656.6,
+        661.85,
+        654.915,
+        662.29,
+        664.77,
+        665.32,
+        664.06,
+        665.95,
+        675.775,
+        678.54,
+        676.07,
+        672.64,
+        672.495,
+        668.46,
+        668.14,
+        657.7,
+        657.71
+      ]
+    },
+    {
+      "ticker": "ETN",
+      "price": 407.93,
+      "previousClose": 398.52,
+      "changePct": 2.36,
+      "volume": 0,
+      "currency": "USD",
+      "exchange": "NYQ",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         417.44,
         413.77,
@@ -279,19 +317,19 @@
         410.23,
         407.15,
         405.8,
-        402.32,
-        403.92
+        407.95,
+        407.93
       ]
     },
     {
       "ticker": "TSM",
-      "price": 433.55,
+      "price": 433.86,
       "previousClose": 434.16,
-      "changePct": -0.14,
+      "changePct": -0.07,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         457.26,
         457.87,
@@ -321,19 +359,19 @@
         439.05,
         438.365,
         437.025,
-        433.28,
-        433.55
+        434.1899,
+        433.86
       ]
     },
     {
       "ticker": "MU",
-      "price": 969.78,
+      "price": 981.06,
       "previousClose": 975.56,
-      "changePct": -0.59,
+      "changePct": 0.56,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         1004.6,
         1006.565,
@@ -363,19 +401,19 @@
         1017.95,
         1004.505,
         990.93,
-        969.55,
-        969.78
+        979.4023,
+        981.06
       ]
     },
     {
       "ticker": "PLTR",
-      "price": 130.64,
+      "price": 127.85,
       "previousClose": 129.3,
-      "changePct": 1.04,
+      "changePct": -1.12,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         130.81,
         133.05,
@@ -405,19 +443,19 @@
         128.135,
         128.565,
         129.05,
-        130.63,
-        130.64
+        127.74,
+        127.8499
       ]
     },
     {
       "ticker": "PANW",
-      "price": 337.79,
+      "price": 336.02,
       "previousClose": 348.06,
-      "changePct": -2.95,
+      "changePct": -3.46,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         366.21,
         360.66,
@@ -447,19 +485,19 @@
         335.905,
         336.44,
         338.33,
-        336.79,
-        337.79
+        335.88,
+        336.025
       ]
     },
     {
       "ticker": "IONS",
-      "price": 60.39,
+      "price": 59.5,
       "previousClose": 81.8,
-      "changePct": -26.17,
+      "changePct": -27.26,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         82.42,
         83.785,
@@ -489,19 +527,19 @@
         64.57,
         64.65,
         64.28,
-        60.1,
-        60.39
+        59.99,
+        59.5
       ]
     },
     {
       "ticker": "RXRX",
-      "price": 3.62,
+      "price": 3.58,
       "previousClose": 3.8,
-      "changePct": -4.61,
+      "changePct": -5.92,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         3.705,
         3.86,
@@ -531,19 +569,19 @@
         3.795,
         3.76,
         3.77,
-        3.645,
-        3.625
+        3.581,
+        3.575
       ]
     },
     {
       "ticker": "KTOS",
-      "price": 48.54,
+      "price": 47.64,
       "previousClose": 55.35,
-      "changePct": -12.29,
+      "changePct": -13.93,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         53.8,
         54.065,
@@ -573,19 +611,19 @@
         48.9843,
         48.595,
         48.845,
-        48.525,
-        48.545
+        47.66,
+        47.64
       ]
     },
     {
       "ticker": "COHR",
-      "price": 329.98,
+      "price": 318.94,
       "previousClose": 333.36,
-      "changePct": -1.01,
+      "changePct": -4.33,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         350.305,
         347.98,
@@ -615,19 +653,19 @@
         330.385,
         328.995,
         327.42,
-        328.66,
-        329.985
+        319.635,
+        318.94
       ]
     },
     {
       "ticker": "MRVL",
-      "price": 238.0,
+      "price": 236.58,
       "previousClose": 245.29,
-      "changePct": -2.97,
+      "changePct": -3.55,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         257.19,
         256.42,
@@ -657,19 +695,19 @@
         246.66,
         244.41,
         243.33,
-        237.938,
-        238.0
+        236.5501,
+        236.58
       ]
     },
     {
       "ticker": "AVGO",
-      "price": 399.7,
+      "price": 399.32,
       "previousClose": 360.45,
-      "changePct": 10.89,
+      "changePct": 10.78,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         379.4,
         374.29,
@@ -699,19 +737,19 @@
         405.25,
         402.03,
         401.11,
-        399.96,
-        399.7
+        400.11,
+        399.32
       ]
     },
     {
       "ticker": "ANET",
-      "price": 184.7,
+      "price": 186.83,
       "previousClose": 159.99,
-      "changePct": 15.44,
+      "changePct": 16.78,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         174.125,
         175.17,
@@ -741,19 +779,19 @@
         185.025,
         184.625,
         184.64,
-        185.0,
-        184.7
+        186.7825,
+        186.83
       ]
     },
     {
       "ticker": "NVDA",
-      "price": 204.13,
+      "price": 207.32,
       "previousClose": 194.83,
-      "changePct": 4.77,
+      "changePct": 6.41,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         196.574,
         196.5135,
@@ -783,19 +821,19 @@
         203.51,
         203.79,
         202.73,
-        204.11,
-        204.1275
+        207.74,
+        207.32
       ]
     },
     {
       "ticker": "CEG",
-      "price": 251.47,
+      "price": 250.67,
       "previousClose": 239.25,
-      "changePct": 5.11,
+      "changePct": 4.77,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         243.45,
         242.79,
@@ -825,19 +863,19 @@
         250.72,
         250.98,
         250.69,
-        251.55,
-        251.47
+        249.97,
+        250.67
       ]
     },
     {
       "ticker": "VST",
-      "price": 159.38,
+      "price": 158.37,
       "previousClose": 151.05,
-      "changePct": 5.52,
+      "changePct": 4.85,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         154.22,
         153.07,
@@ -867,19 +905,19 @@
         158.555,
         158.76,
         158.01,
-        159.38,
-        159.385
+        158.175,
+        158.37
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 14.86,
+      "price": 14.88,
       "previousClose": 17.56,
-      "changePct": -15.38,
+      "changePct": -15.29,
       "volume": 0,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         16.84,
         17.82,
@@ -909,19 +947,19 @@
         15.64,
         15.485,
         15.45,
-        14.825,
-        14.86
+        14.93,
+        14.875
       ]
     },
     {
       "ticker": "TWST",
-      "price": 91.83,
+      "price": 90.37,
       "previousClose": 99.24,
-      "changePct": -7.47,
+      "changePct": -8.94,
       "volume": 0,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         98.495,
         101.66,
@@ -951,19 +989,19 @@
         94.38,
         93.7,
         93.66,
-        91.96,
-        91.83
+        90.6,
+        90.37
       ]
     },
     {
       "ticker": "BWXT",
-      "price": 184.22,
+      "price": 185.39,
       "previousClose": 191.06,
-      "changePct": -3.58,
+      "changePct": -2.97,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:33",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         197.42,
         196.71,
@@ -993,19 +1031,19 @@
         188.21,
         187.4,
         187.11,
-        185.325,
-        184.22
+        185.38,
+        185.39
       ]
     },
     {
       "ticker": "LEU",
-      "price": 176.15,
+      "price": 172.9,
       "previousClose": 162.13,
-      "changePct": 8.65,
+      "changePct": 6.65,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:33",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         175.92,
         176.83,
@@ -1035,19 +1073,19 @@
         174.065,
         173.19,
         173.76,
-        176.82,
-        176.155
+        172.52,
+        172.905
       ]
     },
     {
       "ticker": "OKLO",
-      "price": 50.1,
+      "price": 48.22,
       "previousClose": 52.36,
-      "changePct": -4.32,
+      "changePct": -7.9,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         51.9699,
         51.815,
@@ -1077,19 +1115,19 @@
         49.385,
         49.89,
         49.23,
-        49.875,
-        50.0999
+        48.215,
+        48.225
       ]
     },
     {
       "ticker": "SMR",
-      "price": 9.11,
+      "price": 8.89,
       "previousClose": 9.76,
-      "changePct": -6.61,
+      "changePct": -8.97,
       "volume": 0,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T09:34",
+      "quoteTime": "2026-07-10T10:04",
       "sparkline": [
         9.885,
         9.87,
@@ -1119,8 +1157,8 @@
         9.14,
         9.035,
         9.045,
-        9.105,
-        9.115
+        8.851,
+        8.885
       ]
     }
   ],
@@ -1256,10 +1294,10 @@
     "id": "job-cb8832fa417e",
     "title": "CIO Morning Note",
     "category": "Desk Outputs",
-    "source": "cron/cb8832fa417e/2026-07-09_08-37-20.md — final response only",
-    "updated": "2026-07-09T09:37:20",
-    "content": "## 1. The actual read\n\n**Stance:** AI infra demand is still real and accelerating, but the best capital allocation read is **not “chase AAOI/semis.”** The hard evidence has shifted toward **power/grid backlog, defense/autonomy + AI apps, and neocloud financing fragility**. AAOI remains thesis-alive, but it is now an execution/dilution/customer-concentration trade until Q2/Q3 prove 800G/1.6T scale and margin leverage. No fresh market-trigger alert since the last watcher run; today’s change is desk-level reweighting, not a single ticker event.\n\n## 2. My analyst stance today\n\n**Aggressive research target**\n1. **Power/grid/data-center infra** — VRT, GEV, PWR, ETN, selective VST/CEG. Best hard-evidence bottleneck.\n2. **Defense autonomy + AI apps/cyber** — RBRK, APP, PLTR, KTOS/AVAV, AXON. Best non-infra expansion.\n3. **Neocloud/project finance** — CRWV, NBIS, IREN, CORZ. Huge upside, but this is credit-underwriting, not simple growth investing.\n\n**Hold thesis / do not chase**\n- **AAOI / optical networking:** thesis intact, but price volatility is ahead of proof.\n- **VRT/GEV/ETN:** high quality, but crowded after sharp theme moves.\n- **TSM/AVGO:** still strong scarcity/evidence names, but not “cheap AI beta.”\n\n**Add only if X happens**\n- **AAOI:** add only if Q2/Q3 show datacenter revenue acceleration, GM moving above **30–32%**, no AR/inventory blowout, no new dilution, and 1.6T shipment proof.\n- **CRDO/LITE/GLW:** add only on order/revenue confirmation or pullback; they now screen cleaner than AAOI inside optics.\n- **MU:** add only if HBM pricing and capex discipline stay intact despite Samsung HBM4 supply coming online.\n\n**Risk-reduce if Y happens**\n- AAOI GM stays sub-30%, share count rises again, AR/customer concentration worsens, or 1.6T slips.\n- Power names miss backlog-to-revenue conversion while multiples remain extreme.\n- Neocloud financing spreads widen / customer handoffs slip / interest burden rises faster than revenue.\n\n**Avoid for now**\n- Generic humanoid robotics.\n- Generic crypto/tokens.\n- Social-media photonics baskets without filings/order proof.\n- AI drug discovery “platform” claims without clinical translation.\n\n## 3. What this means for your concentrated active sleeve\n\nIf AAOI is still the concentrated active reference point, I’d treat it as **thesis alive but no longer center-of-gravity**. The sleeve risk is not “AI infra is fake.” It’s that AAOI could be the wrong public expression of a real buildout if margins, dilution, or customer concentration eat the upside.\n\nMy analyst view: **new active-sleeve capital should wait for either AAOI proof or a better risk/reward pullback in power/defense/apps.** The S&P/core sleeve can stay left alone. The active sleeve should become less single-name optics-dependent and more exposed to **multiple bottlenecks with hard evidence**: power equipment, grid construction, AI app monetization, defense procurement, and maybe TSM/AVGO scarcity economics.\n\n## 4. Ranked opportunities today\n\n1. **Power/grid/data-center infra — VRT, GEV, PWR, ETN; selective VST/CEG**  \n   Best evidence. Real orders/backlog, real lead-time constraints. Don’t chase theme spikes.\n\n2. **AI apps/cyber + defense autonomy — RBRK, APP, PLTR, KTOS, AVAV, AXON**  \n   Moved up. This is the cleanest anti-overfit bucket. RBRK/APP show actual AI monetization; KTOS/AVAV have funded procurement/backlog.\n\n3. **Neocloud/project finance — CRWV, NBIS, IREN, CORZ/APLD**  \n   Moved up as a fragility + upside desk. Needs debt/MW/utilization modeling before conviction.\n\n4. **Advanced packaging/custom silicon — TSM, AVGO; MU with caveat; ASML discounted**  \n   TSM is the cleaner scarcity-rent holder. AVGO AI revenue is proving real. MU is high torque but more cyclical now. ASML has a sharper China/MATCH Act overhang.\n\n5. **Optical/networking — LITE, CRDO, GLW, CSCO, AAOI**  \n   Demand is real. AAOI is highest torque but weakest proof-to-valuation. LITE/CRDO/GLW moved up versus AAOI.\n\n6. **Selective biotech/health-tech — TMDX, NTLA, BEAM, TEM; VKTX/RXRX speculative**  \n   Keep small. Good asymmetry, but binary/dilution risk needs strict sizing.\n\n7. **Stablecoin/tokenization rails — CRCL, COIN, HOOD**  \n   Watch/scout, not conviction yet. Needs regulation + float/take-rate math.\n\n## 5. Scorecard moves\n\n**Moved up**\n- **Power/grid** stays P0.\n- **Defense autonomy / AI apps / cyber** moved up meaningfully.\n- **Neocloud financing** moved up as its own desk.\n- **GLW/CSCO/LITE/CRDO** moved up inside optics because evidence is cleaner.\n- **TSM/AVGO** remain best semis/AI supply-chain quality.\n\n**Moved down / deweighted**\n- **AAOI** deweighted until shipment + margin proof.\n- **MU** slightly down/conditional: execution strong, but >$25B capex and Samsung HBM4 raise 2027 oversupply risk.\n- **ASML** down/discounted because MATCH Act servicing-ban risk could hit China revenue.\n- **Generic robotics / generic crypto / social photonics baskets** remain below bar.\n\n## 6. Decision math that matters\n\n- Hyperscaler capex envelope near **$725B in 2026**, roughly **+77% vs 2025**. Demand is not broadly digesting yet.\n- AAOI Q1: **$151.1M revenue**, data center **53.9%**, but 800G was only **$4.6M** — just **5.6% of data-center revenue**. Q2 guide GM only **29–30%**.\n- AAOI dilution: Q1 ATM raised **$382M net**; share count moved to ~**80.7M** guide assumption, about **7%+ expansion** in one quarter.\n- Power evidence: VRT backlog **+109% YoY**, orders **+81%**; GEV Q1 orders **+71% organic**, data-center electrification orders **$2.4B in Q1**, more than all 2025.\n- Semis: CoWoS 2026 demand near **1.0M wafers**, NVIDIA ~**60%**; MU capex now **>$25B**, and Samsung HBM4 commercial shipment since Feb raises 2027 supply risk.\n\n## 7. Green lights / thesis-breakers\n\n**Green lights**\n- AAOI GM >32%, no dilution, clean AR/inventory, 1.6T shipments.\n- VRT/GEV/PWR/ETN convert backlog into margin, not just revenue.\n- RBRK/APP/PLTR sustain growth without valuation/margin cracks.\n- Neoclouds hit MW handoff dates with financing still available.\n- TSM keeps CoWoS pricing/allocation tight.\n\n**Thesis-breakers**\n- Hyperscaler capex cuts driven by ROI stress, not timing.\n- Private-credit/ABS market reprices data-center financing.\n- AAOI margin fails to expand despite mix shift.\n- MU/Samsung/SK Hynix supply growth breaks HBM pricing in 2027.\n- Defense names’ funded backlog fails to convert under continuing resolutions.\n\n## 8. Best next move\n\n**Best next move:** Gus should build a one-page active-sleeve replacement/expansion grid: **AAOI vs VRT/GEV/PWR/ETN vs RBRK/APP/KTOS/AVAV vs TSM/AVGO**, with add-only-if thresholds and risk-reduce triggers. For you, I’d treat today as **no-chase / prepare-to-act-on-proof-or-pullback**.\n\n## 9. Desk reweight\n\nHire/split: **defense autonomy**, **AI apps/cyber**, **neocloud/project finance**, **stablecoin rails scout**.  \nKeep high: **power/grid**.  \nKeep but deweight: **optics**, **semis/HBM**.  \nPause: **generic humanoid robotics**, **generic crypto**, **AAOI-only loops**.",
-    "summary": "1. The actual read Stance: AI infra demand is still real and accelerating, but the best capital allocation read is not “chase AAOI/semis.” The hard evidence has shifted toward power/grid backlog, defense/autonomy + AI a…"
+    "source": "cron/cb8832fa417e/2026-07-10_08-36-26.md — final response only",
+    "updated": "2026-07-10T09:36:26",
+    "content": "Stance: **the desk should rotate attention away from “AI infra is up” and toward proof-of-conversion trades.** No fresh market-trigger alert after the 8:07 watcher, so this is not a panic note. What changed is the research stack: **defense autonomy/C-UAS and named power/PPA backlog moved up; AAOI/optics stayed alive but moved down as a proof trade; neocloud financing stress became the main AI-infra risk channel.**\n\n## My analyst stance today\n\n**Aggressive research target**\n1. **Defense autonomy / counter-UAS — AVAV, KTOS, selective PLTR**\n   - Best non-AI-infra expansion. AVAV has real revenue/backlog, KTOS has clean unmanned/hypersonic leverage, PLTR has real monetization but valuation is the constraint.\n   - I’d treat AVAV/KTOS as the desk’s highest-priority new sleeve candidate, not yet as a finished answer.\n\n2. **Named power / grid conversion — VST, PWR, NVT; quality watch GEV/ETN/VRT**\n   - Physical bottleneck still strengthening, but equipment names are crowded. VST looks most asymmetric because Meta PPAs are named/long duration and not fully in near-term guide.\n\n**Hold thesis / do not chase**\n- **AAOI / optics basket.** Demand thesis is intact, but AAOI is not center-of-gravity until Q2/Q3 proves revenue acceleration, GM, AR quality, and no further dilution.\n- **TSM / MU / AVGO / ANET.** Strong structural evidence, but less “unknown alpha” now. TSM is the cleanest bottleneck owner; MU is high torque but capex/2027 oversupply risk is rising.\n\n**Add only if X happens**\n- **AAOI:** add-confidence only if GM clears/holds **30–32%**, datacenter revenue accelerates, 1.6T proof appears, and share count/ATM usage stays controlled.\n- **Power names:** only on pullbacks or fresh backlog/PPA/order proof, not generic AI-power headline moves.\n- **Biotech/health-tech:** TMDX and TEM/GH/NTRA deserve watchlist work; add-confidence only with durable volume/margin/reimbursement evidence.\n\n**Risk-reduce if Y happens**\n- **AAOI:** GM sub-30%, share count rising again, AR/DSO stress, customer pushout, or weak Q2 guide conversion.\n- **Neocloud-linked AI infra:** if CoreWeave/Nebius/Oracle financing terms worsen or utilization lags capacity handoff.\n- **MU/HBM:** if capex keeps rising while 2027 pricing/lead times soften.\n\n**Avoid/watch**\n- **SMR, generic robotics/humanoid names, AI-drug-discovery narratives** without revenue/clinical/regulatory proof.\n- **Stablecoin rails / CRCL:** interesting, but regulation and reserve-yield economics need a real model before it enters the active sleeve.\n\n## What this means for your concentrated active sleeve\n\nMy analyst view: **don’t let AAOI become the whole portfolio story.** Existing AAOI/optics exposure can remain thesis-intact, but it should be treated as a high-beta execution bet, not the safest expression of AI infrastructure.\n\nIf there is new capital, I’d rather see it wait for either:\n- **AAOI proof** — Q2/Q3 margin + shipment + dilution clarity, or\n- **non-optics asymmetry** — AVAV/KTOS defense autonomy workup, VST/PWR power pullback with named-contract proof, or TMDX-style health-tech platform diligence.\n\nCore/S&P sleeve: no reason from today’s work to disturb it. The active sleeve is where selectivity matters.\n\n## Ranked opportunities today\n\n1. **AVAV / KTOS — defense autonomy + C-UAS**\n   - Moved up hard. This is the cleanest anti-overfit opportunity cluster.\n   - Green light: funded backlog/book-to-bill converts into guidance and margins.\n   - Breaker: defense budget line gets delayed, BlueHalo integration noise becomes structural, or drone/C-UAS awards fail to convert.\n\n2. **VST / PWR / NVT — power bottleneck with named proof**\n   - VST best asymmetry; PWR more durable; NVT smaller/less crowded but thinner evidence.\n   - Green light: more named hyperscaler PPAs, backlog-to-revenue conversion, margin stability.\n   - Breaker: tariff/regulatory delay, labor/permitting drag, or equipment multiples rerate before earnings catch up.\n\n3. **TSM / MU / AVGO / ANET — quality AI bottleneck owners**\n   - TSM highest-quality scarcity rent. MU highest torque but cycle risk. AVGO/ANET quality, less asymmetric.\n   - Green light: CoWoS tightness, HBM pricing discipline, custom ASIC backlog conversion.\n   - Breaker: 2027 oversupply, capex hangover, or hyperscaler ROI stress.\n\n4. **AAOI / LITE / CRDO / GLW — optical/networking**\n   - AAOI still has upside, but scorecard moved from “possible center” to “prove it.”\n   - LITE/CRDO/GLW may be cleaner ways to express parts of the optical chain depending on valuation/pullback.\n   - Breaker: AAOI dilution, sub-30% GM, weak 1.6T conversion.\n\n5. **TMDX / GH / NTRA / TEM — health-tech platform diversifiers**\n   - Moved up as a small-sleeve diversification candidate.\n   - TMDX is the best risk/reward in biotech-adjacent: real revenue, profitability, lower valuation than diagnostics leaders.\n   - Breaker: reimbursement, clinical expansion failure, or margin compression.\n\n## Math that matters\n\n- **AAOI:** Q1 revenue **$151M**, Q2 guide **$180–198M**, GM only **~29–30%**, share count rose from **75.2M to 80.2M** in ~5 months, with a **$600M ATM** in place. That is why proof matters.\n- **AVAV:** funded backlog around **$1.2B**, FY2026 revenue near **$2B**, FY2027 guide roughly **$2.1–2.2B**. Not a concept stock anymore.\n- **VST:** **2.6 GW** of 20-year Meta PPAs; power asymmetry is strongest when MW are named, contracted, and not fully in guidance.\n- **CoreWeave stress check:** backlog huge, but Q1 interest expense around **26% of revenue** and capex guide around **2.6x revenue**. This is why AI infra fragility is financing, not demand.\n- **TMDX:** roughly **3.9x 2026 sales** with real commercial traction and profitability — unusually sane for a high-growth health-tech platform.\n\n## Scorecard moves\n\n**Moved up:** AVAV, KTOS, VST, PWR, TMDX, TEM.  \n**Stable quality:** TSM, AVGO, ANET, ETN, GEV.  \n**Moved down / deweighted:** AAOI-only focus, generic semis bullishness, SMR, AI-drug-discovery platforms without clinical proof.  \n**Needs fresh data:** CRDO/LITE margin + order proof, PLTR valuation support, CRCL regulation/yield sensitivity.\n\n## Best next move\n\nBest next move for us: **build the AVAV/KTOS defense-autonomy underwriting sheet first, then update AAOI dilution/margin thresholds before Q2.** That gives you one new non-AI-infra candidate and one clean falsification framework for the current high-beta optics exposure.\n\n## Desk reweight\n\nI’d reweight the research desk this way:\n- **Hire/split now:** defense autonomy / counter-UAS desk.\n- **Split now:** neocloud/project-finance from generic hyperscaler demand.\n- **Keep but narrow:** power/grid as backlog/PPA conversion only.\n- **Deweight:** optical and semis unless they bring fresh shipment, margin, capex, or dilution evidence.\n- **Keep small:** biotech/health-tech platform desk.\n- **Scout only:** stablecoin/tokenization rails.",
+    "summary": "Stance: the desk should rotate attention away from “AI infra is up” and toward proofofconversion trades. No fresh markettrigger alert after the 8:07 watcher, so this is not a panic note. What changed is the research sta…"
   },
   "latestSynthesis": {
     "id": "job-08120c9a9378",
@@ -1271,6 +1309,17 @@
     "summary": "Daily Investment Research Synthesis — Fri Jul 10, 2026 What Leemer should believe/watch differently today 1. The best new evidence today is not another optical/semis confirmation — it is neocloud projectfinance stress/p…"
   },
   "latestAlerts": [
+    {
+      "file": "2026-07-10_09-37-43.md",
+      "title": "2026-07-10_09-37-43",
+      "levels": [
+        {
+          "level": 2,
+          "title": "IONS price move trigger"
+        }
+      ],
+      "content": "# Investment Trigger Alerts — 2026-07-10 09:37 EDT\n\n## Level 2 — IONS price move trigger\n- Theme: RNA platform biotech\n- Priority: medium\n- Trigger: intraday move -7.90% vs threshold ±6.0%\n- Last price: 59.19\n- Change vs previous close: -7.90%\n- Change vs open: -7.90%\n- Volume: 741.5K; avg volume: 5.59M; volume ratio: 0.13x\n- Quote timestamp: 2026-07-10T09:37:41-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant."
+    },
     {
       "file": "2026-07-09_12-02-03.md",
       "title": "2026-07-09_12-02-03",
@@ -1383,17 +1432,6 @@
         }
       ],
       "content": "# Investment Trigger Alerts — 2026-07-08 10:32 EDT\n\n## Level 1 — AAOI market data fetch error\nCould not fetch quote data: Remote end closed connection without response"
-    },
-    {
-      "file": "2026-07-08_10-00-01.md",
-      "title": "2026-07-08_10-00-01",
-      "levels": [
-        {
-          "level": 2,
-          "title": "CRDO price move trigger"
-        }
-      ],
-      "content": "# Investment Trigger Alerts — 2026-07-08 10:00 EDT\n\n## Level 2 — CRDO price move trigger\n- Theme: AI connectivity / SerDes\n- Priority: high\n- Trigger: intraday move +6.34% vs threshold ±6.0%\n- Last price: 262.01\n- Change vs previous close: +6.34%\n- Change vs open: +8.10%\n- Volume: 1.10M; avg volume: 6.68M; volume ratio: 0.16x\n- Quote timestamp: 2026-07-08T09:59:14-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant."
     }
   ],
   "docs": [
@@ -1497,6 +1535,15 @@
       "summary": "Semis / HBM / Accelerator SupplyChain Desk — PreMarket Analyst Note Date: Monday, July 6, 2026 Author: AI SupplyChain Specialist Desk For: Leemer Investment Research"
     },
     {
+      "id": "alert-2026-07-10_09-37-43",
+      "title": "Alert 2026-07-10 09-37-43",
+      "category": "Market Alerts",
+      "source": "alerts/2026-07-10_09-37-43.md",
+      "updated": "2026-07-10T09:37:43",
+      "content": "# Investment Trigger Alerts — 2026-07-10 09:37 EDT\n\n## Level 2 — IONS price move trigger\n- Theme: RNA platform biotech\n- Priority: medium\n- Trigger: intraday move -7.90% vs threshold ±6.0%\n- Last price: 59.19\n- Change vs previous close: -7.90%\n- Change vs open: -7.90%\n- Volume: 741.5K; avg volume: 5.59M; volume ratio: 0.13x\n- Quote timestamp: 2026-07-10T09:37:41-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.",
+      "summary": "Investment Trigger Alerts — 20260710 09:37 EDT Level 2 — IONS price move trigger Theme: RNA platform biotech Priority: medium"
+    },
+    {
       "id": "alert-2026-07-09_12-02-03",
       "title": "Alert 2026-07-09 12-02-03",
       "category": "Market Alerts",
@@ -1596,22 +1643,13 @@
       "summary": "Investment Trigger Alerts — 20260707 13:56 EDT Level 2 — COHR price move trigger Theme: optical components Priority: high"
     },
     {
-      "id": "alert-2026-07-07_13-25-47",
-      "title": "Alert 2026-07-07 13-25-47",
-      "category": "Market Alerts",
-      "source": "alerts/2026-07-07_13-25-47.md",
-      "updated": "2026-07-07T13:25:47",
-      "content": "# Investment Trigger Alerts — 2026-07-07 13:25 EDT\n\n## Level 2 — AAOI price move trigger\n- Theme: AI optical transceivers\n- Priority: core\n- Trigger: intraday move -6.41% vs threshold ±5.0%\n- Last price: 115.45\n- Change vs previous close: -6.41%\n- Change vs open: -2.16%\n- Volume: 5.82M; avg volume: 8.77M; volume ratio: 0.66x\n- Quote timestamp: 2026-07-07T13:25:36-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.\n\n## Level 2 — CRDO price move trigger\n- Theme: AI connectivity / SerDes\n- Priority: high\n- Trigger: intraday move -6.56% vs threshold ±6.0%\n- Last price: 248.13\n- Change vs previous close: -6.56%\n- Change vs open: -0.69%\n- Volume: 4.21M; avg volume: 7.35M; volume ratio: 0.57x\n- Quote timestamp: 2026-07-07T13:25:23-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.\n\n## Level 2 — TWST price move trigger\n- Theme: synthetic biology tools\n- Priority: medium\n- Trigger: intraday move -7.55% vs threshold ±6.0%\n- Last price: 92.39\n- Change vs previous close: -7.55%\n- Change vs open: -7.81%\n- Volume: 1.42M; avg volume: 1.58M; volume ratio: 0.90x\n- Quote timestamp: 2026-07-07T13:25:41-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.",
-      "summary": "Investment Trigger Alerts — 20260707 13:25 EDT Level 2 — AAOI price move trigger Theme: AI optical transceivers Priority: core"
-    },
-    {
       "id": "job-cb8832fa417e",
       "title": "CIO Morning Note",
       "category": "Desk Outputs",
-      "source": "cron/cb8832fa417e/2026-07-09_08-37-20.md — final response only",
-      "updated": "2026-07-09T09:37:20",
-      "content": "## 1. The actual read\n\n**Stance:** AI infra demand is still real and accelerating, but the best capital allocation read is **not “chase AAOI/semis.”** The hard evidence has shifted toward **power/grid backlog, defense/autonomy + AI apps, and neocloud financing fragility**. AAOI remains thesis-alive, but it is now an execution/dilution/customer-concentration trade until Q2/Q3 prove 800G/1.6T scale and margin leverage. No fresh market-trigger alert since the last watcher run; today’s change is desk-level reweighting, not a single ticker event.\n\n## 2. My analyst stance today\n\n**Aggressive research target**\n1. **Power/grid/data-center infra** — VRT, GEV, PWR, ETN, selective VST/CEG. Best hard-evidence bottleneck.\n2. **Defense autonomy + AI apps/cyber** — RBRK, APP, PLTR, KTOS/AVAV, AXON. Best non-infra expansion.\n3. **Neocloud/project finance** — CRWV, NBIS, IREN, CORZ. Huge upside, but this is credit-underwriting, not simple growth investing.\n\n**Hold thesis / do not chase**\n- **AAOI / optical networking:** thesis intact, but price volatility is ahead of proof.\n- **VRT/GEV/ETN:** high quality, but crowded after sharp theme moves.\n- **TSM/AVGO:** still strong scarcity/evidence names, but not “cheap AI beta.”\n\n**Add only if X happens**\n- **AAOI:** add only if Q2/Q3 show datacenter revenue acceleration, GM moving above **30–32%**, no AR/inventory blowout, no new dilution, and 1.6T shipment proof.\n- **CRDO/LITE/GLW:** add only on order/revenue confirmation or pullback; they now screen cleaner than AAOI inside optics.\n- **MU:** add only if HBM pricing and capex discipline stay intact despite Samsung HBM4 supply coming online.\n\n**Risk-reduce if Y happens**\n- AAOI GM stays sub-30%, share count rises again, AR/customer concentration worsens, or 1.6T slips.\n- Power names miss backlog-to-revenue conversion while multiples remain extreme.\n- Neocloud financing spreads widen / customer handoffs slip / interest burden rises faster than revenue.\n\n**Avoid for now**\n- Generic humanoid robotics.\n- Generic crypto/tokens.\n- Social-media photonics baskets without filings/order proof.\n- AI drug discovery “platform” claims without clinical translation.\n\n## 3. What this means for your concentrated active sleeve\n\nIf AAOI is still the concentrated active reference point, I’d treat it as **thesis alive but no longer center-of-gravity**. The sleeve risk is not “AI infra is fake.” It’s that AAOI could be the wrong public expression of a real buildout if margins, dilution, or customer concentration eat the upside.\n\nMy analyst view: **new active-sleeve capital should wait for either AAOI proof or a better risk/reward pullback in power/defense/apps.** The S&P/core sleeve can stay left alone. The active sleeve should become less single-name optics-dependent and more exposed to **multiple bottlenecks with hard evidence**: power equipment, grid construction, AI app monetization, defense procurement, and maybe TSM/AVGO scarcity economics.\n\n## 4. Ranked opportunities today\n\n1. **Power/grid/data-center infra — VRT, GEV, PWR, ETN; selective VST/CEG**  \n   Best evidence. Real orders/backlog, real lead-time constraints. Don’t chase theme spikes.\n\n2. **AI apps/cyber + defense autonomy — RBRK, APP, PLTR, KTOS, AVAV, AXON**  \n   Moved up. This is the cleanest anti-overfit bucket. RBRK/APP show actual AI monetization; KTOS/AVAV have funded procurement/backlog.\n\n3. **Neocloud/project finance — CRWV, NBIS, IREN, CORZ/APLD**  \n   Moved up as a fragility + upside desk. Needs debt/MW/utilization modeling before conviction.\n\n4. **Advanced packaging/custom silicon — TSM, AVGO; MU with caveat; ASML discounted**  \n   TSM is the cleaner scarcity-rent holder. AVGO AI revenue is proving real. MU is high torque but more cyclical now. ASML has a sharper China/MATCH Act overhang.\n\n5. **Optical/networking — LITE, CRDO, GLW, CSCO, AAOI**  \n   Demand is real. AAOI is highest torque but weakest proof-to-valuation. LITE/CRDO/GLW moved up versus AAOI.\n\n6. **Selective biotech/health-tech — TMDX, NTLA, BEAM, TEM; VKTX/RXRX speculative**  \n   Keep small. Good asymmetry, but binary/dilution risk needs strict sizing.\n\n7. **Stablecoin/tokenization rails — CRCL, COIN, HOOD**  \n   Watch/scout, not conviction yet. Needs regulation + float/take-rate math.\n\n## 5. Scorecard moves\n\n**Moved up**\n- **Power/grid** stays P0.\n- **Defense autonomy / AI apps / cyber** moved up meaningfully.\n- **Neocloud financing** moved up as its own desk.\n- **GLW/CSCO/LITE/CRDO** moved up inside optics because evidence is cleaner.\n- **TSM/AVGO** remain best semis/AI supply-chain quality.\n\n**Moved down / deweighted**\n- **AAOI** deweighted until shipment + margin proof.\n- **MU** slightly down/conditional: execution strong, but >$25B capex and Samsung HBM4 raise 2027 oversupply risk.\n- **ASML** down/discounted because MATCH Act servicing-ban risk could hit China revenue.\n- **Generic robotics / generic crypto / social photonics baskets** remain below bar.\n\n## 6. Decision math that matters\n\n- Hyperscaler capex envelope near **$725B in 2026**, roughly **+77% vs 2025**. Demand is not broadly digesting yet.\n- AAOI Q1: **$151.1M revenue**, data center **53.9%**, but 800G was only **$4.6M** — just **5.6% of data-center revenue**. Q2 guide GM only **29–30%**.\n- AAOI dilution: Q1 ATM raised **$382M net**; share count moved to ~**80.7M** guide assumption, about **7%+ expansion** in one quarter.\n- Power evidence: VRT backlog **+109% YoY**, orders **+81%**; GEV Q1 orders **+71% organic**, data-center electrification orders **$2.4B in Q1**, more than all 2025.\n- Semis: CoWoS 2026 demand near **1.0M wafers**, NVIDIA ~**60%**; MU capex now **>$25B**, and Samsung HBM4 commercial shipment since Feb raises 2027 supply risk.\n\n## 7. Green lights / thesis-breakers\n\n**Green lights**\n- AAOI GM >32%, no dilution, clean AR/inventory, 1.6T shipments.\n- VRT/GEV/PWR/ETN convert backlog into margin, not just revenue.\n- RBRK/APP/PLTR sustain growth without valuation/margin cracks.\n- Neoclouds hit MW handoff dates with financing still available.\n- TSM keeps CoWoS pricing/allocation tight.\n\n**Thesis-breakers**\n- Hyperscaler capex cuts driven by ROI stress, not timing.\n- Private-credit/ABS market reprices data-center financing.\n- AAOI margin fails to expand despite mix shift.\n- MU/Samsung/SK Hynix supply growth breaks HBM pricing in 2027.\n- Defense names’ funded backlog fails to convert under continuing resolutions.\n\n## 8. Best next move\n\n**Best next move:** Gus should build a one-page active-sleeve replacement/expansion grid: **AAOI vs VRT/GEV/PWR/ETN vs RBRK/APP/KTOS/AVAV vs TSM/AVGO**, with add-only-if thresholds and risk-reduce triggers. For you, I’d treat today as **no-chase / prepare-to-act-on-proof-or-pullback**.\n\n## 9. Desk reweight\n\nHire/split: **defense autonomy**, **AI apps/cyber**, **neocloud/project finance**, **stablecoin rails scout**.  \nKeep high: **power/grid**.  \nKeep but deweight: **optics**, **semis/HBM**.  \nPause: **generic humanoid robotics**, **generic crypto**, **AAOI-only loops**.",
-      "summary": "1. The actual read Stance: AI infra demand is still real and accelerating, but the best capital allocation read is not “chase AAOI/semis.” The hard evidence has shifted toward power/grid backlog, defense/autonomy + AI a…"
+      "source": "cron/cb8832fa417e/2026-07-10_08-36-26.md — final response only",
+      "updated": "2026-07-10T09:36:26",
+      "content": "Stance: **the desk should rotate attention away from “AI infra is up” and toward proof-of-conversion trades.** No fresh market-trigger alert after the 8:07 watcher, so this is not a panic note. What changed is the research stack: **defense autonomy/C-UAS and named power/PPA backlog moved up; AAOI/optics stayed alive but moved down as a proof trade; neocloud financing stress became the main AI-infra risk channel.**\n\n## My analyst stance today\n\n**Aggressive research target**\n1. **Defense autonomy / counter-UAS — AVAV, KTOS, selective PLTR**\n   - Best non-AI-infra expansion. AVAV has real revenue/backlog, KTOS has clean unmanned/hypersonic leverage, PLTR has real monetization but valuation is the constraint.\n   - I’d treat AVAV/KTOS as the desk’s highest-priority new sleeve candidate, not yet as a finished answer.\n\n2. **Named power / grid conversion — VST, PWR, NVT; quality watch GEV/ETN/VRT**\n   - Physical bottleneck still strengthening, but equipment names are crowded. VST looks most asymmetric because Meta PPAs are named/long duration and not fully in near-term guide.\n\n**Hold thesis / do not chase**\n- **AAOI / optics basket.** Demand thesis is intact, but AAOI is not center-of-gravity until Q2/Q3 proves revenue acceleration, GM, AR quality, and no further dilution.\n- **TSM / MU / AVGO / ANET.** Strong structural evidence, but less “unknown alpha” now. TSM is the cleanest bottleneck owner; MU is high torque but capex/2027 oversupply risk is rising.\n\n**Add only if X happens**\n- **AAOI:** add-confidence only if GM clears/holds **30–32%**, datacenter revenue accelerates, 1.6T proof appears, and share count/ATM usage stays controlled.\n- **Power names:** only on pullbacks or fresh backlog/PPA/order proof, not generic AI-power headline moves.\n- **Biotech/health-tech:** TMDX and TEM/GH/NTRA deserve watchlist work; add-confidence only with durable volume/margin/reimbursement evidence.\n\n**Risk-reduce if Y happens**\n- **AAOI:** GM sub-30%, share count rising again, AR/DSO stress, customer pushout, or weak Q2 guide conversion.\n- **Neocloud-linked AI infra:** if CoreWeave/Nebius/Oracle financing terms worsen or utilization lags capacity handoff.\n- **MU/HBM:** if capex keeps rising while 2027 pricing/lead times soften.\n\n**Avoid/watch**\n- **SMR, generic robotics/humanoid names, AI-drug-discovery narratives** without revenue/clinical/regulatory proof.\n- **Stablecoin rails / CRCL:** interesting, but regulation and reserve-yield economics need a real model before it enters the active sleeve.\n\n## What this means for your concentrated active sleeve\n\nMy analyst view: **don’t let AAOI become the whole portfolio story.** Existing AAOI/optics exposure can remain thesis-intact, but it should be treated as a high-beta execution bet, not the safest expression of AI infrastructure.\n\nIf there is new capital, I’d rather see it wait for either:\n- **AAOI proof** — Q2/Q3 margin + shipment + dilution clarity, or\n- **non-optics asymmetry** — AVAV/KTOS defense autonomy workup, VST/PWR power pullback with named-contract proof, or TMDX-style health-tech platform diligence.\n\nCore/S&P sleeve: no reason from today’s work to disturb it. The active sleeve is where selectivity matters.\n\n## Ranked opportunities today\n\n1. **AVAV / KTOS — defense autonomy + C-UAS**\n   - Moved up hard. This is the cleanest anti-overfit opportunity cluster.\n   - Green light: funded backlog/book-to-bill converts into guidance and margins.\n   - Breaker: defense budget line gets delayed, BlueHalo integration noise becomes structural, or drone/C-UAS awards fail to convert.\n\n2. **VST / PWR / NVT — power bottleneck with named proof**\n   - VST best asymmetry; PWR more durable; NVT smaller/less crowded but thinner evidence.\n   - Green light: more named hyperscaler PPAs, backlog-to-revenue conversion, margin stability.\n   - Breaker: tariff/regulatory delay, labor/permitting drag, or equipment multiples rerate before earnings catch up.\n\n3. **TSM / MU / AVGO / ANET — quality AI bottleneck owners**\n   - TSM highest-quality scarcity rent. MU highest torque but cycle risk. AVGO/ANET quality, less asymmetric.\n   - Green light: CoWoS tightness, HBM pricing discipline, custom ASIC backlog conversion.\n   - Breaker: 2027 oversupply, capex hangover, or hyperscaler ROI stress.\n\n4. **AAOI / LITE / CRDO / GLW — optical/networking**\n   - AAOI still has upside, but scorecard moved from “possible center” to “prove it.”\n   - LITE/CRDO/GLW may be cleaner ways to express parts of the optical chain depending on valuation/pullback.\n   - Breaker: AAOI dilution, sub-30% GM, weak 1.6T conversion.\n\n5. **TMDX / GH / NTRA / TEM — health-tech platform diversifiers**\n   - Moved up as a small-sleeve diversification candidate.\n   - TMDX is the best risk/reward in biotech-adjacent: real revenue, profitability, lower valuation than diagnostics leaders.\n   - Breaker: reimbursement, clinical expansion failure, or margin compression.\n\n## Math that matters\n\n- **AAOI:** Q1 revenue **$151M**, Q2 guide **$180–198M**, GM only **~29–30%**, share count rose from **75.2M to 80.2M** in ~5 months, with a **$600M ATM** in place. That is why proof matters.\n- **AVAV:** funded backlog around **$1.2B**, FY2026 revenue near **$2B**, FY2027 guide roughly **$2.1–2.2B**. Not a concept stock anymore.\n- **VST:** **2.6 GW** of 20-year Meta PPAs; power asymmetry is strongest when MW are named, contracted, and not fully in guidance.\n- **CoreWeave stress check:** backlog huge, but Q1 interest expense around **26% of revenue** and capex guide around **2.6x revenue**. This is why AI infra fragility is financing, not demand.\n- **TMDX:** roughly **3.9x 2026 sales** with real commercial traction and profitability — unusually sane for a high-growth health-tech platform.\n\n## Scorecard moves\n\n**Moved up:** AVAV, KTOS, VST, PWR, TMDX, TEM.  \n**Stable quality:** TSM, AVGO, ANET, ETN, GEV.  \n**Moved down / deweighted:** AAOI-only focus, generic semis bullishness, SMR, AI-drug-discovery platforms without clinical proof.  \n**Needs fresh data:** CRDO/LITE margin + order proof, PLTR valuation support, CRCL regulation/yield sensitivity.\n\n## Best next move\n\nBest next move for us: **build the AVAV/KTOS defense-autonomy underwriting sheet first, then update AAOI dilution/margin thresholds before Q2.** That gives you one new non-AI-infra candidate and one clean falsification framework for the current high-beta optics exposure.\n\n## Desk reweight\n\nI’d reweight the research desk this way:\n- **Hire/split now:** defense autonomy / counter-UAS desk.\n- **Split now:** neocloud/project-finance from generic hyperscaler demand.\n- **Keep but narrow:** power/grid as backlog/PPA conversion only.\n- **Deweight:** optical and semis unless they bring fresh shipment, margin, capex, or dilution evidence.\n- **Keep small:** biotech/health-tech platform desk.\n- **Scout only:** stablecoin/tokenization rails.",
+      "summary": "Stance: the desk should rotate attention away from “AI infra is up” and toward proofofconversion trades. No fresh markettrigger alert after the 8:07 watcher, so this is not a panic note. What changed is the research sta…"
     },
     {
       "id": "job-08120c9a9378",
@@ -1707,10 +1745,10 @@
       "id": "job-04aa99181e16",
       "title": "Market Trigger Watcher",
       "category": "Desk Outputs",
-      "source": "cron/04aa99181e16/2026-07-10_08-07-39.md — final response only",
-      "updated": "2026-07-10T09:07:39",
-      "content": "# Cron Job: Investment market trigger watcher\n\n**Job ID:** 04aa99181e16\n**Run Time:** 2026-07-10 08:07:39\n**Mode:** no_agent (script)\n**Status:** silent (empty output)",
-      "summary": "Cron Job: Investment market trigger watcher Job ID: 04aa99181e16 Run Time: 20260710 08:07:39 Mode: no_agent (script)"
+      "source": "cron/04aa99181e16/2026-07-10_08-37-43.md — final response only",
+      "updated": "2026-07-10T09:37:43",
+      "content": "# Investment Trigger Alerts — 2026-07-10 09:37 EDT\n\n## Level 2 — IONS price move trigger\n- Theme: RNA platform biotech\n- Priority: medium\n- Trigger: intraday move -7.90% vs threshold ±6.0%\n- Last price: 59.19\n- Change vs previous close: -7.90%\n- Change vs open: -7.90%\n- Volume: 741.5K; avg volume: 5.59M; volume ratio: 0.13x\n- Quote timestamp: 2026-07-10T09:37:41-04:00\n- Analyst next step: check filings/news/sector basket before treating this as thesis-relevant.\n\n\nSaved alert: [local-home]\\workspace\\investment-research\\alerts\\2026-07-10_09-37-43.md",
+      "summary": "Investment Trigger Alerts — 20260710 09:37 EDT Level 2 — IONS price move trigger Theme: RNA platform biotech Priority: medium"
     }
   ]
 }
