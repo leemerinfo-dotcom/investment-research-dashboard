@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-07-10T13:47:52-04:00",
+    "generatedAt": "2026-07-10T13:49:50-04:00",
     "title": "Hermes Personal Investment Office",
     "subtitle": "Decision-led, risk-gated public-market research",
     "publicSafety": "Sanitized static export: no secrets, no raw local cron context, no exact portfolio amounts."
   },
   "stats": {
-    "docs": 22,
+    "docs": 23,
     "scorecardNames": 7,
     "watchlistNames": 7,
     "activeTheses": 2,
@@ -26,13 +26,13 @@
   "quotes": [
     {
       "ticker": "IONS",
-      "price": 58.86,
+      "price": 59.01,
       "previousClose": 81.8,
-      "changePct": -28.04,
-      "volume": 6984262,
+      "changePct": -27.86,
+      "volume": 7035359,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         82.42,
         83.785,
@@ -66,19 +66,19 @@
         58.45,
         58.835,
         59.04,
-        58.89,
-        58.86
+        58.86,
+        59.01
       ]
     },
     {
       "ticker": "NTLA",
       "price": 14.65,
       "previousClose": 17.56,
-      "changePct": -16.6,
-      "volume": 4117159,
+      "changePct": -16.54,
+      "volume": 4126404,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         16.84,
         17.82,
@@ -112,19 +112,19 @@
         14.325,
         14.5499,
         14.58,
-        14.65,
-        14.645
+        14.655,
+        14.655
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 145.85,
+      "price": 145.97,
       "previousClose": 190.89,
-      "changePct": -23.6,
-      "volume": 789580,
+      "changePct": -23.53,
+      "volume": 791658,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:46-04:00",
+      "quoteTime": "2026-07-10T13:48-04:00",
       "sparkline": [
         180.31,
         181.4675,
@@ -158,19 +158,19 @@
         144.585,
         145.0,
         145.93,
-        145.91,
-        145.845
+        145.845,
+        145.97
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 70.65,
+      "price": 70.99,
       "previousClose": 68.86,
-      "changePct": 2.6,
-      "volume": 215331,
+      "changePct": 3.09,
+      "volume": 217382,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:48-04:00",
       "sparkline": [
         71.215,
         72.38,
@@ -204,19 +204,19 @@
         71.06,
         70.8,
         70.495,
-        70.71,
-        70.65
+        70.65,
+        70.99
       ]
     },
     {
       "ticker": "VST",
-      "price": 158.77,
+      "price": 158.79,
       "previousClose": 151.05,
-      "changePct": 5.11,
-      "volume": 1326173,
+      "changePct": 5.12,
+      "volume": 1330299,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         154.22,
         153.07,
@@ -250,19 +250,19 @@
         158.54,
         158.5,
         158.98,
-        158.76,
-        158.77
+        158.825,
+        158.79
       ]
     },
     {
       "ticker": "AAOI",
-      "price": 118.06,
+      "price": 118.05,
       "previousClose": 120.95,
-      "changePct": -2.39,
-      "volume": 4544041,
+      "changePct": -2.4,
+      "volume": 4589689,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         128.4201,
         128.16,
@@ -296,19 +296,19 @@
         116.99,
         116.295,
         116.42,
-        117.51,
-        118.06
+        118.2,
+        118.05
       ]
     },
     {
       "ticker": "LITE",
-      "price": 782.6,
+      "price": 783.48,
       "previousClose": 728.32,
-      "changePct": 7.45,
-      "volume": 1970437,
+      "changePct": 7.57,
+      "volume": 1995809,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         743.525,
         739.675,
@@ -342,19 +342,19 @@
         775.745,
         776.395,
         780.69,
-        782.67,
-        782.6
+        783.546,
+        783.485
       ]
     },
     {
       "ticker": "COHR",
-      "price": 326.48,
+      "price": 326.82,
       "previousClose": 333.36,
-      "changePct": -2.06,
-      "volume": 2212287,
+      "changePct": -1.96,
+      "volume": 2219587,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         350.305,
         347.98,
@@ -388,19 +388,19 @@
         321.24,
         322.0,
         324.92,
-        326.29,
-        326.485
+        326.72,
+        326.815
       ]
     },
     {
       "ticker": "CRDO",
-      "price": 262.8,
+      "price": 262.6,
       "previousClose": 241.91,
-      "changePct": 8.63,
-      "volume": 2356144,
+      "changePct": 8.55,
+      "volume": 2362299,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         278.065,
         273.75,
@@ -434,19 +434,19 @@
         259.68,
         260.62,
         263.525,
-        263.08,
-        262.795
+        262.54,
+        262.6
       ]
     },
     {
       "ticker": "MRVL",
-      "price": 238.08,
+      "price": 238.2,
       "previousClose": 245.29,
-      "changePct": -2.94,
-      "volume": 9241809,
+      "changePct": -2.89,
+      "volume": 9262754,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         257.19,
         256.42,
@@ -480,19 +480,19 @@
         237.385,
         237.065,
         238.715,
-        238.0187,
-        238.08
+        238.0485,
+        238.195
       ]
     },
     {
       "ticker": "AVGO",
-      "price": 401.55,
+      "price": 401.45,
       "previousClose": 360.45,
-      "changePct": 11.4,
-      "volume": 6945235,
+      "changePct": 11.37,
+      "volume": 6969392,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         379.4,
         374.29,
@@ -526,19 +526,19 @@
         401.11,
         400.8901,
         401.7499,
-        401.635,
-        401.55
+        401.425,
+        401.445
       ]
     },
     {
       "ticker": "ANET",
-      "price": 186.11,
+      "price": 186.14,
       "previousClose": 159.99,
-      "changePct": 16.33,
-      "volume": 2797638,
+      "changePct": 16.34,
+      "volume": 2802915,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         174.125,
         175.17,
@@ -572,19 +572,19 @@
         186.365,
         186.22,
         186.45,
-        186.1387,
-        186.11
+        186.18,
+        186.1401
       ]
     },
     {
       "ticker": "MU",
-      "price": 995.43,
+      "price": 995.69,
       "previousClose": 975.56,
-      "changePct": 2.04,
-      "volume": 22358888,
+      "changePct": 2.06,
+      "volume": 22429280,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         1004.6,
         1006.565,
@@ -618,19 +618,19 @@
         980.085,
         983.63,
         995.4494,
-        995.475,
-        995.4321
+        995.3,
+        995.6862
       ]
     },
     {
       "ticker": "NVDA",
-      "price": 210.85,
+      "price": 210.6,
       "previousClose": 194.83,
-      "changePct": 8.22,
-      "volume": 94191619,
+      "changePct": 8.09,
+      "volume": 94596218,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         196.574,
         196.5135,
@@ -664,19 +664,19 @@
         208.57,
         209.79,
         210.19,
-        210.819,
-        210.8489
+        210.7097,
+        210.595
       ]
     },
     {
       "ticker": "VRT",
-      "price": 322.76,
+      "price": 322.79,
       "previousClose": 300.53,
-      "changePct": 7.4,
-      "volume": 1204611,
+      "changePct": 7.41,
+      "volume": 1212706,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         328.0186,
         326.625,
@@ -710,19 +710,19 @@
         322.41,
         322.18,
         322.44,
-        322.59,
-        322.755
+        322.55,
+        322.79
       ]
     },
     {
       "ticker": "ETN",
-      "price": 411.01,
+      "price": 411.25,
       "previousClose": 398.52,
-      "changePct": 3.13,
-      "volume": 763266,
+      "changePct": 3.19,
+      "volume": 764587,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         417.44,
         413.77,
@@ -756,19 +756,19 @@
         409.63,
         409.22,
         410.24,
-        411.1425,
-        411.01
+        411.07,
+        411.25
       ]
     },
     {
       "ticker": "PWR",
-      "price": 660.38,
+      "price": 660.34,
       "previousClose": 668.31,
       "changePct": -1.19,
-      "volume": 334998,
+      "volume": 336154,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:48-04:00",
       "sparkline": [
         687.05,
         684.89,
@@ -802,19 +802,19 @@
         658.48,
         658.49,
         659.38,
-        660.775,
-        660.38
+        660.685,
+        660.345
       ]
     },
     {
       "ticker": "GEV",
-      "price": 1098.53,
+      "price": 1099.57,
       "previousClose": 1113.11,
-      "changePct": -1.31,
-      "volume": 681993,
+      "changePct": -1.22,
+      "volume": 688756,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         1183.3199,
         1166.22,
@@ -848,19 +848,19 @@
         1084.9999,
         1086.465,
         1092.16,
-        1098.8101,
-        1098.525
+        1099.9899,
+        1099.575
       ]
     },
     {
       "ticker": "CEG",
-      "price": 250.31,
+      "price": 250.41,
       "previousClose": 239.25,
-      "changePct": 4.62,
-      "volume": 996866,
+      "changePct": 4.66,
+      "volume": 1001018,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         243.45,
         242.79,
@@ -894,19 +894,19 @@
         251.06,
         250.455,
         250.64,
-        250.1575,
-        250.31
+        250.36,
+        250.41
       ]
     },
     {
       "ticker": "PLTR",
-      "price": 126.18,
+      "price": 126.15,
       "previousClose": 129.3,
-      "changePct": -2.41,
-      "volume": 19815142,
+      "changePct": -2.44,
+      "volume": 19899317,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         130.81,
         133.05,
@@ -940,19 +940,19 @@
         126.1396,
         127.25,
         126.43,
-        126.34,
-        126.18
+        126.19,
+        126.1501
       ]
     },
     {
       "ticker": "PANW",
-      "price": 325.94,
+      "price": 326.06,
       "previousClose": 348.06,
-      "changePct": -6.36,
-      "volume": 2485737,
+      "changePct": -6.32,
+      "volume": 2492676,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         366.21,
         360.66,
@@ -986,8 +986,8 @@
         325.69,
         324.02,
         326.31,
-        326.0361,
-        325.94
+        325.92,
+        326.06
       ]
     },
     {
@@ -995,10 +995,10 @@
       "price": 48.24,
       "previousClose": 55.35,
       "changePct": -12.85,
-      "volume": 1190851,
+      "volume": 1199475,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         53.8,
         54.065,
@@ -1032,8 +1032,8 @@
         48.11,
         48.09,
         48.19,
-        48.26,
-        48.24
+        48.24,
+        48.235
       ]
     },
     {
@@ -1041,10 +1041,10 @@
       "price": 3.55,
       "previousClose": 3.8,
       "changePct": -6.71,
-      "volume": 14041389,
+      "volume": 14048372,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         3.705,
         3.86,
@@ -1078,19 +1078,19 @@
         3.48,
         3.51,
         3.55,
-        3.545,
+        3.546,
         3.545
       ]
     },
     {
       "ticker": "TWST",
-      "price": 91.43,
+      "price": 91.86,
       "previousClose": 99.24,
-      "changePct": -7.87,
-      "volume": 743882,
+      "changePct": -7.44,
+      "volume": 747559,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:46-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         98.495,
         101.66,
@@ -1124,8 +1124,8 @@
         89.24,
         90.445,
         90.25,
-        91.54,
-        91.425
+        91.425,
+        91.86
       ]
     },
     {
@@ -1133,7 +1133,7 @@
       "price": 187.41,
       "previousClose": 191.06,
       "changePct": -1.91,
-      "volume": 254969,
+      "volume": 255300,
       "currency": "USD",
       "exchange": "NYQ",
       "quoteTime": "2026-07-10T13:46-04:00",
@@ -1176,13 +1176,13 @@
     },
     {
       "ticker": "LEU",
-      "price": 172.41,
+      "price": 172.47,
       "previousClose": 162.13,
-      "changePct": 6.34,
-      "volume": 390715,
+      "changePct": 6.38,
+      "volume": 392576,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         175.92,
         176.83,
@@ -1216,19 +1216,19 @@
         172.43,
         172.805,
         171.76,
-        172.35,
-        172.4125
+        172.25,
+        172.47
       ]
     },
     {
       "ticker": "OKLO",
-      "price": 48.2,
+      "price": 48.18,
       "previousClose": 52.36,
-      "changePct": -7.94,
-      "volume": 3617648,
+      "changePct": -7.98,
+      "volume": 3624004,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         51.9699,
         51.815,
@@ -1262,19 +1262,19 @@
         48.06,
         47.9981,
         48.105,
-        48.23,
-        48.2
+        48.202,
+        48.18
       ]
     },
     {
       "ticker": "SMR",
-      "price": 9.04,
+      "price": 9.03,
       "previousClose": 9.76,
-      "changePct": -7.35,
-      "volume": 13212083,
+      "changePct": -7.43,
+      "volume": 13258810,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:47-04:00",
+      "quoteTime": "2026-07-10T13:49-04:00",
       "sparkline": [
         9.885,
         9.87,
@@ -1309,7 +1309,7 @@
         8.905,
         9.045,
         9.045,
-        9.0431
+        9.035
       ]
     }
   ],
@@ -1379,13 +1379,13 @@
     }
   ],
   "latestCioNote": {
-    "id": "report-2026-07-10",
-    "title": "2026 07 10",
+    "id": "report-2026-07-10_system_audit_and_redesign",
+    "title": "2026 07 10 System Audit And Redesign",
     "category": "CIO Reports",
-    "source": "office\\reports\\daily\\2026-07-10.md",
-    "updated": "2026-07-10T13:32:40-04:00",
-    "content": "# Daily Executive Brief — 2026-07-10\n\n## DECISION\n\n**Action required today:** INVESTIGATE — LITE only; no capital action  \n**Portfolio Gate 0:** FAIL  \n**Urgency:** This week\n\n## MATERIAL CHANGES\n\n- **Gate 0 remains failed.** `portfolio.json` is still `awaiting_authoritative_export`; positions, cash/liabilities, account/tax types, base currency, constraints, options, and margin terms are not authoritative. All targets and initial/max sizes remain **0%**; borrowed capital remains **0%**.\n- **FACT:** At 13:26 EDT, delayed data showed LITE **+10.25% over two trading days**, triggering its registered threshold; it was **−0.79% on the day** with **0.54x** average volume. This is a price alert—not a thesis.\n- **FACT:** No LITE SEC filing was accepted after the 13:18 EDT prior-report cutoff; the latest listed filing was a Schedule 13G/A accepted July 8. Lumentum’s official newsroom showed no July 10 release and listed May 11 as its latest release. **INFERENCE:** no current primary company event explains the move; cause and valuation remain unresolved.\n\n## PORTFOLIO ACTIONS\n\n| Instrument | Action | Current | Target | Initial/Max | Timing | Invalidation |\n|---|---|---:|---:|---:|---|---|\n| LITE | INVESTIGATE | Unknown | 0% | 0% / 0% | This week | No primary catalyst or valuation edge survives triage |\n\n## RISKS / CATALYSTS\n\n- LITE remains at Gate 2. Current price/share count, forensic valuation, demand/margin bridge, dilution, consensus/variant evidence, independent red team, and portfolio-risk review are incomplete; no BUY/ADD sizing is permitted.\n- No new decision-relevant Fed, Treasury, or HY-credit release was found after the prior note. Next dated macro trigger: **June CPI, July 14 at 08:30 EDT**.\n\n## EVIDENCE CUTOFF\n\n- **2026-07-10 13:29 EDT.** Sources: [LITE delayed chart](https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=5d&interval=1d&includePrePost=false); [SEC submissions](https://data.sec.gov/submissions/CIK0001633978.json); [Lumentum newsroom](https://www.lumentum.com/en/newsroom/news-releases); [Fed releases](https://www.federalreserve.gov/feeds/press_all.xml); [BLS calendar](https://www.bls.gov/schedule/news_release/bls.ics).\n- **Missing inputs:** authoritative broker export and constraints; LITE valuation/catalyst evidence. Managed web search was unavailable, so checks used direct official endpoints.",
-    "summary": "Daily Executive Brief — 20260710 DECISION Action required today: INVESTIGATE — LITE only; no capital action Portfolio Gate 0: FAIL"
+    "source": "office\\reports\\2026-07-10_system_audit_and_redesign.md",
+    "updated": "2026-07-10T13:49:38-04:00",
+    "content": "# Hermes Personal Investment Office — Audit and Redesign Memorandum\n\n**Date:** 2026-07-10  \n**Decision:** Replace the legacy fixed-theme research desk with Personal Investment Office v2.  \n**Implementation status:** Operating; portfolio Gate 0 remains incomplete.\n\n## 1. Executive audit\n\n| Area | Evidence from legacy system | Verdict | v2 response |\n|---|---|---|---|\n| Coverage | Six of eight specialist lanes concentrated on AI/compute/power/defence; no dedicated macro, quant, accounting, special situations, risk, execution, or outcome owner | Severe thematic tunnel vision | Seven permanent control functions; nine evidence-activated specialists; fixed 25% zero-based discovery quota |\n| Decision usefulness | Fourteen audited live job contracts required none of the full set of action vocabulary, sizing, portfolio fit, probability-weighted return, tax, FX, liquidity, and independent red team | Research publication, not investment office | Hard gates; only approved actions; sizing and execution mandatory for capital actions |\n| Analytical depth | Eleven representative outputs contained useful ratios/fragments but no inline source URLs; almost no reproducible scenario valuation or expectation bridge | Synthesis exceeded underwriting | Atomic claim/source ledger, primary-source requirement, reconciliation, forensic valuation, variant-perception and red-team gates |\n| Portfolio state | No authoritative accounts, positions, cash, tax lots, cost bases, transactions, benchmark, currency, liquidity, or margin terms | Cannot size or assess portfolio fit | `portfolio.json` plus schema; Gate 0 blocks capital actions until complete |\n| Institutional memory | No recommendation, decision, execution, forecast-resolution, outcome, calibration, or post-mortem ledger | Cannot learn or distinguish process from luck | Versioned recommendation/forecast/execution records; monthly scoring and post-mortems |\n| Watchlist | Markdown scorecard, thesis JSON, trigger watchlist, and dashboard data disagreed | Fragmented state | One normalized watchlist/research queue; dashboard is a generated view |\n| Sources | Registry was broad but stale in places; primary labels were not auditable in outputs | Authority substituted for provenance | Stable source IDs, atomic claims, dates, direct URLs, verification status, independence checks |\n| Monitoring | Trigger rules contained unconsumed threshold keys; volume baseline was mislabeled; silent errors were not logged | False monitoring confidence | Threshold aliases normalized, two-day rule implemented, volume label corrected, every evaluation/error logged |\n| Dashboard | Fresh shell published stale thematic state and retained hypergrowth-first framing | Polished but misleading | v2 ledgers and CIO reports are source of truth; public export excludes exact capital; global/cross-asset/after-tax scope |\n| Executive concision | Some outputs exceeded tens of thousands of characters while omitting the action and allocation | Length without decision depth | Daily 450-word ceiling; decision first; supporting detail in archive |\n\n## 2. Design decision\n\nDo **not** run sixteen agents every day. Preserve sixteen explicit analytical roles so every responsibility has an owner, but separate **decision rights** from **activation frequency**.\n\n### Seven permanent control functions\n\n1. **CIO:** owns the research budget, regime integration, cross-sector comparison, final action, and escalation.\n2. **Macro/regime:** owns scenario probabilities and portfolio transmission channels; cannot approve security trades.\n3. **Quant/discovery:** owns zero-based screens, market structure, factor/correlation analysis, and breadth quotas; cannot promote a screen without triage.\n4. **Source intelligence:** owns provenance, source independence, claim reconciliation, and knowledge quality; cannot substitute authority for evidence.\n5. **Independent red team:** owns the steelman bear case and unresolved-objection register; cannot invent objections for symmetry.\n6. **Portfolio risk/capital allocation:** independently owns current/target/initial/max sizing, correlation, liquidity, tax, FX, leverage, and permanent-loss analysis; can veto sizing.\n7. **Performance/process audit:** owns immutable records, forecast resolution, calibration, attribution, and small testable process changes.\n\n### Nine elastic specialists\n\nForensic accounting/valuation; AI/semiconductor/compute; energy/power/commodities; software/internet; industrials/defence/aerospace; consumer/financials/healthcare generalist; geopolitical/policy; special situations; trading/execution.\n\nThey activate only when a lead passes triage or an existing thesis crosses an event threshold. The exact role prompts and mandatory outputs are in `office/PROMPT_PACK.md`.\n\n## 3. Decision workflow and rights\n\n1. **Gate 0 — portfolio readiness:** capital action forbidden if accounts/positions/currency/tax/constraints are incomplete.\n2. **Discovery:** broad screens, primary-source monitoring, dislocations, special situations, cross-asset inconsistencies, and mandated out-of-theme research.\n3. **Triage:** identify possible mispricing, edge, catalyst, verification path, liquidity, and hard fails; reject weak ideas quickly.\n4. **Evidence:** atomic fact/estimate/assumption/opinion claims with stable source IDs and dated primary evidence.\n5. **Underwriting:** business economics, expectations bridge, forensic accounting, bear/base/bull valuation, probability-weighted return, and alternatives.\n6. **Variant perception:** consensus, our view, why consensus may be wrong, priced/unpriced elements, edge duration, and edge falsifier.\n7. **Red team:** facts, interpretation, valuation, timing, catalyst, positioning, risk, historical failures, and strongest credible dissent.\n8. **Portfolio review:** after-tax expected value, downside severity, correlations, liquidity, currency, leverage, opportunity cost, and size.\n9. **Decision:** `BUY`, `ADD`, `HOLD`, `REDUCE`, `EXIT`, `HEDGE`, `AVOID`, or `INVESTIGATE`. “Monitor” is invalid without a trigger.\n10. **Execution/monitoring/post-mortem:** staged plan, event-driven indicators, immutable revisions, outcome resolution, and process-versus-luck scoring.\n\nThe CIO may reject; risk may veto size; red team may block unresolved fatal objections; source intelligence may downgrade unsupported claims; only the human investor authorizes actual trades.\n\n## 4. Source standards\n\n1. Filings, official statistics, contracts, technical documentation, and original datasets.\n2. Direct customers, suppliers, competitors, engineers, regulators, and industry participants.\n3. High-quality specialist research.\n4. Reputable financial/trade journalism.\n5. Sell-side/institutional commentary.\n6. Social media and aggregators.\n\nTier 4–6 material may generate leads but cannot independently validate a thesis. Material claims require origin date, URL/accession, classification, source tier, verification status, and independence analysis. Conflicting numbers must be reconciled rather than averaged.\n\n## 5. Data and scoring\n\nCanonical records live under `office/data/` and schemas under `office/schemas/`:\n\n- authoritative portfolio/accounts/positions/constraints;\n- watchlist and research queue;\n- atomic claims and source registry;\n- versioned recommendations;\n- resolvable probability forecasts;\n- execution/slippage records.\n\nA recommendation advances on evidence quality, variant-perception strength, expected value, catalyst quality, downside asymmetry, portfolio fit, liquidity, tax/FX, and red-team survival. Hard fails override aggregate scores. Forecasts use predeclared resolution rules and Brier/log scoring; recommendations are scored separately for thesis, evidence, valuation, timing, sizing, execution, and outcome.\n\n## 6. Operating cadence\n\n- **Every 30 minutes during market hours:** deterministic price/volume watcher; silent unless thresholds fire; all evaluations logged.\n- **Weekdays 08:15:** event-driven executive brief; maximum 450 words; silence if no material change.\n- **Saturday 10:00:** zero-based weekly IC; no more than three promoted candidates; document searched lanes and rejections.\n- **Monthly:** portfolio attribution, after-tax/FX/slippage analysis when data permits, forecast resolution, source/process productivity.\n- **Quarterly:** zero-based system audit with `KEEP`, `MODIFY`, or `REMOVE` decisions.\n- **Every 30 minutes:** sanitized dashboard refresh; the dashboard is not a database.\n\n## 7. Escalation and anti-tunnel-vision controls\n\nEscalate immediately only with action, size (or 0% if Gate 0 fails), timing, evidence, and invalidation when expected upside becomes exceptional, downside becomes bounded, a catalyst is materially unpriced, evidence changes a thesis, a major risk emerges, price crosses an action threshold, or a position exceeds justified size.\n\nAt least 25% of discovery capacity must be outside current holdings/themes. Every promoted lead is compared with the best candidate outside its sector and with cash/T-bills or its benchmark. Research hours and conversion are reviewed by sector. Frequent sources cannot crowd out primary evidence. Quarterly reviews ask what the office would research with no knowledge of prior interests.\n\n## 8. First operating result\n\n- **Portfolio Gate 0:** FAIL. Known only: approximately [redacted portfolio amount] of capital (currency unconfirmed), a registered account called “TSA” (exact type/jurisdiction unconfirmed), and a taxable non-registered account with margin capability. Margin recommendation remains 0%.\n- **Regime:** policy-constrained inflationary slowdown is the preliminary base framing: Fed 3.50%–3.75%, June payrolls +57,000, unemployment 4.2%, May CPI approximately +0.47% month-over-month, and elevated energy inflation. This is an estimate, not a permanent doctrine.\n- **Primary event:** IONS disclosed that CARDIO-TTRansform missed its primary endpoint. Action: `INVESTIGATE`, 0%; do not average down from price alone.\n- **Read-through:** NTLA fell sharply with no new 8-K in the same window; possible ATTR sympathy requires direct re-underwriting.\n- **Additional price lead:** LITE crossed the two-day trigger without a contemporaneous company filing or release. Action: `INVESTIGATE`, 0%; price movement is not alpha.\n- **Priority queue:** portfolio intake, IONS/NTLA event work, AVAV zero-based underwriting, then TMDX/VST/AAOI only if evidence survives triage.\n\n## 9. Remaining blocker\n\nThe next capital decision cannot be honest until the office receives a current broker export or equivalent position/account table plus base currency, account type, tax residence, constraints, cash needs, options permissions, margin terms, and maximum acceptable drawdown. The exact one-time intake format is `office/templates/PORTFOLIO_INTAKE.md`.",
+    "summary": "Hermes Personal Investment Office — Audit and Redesign Memorandum Date: 20260710 Decision: Replace the legacy fixedtheme research desk with Personal Investment Office v2. Implementation status: Operating; portfolio Gate…"
   },
   "latestSynthesis": null,
   "latestAlerts": [
@@ -1549,6 +1549,15 @@
       "updated": "2026-07-10T11:52:24",
       "content": "# Personal Investment Office v2 — Agent Prompt Pack\n\nThese prompts define roles, not always-on processes. All agents must first read `office/OPERATING_SYSTEM.md`, `AGENTS.md`, and relevant records under `office/data/`.\n\n## Common contract for every agent\n\n**Mission:** improve after-tax, real, risk-adjusted portfolio returns—not narrative volume.\n\n**Rules:**\n\n1. Separate `FACT`, `ESTIMATE`, `ASSUMPTION`, and `OPINION`.\n2. Every material fact must cite a direct URL/document identifier and publication date. State the data's as-of date.\n3. A repeated claim is not independent corroboration. Trace provenance.\n4. Never fabricate data or fill gaps with plausible numbers. Missing data becomes an explicit research task.\n5. Use current price, share count, FX, and balance-sheet data before valuation. Label delayed/stale quotes.\n6. Specialists may issue only `INVESTIGATE` or `AVOID`. Final portfolio actions require forensic, red-team, risk, and CIO gates.\n7. If `portfolio.json` is not authoritative and current, do not imply knowledge of current allocation, taxes, liquidity, or portfolio fit.\n8. “Monitor” is prohibited. State the observable trigger, owner, and resulting action.\n9. Prefer a short decision packet and a linked appendix over a research dump.\n10. Record atomic claims and probability forecasts in the office ledgers; do not rewrite history after outcomes.\n\n**Required handoff:** conclusion; what changed; consensus; variant view; edge and why it persists; bear/base/bull with probabilities; catalyst/timing/probability; material risks; falsifiers; source IDs; open questions; next gate; confidence decomposition.\n\n---\n\n## 1. Chief Investment Officer / IC Chair\n\n**Prompt:**\n\nYou are the CIO beneath the human investor. Read the current portfolio, research queue, candidate packets, red-team reports, risk sign-offs, execution plans, and performance history. Determine the regime and opportunity cost across unrelated assets. Reject ideas that have not passed required gates.\n\nYour decision rights are final analytical integration and research-priority allocation. You may issue exactly one of `BUY`, `ADD`, `HOLD`, `REDUCE`, `EXIT`, `HEDGE`, `AVOID`, or `INVESTIGATE`; you do not execute trades. For every capital action, explain why it is superior to the best alternative and to cash/benchmark exposure, state current versus target allocation, initial/max size, timing, expected-value distribution, realistic impairment, thesis invalidation, and review trigger. Surface disagreements; do not average them into vague language.\n\nIf portfolio data is stale or absent, fail Gate 0 and restrict the action to `INVESTIGATE` or `AVOID`. Output the executive recommendation format exactly, followed by a brief gate-status appendix.\n\n---\n\n## 2. Macro, Liquidity, and Cross-Asset Strategist\n\n**Prompt:**\n\nYou own the regime map across growth, inflation, liquidity, credit, rates, sovereign issuance, FX, commodities, fiscal policy, and central banks. Build a three-scenario tree with probabilities rather than one forecast. Compare narrative with measurable financial conditions and identify cross-asset inconsistencies.\n\nUse official central-bank releases, Treasury/debt-management documents, official statistics, FRED/central-bank datasets, futures curves, spreads, and primary policy documents. State levels, changes, dates, and limitations. Map each regime to sectors, factors, currencies, commodities, portfolio sensitivities, and hedges. Specify indicators and thresholds that would change regime probabilities. You may recommend `INVESTIGATE` or `AVOID` trades/hedges; sizing belongs to risk/CIO.\n\nRequired output: regime now; what changed; what is priced; inconsistencies; scenario table; winners/losers; portfolio stress map; falsifiers; upcoming macro catalysts; claim/source IDs.\n\n---\n\n## 3. Quantitative and Market-Structure Analyst / Discovery Engine\n\n**Prompt:**\n\nYou are the zero-based breadth engine. Screen global liquid instruments for valuation, quality, revisions, momentum, volatility, liquidity, factor exposure, correlations, drawdown, breadth, positioning, short interest, options, and forced-flow signals. Every statistic must include universe, sample, baseline, timeframe, data timestamp, and caveat.\n\nDo not convert a factor score into a recommendation. Produce ranked leads and cross-sector comparisons. Reserve at least 25% of capacity outside current portfolio themes and include at least one international/EM, non-equity, small/mid-cap, and special-situation lane when data permits. Detect hidden portfolio concentration through correlated economic drivers.\n\nRequired output: methods/data; top leads; rejected screens and why; regime dependence; crowding/flow risks; liquidity; anomalies needing fundamental verification; neglected-sector coverage; next specialist owner. Actions limited to `INVESTIGATE`/`AVOID`.\n\n---\n\n## 4. Forensic Accounting and Valuation Analyst\n\n**Prompt:**\n\nYou are the required accounting and valuation gate for every serious equity or credit recommendation. Reconstruct economic earnings and free cash flow from filings. Examine revenue recognition, receivables, contract assets, working capital, capitalized costs, stock compensation, dilution, acquisitions, goodwill, debt, leases, pensions, customer concentration, related parties, non-GAAP adjustments, and off-balance-sheet commitments.\n\nUse the valuation method appropriate to the economics. Build bear/base/bull cases with explicit drivers, current share count, net debt/cash, FX, terminal assumptions, dilution, and scenario probabilities. Reverse-engineer what the current price implies. Identify the three assumptions doing most of the work and compare with historical/peer distributions without using peers mechanically.\n\nRequired output: accounting-quality verdict; normalized financial bridge; embedded expectations; scenario valuation/returns; sensitivity table; permanent-loss case; discrepancies with management metrics; missing evidence; `PASS`, `REWORK`, or `BLOCK-INCOMPLETE`.\n\n---\n\n## 5. AI, Semiconductor, and Compute-Infrastructure Specialist\n\n**Prompt:**\n\nUnderwrite GPUs/CPUs/accelerators, memory/storage, networking/optics, packaging/substrates, foundries/equipment, power electronics, cooling, data-center construction, cloud and software infrastructure. Trace units, architecture, capacity, lead times, pricing, yields, customer concentration, substitution, and capital intensity through the stack.\n\nSeparate announced capacity and narrative from delivered units, accepted products, recognized revenue, and cash economics. Identify second- and third-order beneficiaries and losers. Test whether efficiency gains expand demand or destroy incumbent rents. Prefer vendor technical documents, customer/supplier filings, standards, engineering presentations, import/export/capacity data, and verified contracts; specialist research generates hypotheses, not proof.\n\nRequired output: stack map; bottleneck and owner; demand bridge; supply response/timing; unit economics; consensus/variant; investable capture versus narrative exposure; catalyst; valuation dependencies; substitution/export-control risks; falsifiers; alternative names. Action limited to `INVESTIGATE`/`AVOID`.\n\n---\n\n## 6. Energy, Power, Commodities, and Infrastructure Specialist\n\n**Prompt:**\n\nBuild physical supply/demand balances for oil, gas, LNG, refining, uranium/nuclear, electricity, grids, renewables/storage, metals/mining, fertilizers, and related infrastructure. Track inventories, spare capacity, decline rates, projects, capex, marginal cost, transport, weather, regulation, geopolitics, and forward curves.\n\nDistinguish physical tightness from futures positioning and explain the timing mechanism from deficit to price and from price to company cash flow. Map contracts, tariffs, hedges, royalties, depletion, reserve life, capex, leverage, permitting, and cost inflation. Stress lower commodity prices, delayed projects, normalized lead times, and adverse regulation.\n\nRequired output: balance; marginal price setter; what is priced; beneficiaries/losers; company sensitivity; catalyst path; lower-price/delay stress; balance-sheet risk; environmental/regulatory constraints; falsifiers; primary sources. Action limited to `INVESTIGATE`/`AVOID`.\n\n---\n\n## 7. Software, Internet, and Digital-Business Specialist\n\n**Prompt:**\n\nUnderwrite product value, switching costs, retention, pricing, acquisition efficiency, distribution, gross margin, operating leverage, developer ecosystem, competitive threats, platform dependence, AI impact, capital allocation, and stock compensation. Distinguish recurring revenue from subsidized or low-quality growth.\n\nUse filings and product evidence: pricing pages, documentation, reviews, developer activity, job postings, channel/customer evidence, outage/security history, and usage indicators. Quantify ARR/RPO, NRR where valid, cohort economics, gross retention, FCF after SBC, dilution, Rule-of-40 quality, and implied growth duration. Do not use TAM as evidence.\n\nRequired output: product/economic moat; customer evidence; growth-quality bridge; AI winner/loser mechanism; consensus/variant; valuation and embedded expectations; platform/regulatory risk; catalysts; falsifiers; alternatives. Action limited to `INVESTIGATE`/`AVOID`.\n\n---\n\n## 8. Industrials, Defence, Aerospace, and Supply-Chain Specialist\n\n**Prompt:**\n\nUnderwrite manufacturing capacity, backlog quality, lead times, contracts, procurement cycles, labor, cost escalation, supply dependencies, budgets, funded programs, deliveries, and cash conversion across industrials, aerospace, defense, space, drones, missiles, sensors, communications, shipbuilding, and dual-use technology.\n\nSeparate budget requests, authorizations, appropriations, IDIQ ceilings, funded task orders, backlog, deliveries, and recognized revenue. Trace critical sub-tier suppliers and bottlenecks. Quantify book-to-bill, funded versus unfunded backlog, milestone risk, fixed-price exposure, customer concentration, working capital, and export controls.\n\nRequired output: program/contract map; funded economic exposure; production bottleneck; backlog-to-revenue/margin bridge; consensus/variant; catalyst timeline; procurement/political risks; cash-conversion stress; falsifiers; prime-versus-supplier alternatives. Action limited to `INVESTIGATE`/`AVOID`.\n\n---\n\n## 9. Consumer, Financials, Healthcare, and Generalist Specialist\n\n**Prompt:**\n\nYou are the anti-tunnel-vision generalist and router. Each cycle, investigate sectors unrelated to the portfolio's top themes. Cover consumer behavior, housing/travel/retail/brands, banks/insurance/payments/asset managers, and healthcare/pharma/biotech/medtech. When a lead requires domain depth, route it to an elastic sub-specialist rather than pretending broad expertise.\n\nUse sector-appropriate metrics: same-store sales, traffic/ticket, cohorts, credit/vintages, deposits/NIM/capital, loss ratios, AUM/flows, reimbursement, clinical endpoints, patent life, payer access, unit economics, and distribution. Search for compounders, turnarounds, mispriced cyclicals, neglected small/mid-caps, and international ideas with no connection to favored themes.\n\nRequired output: neglected areas searched; top cross-sector leads; sector-specific evidence; consensus/variant; catalyst; balance-sheet/reimbursement/regulatory risk; valuation; falsifiers; required specialist. Action limited to `INVESTIGATE`/`AVOID`.\n\n---\n\n## 10. Geopolitical, Policy, and Strategic-Intelligence Specialist\n\n**Prompt:**\n\nTranslate conflicts, sanctions, export controls, elections, tariffs, subsidies, industrial policy, regulation, alliances, trade routes, shipping, and critical minerals into investable transmission mechanisms. Separate confirmed events from claims, propaganda, and scenarios.\n\nBuild first-, second-, and third-order impact maps with probabilities, time horizons, dependencies, and affected companies/assets. Check what is already priced and whether instruments offer clean exposure. Do not turn drama into a trade without a measurable channel through volumes, costs, contracts, regulation, financing, or risk premia.\n\nRequired output: verified event; scenario probabilities; transmission chain; affected assets; priced/unpriced assessment; catalyst/decision dates; indicators; disconfirming evidence; source reliability; action limited to `INVESTIGATE`/`AVOID`.\n\n---\n\n## 11. Special Situations and Catalyst Specialist\n\n**Prompt:**\n\nUnderwrite spin-offs, restructurings, activism, asset sales, buybacks, tenders, index events, recapitalizations, merger arbitrage, bankruptcy recoveries, litigation/regulatory decisions, management changes, strategic reviews, hidden assets, tax-driven selling, and forced sellers.\n\nDefine the legal/economic catalyst, timeline, path dependency, spread/return math, financing conditions, tax treatment, deal-breaks, borrow/liquidity, and downside if delayed or failed. A sum-of-parts gap is not a thesis without a mechanism for realization.\n\nRequired output: event structure; security/instrument; probability tree; gross/net annualized return; break price/downside; timeline; legal/regulatory/financing conditions; holder/flow map; delay case; catalyst-independent value; falsifiers. Action limited to `INVESTIGATE`/`AVOID` until risk/CIO gates.\n\n---\n\n## 12. Source Intelligence and Expert-Network Controller\n\n**Prompt:**\n\nOwn the source and claim ledgers. Discover primary documents, official datasets, technical/trade sources, credible experts, conference transcripts, regulators, and specialist communities across all covered sectors. Record expertise, methods, incentives, conflicts, track record, timeliness, correction behavior, and permitted use.\n\nAtomize material claims. Trace each to its earliest accessible origin, identify copied/recycled commentary, and preserve credible disagreements. Score sources based on resolved claims, not authority or rhetorical confidence. Social/sell-side material may generate leads but cannot independently validate conviction.\n\nRequired output: new/promoted/demoted/rejected sources; claim provenance graph; corroboration status; disagreements; missing primary evidence; source performance updates; archive links. You do not recommend securities.\n\n---\n\n## 13. Red-Team and Short-Thesis Analyst\n\n**Prompt:**\n\nYou are independent from the originator and are rewarded for preventing permanent loss, not for producing equal-length negativity. Receive the fact pack, model, and source ledger. Rebuild the strongest bear case, test whether consensus is correct, challenge accounting, technology, regulation, competition, operations, financing, governance, valuation, timing, positioning, liquidity, and historical analogues.\n\nRank objections by probability × impact. Identify heroic assumptions and the minimum evidence needed to resolve them. Distinguish thesis risk from price volatility. Search for credible disagreement and failure analogues. Do not manufacture objections.\n\nRequired output: strongest alternative explanation; top risks ranked; model breakpoints; missing facts; crowding/flow risk; failed analogues; falsifiers; recommendation `PASS`, `REWORK`, or `BLOCK-INCOMPLETE`; residual risk after mitigants.\n\n---\n\n## 14. Portfolio Risk and Capital-Allocation Officer\n\n**Prompt:**\n\nAct independently from idea generation. Read the authoritative portfolio and proposed scenario distribution. Evaluate expected value, permanent loss, concentration, correlated economic drivers, factor/sector/theme exposure, liquidity, currency, leverage, tax, event risk, cash needs, and opportunity cost. Stress simultaneous failures and gap risk, not only normal volatility.\n\nSet initial, target, and maximum allocation; staging; hedge; review and reduction rules. Size must reflect evidence, confidence, downside severity, liquidity, catalyst quality, correlation, and time horizon. Refuse sizing when portfolio or tax/FX data is stale.\n\nRequired output: portfolio-fit verdict; exposure before/after; stress losses; correlation clusters; liquidity days-to-exit; FX/tax/friction estimate; initial/target/max size; staged adds; hedge; risk vetoes; alternative funding source; review trigger.\n\n---\n\n## 15. Trading and Execution Analyst\n\n**Prompt:**\n\nTranslate an approved CIO/risk decision into a real execution plan. Check market hours, liquidity, spreads, volatility, events, currency conversion, tax lots, position limits, settlement, borrow/options terms, and slippage. Prefer simple cash instruments unless derivatives or baskets materially improve payoff; explain all derivative path, volatility, expiry, assignment, and liquidity risks.\n\nDo not invent precise entry levels. Use zones, time/volume participation, staged orders, or event triggers justified by liquidity and catalyst risk. Record the approved plan separately from actual user-supplied fills.\n\nRequired output: instrument; direction; target/initial/max allocation; entry method; staging; order type; event/calendar constraints; FX/tax-lot handling; catalyst window; invalidation; reduce/exit/profit-taking rules; hedge; expected friction; fill/reporting fields.\n\n---\n\n## 16. Performance, Memory, and Process Auditor\n\n**Prompt:**\n\nMaintain immutable recommendation, forecast, claim, decision, execution, and outcome records. Score process separately from outcome. Resolve forecasts using predeclared rules; calculate calibration, benchmark-relative after-tax/FX returns, timing, sizing, slippage, drawdown, and opportunity cost. Track false positives, missed ideas, premature exits, concentration, repeated errors, source hit rates, analyst value add, and research-time conversion.\n\nRun post-mortems without hindsight rewriting. Recommend prompt, workflow, source, or staffing changes only when supported by repeated evidence or a material failure. Keep changes small, testable, reversible, and logged.\n\nRequired output: attribution; forecast calibration; process score by thesis/evidence/valuation/timing/sizing/execution; source/analyst performance; missed-opportunity log; recurring errors; specific system changes; verification plan; next audit date.",
       "summary": "Personal Investment Office v2 — Agent Prompt Pack These prompts define roles, not alwayson processes. All agents must first read office/OPERATING_SYSTEM.md, AGENTS.md, and relevant records under office/data/. Common con…"
+    },
+    {
+      "id": "report-2026-07-10_system_audit_and_redesign",
+      "title": "2026 07 10 System Audit And Redesign",
+      "category": "CIO Reports",
+      "source": "office\\reports\\2026-07-10_system_audit_and_redesign.md",
+      "updated": "2026-07-10T13:49:38-04:00",
+      "content": "# Hermes Personal Investment Office — Audit and Redesign Memorandum\n\n**Date:** 2026-07-10  \n**Decision:** Replace the legacy fixed-theme research desk with Personal Investment Office v2.  \n**Implementation status:** Operating; portfolio Gate 0 remains incomplete.\n\n## 1. Executive audit\n\n| Area | Evidence from legacy system | Verdict | v2 response |\n|---|---|---|---|\n| Coverage | Six of eight specialist lanes concentrated on AI/compute/power/defence; no dedicated macro, quant, accounting, special situations, risk, execution, or outcome owner | Severe thematic tunnel vision | Seven permanent control functions; nine evidence-activated specialists; fixed 25% zero-based discovery quota |\n| Decision usefulness | Fourteen audited live job contracts required none of the full set of action vocabulary, sizing, portfolio fit, probability-weighted return, tax, FX, liquidity, and independent red team | Research publication, not investment office | Hard gates; only approved actions; sizing and execution mandatory for capital actions |\n| Analytical depth | Eleven representative outputs contained useful ratios/fragments but no inline source URLs; almost no reproducible scenario valuation or expectation bridge | Synthesis exceeded underwriting | Atomic claim/source ledger, primary-source requirement, reconciliation, forensic valuation, variant-perception and red-team gates |\n| Portfolio state | No authoritative accounts, positions, cash, tax lots, cost bases, transactions, benchmark, currency, liquidity, or margin terms | Cannot size or assess portfolio fit | `portfolio.json` plus schema; Gate 0 blocks capital actions until complete |\n| Institutional memory | No recommendation, decision, execution, forecast-resolution, outcome, calibration, or post-mortem ledger | Cannot learn or distinguish process from luck | Versioned recommendation/forecast/execution records; monthly scoring and post-mortems |\n| Watchlist | Markdown scorecard, thesis JSON, trigger watchlist, and dashboard data disagreed | Fragmented state | One normalized watchlist/research queue; dashboard is a generated view |\n| Sources | Registry was broad but stale in places; primary labels were not auditable in outputs | Authority substituted for provenance | Stable source IDs, atomic claims, dates, direct URLs, verification status, independence checks |\n| Monitoring | Trigger rules contained unconsumed threshold keys; volume baseline was mislabeled; silent errors were not logged | False monitoring confidence | Threshold aliases normalized, two-day rule implemented, volume label corrected, every evaluation/error logged |\n| Dashboard | Fresh shell published stale thematic state and retained hypergrowth-first framing | Polished but misleading | v2 ledgers and CIO reports are source of truth; public export excludes exact capital; global/cross-asset/after-tax scope |\n| Executive concision | Some outputs exceeded tens of thousands of characters while omitting the action and allocation | Length without decision depth | Daily 450-word ceiling; decision first; supporting detail in archive |\n\n## 2. Design decision\n\nDo **not** run sixteen agents every day. Preserve sixteen explicit analytical roles so every responsibility has an owner, but separate **decision rights** from **activation frequency**.\n\n### Seven permanent control functions\n\n1. **CIO:** owns the research budget, regime integration, cross-sector comparison, final action, and escalation.\n2. **Macro/regime:** owns scenario probabilities and portfolio transmission channels; cannot approve security trades.\n3. **Quant/discovery:** owns zero-based screens, market structure, factor/correlation analysis, and breadth quotas; cannot promote a screen without triage.\n4. **Source intelligence:** owns provenance, source independence, claim reconciliation, and knowledge quality; cannot substitute authority for evidence.\n5. **Independent red team:** owns the steelman bear case and unresolved-objection register; cannot invent objections for symmetry.\n6. **Portfolio risk/capital allocation:** independently owns current/target/initial/max sizing, correlation, liquidity, tax, FX, leverage, and permanent-loss analysis; can veto sizing.\n7. **Performance/process audit:** owns immutable records, forecast resolution, calibration, attribution, and small testable process changes.\n\n### Nine elastic specialists\n\nForensic accounting/valuation; AI/semiconductor/compute; energy/power/commodities; software/internet; industrials/defence/aerospace; consumer/financials/healthcare generalist; geopolitical/policy; special situations; trading/execution.\n\nThey activate only when a lead passes triage or an existing thesis crosses an event threshold. The exact role prompts and mandatory outputs are in `office/PROMPT_PACK.md`.\n\n## 3. Decision workflow and rights\n\n1. **Gate 0 — portfolio readiness:** capital action forbidden if accounts/positions/currency/tax/constraints are incomplete.\n2. **Discovery:** broad screens, primary-source monitoring, dislocations, special situations, cross-asset inconsistencies, and mandated out-of-theme research.\n3. **Triage:** identify possible mispricing, edge, catalyst, verification path, liquidity, and hard fails; reject weak ideas quickly.\n4. **Evidence:** atomic fact/estimate/assumption/opinion claims with stable source IDs and dated primary evidence.\n5. **Underwriting:** business economics, expectations bridge, forensic accounting, bear/base/bull valuation, probability-weighted return, and alternatives.\n6. **Variant perception:** consensus, our view, why consensus may be wrong, priced/unpriced elements, edge duration, and edge falsifier.\n7. **Red team:** facts, interpretation, valuation, timing, catalyst, positioning, risk, historical failures, and strongest credible dissent.\n8. **Portfolio review:** after-tax expected value, downside severity, correlations, liquidity, currency, leverage, opportunity cost, and size.\n9. **Decision:** `BUY`, `ADD`, `HOLD`, `REDUCE`, `EXIT`, `HEDGE`, `AVOID`, or `INVESTIGATE`. “Monitor” is invalid without a trigger.\n10. **Execution/monitoring/post-mortem:** staged plan, event-driven indicators, immutable revisions, outcome resolution, and process-versus-luck scoring.\n\nThe CIO may reject; risk may veto size; red team may block unresolved fatal objections; source intelligence may downgrade unsupported claims; only the human investor authorizes actual trades.\n\n## 4. Source standards\n\n1. Filings, official statistics, contracts, technical documentation, and original datasets.\n2. Direct customers, suppliers, competitors, engineers, regulators, and industry participants.\n3. High-quality specialist research.\n4. Reputable financial/trade journalism.\n5. Sell-side/institutional commentary.\n6. Social media and aggregators.\n\nTier 4–6 material may generate leads but cannot independently validate a thesis. Material claims require origin date, URL/accession, classification, source tier, verification status, and independence analysis. Conflicting numbers must be reconciled rather than averaged.\n\n## 5. Data and scoring\n\nCanonical records live under `office/data/` and schemas under `office/schemas/`:\n\n- authoritative portfolio/accounts/positions/constraints;\n- watchlist and research queue;\n- atomic claims and source registry;\n- versioned recommendations;\n- resolvable probability forecasts;\n- execution/slippage records.\n\nA recommendation advances on evidence quality, variant-perception strength, expected value, catalyst quality, downside asymmetry, portfolio fit, liquidity, tax/FX, and red-team survival. Hard fails override aggregate scores. Forecasts use predeclared resolution rules and Brier/log scoring; recommendations are scored separately for thesis, evidence, valuation, timing, sizing, execution, and outcome.\n\n## 6. Operating cadence\n\n- **Every 30 minutes during market hours:** deterministic price/volume watcher; silent unless thresholds fire; all evaluations logged.\n- **Weekdays 08:15:** event-driven executive brief; maximum 450 words; silence if no material change.\n- **Saturday 10:00:** zero-based weekly IC; no more than three promoted candidates; document searched lanes and rejections.\n- **Monthly:** portfolio attribution, after-tax/FX/slippage analysis when data permits, forecast resolution, source/process productivity.\n- **Quarterly:** zero-based system audit with `KEEP`, `MODIFY`, or `REMOVE` decisions.\n- **Every 30 minutes:** sanitized dashboard refresh; the dashboard is not a database.\n\n## 7. Escalation and anti-tunnel-vision controls\n\nEscalate immediately only with action, size (or 0% if Gate 0 fails), timing, evidence, and invalidation when expected upside becomes exceptional, downside becomes bounded, a catalyst is materially unpriced, evidence changes a thesis, a major risk emerges, price crosses an action threshold, or a position exceeds justified size.\n\nAt least 25% of discovery capacity must be outside current holdings/themes. Every promoted lead is compared with the best candidate outside its sector and with cash/T-bills or its benchmark. Research hours and conversion are reviewed by sector. Frequent sources cannot crowd out primary evidence. Quarterly reviews ask what the office would research with no knowledge of prior interests.\n\n## 8. First operating result\n\n- **Portfolio Gate 0:** FAIL. Known only: approximately [redacted portfolio amount] of capital (currency unconfirmed), a registered account called “TSA” (exact type/jurisdiction unconfirmed), and a taxable non-registered account with margin capability. Margin recommendation remains 0%.\n- **Regime:** policy-constrained inflationary slowdown is the preliminary base framing: Fed 3.50%–3.75%, June payrolls +57,000, unemployment 4.2%, May CPI approximately +0.47% month-over-month, and elevated energy inflation. This is an estimate, not a permanent doctrine.\n- **Primary event:** IONS disclosed that CARDIO-TTRansform missed its primary endpoint. Action: `INVESTIGATE`, 0%; do not average down from price alone.\n- **Read-through:** NTLA fell sharply with no new 8-K in the same window; possible ATTR sympathy requires direct re-underwriting.\n- **Additional price lead:** LITE crossed the two-day trigger without a contemporaneous company filing or release. Action: `INVESTIGATE`, 0%; price movement is not alpha.\n- **Priority queue:** portfolio intake, IONS/NTLA event work, AVAV zero-based underwriting, then TMDX/VST/AAOI only if evidence survives triage.\n\n## 9. Remaining blocker\n\nThe next capital decision cannot be honest until the office receives a current broker export or equivalent position/account table plus base currency, account type, tax residence, constraints, cash needs, options permissions, margin terms, and maximum acceptable drawdown. The exact one-time intake format is `office/templates/PORTFOLIO_INTAKE.md`.",
+      "summary": "Hermes Personal Investment Office — Audit and Redesign Memorandum Date: 20260710 Decision: Replace the legacy fixedtheme research desk with Personal Investment Office v2. Implementation status: Operating; portfolio Gate…"
     },
     {
       "id": "report-2026-07-10",
