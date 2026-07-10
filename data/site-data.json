@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-09T23:20:20",
+    "generatedAt": "2026-07-09T23:51:00",
     "title": "Investment Research Desk",
     "subtitle": "Hypergrowth public-market research dashboard",
     "publicSafety": "Sanitized static export: no secrets, no raw local cron context, no exact portfolio amounts."
@@ -1907,10 +1907,10 @@
       "id": "job-04aa99181e16",
       "title": "Market Trigger Watcher",
       "category": "Desk Outputs",
-      "source": "cron/04aa99181e16/2026-07-09_22-07-18.md — final response only",
-      "updated": "2026-07-09T23:07:18",
-      "content": "# Cron Job: Investment market trigger watcher\n\n**Job ID:** 04aa99181e16\n**Run Time:** 2026-07-09 22:07:18\n**Mode:** no_agent (script)\n**Status:** silent (empty output)",
-      "summary": "Cron Job: Investment market trigger watcher Job ID: 04aa99181e16 Run Time: 20260709 22:07:18 Mode: no_agent (script)"
+      "source": "cron/04aa99181e16/2026-07-09_22-37-18.md — final response only",
+      "updated": "2026-07-09T23:37:18",
+      "content": "# Cron Job: Investment market trigger watcher\n\n**Job ID:** 04aa99181e16\n**Run Time:** 2026-07-09 22:37:18\n**Mode:** no_agent (script)\n**Status:** silent (empty output)",
+      "summary": "Cron Job: Investment market trigger watcher Job ID: 04aa99181e16 Run Time: 20260709 22:37:18 Mode: no_agent (script)"
     }
   ]
 }
