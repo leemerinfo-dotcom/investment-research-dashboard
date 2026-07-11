@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-11T10:10:30-04:00",
+    "generatedAt": "2026-07-11T10:41:11-04:00",
     "title": "Hermes Personal Investment Office",
     "subtitle": "Decision-led, risk-gated public-market research",
     "publicSafety": "Sanitized static export: no secrets, no raw local cron context, no exact portfolio amounts."
@@ -1773,10 +1773,10 @@
       "id": "job-04aa99181e16",
       "title": "Market Trigger Watcher",
       "category": "Desk Outputs",
-      "source": "cron/04aa99181e16/2026-07-11_08-45-26.md — final response only",
-      "updated": "2026-07-11T09:45:26",
-      "content": "# Cron Job: Investment market trigger watcher\n\n**Job ID:** 04aa99181e16\n**Run Time:** 2026-07-11 08:45:26\n**Mode:** no_agent (script)\n**Status:** silent (empty output)",
-      "summary": "Cron Job: Investment market trigger watcher Job ID: 04aa99181e16 Run Time: 20260711 08:45:26 Mode: no_agent (script)"
+      "source": "cron/04aa99181e16/2026-07-11_09-15-27.md — final response only",
+      "updated": "2026-07-11T10:15:27",
+      "content": "# Cron Job: Investment market trigger watcher\n\n**Job ID:** 04aa99181e16\n**Run Time:** 2026-07-11 09:15:27\n**Mode:** no_agent (script)\n**Status:** silent (empty output)",
+      "summary": "Cron Job: Investment market trigger watcher Job ID: 04aa99181e16 Run Time: 20260711 09:15:27 Mode: no_agent (script)"
     }
   ]
 }
