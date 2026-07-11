@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-07-10T13:49:50-04:00",
+    "generatedAt": "2026-07-11T10:10:30-04:00",
     "title": "Hermes Personal Investment Office",
     "subtitle": "Decision-led, risk-gated public-market research",
     "publicSafety": "Sanitized static export: no secrets, no raw local cron context, no exact portfolio amounts."
   },
   "stats": {
     "docs": 23,
-    "scorecardNames": 7,
-    "watchlistNames": 7,
-    "activeTheses": 2,
-    "sourceEntries": 10,
+    "scorecardNames": 9,
+    "watchlistNames": 9,
+    "activeTheses": 4,
+    "sourceEntries": 18,
     "alerts": 8,
     "quotes": 28
   },
@@ -21,18 +21,20 @@
     "transplant medtech and logistics",
     "named long-duration power contracts",
     "AI optical transceivers",
-    "optical components / AI connectivity"
+    "optical components / AI connectivity",
+    "Canadian small-cap oil / Iran-Hormuz",
+    "Canadian small-cap oil / Duvernay / power"
   ],
   "quotes": [
     {
       "ticker": "IONS",
-      "price": 59.01,
+      "price": 58.25,
       "previousClose": 81.8,
-      "changePct": -27.86,
-      "volume": 7035359,
+      "changePct": -28.79,
+      "volume": 11229564,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         82.42,
         83.785,
@@ -66,19 +68,21 @@
         58.45,
         58.835,
         59.04,
-        58.86,
-        59.01
+        58.94,
+        58.315,
+        58.24,
+        58.25
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 14.65,
+      "price": 14.22,
       "previousClose": 17.56,
-      "changePct": -16.54,
-      "volume": 4126404,
+      "changePct": -19.05,
+      "volume": 6134078,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         16.84,
         17.82,
@@ -113,18 +117,20 @@
         14.5499,
         14.58,
         14.655,
-        14.655
+        14.51,
+        14.2101,
+        14.215
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 145.97,
+      "price": 144.58,
       "previousClose": 190.89,
-      "changePct": -23.53,
-      "volume": 791658,
+      "changePct": -24.26,
+      "volume": 1335317,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:48-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         180.31,
         181.4675,
@@ -158,19 +164,21 @@
         144.585,
         145.0,
         145.93,
-        145.845,
-        145.97
+        144.96,
+        145.09,
+        144.67,
+        144.58
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 70.99,
+      "price": 71.23,
       "previousClose": 68.86,
-      "changePct": 3.09,
-      "volume": 217382,
+      "changePct": 3.44,
+      "volume": 427243,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T13:48-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         71.215,
         72.38,
@@ -204,19 +212,21 @@
         71.06,
         70.8,
         70.495,
-        70.65,
-        70.99
+        70.92,
+        71.39,
+        71.24,
+        71.23
       ]
     },
     {
       "ticker": "VST",
-      "price": 158.79,
+      "price": 158.86,
       "previousClose": 151.05,
-      "changePct": 5.12,
-      "volume": 1330299,
+      "changePct": 5.17,
+      "volume": 2992981,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         154.22,
         153.07,
@@ -250,19 +260,21 @@
         158.54,
         158.5,
         158.98,
-        158.825,
-        158.79
+        158.955,
+        159.18,
+        158.89,
+        158.86
       ]
     },
     {
       "ticker": "AAOI",
-      "price": 118.05,
+      "price": 119.92,
       "previousClose": 120.95,
-      "changePct": -2.4,
-      "volume": 4589689,
+      "changePct": -0.85,
+      "volume": 6643697,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         128.4201,
         128.16,
@@ -296,19 +308,21 @@
         116.99,
         116.295,
         116.42,
-        118.2,
-        118.05
+        118.7,
+        118.79,
+        119.97,
+        119.92
       ]
     },
     {
       "ticker": "LITE",
-      "price": 783.48,
+      "price": 802.01,
       "previousClose": 728.32,
-      "changePct": 7.57,
-      "volume": 1995809,
+      "changePct": 10.12,
+      "volume": 3552497,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         743.525,
         739.675,
@@ -342,19 +356,29 @@
         775.745,
         776.395,
         780.69,
-        783.546,
-        783.485
+        786.44,
+        795.195,
+        801.97,
+        802.01
       ]
     },
     {
+      "ticker": "OBE.TO",
+      "error": "HTTPError"
+    },
+    {
+      "ticker": "JOY.TO",
+      "error": "HTTPError"
+    },
+    {
       "ticker": "COHR",
-      "price": 326.82,
+      "price": 324.5,
       "previousClose": 333.36,
-      "changePct": -1.96,
-      "volume": 2219587,
+      "changePct": -2.66,
+      "volume": 3336403,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         350.305,
         347.98,
@@ -388,19 +412,21 @@
         321.24,
         322.0,
         324.92,
-        326.72,
-        326.815
+        325.98,
+        326.71,
+        324.48,
+        324.5
       ]
     },
     {
       "ticker": "CRDO",
-      "price": 262.6,
+      "price": 257.79,
       "previousClose": 241.91,
-      "changePct": 8.55,
-      "volume": 2362299,
+      "changePct": 6.56,
+      "volume": 3928888,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         278.065,
         273.75,
@@ -434,19 +460,21 @@
         259.68,
         260.62,
         263.525,
-        262.54,
-        262.6
+        260.395,
+        256.85,
+        257.77,
+        257.79
       ]
     },
     {
       "ticker": "MRVL",
-      "price": 238.2,
+      "price": 235.81,
       "previousClose": 245.29,
-      "changePct": -2.89,
-      "volume": 9262754,
+      "changePct": -3.86,
+      "volume": 14936032,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         257.19,
         256.42,
@@ -480,19 +508,21 @@
         237.385,
         237.065,
         238.715,
-        238.0485,
-        238.195
+        236.44,
+        236.505,
+        235.68,
+        235.81
       ]
     },
     {
       "ticker": "AVGO",
-      "price": 401.45,
+      "price": 399.97,
       "previousClose": 360.45,
-      "changePct": 11.37,
-      "volume": 6969392,
+      "changePct": 10.96,
+      "volume": 13913232,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         379.4,
         374.29,
@@ -526,19 +556,21 @@
         401.11,
         400.8901,
         401.7499,
-        401.425,
-        401.445
+        400.18,
+        399.62,
+        399.99,
+        399.97
       ]
     },
     {
       "ticker": "ANET",
-      "price": 186.14,
+      "price": 186.96,
       "previousClose": 159.99,
-      "changePct": 16.34,
-      "volume": 2802915,
+      "changePct": 16.86,
+      "volume": 4863206,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         174.125,
         175.17,
@@ -572,19 +604,21 @@
         186.365,
         186.22,
         186.45,
-        186.18,
-        186.1401
+        186.21,
+        186.6,
+        186.96,
+        186.96
       ]
     },
     {
       "ticker": "MU",
-      "price": 995.69,
+      "price": 979.3,
       "previousClose": 975.56,
-      "changePct": 2.06,
-      "volume": 22429280,
+      "changePct": 0.38,
+      "volume": 31054394,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         1004.6,
         1006.565,
@@ -618,19 +652,21 @@
         980.085,
         983.63,
         995.4494,
-        995.3,
-        995.6862
+        989.1566,
+        991.8085,
+        978.69,
+        979.3
       ]
     },
     {
       "ticker": "NVDA",
-      "price": 210.6,
+      "price": 210.96,
       "previousClose": 194.83,
-      "changePct": 8.09,
-      "volume": 94596218,
+      "changePct": 8.28,
+      "volume": 147203662,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         196.574,
         196.5135,
@@ -664,19 +700,21 @@
         208.57,
         209.79,
         210.19,
-        210.7097,
-        210.595
+        210.31,
+        209.9661,
+        210.95,
+        210.96
       ]
     },
     {
       "ticker": "VRT",
-      "price": 322.79,
+      "price": 318.86,
       "previousClose": 300.53,
-      "changePct": 7.41,
-      "volume": 1212706,
+      "changePct": 6.1,
+      "volume": 1942509,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         328.0186,
         326.625,
@@ -710,19 +748,21 @@
         322.41,
         322.18,
         322.44,
-        322.55,
-        322.79
+        322.16,
+        320.56,
+        318.85,
+        318.86
       ]
     },
     {
       "ticker": "ETN",
-      "price": 411.25,
+      "price": 407.28,
       "previousClose": 398.52,
-      "changePct": 3.19,
-      "volume": 764587,
+      "changePct": 2.2,
+      "volume": 1401516,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         417.44,
         413.77,
@@ -756,19 +796,21 @@
         409.63,
         409.22,
         410.24,
-        411.07,
-        411.25
+        409.65,
+        408.01,
+        407.13,
+        407.28
       ]
     },
     {
       "ticker": "PWR",
-      "price": 660.34,
+      "price": 658.56,
       "previousClose": 668.31,
-      "changePct": -1.19,
-      "volume": 336154,
+      "changePct": -1.46,
+      "volume": 611201,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:48-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         687.05,
         684.89,
@@ -802,19 +844,21 @@
         658.48,
         658.49,
         659.38,
-        660.685,
-        660.345
+        659.275,
+        658.88,
+        658.01,
+        658.56
       ]
     },
     {
       "ticker": "GEV",
-      "price": 1099.57,
+      "price": 1091.57,
       "previousClose": 1113.11,
-      "changePct": -1.22,
-      "volume": 688756,
+      "changePct": -1.94,
+      "volume": 1110639,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         1183.3199,
         1166.22,
@@ -848,19 +892,21 @@
         1084.9999,
         1086.465,
         1092.16,
-        1099.9899,
-        1099.575
+        1098.595,
+        1094.01,
+        1091.13,
+        1091.5699
       ]
     },
     {
       "ticker": "CEG",
-      "price": 250.41,
+      "price": 251.38,
       "previousClose": 239.25,
-      "changePct": 4.66,
-      "volume": 1001018,
+      "changePct": 5.07,
+      "volume": 1984037,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         243.45,
         242.79,
@@ -894,19 +940,21 @@
         251.06,
         250.455,
         250.64,
-        250.36,
-        250.41
+        250.88,
+        251.6,
+        251.38,
+        251.38
       ]
     },
     {
       "ticker": "PLTR",
-      "price": 126.15,
+      "price": 126.79,
       "previousClose": 129.3,
-      "changePct": -2.44,
-      "volume": 19899317,
+      "changePct": -1.94,
+      "volume": 30714836,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         130.81,
         133.05,
@@ -940,19 +988,21 @@
         126.1396,
         127.25,
         126.43,
-        126.19,
-        126.1501
+        126.34,
+        126.835,
+        126.78,
+        126.79
       ]
     },
     {
       "ticker": "PANW",
-      "price": 326.06,
+      "price": 325.91,
       "previousClose": 348.06,
-      "changePct": -6.32,
-      "volume": 2492676,
+      "changePct": -6.36,
+      "volume": 4521513,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         366.21,
         360.66,
@@ -986,19 +1036,21 @@
         325.69,
         324.02,
         326.31,
-        325.92,
-        326.06
+        325.24,
+        325.18,
+        325.91,
+        325.91
       ]
     },
     {
       "ticker": "KTOS",
-      "price": 48.24,
+      "price": 48.19,
       "previousClose": 55.35,
-      "changePct": -12.85,
-      "volume": 1199475,
+      "changePct": -12.94,
+      "volume": 2370677,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         53.8,
         54.065,
@@ -1032,19 +1084,21 @@
         48.11,
         48.09,
         48.19,
-        48.24,
-        48.235
+        48.12,
+        48.18,
+        48.18,
+        48.19
       ]
     },
     {
       "ticker": "RXRX",
-      "price": 3.55,
+      "price": 3.56,
       "previousClose": 3.8,
-      "changePct": -6.71,
-      "volume": 14048372,
+      "changePct": -6.32,
+      "volume": 20625446,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         3.705,
         3.86,
@@ -1078,19 +1132,21 @@
         3.48,
         3.51,
         3.55,
-        3.546,
-        3.545
+        3.56,
+        3.555,
+        3.565,
+        3.56
       ]
     },
     {
       "ticker": "TWST",
-      "price": 91.86,
+      "price": 90.64,
       "previousClose": 99.24,
-      "changePct": -7.44,
-      "volume": 747559,
+      "changePct": -8.67,
+      "volume": 1352560,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         98.495,
         101.66,
@@ -1124,19 +1180,21 @@
         89.24,
         90.445,
         90.25,
-        91.425,
-        91.86
+        91.23,
+        91.31,
+        90.61,
+        90.635
       ]
     },
     {
       "ticker": "BWXT",
-      "price": 187.41,
+      "price": 186.0,
       "previousClose": 191.06,
-      "changePct": -1.91,
-      "volume": 255300,
+      "changePct": -2.65,
+      "volume": 642423,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:46-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         197.42,
         196.71,
@@ -1170,19 +1228,21 @@
         186.7375,
         187.0,
         186.96,
-        187.6,
-        187.41
+        187.2475,
+        187.31,
+        186.0,
+        186.0
       ]
     },
     {
       "ticker": "LEU",
-      "price": 172.47,
+      "price": 171.05,
       "previousClose": 162.13,
-      "changePct": 6.38,
-      "volume": 392576,
+      "changePct": 5.5,
+      "volume": 637424,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         175.92,
         176.83,
@@ -1216,19 +1276,21 @@
         172.43,
         172.805,
         171.76,
-        172.25,
-        172.47
+        171.67,
+        172.16,
+        171.13,
+        171.05
       ]
     },
     {
       "ticker": "OKLO",
-      "price": 48.18,
+      "price": 48.85,
       "previousClose": 52.36,
-      "changePct": -7.98,
-      "volume": 3624004,
+      "changePct": -6.7,
+      "volume": 6561011,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         51.9699,
         51.815,
@@ -1262,19 +1324,21 @@
         48.06,
         47.9981,
         48.105,
-        48.202,
-        48.18
+        48.1181,
+        48.525,
+        48.84,
+        48.85
       ]
     },
     {
       "ticker": "SMR",
-      "price": 9.03,
+      "price": 9.04,
       "previousClose": 9.76,
-      "changePct": -7.43,
-      "volume": 13258810,
+      "changePct": -7.38,
+      "volume": 23696496,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-10T13:49-04:00",
+      "quoteTime": "2026-07-10T16:00-04:00",
       "sparkline": [
         9.885,
         9.87,
@@ -1308,8 +1372,10 @@
         8.85,
         8.905,
         9.045,
-        9.045,
-        9.035
+        8.99,
+        9.055,
+        9.025,
+        9.04
       ]
     }
   ],
@@ -1376,16 +1442,34 @@
       "Risk-reduce / avoid if": "Do not infer fundamental upside from price action; de-escalate if no primary evidence or valuation edge survives triage.",
       "Next catalyst/check": "Next official company filing/release or confirmed earnings date",
       "Evidence quality": "price_threshold_verified; no_current_primary_company_event_found; valuation_incomplete"
+    },
+    {
+      "Name": "OBE.TO",
+      "Theme": "Canadian small-cap oil / Iran-Hormuz",
+      "Current desk stance": "AVOID",
+      "Add only if": "Positive post-acquisition FCF and sequential debt decline plus >US$75 strip or better valuation.",
+      "Risk-reduce / avoid if": "Debt fails to decline, borrowing stress, or <US$65 strip with cash-negative capex.",
+      "Next catalyst/check": "Next quarterly results and oil-balance updates",
+      "Evidence quality": "primary_sources_verified; portfolio_gate_failed"
+    },
+    {
+      "Name": "JOY.TO",
+      "Theme": "Canadian small-cap oil / Duvernay / power",
+      "Current desk stance": "INVESTIGATE",
+      "Add only if": "Price near or below C$3.40 or verified Duvernay/power execution with stable debt and supportive strip.",
+      "Risk-reduce / avoid if": "Duvernay miss, power delay, refinancing deterioration, or <US$65 strip with unchanged capex.",
+      "Next catalyst/check": "Next results, Duvernay update and power commissioning",
+      "Evidence quality": "primary_sources_verified; model_complete; portfolio_gate_failed"
     }
   ],
   "latestCioNote": {
-    "id": "report-2026-07-10_system_audit_and_redesign",
-    "title": "2026 07 10 System Audit And Redesign",
+    "id": "report-2026-07-10",
+    "title": "2026 07 10",
     "category": "CIO Reports",
-    "source": "office\\reports\\2026-07-10_system_audit_and_redesign.md",
-    "updated": "2026-07-10T13:49:38-04:00",
-    "content": "# Hermes Personal Investment Office — Audit and Redesign Memorandum\n\n**Date:** 2026-07-10  \n**Decision:** Replace the legacy fixed-theme research desk with Personal Investment Office v2.  \n**Implementation status:** Operating; portfolio Gate 0 remains incomplete.\n\n## 1. Executive audit\n\n| Area | Evidence from legacy system | Verdict | v2 response |\n|---|---|---|---|\n| Coverage | Six of eight specialist lanes concentrated on AI/compute/power/defence; no dedicated macro, quant, accounting, special situations, risk, execution, or outcome owner | Severe thematic tunnel vision | Seven permanent control functions; nine evidence-activated specialists; fixed 25% zero-based discovery quota |\n| Decision usefulness | Fourteen audited live job contracts required none of the full set of action vocabulary, sizing, portfolio fit, probability-weighted return, tax, FX, liquidity, and independent red team | Research publication, not investment office | Hard gates; only approved actions; sizing and execution mandatory for capital actions |\n| Analytical depth | Eleven representative outputs contained useful ratios/fragments but no inline source URLs; almost no reproducible scenario valuation or expectation bridge | Synthesis exceeded underwriting | Atomic claim/source ledger, primary-source requirement, reconciliation, forensic valuation, variant-perception and red-team gates |\n| Portfolio state | No authoritative accounts, positions, cash, tax lots, cost bases, transactions, benchmark, currency, liquidity, or margin terms | Cannot size or assess portfolio fit | `portfolio.json` plus schema; Gate 0 blocks capital actions until complete |\n| Institutional memory | No recommendation, decision, execution, forecast-resolution, outcome, calibration, or post-mortem ledger | Cannot learn or distinguish process from luck | Versioned recommendation/forecast/execution records; monthly scoring and post-mortems |\n| Watchlist | Markdown scorecard, thesis JSON, trigger watchlist, and dashboard data disagreed | Fragmented state | One normalized watchlist/research queue; dashboard is a generated view |\n| Sources | Registry was broad but stale in places; primary labels were not auditable in outputs | Authority substituted for provenance | Stable source IDs, atomic claims, dates, direct URLs, verification status, independence checks |\n| Monitoring | Trigger rules contained unconsumed threshold keys; volume baseline was mislabeled; silent errors were not logged | False monitoring confidence | Threshold aliases normalized, two-day rule implemented, volume label corrected, every evaluation/error logged |\n| Dashboard | Fresh shell published stale thematic state and retained hypergrowth-first framing | Polished but misleading | v2 ledgers and CIO reports are source of truth; public export excludes exact capital; global/cross-asset/after-tax scope |\n| Executive concision | Some outputs exceeded tens of thousands of characters while omitting the action and allocation | Length without decision depth | Daily 450-word ceiling; decision first; supporting detail in archive |\n\n## 2. Design decision\n\nDo **not** run sixteen agents every day. Preserve sixteen explicit analytical roles so every responsibility has an owner, but separate **decision rights** from **activation frequency**.\n\n### Seven permanent control functions\n\n1. **CIO:** owns the research budget, regime integration, cross-sector comparison, final action, and escalation.\n2. **Macro/regime:** owns scenario probabilities and portfolio transmission channels; cannot approve security trades.\n3. **Quant/discovery:** owns zero-based screens, market structure, factor/correlation analysis, and breadth quotas; cannot promote a screen without triage.\n4. **Source intelligence:** owns provenance, source independence, claim reconciliation, and knowledge quality; cannot substitute authority for evidence.\n5. **Independent red team:** owns the steelman bear case and unresolved-objection register; cannot invent objections for symmetry.\n6. **Portfolio risk/capital allocation:** independently owns current/target/initial/max sizing, correlation, liquidity, tax, FX, leverage, and permanent-loss analysis; can veto sizing.\n7. **Performance/process audit:** owns immutable records, forecast resolution, calibration, attribution, and small testable process changes.\n\n### Nine elastic specialists\n\nForensic accounting/valuation; AI/semiconductor/compute; energy/power/commodities; software/internet; industrials/defence/aerospace; consumer/financials/healthcare generalist; geopolitical/policy; special situations; trading/execution.\n\nThey activate only when a lead passes triage or an existing thesis crosses an event threshold. The exact role prompts and mandatory outputs are in `office/PROMPT_PACK.md`.\n\n## 3. Decision workflow and rights\n\n1. **Gate 0 — portfolio readiness:** capital action forbidden if accounts/positions/currency/tax/constraints are incomplete.\n2. **Discovery:** broad screens, primary-source monitoring, dislocations, special situations, cross-asset inconsistencies, and mandated out-of-theme research.\n3. **Triage:** identify possible mispricing, edge, catalyst, verification path, liquidity, and hard fails; reject weak ideas quickly.\n4. **Evidence:** atomic fact/estimate/assumption/opinion claims with stable source IDs and dated primary evidence.\n5. **Underwriting:** business economics, expectations bridge, forensic accounting, bear/base/bull valuation, probability-weighted return, and alternatives.\n6. **Variant perception:** consensus, our view, why consensus may be wrong, priced/unpriced elements, edge duration, and edge falsifier.\n7. **Red team:** facts, interpretation, valuation, timing, catalyst, positioning, risk, historical failures, and strongest credible dissent.\n8. **Portfolio review:** after-tax expected value, downside severity, correlations, liquidity, currency, leverage, opportunity cost, and size.\n9. **Decision:** `BUY`, `ADD`, `HOLD`, `REDUCE`, `EXIT`, `HEDGE`, `AVOID`, or `INVESTIGATE`. “Monitor” is invalid without a trigger.\n10. **Execution/monitoring/post-mortem:** staged plan, event-driven indicators, immutable revisions, outcome resolution, and process-versus-luck scoring.\n\nThe CIO may reject; risk may veto size; red team may block unresolved fatal objections; source intelligence may downgrade unsupported claims; only the human investor authorizes actual trades.\n\n## 4. Source standards\n\n1. Filings, official statistics, contracts, technical documentation, and original datasets.\n2. Direct customers, suppliers, competitors, engineers, regulators, and industry participants.\n3. High-quality specialist research.\n4. Reputable financial/trade journalism.\n5. Sell-side/institutional commentary.\n6. Social media and aggregators.\n\nTier 4–6 material may generate leads but cannot independently validate a thesis. Material claims require origin date, URL/accession, classification, source tier, verification status, and independence analysis. Conflicting numbers must be reconciled rather than averaged.\n\n## 5. Data and scoring\n\nCanonical records live under `office/data/` and schemas under `office/schemas/`:\n\n- authoritative portfolio/accounts/positions/constraints;\n- watchlist and research queue;\n- atomic claims and source registry;\n- versioned recommendations;\n- resolvable probability forecasts;\n- execution/slippage records.\n\nA recommendation advances on evidence quality, variant-perception strength, expected value, catalyst quality, downside asymmetry, portfolio fit, liquidity, tax/FX, and red-team survival. Hard fails override aggregate scores. Forecasts use predeclared resolution rules and Brier/log scoring; recommendations are scored separately for thesis, evidence, valuation, timing, sizing, execution, and outcome.\n\n## 6. Operating cadence\n\n- **Every 30 minutes during market hours:** deterministic price/volume watcher; silent unless thresholds fire; all evaluations logged.\n- **Weekdays 08:15:** event-driven executive brief; maximum 450 words; silence if no material change.\n- **Saturday 10:00:** zero-based weekly IC; no more than three promoted candidates; document searched lanes and rejections.\n- **Monthly:** portfolio attribution, after-tax/FX/slippage analysis when data permits, forecast resolution, source/process productivity.\n- **Quarterly:** zero-based system audit with `KEEP`, `MODIFY`, or `REMOVE` decisions.\n- **Every 30 minutes:** sanitized dashboard refresh; the dashboard is not a database.\n\n## 7. Escalation and anti-tunnel-vision controls\n\nEscalate immediately only with action, size (or 0% if Gate 0 fails), timing, evidence, and invalidation when expected upside becomes exceptional, downside becomes bounded, a catalyst is materially unpriced, evidence changes a thesis, a major risk emerges, price crosses an action threshold, or a position exceeds justified size.\n\nAt least 25% of discovery capacity must be outside current holdings/themes. Every promoted lead is compared with the best candidate outside its sector and with cash/T-bills or its benchmark. Research hours and conversion are reviewed by sector. Frequent sources cannot crowd out primary evidence. Quarterly reviews ask what the office would research with no knowledge of prior interests.\n\n## 8. First operating result\n\n- **Portfolio Gate 0:** FAIL. Known only: approximately [redacted portfolio amount] of capital (currency unconfirmed), a registered account called “TSA” (exact type/jurisdiction unconfirmed), and a taxable non-registered account with margin capability. Margin recommendation remains 0%.\n- **Regime:** policy-constrained inflationary slowdown is the preliminary base framing: Fed 3.50%–3.75%, June payrolls +57,000, unemployment 4.2%, May CPI approximately +0.47% month-over-month, and elevated energy inflation. This is an estimate, not a permanent doctrine.\n- **Primary event:** IONS disclosed that CARDIO-TTRansform missed its primary endpoint. Action: `INVESTIGATE`, 0%; do not average down from price alone.\n- **Read-through:** NTLA fell sharply with no new 8-K in the same window; possible ATTR sympathy requires direct re-underwriting.\n- **Additional price lead:** LITE crossed the two-day trigger without a contemporaneous company filing or release. Action: `INVESTIGATE`, 0%; price movement is not alpha.\n- **Priority queue:** portfolio intake, IONS/NTLA event work, AVAV zero-based underwriting, then TMDX/VST/AAOI only if evidence survives triage.\n\n## 9. Remaining blocker\n\nThe next capital decision cannot be honest until the office receives a current broker export or equivalent position/account table plus base currency, account type, tax residence, constraints, cash needs, options permissions, margin terms, and maximum acceptable drawdown. The exact one-time intake format is `office/templates/PORTFOLIO_INTAKE.md`.",
-    "summary": "Hermes Personal Investment Office — Audit and Redesign Memorandum Date: 20260710 Decision: Replace the legacy fixedtheme research desk with Personal Investment Office v2. Implementation status: Operating; portfolio Gate…"
+    "source": "office\\reports\\daily\\2026-07-10.md",
+    "updated": "2026-07-10T13:32:40-04:00",
+    "content": "# Daily Executive Brief — 2026-07-10\n\n## DECISION\n\n**Action required today:** INVESTIGATE — LITE only; no capital action  \n**Portfolio Gate 0:** FAIL  \n**Urgency:** This week\n\n## MATERIAL CHANGES\n\n- **Gate 0 remains failed.** `portfolio.json` is still `awaiting_authoritative_export`; positions, cash/liabilities, account/tax types, base currency, constraints, options, and margin terms are not authoritative. All targets and initial/max sizes remain **0%**; borrowed capital remains **0%**.\n- **FACT:** At 13:26 EDT, delayed data showed LITE **+10.25% over two trading days**, triggering its registered threshold; it was **−0.79% on the day** with **0.54x** average volume. This is a price alert—not a thesis.\n- **FACT:** No LITE SEC filing was accepted after the 13:18 EDT prior-report cutoff; the latest listed filing was a Schedule 13G/A accepted July 8. Lumentum’s official newsroom showed no July 10 release and listed May 11 as its latest release. **INFERENCE:** no current primary company event explains the move; cause and valuation remain unresolved.\n\n## PORTFOLIO ACTIONS\n\n| Instrument | Action | Current | Target | Initial/Max | Timing | Invalidation |\n|---|---|---:|---:|---:|---|---|\n| LITE | INVESTIGATE | Unknown | 0% | 0% / 0% | This week | No primary catalyst or valuation edge survives triage |\n\n## RISKS / CATALYSTS\n\n- LITE remains at Gate 2. Current price/share count, forensic valuation, demand/margin bridge, dilution, consensus/variant evidence, independent red team, and portfolio-risk review are incomplete; no BUY/ADD sizing is permitted.\n- No new decision-relevant Fed, Treasury, or HY-credit release was found after the prior note. Next dated macro trigger: **June CPI, July 14 at 08:30 EDT**.\n\n## EVIDENCE CUTOFF\n\n- **2026-07-10 13:29 EDT.** Sources: [LITE delayed chart](https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=5d&interval=1d&includePrePost=false); [SEC submissions](https://data.sec.gov/submissions/CIK0001633978.json); [Lumentum newsroom](https://www.lumentum.com/en/newsroom/news-releases); [Fed releases](https://www.federalreserve.gov/feeds/press_all.xml); [BLS calendar](https://www.bls.gov/schedule/news_release/bls.ics).\n- **Missing inputs:** authoritative broker export and constraints; LITE valuation/catalyst evidence. Managed web search was unavailable, so checks used direct official endpoints.",
+    "summary": "Daily Executive Brief — 20260710 DECISION Action required today: INVESTIGATE — LITE only; no capital action Portfolio Gate 0: FAIL"
   },
   "latestSynthesis": null,
   "latestAlerts": [
@@ -1492,17 +1576,17 @@
       "title": "Investment Office v2 Operating System",
       "category": "Core Research",
       "source": "office\\OPERATING_SYSTEM.md",
-      "updated": "2026-07-10T11:56:54",
-      "content": "# Hermes Personal Investment Office v2\n\n**Effective:** 2026-07-10  \n**CIO:** Gus, beneath the human capital allocator  \n**Objective:** maximize risk-adjusted, after-tax, real returns through differentiated discovery, falsifiable underwriting, portfolio fit, disciplined execution, and measurable learning.\n\n## 1. Executive audit of the legacy system\n\n### Verdict\n\nThe legacy desk is a useful **theme-research prototype**, not yet an investment office. It produces informed watchlists and technical narratives, but it cannot reliably support capital allocation because its discovery, underwriting, risk, execution, and learning records are not connected by enforceable gates.\n\n### Evidence-backed weaknesses\n\n| Area | Finding | Evidence |\n|---|---|---|\n| Mandate | The old master prompt explicitly prohibited direct BUY/SELL instructions, conflicting with the CIO mandate. | `daily_brief_prompt.md:69-70`; `cio_morning_note_prompt.md:42` |\n| Coverage | Six of eight daily specialist lanes are directly tied to AI, compute, optics, power, or defense. Consumer, financials, broad healthcare, rates, FX, sovereigns, credit, commodities, international equities, and special situations lack daily owners. | Live cron roster and `analyst_team.md` |\n| Sources | The registry is overwhelmingly AI-infrastructure-led; its five RSS feeds are all AI/data-center/technology sources, and only four company-official pages are configured. | `sources.json:109-156` |\n| Underwriting | Only one company model exists and it is still a skeleton with price, market cap, cash, debt, shares, and scenarios marked TBD. | `models/AAOI.md` |\n| Portfolio | No authoritative holdings, cash, cost basis, account type, tax lots, base currency, restrictions, liquidity needs, or target risk budget exists. | `sources.json:15-21`; no portfolio ledger |\n| Decisions | There is no normalized recommendation or decision ledger containing action, size, expected-return distribution, catalyst, invalidation, and outcome. | Workspace audit |\n| Independence | There is no independent red-team gate, portfolio-risk sign-off, or execution sign-off. | Cron roster and prompt audit |\n| Prompt quality | None of 14 live investment jobs requires the approved action vocabulary, target/current allocation, portfolio fit, probability-weighted return, taxes, currency, liquidity, or independent red-team review. | Machine audit of `cron/jobs.json`, 2026-07-10 |\n| Source traceability | Recent specialist and CIO outputs contain claims and source names but no direct source URLs in their final responses. | Output audit across 11 jobs dated 2026-07-10 |\n| Output control | An optics output leaked a drafting artifact and terminated unfinished; the manager detected it but no hard validation prevented propagation. | Cron output `0d6a7ba935eb/2026-07-10_06-17-33.md` |\n| Scoring | The 40-point rubric rewards demand and bottlenecks but omits expected value, downside severity, accounting quality, portfolio correlation, liquidity, tax, FX, source independence, and crowding cost. | `rubric.md` |\n| Monitoring | The trigger watcher is price/volume-led and uses a theme-heavy legacy watchlist; it does not yet ingest filings, guidance changes, contracts, regulation, FDA events, or thesis-specific fundamental thresholds. | `trigger_rules.json`; `investment_trigger_watcher.py` |\n| Learning | No forecast calibration, Brier score, realized after-tax/FX return, source hit rate, analyst hit rate, missed-opportunity log, or structured post-mortem exists. | Workspace audit |\n| Complexity | Eight long morning specialist reports flow into two more long syntheses. This is costly, duplicative, and increases context-truncation and narrative-consensus risk. | Cron `context_from` graph and output sizes |\n\n### What survives\n\nKeep: primary-source hierarchy, explicit thesis-breakers, broad-scout intent, deterministic trigger watcher, static dashboard, local-first report archive, and the concept of independent specialist expertise.\n\nReplace: static daily theme staffing, prose-only scorecards, unstructured theses, recommendation-avoidance language, and any output that cannot be traced, sized, scored, or falsified.\n\n## 2. Design principle: roles are permanent; agents are elastic\n\nThe office retains sixteen role charters but does **not** run sixteen agents every day.\n\n### Seven permanent control functions\n\n1. **CIO / Investment Committee Chair** — owns research priority and final analytical action.\n2. **Macro & Cross-Asset Strategist** — owns regime and cross-asset constraints.\n3. **Discovery Engine** — combines quantitative breadth, market structure, and zero-based sector discovery.\n4. **Source Intelligence Controller** — owns claim provenance and source independence.\n5. **Red Team** — independently attacks every candidate before capital action.\n6. **Portfolio Risk & Capital Allocation Officer** — owns size, concentration, correlation, tax/FX/liquidity, and risk veto.\n7. **Performance & Process Auditor** — owns records, calibration, post-mortems, and process changes.\n\n### Elastic underwriting specialists\n\nActivated only when a lead passes triage: forensic accounting/valuation; AI/semis/compute; energy/power/commodities; software/internet; industrials/defense/aerospace; consumer/financials/healthcare generalist; geopolitical/policy intelligence; special situations; and trading/execution.\n\nThis removes duplicated daily prose while preserving deep expertise at the point of decision.\n\n## 3. Decision rights\n\n| Role | May do | May not do |\n|---|---|---|\n| Discovery, macro, source, sector specialists | Propose `INVESTIGATE` or `AVOID`; create claims and triage cards | Set portfolio size or issue BUY/ADD/REDUCE/EXIT |\n| Forensic/valuation | Certify or reject financial normalization and valuation ranges | Override source gaps, red team, or portfolio constraints |\n| Red team | Return `PASS`, `REWORK`, or `BLOCK-INCOMPLETE`; rank falsifiers | Block merely because price may fall or manufacture balance |\n| Portfolio risk | Set initial/max size, staging, hedge, and risk veto | Rewrite the fundamental thesis |\n| Trading/execution | Choose instrument, order method, timing, tax-lot handling, and exit mechanics | Change conviction or exceed risk-approved size |\n| CIO | Issue final analytical action after required gates | Execute trades or bypass missing portfolio/risk data |\n| Performance auditor | Score forecasts, process, sources, sizing, and execution | Retroactively rewrite prior predictions |\n| Human investor | Final approval and all real-world execution | N/A |\n\n## 4. Gated workflow\n\n### Gate 0 — Portfolio readiness\n\nRequired before any portfolio-aware `BUY`, `ADD`, `HOLD`, `REDUCE`, `EXIT`, or `HEDGE`: authoritative as-of date, positions, quantities, cost basis/tax lots where relevant, cash, account types, base currency, liabilities/constraints, options, and liquidity horizon. The office is account-aware: registered/tax-advantaged and taxable non-registered holdings are modeled separately; turnover, losses, dividends/interest, FX, eligible instruments, contribution/withdrawal rules, and tax-lot consequences affect asset location. Margin is a separate risk budget, not extra capital: no borrowed-capital recommendation is allowed without current buying power, interest rate, maintenance excess, broker rules, positions/options, and a forced-liquidation stress test. If Gate 0 fails, the office may issue only `INVESTIGATE` or `AVOID`, with target allocation `0% pending underwriting`.\n\n### Gate 1 — Discovery\n\nInputs: quantitative screens, cross-asset inconsistencies, price dislocations, revisions, primary filings, industry evidence, event feeds, neglected-sector rotation, and portfolio hedge needs. Output is a lead, not a recommendation.\n\n### Gate 2 — Triage\n\nA lead proceeds only if it scores at least 70/100 and has: a plausible mispricing, identifiable edge, verifyable evidence, enough upside to matter, a catalyst/recognition path, and acceptable actionability.\n\n### Gate 3 — Deep underwriting\n\nSpecialist + forensic analyst build business economics, expectations, valuation distribution, catalyst path, historical analogues, and alternatives. Every material fact receives a source URL/document, publication date, and evidence tier.\n\n### Gate 4 — Variant-perception test\n\nThe candidate must state consensus, our view, what is priced, what is not, why the edge persists, and evidence that would prove the edge never existed.\n\n### Gate 5 — Independent red team\n\nThe red team receives the fact pack and model, not the primary analyst's rhetoric. Unresolved high-impact objections remain visible.\n\n### Gate 6 — Portfolio and risk review\n\nExpected value, realistic impairment, correlation, factor/sector/theme overlap, FX, tax, liquidity, event risk, and opportunity cost determine size. A compelling standalone security can still be rejected.\n\n### Gate 7 — CIO decision\n\nExactly one action: `BUY`, `ADD`, `HOLD`, `REDUCE`, `EXIT`, `HEDGE`, `AVOID`, or `INVESTIGATE`. “Monitor” is prohibited unless expressed as `INVESTIGATE` with a dated or measurable trigger.\n\n### Gate 8 — Execution\n\nInstrument, direction, target/max/initial allocation, entry method, staging, catalyst window, review trigger, invalidation, reduction, exit, tax-lot, FX, and slippage plan.\n\n### Gate 9 — Monitoring and post-mortem\n\nEvent-driven checks update thesis state without rewriting history. Outcomes are scored against the original timestamped forecast and benchmark.\n\n## 5. Standard handoff contract\n\nEvery agent hands off a compact decision packet:\n\n- `as_of` and data freshness;\n- facts, estimates, assumptions, and opinions separated;\n- claim IDs linked to source records;\n- consensus and variant view;\n- bear/base/bull outcomes with probabilities summing to 100%;\n- catalyst, timing, and probability;\n- falsifiers and next evidence trigger;\n- unresolved questions that could change the action;\n- confidence decomposed into evidence, model, timing, and portfolio confidence.\n\nSpecialist prose is never injected wholesale into downstream jobs. Downstream agents consume normalized packets plus links to the full appendix.\n\n## 6. Source standards\n\n1. Primary filings, regulator data, official statistics, contracts, technical documentation, and original datasets.\n2. Direct customer/supplier/competitor/employee/regulator evidence.\n3. Specialist research with disclosed methods and falsifiable history.\n4. Reputable financial/trade journalism.\n5. Sell-side/institutional commentary.\n6. Social media and aggregators as lead generation only.\n\nMaterial claims require either one primary source or two genuinely independent secondary sources. The source controller records original provenance so ten articles repeating one claim count as one source. Management guidance is a claim, not an independent fact about future outcomes.\n\n## 7. Scoring\n\n### Triage score — 100 points\n\n- Mispricing/variant perception: 20\n- Evidence quality and independence: 15\n- Probability-weighted expected return: 15\n- Downside boundedness/permanent-loss risk: 15\n- Catalyst/recognition path: 10\n- Business/asset quality and balance sheet: 10\n- Valuation robustness: 5\n- Liquidity/actionability: 5\n- Portfolio diversification value: 5\n\nHard fails: unverifiable key claim, no route to recognition, unbounded financing risk, stale price/share count, or no instrument/actionability.\n\n### Recommendation confidence\n\nConviction 1–10 is not a vibe. It is derived from evidence quality (30%), thesis robustness (25%), valuation margin of safety (20%), catalyst quality (10%), portfolio fit (10%), and execution quality (5%).\n\n### Expected value\n\n`EV = Σ(probability × total return) - estimated friction`, where friction includes spread, slippage, borrow/options decay, FX, and estimated tax where knowable. Scenario probabilities must sum to 100%; the realistic downside and permanent-impairment case are separately identified.\n\n### Performance and calibration\n\n- Forecast accuracy: Brier score for binary events and log score where useful.\n- Investment result: after-fee, after-tax-estimate, FX-adjusted total return versus a predeclared benchmark.\n- Process score: thesis, evidence, valuation, timing, sizing, and execution scored independently of outcome.\n- Source score: claim hit rate, lead value, timeliness, independence, and correction behavior.\n- Analyst score: value added after controlling for inherited inputs; verbosity and idea volume do not count.\n\n## 8. Portfolio and watchlist structures\n\nAuthoritative machine-readable ledgers live in `office/data/`:\n\n- `portfolio.json` — accounts, base currency, cash, positions, tax lots, constraints, and freshness.\n- `watchlist.json` — stage, sector/theme, owner, action trigger, invalidation, next event, and research priority.\n- `research_queue.json` — gate, owner, deadline/trigger, required evidence, and completion test.\n- `recommendations.json` — immutable timestamped decision packets and versioned updates.\n- `forecasts.json` — probability forecasts, resolution rules, outcomes, and calibration.\n- `claims.json` — atomic claims linked to independent source records and verification status.\n- `sources.json` — source expertise, incentive, tier, track record, bias, and permitted use.\n- `executions.json` — approved plan and actual fill/slippage/tax-lot data when supplied by the user.\n\nNarrative files are views; ledgers are the system of record.\n\n## 9. Monitoring cadence\n\n- **Intraday/event-driven:** portfolio/watchlist price dislocations, filings, guidance, financing/dilution, contracts, regulatory/FDA events, credit/FX/commodity shocks, and thesis thresholds.\n- **Daily:** regime deltas, portfolio-required actions, newly escalated opportunities/risks only. Silence if no material change.\n- **Weekly:** zero-based cross-sector discovery, IC decisions, rejected ideas, concentration, and upcoming catalysts.\n- **Monthly:** attribution, factor/theme exposure, sizing, missed opportunities, source/analyst productivity, and calibration.\n- **Quarterly:** zero-based portfolio rebuild and system audit.\n\n## 10. Escalation rules\n\nImmediate escalation requires a packet with action, initial/max size, timing, evidence, and invalidation when any of these occur:\n\n- probability-weighted expected return exceeds the configured threshold and upside/downside is at least 3:1;\n- a catalyst within 60 days is materially unpriced;\n- a thesis probability changes by at least 15 percentage points;\n- a holding breaches max size, liquidity, correlation, drawdown, or fundamental invalidation;\n- financing/dilution, accounting, regulatory, geopolitical, or counterparty evidence creates permanent-loss risk;\n- price crosses a pre-registered action threshold with thesis evidence unchanged.\n\n## 11. Anti-tunnel-vision controls\n\n- At least 25% of discovery capacity goes to sectors unrelated to current holdings; at least half of that goes outside the three most-researched themes.\n- No single theme may consume more than 30% of research capacity over a rolling four weeks without an explicit CIO exception.\n- Every candidate is compared with the best candidate outside its sector and with cash/T-bills or the relevant benchmark.\n- The discovery engine rotates through global macro/rates/FX/credit, consumer, financials, healthcare, industrials, energy/materials, software/internet, international/EM, and special situations.\n- Weekly research-hour concentration is measured against portfolio exposure and opportunity conversion.\n- A quarterly zero-based review asks what the office would own and research with no knowledge of prior interests.\n- One weekly search explicitly targets evidence contradicting current macro and thematic beliefs.\n\n## 12. Executive output contract\n\nDecision first. Maximum five executive-thesis bullets. Show only numbers that change the action. Supporting detail moves to appendices. Every final recommendation uses the user's required structure and includes source links, data dates, sizing, timing, and invalidation. If required information is missing, the action is `INVESTIGATE` or `AVOID`—never false precision.",
-      "summary": "Hermes Personal Investment Office v2 Effective: 20260710 CIO: Gus, beneath the human capital allocator Objective: maximize riskadjusted, aftertax, real returns through differentiated discovery, falsifiable underwriting,…"
+      "updated": "2026-07-10T15:20:47",
+      "content": "# Hermes Personal Investment Office v2\n\n**Effective:** 2026-07-10  \n**CIO:** Gus, beneath the human capital allocator  \n**Objective:** maximize asymmetric, after-tax, real wealth creation through differentiated discovery, falsifiable underwriting, a concentrated barbell portfolio, disciplined execution, and measurable learning.\n\n## 1. Executive audit of the legacy system\n\n### Verdict\n\nThe legacy desk is a useful **theme-research prototype**, not yet an investment office. It produces informed watchlists and technical narratives, but it cannot reliably support capital allocation because its discovery, underwriting, risk, execution, and learning records are not connected by enforceable gates.\n\n### Evidence-backed weaknesses\n\n| Area | Finding | Evidence |\n|---|---|---|\n| Mandate | The old master prompt explicitly prohibited direct BUY/SELL instructions, conflicting with the CIO mandate. | `daily_brief_prompt.md:69-70`; `cio_morning_note_prompt.md:42` |\n| Coverage | Six of eight daily specialist lanes are directly tied to AI, compute, optics, power, or defense. Consumer, financials, broad healthcare, rates, FX, sovereigns, credit, commodities, international equities, and special situations lack daily owners. | Live cron roster and `analyst_team.md` |\n| Sources | The registry is overwhelmingly AI-infrastructure-led; its five RSS feeds are all AI/data-center/technology sources, and only four company-official pages are configured. | `sources.json:109-156` |\n| Underwriting | Only one company model exists and it is still a skeleton with price, market cap, cash, debt, shares, and scenarios marked TBD. | `models/AAOI.md` |\n| Portfolio | No authoritative holdings, cash, cost basis, account type, tax lots, base currency, restrictions, liquidity needs, or target risk budget exists. | `sources.json:15-21`; no portfolio ledger |\n| Decisions | There is no normalized recommendation or decision ledger containing action, size, expected-return distribution, catalyst, invalidation, and outcome. | Workspace audit |\n| Independence | There is no independent red-team gate, portfolio-risk sign-off, or execution sign-off. | Cron roster and prompt audit |\n| Prompt quality | None of 14 live investment jobs requires the approved action vocabulary, target/current allocation, portfolio fit, probability-weighted return, taxes, currency, liquidity, or independent red-team review. | Machine audit of `cron/jobs.json`, 2026-07-10 |\n| Source traceability | Recent specialist and CIO outputs contain claims and source names but no direct source URLs in their final responses. | Output audit across 11 jobs dated 2026-07-10 |\n| Output control | An optics output leaked a drafting artifact and terminated unfinished; the manager detected it but no hard validation prevented propagation. | Cron output `0d6a7ba935eb/2026-07-10_06-17-33.md` |\n| Scoring | The 40-point rubric rewards demand and bottlenecks but omits expected value, downside severity, accounting quality, portfolio correlation, liquidity, tax, FX, source independence, and crowding cost. | `rubric.md` |\n| Monitoring | The trigger watcher is price/volume-led and uses a theme-heavy legacy watchlist; it does not yet ingest filings, guidance changes, contracts, regulation, FDA events, or thesis-specific fundamental thresholds. | `trigger_rules.json`; `investment_trigger_watcher.py` |\n| Learning | No forecast calibration, Brier score, realized after-tax/FX return, source hit rate, analyst hit rate, missed-opportunity log, or structured post-mortem exists. | Workspace audit |\n| Complexity | Eight long morning specialist reports flow into two more long syntheses. This is costly, duplicative, and increases context-truncation and narrative-consensus risk. | Cron `context_from` graph and output sizes |\n\n### What survives\n\nKeep: primary-source hierarchy, explicit thesis-breakers, broad-scout intent, deterministic trigger watcher, static dashboard, local-first report archive, and the concept of independent specialist expertise.\n\nReplace: static daily theme staffing, prose-only scorecards, unstructured theses, recommendation-avoidance language, and any output that cannot be traced, sized, scored, or falsified.\n\n## 2. Design principle: roles are permanent; agents are elastic\n\nThe office retains sixteen role charters but does **not** run sixteen agents every day.\n\n### Seven permanent control functions\n\n1. **CIO / Investment Committee Chair** — owns research priority and final analytical action.\n2. **Macro & Cross-Asset Strategist** — owns regime and cross-asset constraints.\n3. **Discovery Engine** — combines quantitative breadth, market structure, and zero-based sector discovery.\n4. **Source Intelligence Controller** — owns claim provenance and source independence.\n5. **Red Team** — independently attacks every candidate before capital action.\n6. **Portfolio Risk & Capital Allocation Officer** — owns size, concentration, correlation, tax/FX/liquidity, and risk veto.\n7. **Performance & Process Auditor** — owns records, calibration, post-mortems, and process changes.\n\n### Elastic underwriting specialists\n\nActivated only when a lead passes triage: forensic accounting/valuation; AI/semis/compute; energy/power/commodities; software/internet; industrials/defense/aerospace; consumer/financials/healthcare generalist; geopolitical/policy intelligence; special situations; and trading/execution.\n\nThis removes duplicated daily prose while preserving deep expertise at the point of decision.\n\n## 3. Decision rights\n\n| Role | May do | May not do |\n|---|---|---|\n| Discovery, macro, source, sector specialists | Propose `INVESTIGATE` or `AVOID`; create claims and triage cards | Set portfolio size or issue BUY/ADD/REDUCE/EXIT |\n| Forensic/valuation | Certify or reject financial normalization and valuation ranges | Override source gaps, red team, or portfolio constraints |\n| Red team | Return `PASS`, `REWORK`, or `BLOCK-INCOMPLETE`; rank falsifiers | Block merely because price may fall or manufacture balance |\n| Portfolio risk | Set initial/max size, staging, hedge, and risk veto | Rewrite the fundamental thesis |\n| Trading/execution | Choose instrument, order method, timing, tax-lot handling, and exit mechanics | Change conviction or exceed risk-approved size |\n| CIO | Issue final analytical action after required gates | Execute trades or bypass missing portfolio/risk data |\n| Performance auditor | Score forecasts, process, sources, sizing, and execution | Retroactively rewrite prior predictions |\n| Human investor | Final approval and all real-world execution | N/A |\n\n## 4. Gated workflow\n\n### Gate 0 — Portfolio readiness\n\nRequired before any portfolio-aware `BUY`, `ADD`, `HOLD`, `REDUCE`, `EXIT`, or `HEDGE`: authoritative as-of date, positions, quantities, cost basis/tax lots where relevant, cash, account types, base currency, liabilities/constraints, options, and liquidity horizon. The office is account-aware: registered/tax-advantaged and taxable non-registered holdings are modeled separately; turnover, losses, dividends/interest, FX, eligible instruments, contribution/withdrawal rules, and tax-lot consequences affect asset location. Margin is a separate risk budget, not extra capital: no borrowed-capital recommendation is allowed without current buying power, interest rate, maintenance excess, broker rules, positions/options, and a forced-liquidation stress test. If Gate 0 fails, the office may issue only `INVESTIGATE` or `AVOID`, with target allocation `0% pending underwriting`.\n\n**Portfolio-construction mandate:** use a concentrated barbell: approximately 50% S&P 500 core and 50% in three to five high-upside conviction ideas. A fully built conviction position is ordinarily 10%–17% of the total portfolio. Smaller starter tranches are staging tools, not a conventional diversification ceiling. Highly correlated securities expressing the same thesis share one position budget. Concentration must be earned by positive expected value, acceptable permanent-loss risk, primary evidence, measurable catalysts, and explicit thesis-breakers.\n\n### Gate 1 — Discovery\n\nInputs: quantitative screens, cross-asset inconsistencies, price dislocations, revisions, primary filings, industry evidence, event feeds, neglected-sector rotation, and portfolio hedge needs. Output is a lead, not a recommendation.\n\n### Gate 2 — Triage\n\nA lead proceeds only if it scores at least 70/100 and has: a plausible mispricing, identifiable edge, verifyable evidence, enough upside to matter, a catalyst/recognition path, and acceptable actionability.\n\n### Gate 3 — Deep underwriting\n\nSpecialist + forensic analyst build business economics, expectations, valuation distribution, catalyst path, historical analogues, and alternatives. Every material fact receives a source URL/document, publication date, and evidence tier.\n\n### Gate 4 — Variant-perception test\n\nThe candidate must state consensus, our view, what is priced, what is not, why the edge persists, and evidence that would prove the edge never existed.\n\n### Gate 5 — Independent red team\n\nThe red team receives the fact pack and model, not the primary analyst's rhetoric. Unresolved high-impact objections remain visible.\n\n### Gate 6 — Portfolio and risk review\n\nExpected value, realistic impairment, correlation, factor/sector/theme overlap, FX, tax, liquidity, event risk, and opportunity cost determine size. A compelling standalone security can still be rejected.\n\n### Gate 7 — CIO decision\n\nExactly one action: `BUY`, `ADD`, `HOLD`, `REDUCE`, `EXIT`, `HEDGE`, `AVOID`, or `INVESTIGATE`. “Monitor” is prohibited unless expressed as `INVESTIGATE` with a dated or measurable trigger.\n\n### Gate 8 — Execution\n\nInstrument, direction, target/max/initial allocation, entry method, staging, catalyst window, review trigger, invalidation, reduction, exit, tax-lot, FX, and slippage plan.\n\n### Gate 9 — Monitoring and post-mortem\n\nEvent-driven checks update thesis state without rewriting history. Outcomes are scored against the original timestamped forecast and benchmark.\n\n## 5. Standard handoff contract\n\nEvery agent hands off a compact decision packet:\n\n- `as_of` and data freshness;\n- facts, estimates, assumptions, and opinions separated;\n- claim IDs linked to source records;\n- consensus and variant view;\n- bear/base/bull outcomes with probabilities summing to 100%;\n- catalyst, timing, and probability;\n- falsifiers and next evidence trigger;\n- unresolved questions that could change the action;\n- confidence decomposed into evidence, model, timing, and portfolio confidence.\n\nSpecialist prose is never injected wholesale into downstream jobs. Downstream agents consume normalized packets plus links to the full appendix.\n\n## 6. Source standards\n\n1. Primary filings, regulator data, official statistics, contracts, technical documentation, and original datasets.\n2. Direct customer/supplier/competitor/employee/regulator evidence.\n3. Specialist research with disclosed methods and falsifiable history.\n4. Reputable financial/trade journalism.\n5. Sell-side/institutional commentary.\n6. Social media and aggregators as lead generation only.\n\nMaterial claims require either one primary source or two genuinely independent secondary sources. The source controller records original provenance so ten articles repeating one claim count as one source. Management guidance is a claim, not an independent fact about future outcomes.\n\n## 7. Scoring\n\n### Triage score — 100 points\n\n- Mispricing/variant perception: 20\n- Evidence quality and independence: 15\n- Probability-weighted expected return: 15\n- Downside boundedness/permanent-loss risk: 15\n- Catalyst/recognition path: 10\n- Business/asset quality and balance sheet: 10\n- Valuation robustness: 5\n- Liquidity/actionability: 5\n- Portfolio fit and concentration-budget efficiency: 5\n\nHard fails: unverifiable key claim, no route to recognition, unbounded financing risk, stale price/share count, or no instrument/actionability.\n\n### Recommendation confidence\n\nConviction 1–10 is not a vibe. It is derived from evidence quality (30%), thesis robustness (25%), valuation margin of safety (20%), catalyst quality (10%), portfolio fit (10%), and execution quality (5%).\n\n### Expected value\n\n`EV = Σ(probability × total return) - estimated friction`, where friction includes spread, slippage, borrow/options decay, FX, and estimated tax where knowable. Scenario probabilities must sum to 100%; the realistic downside and permanent-impairment case are separately identified.\n\n### Performance and calibration\n\n- Forecast accuracy: Brier score for binary events and log score where useful.\n- Investment result: after-fee, after-tax-estimate, FX-adjusted total return versus a predeclared benchmark.\n- Process score: thesis, evidence, valuation, timing, sizing, and execution scored independently of outcome.\n- Source score: claim hit rate, lead value, timeliness, independence, and correction behavior.\n- Analyst score: value added after controlling for inherited inputs; verbosity and idea volume do not count.\n\n## 8. Portfolio and watchlist structures\n\nAuthoritative machine-readable ledgers live in `office/data/`:\n\n- `portfolio.json` — accounts, base currency, cash, positions, tax lots, constraints, and freshness.\n- `watchlist.json` — stage, sector/theme, owner, action trigger, invalidation, next event, and research priority.\n- `research_queue.json` — gate, owner, deadline/trigger, required evidence, and completion test.\n- `recommendations.json` — immutable timestamped decision packets and versioned updates.\n- `forecasts.json` — probability forecasts, resolution rules, outcomes, and calibration.\n- `claims.json` — atomic claims linked to independent source records and verification status.\n- `sources.json` — source expertise, incentive, tier, track record, bias, and permitted use.\n- `executions.json` — approved plan and actual fill/slippage/tax-lot data when supplied by the user.\n\nNarrative files are views; ledgers are the system of record.\n\n## 9. Monitoring cadence\n\n- **Intraday/event-driven:** portfolio/watchlist price dislocations, filings, guidance, financing/dilution, contracts, regulatory/FDA events, credit/FX/commodity shocks, and thesis thresholds.\n- **Daily:** regime deltas, portfolio-required actions, newly escalated opportunities/risks only. Silence if no material change.\n- **Weekly:** zero-based cross-sector discovery, IC decisions, rejected ideas, concentration, and upcoming catalysts.\n- **Monthly:** attribution, factor/theme exposure, sizing, missed opportunities, source/analyst productivity, and calibration.\n- **Quarterly:** zero-based portfolio rebuild and system audit.\n\n## 10. Escalation rules\n\nImmediate escalation requires a packet with action, initial/max size, timing, evidence, and invalidation when any of these occur:\n\n- probability-weighted expected return exceeds the configured threshold and upside/downside is at least 3:1;\n- a catalyst within 60 days is materially unpriced;\n- a thesis probability changes by at least 15 percentage points;\n- a holding breaches max size, liquidity, correlation, drawdown, or fundamental invalidation;\n- financing/dilution, accounting, regulatory, geopolitical, or counterparty evidence creates permanent-loss risk;\n- price crosses a pre-registered action threshold with thesis evidence unchanged.\n\n## 11. Anti-tunnel-vision controls\n\n- At least 25% of discovery capacity goes to sectors unrelated to current holdings; at least half of that goes outside the three most-researched themes.\n- No single theme may consume more than 30% of research capacity over a rolling four weeks without an explicit CIO exception.\n- Every candidate is compared with the best candidate outside its sector and with cash/T-bills or the relevant benchmark.\n- The discovery engine rotates through global macro/rates/FX/credit, consumer, financials, healthcare, industrials, energy/materials, software/internet, international/EM, and special situations.\n- Weekly research-hour concentration is measured against portfolio exposure and opportunity conversion.\n- A quarterly zero-based review asks what the office would own and research with no knowledge of prior interests.\n- One weekly search explicitly targets evidence contradicting current macro and thematic beliefs.\n\n## 12. Executive output contract\n\nDecision first. Maximum five executive-thesis bullets. Show only numbers that change the action. Supporting detail moves to appendices. Every final recommendation uses the user's required structure and includes source links, data dates, sizing, timing, and invalidation. If required information is missing, the action is `INVESTIGATE` or `AVOID`—never false precision.",
+      "summary": "Hermes Personal Investment Office v2 Effective: 20260710 CIO: Gus, beneath the human capital allocator Objective: maximize asymmetric, aftertax, real wealth creation through differentiated discovery, falsifiable underwr…"
     },
     {
       "id": "watchlist-v2",
       "title": "Authoritative Watchlist",
       "category": "Core Research",
       "source": "office\\data\\watchlist.json",
-      "updated": "2026-07-10T13:32:07",
-      "content": "# Authoritative Watchlist\n\n```json\n{\n  \"schema_version\": 1,\n  \"as_of\": \"2026-07-10T13:29:36-04:00\",\n  \"items\": [\n    {\n      \"id\": \"event-ions-20260710\",\n      \"instrument\": \"IONS\",\n      \"stage\": \"event_reunderwrite\",\n      \"sector\": \"Healthcare\",\n      \"theme\": \"RNA therapeutics / ATTR\",\n      \"owner_role\": \"Consumer, Financials, Healthcare, and Generalist Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"urgent\",\n      \"trigger\": \"Rebuild eplontersen ATTR-CM economics and pipeline SOTP from the failed primary endpoint, including monotherapy-label probability and current valuation.\",\n      \"invalidation\": \"Do not treat subgroup evidence as registration-grade without regulator/partner support; reject if remaining pipeline value cannot support the current enterprise value.\",\n      \"next_event\": \"Full trial data, regulatory strategy, and partner guidance\",\n      \"source_status\": \"primary_event_verified; valuation_incomplete\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"event-ntla-20260710\",\n      \"instrument\": \"NTLA\",\n      \"stage\": \"readthrough_diagnosis\",\n      \"sector\": \"Healthcare\",\n      \"theme\": \"in-vivo gene editing / ATTR\",\n      \"owner_role\": \"Consumer, Financials, Healthcare, and Generalist Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"high\",\n      \"trigger\": \"Determine whether IONS read-through changes NTLA's mechanism, comparator, endpoint probability, commercial assumptions, or only sentiment; verify all current disclosures.\",\n      \"invalidation\": \"Avoid if clinical/endpoint comparability makes the IONS failure directly adverse or cash runway/dilution overwhelms option value.\",\n      \"next_event\": \"Company-specific clinical or regulatory update\",\n      \"source_status\": \"price_event_verified; causal_inference_unconfirmed\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"lead-avav-20260710\",\n      \"instrument\": \"AVAV\",\n      \"stage\": \"lead\",\n      \"sector\": \"Industrials\",\n      \"theme\": \"defense autonomy and counter-UAS\",\n      \"owner_role\": \"Industrials, Defence, Aerospace, and Supply-Chain Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"high\",\n      \"trigger\": \"Complete current-price valuation, funded-backlog conversion, BlueHalo integration, cash conversion, and program-funding verification.\",\n      \"invalidation\": \"Funded backlog does not convert to revenue/margin, integration charges are structural, or material program funding is not appropriated.\",\n      \"next_event\": null,\n      \"source_status\": \"primary_financial_results_partially_verified\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"lead-tmdx-20260710\",\n      \"instrument\": \"TMDX\",\n      \"stage\": \"lead_unverified\",\n      \"sector\": \"Healthcare\",\n      \"theme\": \"transplant medtech and logistics\",\n      \"owner_role\": \"Consumer, Financials, Healthcare, and Generalist Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"medium\",\n      \"trigger\": \"Verify current filings, commercial volume, aircraft/logistics capital intensity, margins, reimbursement, valuation, and competitive alternatives.\",\n      \"invalidation\": \"Growth depends on uneconomic logistics capital, reimbursement weakens, or margin/cash conversion fails.\",\n      \"next_event\": null,\n      \"source_status\": \"legacy_desk_lead_requires_primary_verification\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"lead-vst-20260710\",\n      \"instrument\": \"VST\",\n      \"stage\": \"lead_unverified\",\n      \"sector\": \"Utilities\",\n      \"theme\": \"named long-duration power contracts\",\n      \"owner_role\": \"Energy, Power, Commodities, and Infrastructure Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"medium\",\n      \"trigger\": \"Verify PPA terms, MW timing, incremental EBITDA/EPS, regulatory exposure, hedging, debt, current valuation, and alternatives.\",\n      \"invalidation\": \"Contract economics are already fully priced, regulatory changes impair returns, or capacity/timing cannot convert to cash flow.\",\n      \"next_event\": null,\n      \"source_status\": \"legacy_desk_lead_requires_primary_verification\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"context-aaoi-20260710\",\n      \"instrument\": \"AAOI\",\n      \"stage\": \"legacy_context_incomplete\",\n      \"sector\": \"Information Technology\",\n      \"theme\": \"AI optical transceivers\",\n      \"owner_role\": \"AI, Semiconductor, and Compute-Infrastructure Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"high_if_current_holding\",\n      \"trigger\": \"Obtain current holding/allocation and complete cash, debt, shares, AR, inventory, customer concentration, gross-margin sensitivity, and dilution model.\",\n      \"invalidation\": \"Sub-30% gross margin persists, dilution offsets operating progress, receivables/inventory outrun revenue, or customer shipment timing slips.\",\n      \"next_event\": null,\n      \"source_status\": \"legacy_research_model_incomplete\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"event-lite-20260710\",\n      \"instrument\": \"LITE\",\n      \"stage\": \"price_dislocation_diagnosis\",\n      \"sector\": \"Information Technology\",\n      \"theme\": \"optical components / AI connectivity\",\n      \"owner_role\": \"AI, Semiconductor, and Compute-Infrastructure Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"medium\",\n      \"trigger\": \"Identify a primary-source cause for the 10.25% two-trading-day move, then complete current-price/share-count valuation, demand, margin, dilution, and peer checks.\",\n      \"invalidation\": \"Do not infer fundamental upside from price action; de-escalate if no primary evidence or valuation edge survives triage.\",\n      \"next_event\": \"Next official company filing/release or confirmed earnings date\",\n      \"source_status\": \"price_threshold_verified; no_current_primary_company_event_found; valuation_incomplete\",\n      \"portfolio_allocation_pct\": 0\n    }\n  ]\n}\n```",
+      "updated": "2026-07-10T15:37:22",
+      "content": "# Authoritative Watchlist\n\n```json\n{\n  \"schema_version\": 1,\n  \"as_of\": \"2026-07-10T15:12:08-04:00\",\n  \"items\": [\n    {\n      \"id\": \"event-ions-20260710\",\n      \"instrument\": \"IONS\",\n      \"stage\": \"event_reunderwrite\",\n      \"sector\": \"Healthcare\",\n      \"theme\": \"RNA therapeutics / ATTR\",\n      \"owner_role\": \"Consumer, Financials, Healthcare, and Generalist Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"urgent\",\n      \"trigger\": \"Rebuild eplontersen ATTR-CM economics and pipeline SOTP from the failed primary endpoint, including monotherapy-label probability and current valuation.\",\n      \"invalidation\": \"Do not treat subgroup evidence as registration-grade without regulator/partner support; reject if remaining pipeline value cannot support the current enterprise value.\",\n      \"next_event\": \"Full trial data, regulatory strategy, and partner guidance\",\n      \"source_status\": \"primary_event_verified; valuation_incomplete\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"event-ntla-20260710\",\n      \"instrument\": \"NTLA\",\n      \"stage\": \"readthrough_diagnosis\",\n      \"sector\": \"Healthcare\",\n      \"theme\": \"in-vivo gene editing / ATTR\",\n      \"owner_role\": \"Consumer, Financials, Healthcare, and Generalist Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"high\",\n      \"trigger\": \"Determine whether IONS read-through changes NTLA's mechanism, comparator, endpoint probability, commercial assumptions, or only sentiment; verify all current disclosures.\",\n      \"invalidation\": \"Avoid if clinical/endpoint comparability makes the IONS failure directly adverse or cash runway/dilution overwhelms option value.\",\n      \"next_event\": \"Company-specific clinical or regulatory update\",\n      \"source_status\": \"price_event_verified; causal_inference_unconfirmed\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"lead-avav-20260710\",\n      \"instrument\": \"AVAV\",\n      \"stage\": \"lead\",\n      \"sector\": \"Industrials\",\n      \"theme\": \"defense autonomy and counter-UAS\",\n      \"owner_role\": \"Industrials, Defence, Aerospace, and Supply-Chain Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"high\",\n      \"trigger\": \"Complete current-price valuation, funded-backlog conversion, BlueHalo integration, cash conversion, and program-funding verification.\",\n      \"invalidation\": \"Funded backlog does not convert to revenue/margin, integration charges are structural, or material program funding is not appropriated.\",\n      \"next_event\": null,\n      \"source_status\": \"primary_financial_results_partially_verified\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"lead-tmdx-20260710\",\n      \"instrument\": \"TMDX\",\n      \"stage\": \"lead_unverified\",\n      \"sector\": \"Healthcare\",\n      \"theme\": \"transplant medtech and logistics\",\n      \"owner_role\": \"Consumer, Financials, Healthcare, and Generalist Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"medium\",\n      \"trigger\": \"Verify current filings, commercial volume, aircraft/logistics capital intensity, margins, reimbursement, valuation, and competitive alternatives.\",\n      \"invalidation\": \"Growth depends on uneconomic logistics capital, reimbursement weakens, or margin/cash conversion fails.\",\n      \"next_event\": null,\n      \"source_status\": \"legacy_desk_lead_requires_primary_verification\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"lead-vst-20260710\",\n      \"instrument\": \"VST\",\n      \"stage\": \"lead_unverified\",\n      \"sector\": \"Utilities\",\n      \"theme\": \"named long-duration power contracts\",\n      \"owner_role\": \"Energy, Power, Commodities, and Infrastructure Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"medium\",\n      \"trigger\": \"Verify PPA terms, MW timing, incremental EBITDA/EPS, regulatory exposure, hedging, debt, current valuation, and alternatives.\",\n      \"invalidation\": \"Contract economics are already fully priced, regulatory changes impair returns, or capacity/timing cannot convert to cash flow.\",\n      \"next_event\": null,\n      \"source_status\": \"legacy_desk_lead_requires_primary_verification\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"context-aaoi-20260710\",\n      \"instrument\": \"AAOI\",\n      \"stage\": \"legacy_context_incomplete\",\n      \"sector\": \"Information Technology\",\n      \"theme\": \"AI optical transceivers\",\n      \"owner_role\": \"AI, Semiconductor, and Compute-Infrastructure Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"high_if_current_holding\",\n      \"trigger\": \"Obtain current holding/allocation and complete cash, debt, shares, AR, inventory, customer concentration, gross-margin sensitivity, and dilution model.\",\n      \"invalidation\": \"Sub-30% gross margin persists, dilution offsets operating progress, receivables/inventory outrun revenue, or customer shipment timing slips.\",\n      \"next_event\": null,\n      \"source_status\": \"legacy_research_model_incomplete\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"event-lite-20260710\",\n      \"instrument\": \"LITE\",\n      \"stage\": \"price_dislocation_diagnosis\",\n      \"sector\": \"Information Technology\",\n      \"theme\": \"optical components / AI connectivity\",\n      \"owner_role\": \"AI, Semiconductor, and Compute-Infrastructure Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"medium\",\n      \"trigger\": \"Identify a primary-source cause for the 10.25% two-trading-day move, then complete current-price/share-count valuation, demand, margin, dilution, and peer checks.\",\n      \"invalidation\": \"Do not infer fundamental upside from price action; de-escalate if no primary evidence or valuation edge survives triage.\",\n      \"next_event\": \"Next official company filing/release or confirmed earnings date\",\n      \"source_status\": \"price_threshold_verified; no_current_primary_company_event_found; valuation_incomplete\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"reentry-obe-20260710\",\n      \"instrument\": \"OBE.TO\",\n      \"stage\": \"conditional_reentry\",\n      \"sector\": \"Energy\",\n      \"theme\": \"Canadian small-cap oil / Iran-Hormuz\",\n      \"owner_role\": \"Energy, Power, Commodities, and Infrastructure Specialist\",\n      \"action\": \"AVOID\",\n      \"research_priority\": \"high_on_trigger\",\n      \"trigger\": \"Positive post-acquisition FCF and sequential debt decline plus >US$75 strip or better valuation.\",\n      \"invalidation\": \"Debt fails to decline, borrowing stress, or <US$65 strip with cash-negative capex.\",\n      \"next_event\": \"Next quarterly results and oil-balance updates\",\n      \"source_status\": \"primary_sources_verified; portfolio_gate_failed\",\n      \"portfolio_allocation_pct\": 0\n    },\n    {\n      \"id\": \"reentry-joy-20260710\",\n      \"instrument\": \"JOY.TO\",\n      \"stage\": \"conditional_reentry\",\n      \"sector\": \"Energy\",\n      \"theme\": \"Canadian small-cap oil / Duvernay / power\",\n      \"owner_role\": \"Energy, Power, Commodities, and Infrastructure Specialist\",\n      \"action\": \"INVESTIGATE\",\n      \"research_priority\": \"high_on_trigger\",\n      \"trigger\": \"Price near or below C$3.40 or verified Duvernay/power execution with stable debt and supportive strip.\",\n      \"invalidation\": \"Duvernay miss, power delay, refinancing deterioration, or <US$65 strip with unchanged capex.\",\n      \"next_event\": \"Next results, Duvernay update and power commissioning\",\n      \"source_status\": \"primary_sources_verified; model_complete; portfolio_gate_failed\",\n      \"portfolio_allocation_pct\": 0\n    }\n  ]\n}\n```",
       "summary": "Authoritative Watchlist json { \"schema_version\": 1,"
     },
     {
@@ -1510,8 +1594,8 @@
       "title": "Recommendation Ledger",
       "category": "Core Research",
       "source": "office\\data\\recommendations.json",
-      "updated": "2026-07-10T13:32:10",
-      "content": "# Recommendation Ledger\n\n```json\n{\n  \"schema_version\": 1,\n  \"records\": [\n    {\n      \"id\": \"rec-ions-20260710-event\",\n      \"version\": 1,\n      \"as_of\": \"2026-07-10T13:17:00-04:00\",\n      \"instrument\": \"IONS\",\n      \"action\": \"INVESTIGATE\",\n      \"conviction\": 2,\n      \"current_allocation_pct\": null,\n      \"target_allocation_pct\": 0,\n      \"time_horizon\": \"Immediate event re-underwrite; no holding-period view until valuation is rebuilt\",\n      \"urgency\": \"Immediate\",\n      \"executive_thesis\": [\n        \"CARDIO-TTRansform missed its primary endpoint; adding eplontersen to stabilizer therapy showed no treatment effect.\",\n        \"The nominally significant monotherapy subgroup is hypothesis-generating until regulatory and full-data support are established.\",\n        \"The 30.18% two-day decline is large but cannot be called asymmetric without rebuilding remaining pipeline value, cash, dilution, and label probability.\",\n        \"If IONS is currently held, averaging down is prohibited until the event is re-underwritten.\"\n      ],\n      \"alpha\": {\n        \"market_belief\": \"Unknown pending expectations and valuation work; price action implies a severe reduction in eplontersen ATTR-CM value.\",\n        \"our_belief\": \"No differentiated valuation view is yet established.\",\n        \"why_right\": \"Not assessable until full trial, regulatory path, pipeline SOTP, cash, and dilution are modeled.\",\n        \"why_opportunity_exists\": \"Potential forced/event selling may create mispricing, but that is a lead, not evidence.\",\n        \"edge_decay\": \"Any dislocation edge will decay as full data and analyst models update.\",\n        \"edge_falsifier\": \"Remaining pipeline and cash-adjusted value fail to support the post-event enterprise value or the monotherapy path lacks regulatory viability.\"\n      },\n      \"return_profile\": {\n        \"scenarios\": [],\n        \"probability_weighted_expected_return_pct\": null,\n        \"realistic_downside_pct\": null,\n        \"upside_downside_ratio\": null,\n        \"expected_holding_period\": \"Not established\"\n      },\n      \"catalysts\": [\n        {\n          \"event\": \"Full CARDIO-TTRansform data and subgroup detail\",\n          \"timing\": \"Unknown\",\n          \"probability\": null\n        },\n        {\n          \"event\": \"Ionis/AstraZeneca regulatory strategy\",\n          \"timing\": \"Unknown\",\n          \"probability\": null\n        }\n      ],\n      \"risks\": [\n        {\n          \"rank\": 1,\n          \"risk\": \"Primary endpoint failure permanently impairs the cardiomyopathy expansion economics\",\n          \"probability\": \"high\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 2,\n          \"risk\": \"Subgroup interpretation is not accepted by regulators\",\n          \"probability\": \"medium-high\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 3,\n          \"risk\": \"Remaining pipeline/cash value is overestimated after dilution and development spend\",\n          \"probability\": \"unknown\",\n          \"impact\": \"high\"\n        }\n      ],\n      \"invalidation\": [\n        \"No BUY/ADD thesis exists until the current enterprise value is supported by a probability-weighted pipeline and cash model.\",\n        \"Do not use the monotherapy subgroup as core evidence without full statistical and regulatory context.\"\n      ],\n      \"execution\": {\n        \"initial_allocation_pct\": 0,\n        \"maximum_allocation_pct\": 0,\n        \"entry_method\": \"No trade; complete event underwriting and portfolio Gate 0\",\n        \"add_conditions\": [\n          \"Forensic valuation, red team, and risk gates pass\"\n        ],\n        \"reduce_conditions\": [\n          \"If currently held, decision awaits authoritative position data and event re-underwriting\"\n        ],\n        \"exit_conditions\": [\n          \"If currently held, escalate immediately if remaining value is below market value after conservative assumptions\"\n        ],\n        \"hedge\": null\n      },\n      \"evidence\": [\n        {\n          \"claim_id\": \"claim-ions-cardio-ttransform-miss-20260709\",\n          \"source_id\": \"src-sec-ions-8k-20260709\"\n        },\n        {\n          \"claim_id\": \"claim-ions-ntla-price-dislocation-20260710\",\n          \"source_id\": \"src-internal-trigger-20260710\"\n        }\n      ],\n      \"open_questions\": [\n        \"Is IONS held, in which account, at what size and tax basis?\",\n        \"What value did consensus assign to ATTR-CM before and after the event?\",\n        \"What is the regulator/partner view of a monotherapy-only path?\",\n        \"What are cash, debt, burn, dilution, and probability-weighted values of the remaining pipeline?\"\n      ],\n      \"gate_status\": {\n        \"gate_0_portfolio\": \"FAIL\",\n        \"gate_1_discovery\": \"PASS_EVENT\",\n        \"gate_2_triage\": \"IN_PROGRESS\",\n        \"gate_3_underwriting\": \"NOT_STARTED\",\n        \"gate_4_variant\": \"NOT_ESTABLISHED\",\n        \"gate_5_red_team\": \"NOT_STARTED\",\n        \"gate_6_risk\": \"BLOCKED\",\n        \"gate_7_cio\": \"INVESTIGATE_ONLY\",\n        \"gate_8_execution\": \"NO_TRADE\"\n      }\n    },\n    {\n      \"id\": \"rec-lite-20260710-price-alert\",\n      \"version\": 1,\n      \"as_of\": \"2026-07-10T13:29:36-04:00\",\n      \"instrument\": \"LITE\",\n      \"action\": \"INVESTIGATE\",\n      \"conviction\": 1,\n      \"current_allocation_pct\": null,\n      \"target_allocation_pct\": 0,\n      \"time_horizon\": \"Complete causal and valuation triage before establishing any holding-period view\",\n      \"urgency\": \"This week\",\n      \"executive_thesis\": [\n        \"LITE crossed its pre-registered two-trading-day price threshold, but below-average volume and modest same-day movement do not establish a thesis.\",\n        \"No SEC filing after the prior-report cutoff or July 10 company release was found in the checked primary indexes.\",\n        \"A current-price valuation, demand/margin bridge, dilution check, and peer comparison are absent; the only valid action is investigation at 0%.\"\n      ],\n      \"alpha\": {\n        \"market_belief\": \"Unknown; the price move may reflect flows, positioning, or information not identified in the checked primary sources.\",\n        \"our_belief\": \"No differentiated fundamental or valuation view is established.\",\n        \"why_right\": \"Not assessable until a primary-source cause and current valuation are established.\",\n        \"why_opportunity_exists\": \"A threshold crossing can expose a new information set, but it is only a lead.\",\n        \"edge_decay\": \"Any event or flow dislocation will decay as primary information and market positioning become clearer.\",\n        \"edge_falsifier\": \"No primary catalyst or valuation edge survives triage.\"\n      },\n      \"return_profile\": {\n        \"scenarios\": [],\n        \"probability_weighted_expected_return_pct\": null,\n        \"realistic_downside_pct\": null,\n        \"upside_downside_ratio\": null,\n        \"expected_holding_period\": \"Not established\"\n      },\n      \"catalysts\": [\n        {\n          \"event\": \"Next Lumentum official filing/release or confirmed earnings date\",\n          \"timing\": \"Unknown\",\n          \"probability\": null\n        }\n      ],\n      \"risks\": [\n        {\n          \"rank\": 1,\n          \"risk\": \"Price action is flow-driven and reverses without a fundamental change\",\n          \"probability\": \"unknown\",\n          \"impact\": \"medium\"\n        },\n        {\n          \"rank\": 2,\n          \"risk\": \"An unobserved company, customer, or supply-chain event changes fundamentals\",\n          \"probability\": \"unknown\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 3,\n          \"risk\": \"Current valuation already discounts optimistic AI-optics demand and margin assumptions\",\n          \"probability\": \"unknown\",\n          \"impact\": \"high\"\n        }\n      ],\n      \"invalidation\": [\n        \"Price movement alone cannot validate a LITE investment thesis.\",\n        \"Do not escalate without current price/share count, forensic valuation, primary demand evidence, red-team review, and portfolio risk clearance.\"\n      ],\n      \"execution\": {\n        \"initial_allocation_pct\": 0,\n        \"maximum_allocation_pct\": 0,\n        \"entry_method\": \"No trade; complete Gate 2 triage and portfolio Gate 0\",\n        \"add_conditions\": [\n          \"Forensic, variant-perception, red-team, portfolio-risk, and CIO gates pass\"\n        ],\n        \"reduce_conditions\": [\n          \"If currently held, no portfolio action is permitted until the authoritative position and thesis are supplied\"\n        ],\n        \"exit_conditions\": [\n          \"If currently held, escalate only after authoritative position data and fundamental invalidation evidence\"\n        ],\n        \"hedge\": null\n      },\n      \"evidence\": [\n        {\n          \"claim_id\": \"claim-lite-price-dislocation-20260710\",\n          \"source_id\": \"src-internal-trigger-20260710\"\n        },\n        {\n          \"claim_id\": \"claim-lite-no-current-primary-event-20260710\",\n          \"source_id\": \"src-sec-lite-submissions-20260710\"\n        },\n        {\n          \"claim_id\": \"claim-lite-no-current-primary-event-20260710\",\n          \"source_id\": \"src-lite-official-news-20260710\"\n        }\n      ],\n      \"open_questions\": [\n        \"Is LITE held, in which account, at what size and tax basis?\",\n        \"What primary event, customer evidence, or forced flow explains the two-day move?\",\n        \"What current growth, margin, share-count, and integration assumptions are embedded in valuation?\"\n      ],\n      \"gate_status\": {\n        \"gate_0_portfolio\": \"FAIL\",\n        \"gate_1_discovery\": \"PASS_PRICE_TRIGGER\",\n        \"gate_2_triage\": \"IN_PROGRESS\",\n        \"gate_3_underwriting\": \"NOT_STARTED\",\n        \"gate_4_variant\": \"NOT_ESTABLISHED\",\n        \"gate_5_red_team\": \"NOT_STARTED\",\n        \"gate_6_risk\": \"BLOCKED\",\n        \"gate_7_cio\": \"INVESTIGATE_ONLY\",\n        \"gate_8_execution\": \"NO_TRADE\"\n      }\n    }\n  ]\n}\n```",
+      "updated": "2026-07-10T15:37:22",
+      "content": "# Recommendation Ledger\n\n```json\n{\n  \"schema_version\": 1,\n  \"records\": [\n    {\n      \"id\": \"rec-ions-20260710-event\",\n      \"version\": 1,\n      \"as_of\": \"2026-07-10T13:17:00-04:00\",\n      \"instrument\": \"IONS\",\n      \"action\": \"INVESTIGATE\",\n      \"conviction\": 2,\n      \"current_allocation_pct\": null,\n      \"target_allocation_pct\": 0,\n      \"time_horizon\": \"Immediate event re-underwrite; no holding-period view until valuation is rebuilt\",\n      \"urgency\": \"Immediate\",\n      \"executive_thesis\": [\n        \"CARDIO-TTRansform missed its primary endpoint; adding eplontersen to stabilizer therapy showed no treatment effect.\",\n        \"The nominally significant monotherapy subgroup is hypothesis-generating until regulatory and full-data support are established.\",\n        \"The 30.18% two-day decline is large but cannot be called asymmetric without rebuilding remaining pipeline value, cash, dilution, and label probability.\",\n        \"If IONS is currently held, averaging down is prohibited until the event is re-underwritten.\"\n      ],\n      \"alpha\": {\n        \"market_belief\": \"Unknown pending expectations and valuation work; price action implies a severe reduction in eplontersen ATTR-CM value.\",\n        \"our_belief\": \"No differentiated valuation view is yet established.\",\n        \"why_right\": \"Not assessable until full trial, regulatory path, pipeline SOTP, cash, and dilution are modeled.\",\n        \"why_opportunity_exists\": \"Potential forced/event selling may create mispricing, but that is a lead, not evidence.\",\n        \"edge_decay\": \"Any dislocation edge will decay as full data and analyst models update.\",\n        \"edge_falsifier\": \"Remaining pipeline and cash-adjusted value fail to support the post-event enterprise value or the monotherapy path lacks regulatory viability.\"\n      },\n      \"return_profile\": {\n        \"scenarios\": [],\n        \"probability_weighted_expected_return_pct\": null,\n        \"realistic_downside_pct\": null,\n        \"upside_downside_ratio\": null,\n        \"expected_holding_period\": \"Not established\"\n      },\n      \"catalysts\": [\n        {\n          \"event\": \"Full CARDIO-TTRansform data and subgroup detail\",\n          \"timing\": \"Unknown\",\n          \"probability\": null\n        },\n        {\n          \"event\": \"Ionis/AstraZeneca regulatory strategy\",\n          \"timing\": \"Unknown\",\n          \"probability\": null\n        }\n      ],\n      \"risks\": [\n        {\n          \"rank\": 1,\n          \"risk\": \"Primary endpoint failure permanently impairs the cardiomyopathy expansion economics\",\n          \"probability\": \"high\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 2,\n          \"risk\": \"Subgroup interpretation is not accepted by regulators\",\n          \"probability\": \"medium-high\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 3,\n          \"risk\": \"Remaining pipeline/cash value is overestimated after dilution and development spend\",\n          \"probability\": \"unknown\",\n          \"impact\": \"high\"\n        }\n      ],\n      \"invalidation\": [\n        \"No BUY/ADD thesis exists until the current enterprise value is supported by a probability-weighted pipeline and cash model.\",\n        \"Do not use the monotherapy subgroup as core evidence without full statistical and regulatory context.\"\n      ],\n      \"execution\": {\n        \"initial_allocation_pct\": 0,\n        \"maximum_allocation_pct\": 0,\n        \"entry_method\": \"No trade; complete event underwriting and portfolio Gate 0\",\n        \"add_conditions\": [\n          \"Forensic valuation, red team, and risk gates pass\"\n        ],\n        \"reduce_conditions\": [\n          \"If currently held, decision awaits authoritative position data and event re-underwriting\"\n        ],\n        \"exit_conditions\": [\n          \"If currently held, escalate immediately if remaining value is below market value after conservative assumptions\"\n        ],\n        \"hedge\": null\n      },\n      \"evidence\": [\n        {\n          \"claim_id\": \"claim-ions-cardio-ttransform-miss-20260709\",\n          \"source_id\": \"src-sec-ions-8k-20260709\"\n        },\n        {\n          \"claim_id\": \"claim-ions-ntla-price-dislocation-20260710\",\n          \"source_id\": \"src-internal-trigger-20260710\"\n        }\n      ],\n      \"open_questions\": [\n        \"Is IONS held, in which account, at what size and tax basis?\",\n        \"What value did consensus assign to ATTR-CM before and after the event?\",\n        \"What is the regulator/partner view of a monotherapy-only path?\",\n        \"What are cash, debt, burn, dilution, and probability-weighted values of the remaining pipeline?\"\n      ],\n      \"gate_status\": {\n        \"gate_0_portfolio\": \"FAIL\",\n        \"gate_1_discovery\": \"PASS_EVENT\",\n        \"gate_2_triage\": \"IN_PROGRESS\",\n        \"gate_3_underwriting\": \"NOT_STARTED\",\n        \"gate_4_variant\": \"NOT_ESTABLISHED\",\n        \"gate_5_red_team\": \"NOT_STARTED\",\n        \"gate_6_risk\": \"BLOCKED\",\n        \"gate_7_cio\": \"INVESTIGATE_ONLY\",\n        \"gate_8_execution\": \"NO_TRADE\"\n      }\n    },\n    {\n      \"id\": \"rec-lite-20260710-price-alert\",\n      \"version\": 1,\n      \"as_of\": \"2026-07-10T13:29:36-04:00\",\n      \"instrument\": \"LITE\",\n      \"action\": \"INVESTIGATE\",\n      \"conviction\": 1,\n      \"current_allocation_pct\": null,\n      \"target_allocation_pct\": 0,\n      \"time_horizon\": \"Complete causal and valuation triage before establishing any holding-period view\",\n      \"urgency\": \"This week\",\n      \"executive_thesis\": [\n        \"LITE crossed its pre-registered two-trading-day price threshold, but below-average volume and modest same-day movement do not establish a thesis.\",\n        \"No SEC filing after the prior-report cutoff or July 10 company release was found in the checked primary indexes.\",\n        \"A current-price valuation, demand/margin bridge, dilution check, and peer comparison are absent; the only valid action is investigation at 0%.\"\n      ],\n      \"alpha\": {\n        \"market_belief\": \"Unknown; the price move may reflect flows, positioning, or information not identified in the checked primary sources.\",\n        \"our_belief\": \"No differentiated fundamental or valuation view is established.\",\n        \"why_right\": \"Not assessable until a primary-source cause and current valuation are established.\",\n        \"why_opportunity_exists\": \"A threshold crossing can expose a new information set, but it is only a lead.\",\n        \"edge_decay\": \"Any event or flow dislocation will decay as primary information and market positioning become clearer.\",\n        \"edge_falsifier\": \"No primary catalyst or valuation edge survives triage.\"\n      },\n      \"return_profile\": {\n        \"scenarios\": [],\n        \"probability_weighted_expected_return_pct\": null,\n        \"realistic_downside_pct\": null,\n        \"upside_downside_ratio\": null,\n        \"expected_holding_period\": \"Not established\"\n      },\n      \"catalysts\": [\n        {\n          \"event\": \"Next Lumentum official filing/release or confirmed earnings date\",\n          \"timing\": \"Unknown\",\n          \"probability\": null\n        }\n      ],\n      \"risks\": [\n        {\n          \"rank\": 1,\n          \"risk\": \"Price action is flow-driven and reverses without a fundamental change\",\n          \"probability\": \"unknown\",\n          \"impact\": \"medium\"\n        },\n        {\n          \"rank\": 2,\n          \"risk\": \"An unobserved company, customer, or supply-chain event changes fundamentals\",\n          \"probability\": \"unknown\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 3,\n          \"risk\": \"Current valuation already discounts optimistic AI-optics demand and margin assumptions\",\n          \"probability\": \"unknown\",\n          \"impact\": \"high\"\n        }\n      ],\n      \"invalidation\": [\n        \"Price movement alone cannot validate a LITE investment thesis.\",\n        \"Do not escalate without current price/share count, forensic valuation, primary demand evidence, red-team review, and portfolio risk clearance.\"\n      ],\n      \"execution\": {\n        \"initial_allocation_pct\": 0,\n        \"maximum_allocation_pct\": 0,\n        \"entry_method\": \"No trade; complete Gate 2 triage and portfolio Gate 0\",\n        \"add_conditions\": [\n          \"Forensic, variant-perception, red-team, portfolio-risk, and CIO gates pass\"\n        ],\n        \"reduce_conditions\": [\n          \"If currently held, no portfolio action is permitted until the authoritative position and thesis are supplied\"\n        ],\n        \"exit_conditions\": [\n          \"If currently held, escalate only after authoritative position data and fundamental invalidation evidence\"\n        ],\n        \"hedge\": null\n      },\n      \"evidence\": [\n        {\n          \"claim_id\": \"claim-lite-price-dislocation-20260710\",\n          \"source_id\": \"src-internal-trigger-20260710\"\n        },\n        {\n          \"claim_id\": \"claim-lite-no-current-primary-event-20260710\",\n          \"source_id\": \"src-sec-lite-submissions-20260710\"\n        },\n        {\n          \"claim_id\": \"claim-lite-no-current-primary-event-20260710\",\n          \"source_id\": \"src-lite-official-news-20260710\"\n        }\n      ],\n      \"open_questions\": [\n        \"Is LITE held, in which account, at what size and tax basis?\",\n        \"What primary event, customer evidence, or forced flow explains the two-day move?\",\n        \"What current growth, margin, share-count, and integration assumptions are embedded in valuation?\"\n      ],\n      \"gate_status\": {\n        \"gate_0_portfolio\": \"FAIL\",\n        \"gate_1_discovery\": \"PASS_PRICE_TRIGGER\",\n        \"gate_2_triage\": \"IN_PROGRESS\",\n        \"gate_3_underwriting\": \"NOT_STARTED\",\n        \"gate_4_variant\": \"NOT_ESTABLISHED\",\n        \"gate_5_red_team\": \"NOT_STARTED\",\n        \"gate_6_risk\": \"BLOCKED\",\n        \"gate_7_cio\": \"INVESTIGATE_ONLY\",\n        \"gate_8_execution\": \"NO_TRADE\"\n      }\n    },\n    {\n      \"id\": \"rec-obe-20260710-reentry\",\n      \"version\": 1,\n      \"as_of\": \"2026-07-10T15:12:08-04:00\",\n      \"instrument\": \"OBE.TO\",\n      \"action\": \"AVOID\",\n      \"conviction\": 8,\n      \"current_allocation_pct\": 0,\n      \"target_allocation_pct\": 0,\n      \"time_horizon\": \"Trigger-dependent re-underwrite over 12–36 months\",\n      \"urgency\": \"Trigger-dependent\",\n      \"executive_thesis\": [\n        \"Tight oil is real but normalization remains plausible.\",\n        \"OBE forecasts negative FCF even at US$75 WTI.\",\n        \"Bear loss is incompatible with a concentrated position.\",\n        \"Do not buy or short; wait for FCF and debt proof.\"\n      ],\n      \"alpha\": {\n        \"market_belief\": \"Near-term tightness, but normalization and 2027 oversupply cap the strip.\",\n        \"our_belief\": \"Tightness is real but prices do not compensate for cash burn, leverage and execution risk.\",\n        \"why_right\": \"Releases and tanker normalization can bridge scarcity before shareholder FCF arrives.\",\n        \"why_opportunity_exists\": \"A future entry may emerge after a valuation discount or debt/FCF confirmation.\",\n        \"edge_decay\": \"Normalization can arrive before balance sheets improve.\",\n        \"edge_falsifier\": \"Sustained physical disruption, a >US$75 strip and positive company FCF.\"\n      },\n      \"return_profile\": {\n        \"scenarios\": [\n          {\n            \"name\": \"bear\",\n            \"probability_pct\": 45,\n            \"total_return_pct\": -63.1,\n            \"assumptions\": [\n              \"WTI US$60\",\n              \"3.0x EV/FFO\"\n            ]\n          },\n          {\n            \"name\": \"base\",\n            \"probability_pct\": 40,\n            \"total_return_pct\": -11.2,\n            \"assumptions\": [\n              \"WTI US$72\",\n              \"3.75x EV/FFO\"\n            ]\n          },\n          {\n            \"name\": \"bull\",\n            \"probability_pct\": 15,\n            \"total_return_pct\": 66.2,\n            \"assumptions\": [\n              \"WTI US$90\",\n              \"4.5x EV/FFO\"\n            ]\n          }\n        ],\n        \"probability_weighted_expected_return_pct\": -23.0,\n        \"realistic_downside_pct\": -63.1,\n        \"upside_downside_ratio\": 1.05,\n        \"expected_holding_period\": \"12–36 months only after a future entry clears\"\n      },\n      \"catalysts\": [\n        {\n          \"event\": \"Qualifying macro and company evidence trigger\",\n          \"timing\": \"Next quarters\",\n          \"probability\": null\n        }\n      ],\n      \"risks\": [\n        {\n          \"rank\": 1,\n          \"risk\": \"Oil normalization\",\n          \"probability\": \"medium-high\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 2,\n          \"risk\": \"Acquisition leverage and negative FCF\",\n          \"probability\": \"high\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 3,\n          \"risk\": \"Refinancing and abandonment burden\",\n          \"probability\": \"medium\",\n          \"impact\": \"high\"\n        }\n      ],\n      \"invalidation\": [\n        \"A future BUY requires positive expected value, at least 3:1 upside/downside and materially bounded bear loss.\"\n      ],\n      \"execution\": {\n        \"initial_allocation_pct\": 0,\n        \"maximum_allocation_pct\": 0,\n        \"entry_method\": \"No trade; future staged starter only after all gates pass.\",\n        \"add_conditions\": [\n          \"Positive FCF\",\n          \"Sequential debt decline\",\n          \"Positive EV and at least 3:1 upside/downside\"\n        ],\n        \"reduce_conditions\": [],\n        \"exit_conditions\": [\n          \"WTI strip below US$65 with cash-negative capex\",\n          \"Debt fails to decline\",\n          \"Borrowing-base stress\"\n        ],\n        \"hedge\": null\n      },\n      \"evidence\": [\n        {\n          \"claim_id\": \"claim-obe-guidance-leverage-20260702\",\n          \"source_id\": \"src-sec-obe-guidance-20260702\"\n        },\n        {\n          \"claim_id\": \"claim-obe-joy-scenario-20260710\",\n          \"source_id\": \"src-iea-omr-20260710\"\n        }\n      ],\n      \"open_questions\": [\n        \"Current portfolio\",\n        \"Post-acquisition FCF and debt\"\n      ],\n      \"gate_status\": {\n        \"gate_0_portfolio\": \"FAIL\",\n        \"gate_1_discovery\": \"PASS\",\n        \"gate_2_triage\": \"PASS\",\n        \"gate_3_underwriting\": \"PASS\",\n        \"gate_4_variant\": \"PASS\",\n        \"gate_5_red_team\": \"IN_PROGRESS\",\n        \"gate_6_risk\": \"BLOCKED\",\n        \"gate_7_cio\": \"AVOID\",\n        \"gate_8_execution\": \"NO_TRADE\"\n      }\n    },\n    {\n      \"id\": \"rec-joy-20260710-reentry\",\n      \"version\": 1,\n      \"as_of\": \"2026-07-10T15:12:08-04:00\",\n      \"instrument\": \"JOY.TO\",\n      \"action\": \"INVESTIGATE\",\n      \"conviction\": 7,\n      \"current_allocation_pct\": 0,\n      \"target_allocation_pct\": 0,\n      \"time_horizon\": \"Trigger-dependent re-underwrite over 12–36 months\",\n      \"urgency\": \"Trigger-dependent\",\n      \"executive_thesis\": [\n        \"JOY ranks ahead of OBE on leverage and asset support.\",\n        \"Current plan remains cash-negative near US$65.\",\n        \"Duvernay, power and converts add execution risk.\",\n        \"No buy or short until valuation or evidence improves.\"\n      ],\n      \"alpha\": {\n        \"market_belief\": \"Near-term tightness, but normalization and 2027 oversupply cap the strip.\",\n        \"our_belief\": \"Tightness is real but prices do not compensate for cash burn, leverage and execution risk.\",\n        \"why_right\": \"Releases and tanker normalization can bridge scarcity before shareholder FCF arrives.\",\n        \"why_opportunity_exists\": \"A future entry may emerge after a valuation discount or debt/FCF confirmation.\",\n        \"edge_decay\": \"Normalization can arrive before balance sheets improve.\",\n        \"edge_falsifier\": \"Sustained physical disruption, a >US$75 strip and positive company FCF.\"\n      },\n      \"return_profile\": {\n        \"scenarios\": [\n          {\n            \"name\": \"bear\",\n            \"probability_pct\": 45,\n            \"total_return_pct\": -53.0,\n            \"assumptions\": [\n              \"WTI US$60\",\n              \"3.5x EV/AFF\"\n            ]\n          },\n          {\n            \"name\": \"base\",\n            \"probability_pct\": 40,\n            \"total_return_pct\": 5.5,\n            \"assumptions\": [\n              \"WTI US$72\",\n              \"4.5x EV/AFF\"\n            ]\n          },\n          {\n            \"name\": \"bull\",\n            \"probability_pct\": 15,\n            \"total_return_pct\": 68.7,\n            \"assumptions\": [\n              \"WTI US$90\",\n              \"5.0x EV/AFF\"\n            ]\n          }\n        ],\n        \"probability_weighted_expected_return_pct\": -11.3,\n        \"realistic_downside_pct\": -53.0,\n        \"upside_downside_ratio\": 1.3,\n        \"expected_holding_period\": \"12–36 months only after a future entry clears\"\n      },\n      \"catalysts\": [\n        {\n          \"event\": \"Qualifying macro and company evidence trigger\",\n          \"timing\": \"Next quarters\",\n          \"probability\": null\n        }\n      ],\n      \"risks\": [\n        {\n          \"rank\": 1,\n          \"risk\": \"Oil normalization and negative FCF\",\n          \"probability\": \"medium-high\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 2,\n          \"risk\": \"Duvernay and power execution\",\n          \"probability\": \"medium\",\n          \"impact\": \"high\"\n        },\n        {\n          \"rank\": 3,\n          \"risk\": \"Convert/refinancing and abandonment burden\",\n          \"probability\": \"medium\",\n          \"impact\": \"high\"\n        }\n      ],\n      \"invalidation\": [\n        \"A future BUY requires positive expected value, at least 3:1 upside/downside and materially bounded bear loss.\"\n      ],\n      \"execution\": {\n        \"initial_allocation_pct\": 0,\n        \"maximum_allocation_pct\": 0,\n        \"entry_method\": \"No trade; future 3% staging tranche only after all gates pass, within one concentrated oil-thesis slot.\",\n        \"add_conditions\": [\n          \"Operating confirmation\",\n          \"Stable or falling debt\",\n          \"Positive EV and at least 3:1 upside/downside\"\n        ],\n        \"reduce_conditions\": [],\n        \"exit_conditions\": [\n          \"Duvernay miss\",\n          \"Power delay\",\n          \"Refinancing deterioration\",\n          \"WTI strip below US$65 with unchanged capex\"\n        ],\n        \"hedge\": null\n      },\n      \"evidence\": [\n        {\n          \"claim_id\": \"claim-joy-q1-capital-risk-20260331\",\n          \"source_id\": \"src-joy-q1-mda-2026\"\n        },\n        {\n          \"claim_id\": \"claim-joy-convert-aro-20260331\",\n          \"source_id\": \"src-joy-q1-fs-2026\"\n        },\n        {\n          \"claim_id\": \"claim-obe-joy-scenario-20260710\",\n          \"source_id\": \"src-joy-presentation-202606\"\n        }\n      ],\n      \"open_questions\": [\n        \"Current portfolio\",\n        \"Duvernay type curves\",\n        \"Power economics\"\n      ],\n      \"gate_status\": {\n        \"gate_0_portfolio\": \"FAIL\",\n        \"gate_1_discovery\": \"PASS\",\n        \"gate_2_triage\": \"PASS\",\n        \"gate_3_underwriting\": \"PASS\",\n        \"gate_4_variant\": \"PASS\",\n        \"gate_5_red_team\": \"IN_PROGRESS\",\n        \"gate_6_risk\": \"BLOCKED\",\n        \"gate_7_cio\": \"INVESTIGATE\",\n        \"gate_8_execution\": \"NO_TRADE\"\n      }\n    }\n  ]\n}\n```",
       "summary": "Recommendation Ledger json { \"schema_version\": 1,"
     },
     {
@@ -1519,8 +1603,8 @@
       "title": "Research Queue",
       "category": "Core Research",
       "source": "office\\data\\research_queue.json",
-      "updated": "2026-07-10T11:53:00",
-      "content": "# Research Queue\n\n```json\n{\n  \"schema_version\": 1,\n  \"items\": [\n    {\n      \"id\": \"rq-portfolio-intake\",\n      \"priority\": \"P0\",\n      \"gate\": 0,\n      \"status\": \"blocked_external_input\",\n      \"owner_role\": \"Portfolio Risk and Capital-Allocation Officer\",\n      \"task\": \"Ingest an authoritative current portfolio export and investment constraints.\",\n      \"required_evidence\": [\n        \"positions with quantities and instrument identifiers\",\n        \"cash and relevant liabilities\",\n        \"cost basis or tax lots where available\",\n        \"account/tax type\",\n        \"base currency\",\n        \"liquidity horizon and risk constraints\"\n      ],\n      \"completion_test\": \"portfolio.json status is authoritative_current and validator reports Gate 0 PASS\",\n      \"next_trigger\": \"User supplies current export or structured holdings\"\n    },\n    {\n      \"id\": \"rq-avav-underwriting\",\n      \"priority\": \"P1\",\n      \"gate\": 2,\n      \"status\": \"ready\",\n      \"owner_role\": \"Industrials, Defence, Aerospace, and Supply-Chain Specialist\",\n      \"task\": \"Triage AVAV and KTOS using funded program evidence, current valuation, backlog conversion, cash flow, integration, and alternatives.\",\n      \"required_evidence\": [\n        \"latest 10-K/10-Q and earnings release\",\n        \"current price/share count/net debt\",\n        \"funded versus unfunded backlog\",\n        \"program appropriations/task orders\",\n        \"BlueHalo integration and segment margins\",\n        \"bear/base/bull valuation\"\n      ],\n      \"completion_test\": \"Triage score >=70 with direct sources and no hard fail\",\n      \"next_trigger\": \"Next deep-research cycle\"\n    },\n    {\n      \"id\": \"rq-aaoi-reunderwrite\",\n      \"priority\": \"P1_if_held\",\n      \"gate\": 3,\n      \"status\": \"blocked_portfolio_context\",\n      \"owner_role\": \"Forensic Accounting and Valuation Analyst\",\n      \"task\": \"Complete the AAOI model and determine whether legacy thesis exposure remains justified.\",\n      \"required_evidence\": [\n        \"latest price and share count\",\n        \"cash/debt\",\n        \"AR/DSO and inventory\",\n        \"customer concentration\",\n        \"ATM/dilution activity\",\n        \"gross-margin sensitivity\",\n        \"shipment/order timing\",\n        \"peer and alternative comparison\"\n      ],\n      \"completion_test\": \"Forensic gate and red-team gate completed\",\n      \"next_trigger\": \"Portfolio confirms current position or user requests stand-alone underwriting\"\n    },\n    {\n      \"id\": \"rq-zero-based-cross-sector\",\n      \"priority\": \"P1\",\n      \"gate\": 1,\n      \"status\": \"ready\",\n      \"owner_role\": \"Quantitative and Market-Structure Analyst / Discovery Engine\",\n      \"task\": \"Run a zero-based opportunity scan outside AI infrastructure across rates/credit/FX/commodities, consumer, financials, healthcare, international/EM, and special situations.\",\n      \"required_evidence\": [\n        \"explicit universe and data timestamp\",\n        \"at least one lead per neglected lane or a documented rejection\",\n        \"cross-sector comparison\",\n        \"liquidity and catalyst checks\"\n      ],\n      \"completion_test\": \"At least 50% of leads are outside the top three legacy themes and every lead has a specialist owner\",\n      \"next_trigger\": \"Weekly investment committee cycle\"\n    }\n  ]\n}\n```",
+      "updated": "2026-07-10T15:37:22",
+      "content": "# Research Queue\n\n```json\n{\n  \"schema_version\": 1,\n  \"items\": [\n    {\n      \"id\": \"rq-portfolio-intake\",\n      \"priority\": \"P0\",\n      \"gate\": 0,\n      \"status\": \"blocked_external_input\",\n      \"owner_role\": \"Portfolio Risk and Capital-Allocation Officer\",\n      \"task\": \"Ingest an authoritative current portfolio export and investment constraints.\",\n      \"required_evidence\": [\n        \"positions with quantities and instrument identifiers\",\n        \"cash and relevant liabilities\",\n        \"cost basis or tax lots where available\",\n        \"account/tax type\",\n        \"base currency\",\n        \"liquidity horizon and risk constraints\"\n      ],\n      \"completion_test\": \"portfolio.json status is authoritative_current and validator reports Gate 0 PASS\",\n      \"next_trigger\": \"User supplies current export or structured holdings\"\n    },\n    {\n      \"id\": \"rq-avav-underwriting\",\n      \"priority\": \"P1\",\n      \"gate\": 2,\n      \"status\": \"ready\",\n      \"owner_role\": \"Industrials, Defence, Aerospace, and Supply-Chain Specialist\",\n      \"task\": \"Triage AVAV and KTOS using funded program evidence, current valuation, backlog conversion, cash flow, integration, and alternatives.\",\n      \"required_evidence\": [\n        \"latest 10-K/10-Q and earnings release\",\n        \"current price/share count/net debt\",\n        \"funded versus unfunded backlog\",\n        \"program appropriations/task orders\",\n        \"BlueHalo integration and segment margins\",\n        \"bear/base/bull valuation\"\n      ],\n      \"completion_test\": \"Triage score >=70 with direct sources and no hard fail\",\n      \"next_trigger\": \"Next deep-research cycle\"\n    },\n    {\n      \"id\": \"rq-aaoi-reunderwrite\",\n      \"priority\": \"P1_if_held\",\n      \"gate\": 3,\n      \"status\": \"blocked_portfolio_context\",\n      \"owner_role\": \"Forensic Accounting and Valuation Analyst\",\n      \"task\": \"Complete the AAOI model and determine whether legacy thesis exposure remains justified.\",\n      \"required_evidence\": [\n        \"latest price and share count\",\n        \"cash/debt\",\n        \"AR/DSO and inventory\",\n        \"customer concentration\",\n        \"ATM/dilution activity\",\n        \"gross-margin sensitivity\",\n        \"shipment/order timing\",\n        \"peer and alternative comparison\"\n      ],\n      \"completion_test\": \"Forensic gate and red-team gate completed\",\n      \"next_trigger\": \"Portfolio confirms current position or user requests stand-alone underwriting\"\n    },\n    {\n      \"id\": \"rq-zero-based-cross-sector\",\n      \"priority\": \"P1\",\n      \"gate\": 1,\n      \"status\": \"ready\",\n      \"owner_role\": \"Quantitative and Market-Structure Analyst / Discovery Engine\",\n      \"task\": \"Run a zero-based opportunity scan outside AI infrastructure across rates/credit/FX/commodities, consumer, financials, healthcare, international/EM, and special situations.\",\n      \"required_evidence\": [\n        \"explicit universe and data timestamp\",\n        \"at least one lead per neglected lane or a documented rejection\",\n        \"cross-sector comparison\",\n        \"liquidity and catalyst checks\"\n      ],\n      \"completion_test\": \"At least 50% of leads are outside the top three legacy themes and every lead has a specialist owner\",\n      \"next_trigger\": \"Weekly investment committee cycle\"\n    },\n    {\n      \"id\": \"rq-obe-joy-conditional-reentry\",\n      \"priority\": \"P1_on_trigger\",\n      \"gate\": 6,\n      \"status\": \"blocked_portfolio_and_evidence\",\n      \"owner_role\": \"Portfolio Risk and Capital-Allocation Officer\",\n      \"task\": \"Re-underwrite the OBE/JOY oil-thesis slot under the concentrated-barbell mandate when triggers fire.\",\n      \"required_evidence\": [\n        \"authoritative portfolio\",\n        \"WTI strip and releases\",\n        \"OBE FCF/debt\",\n        \"JOY Duvernay/power/debt\",\n        \"refreshed EV with bounded downside\"\n      ],\n      \"completion_test\": \"Positive EV, at least 3:1 upside/downside, red-team PASS and Gate 0 PASS before a 3% staging tranche; further proof before 10%–15% full size\",\n      \"next_trigger\": \"WTI >US$75 for 20 sessions, releases slow with draws, JOY near C$3.40, or qualifying results\"\n    }\n  ]\n}\n```",
       "summary": "Research Queue json { \"schema_version\": 1,"
     },
     {
@@ -1528,8 +1612,8 @@
       "title": "Claim Ledger",
       "category": "Core Research",
       "source": "office\\data\\claims.json",
-      "updated": "2026-07-10T13:32:01",
-      "content": "# Claim Ledger\n\n```json\n{\n  \"schema_version\": 1,\n  \"claims\": [\n    {\n      \"id\": \"claim-regime-fed-hold-20260617\",\n      \"statement\": \"The FOMC maintained the federal-funds target range at 3.50%-3.75% on 2026-06-17 and described inflation as elevated relative to 2%, partly because of energy-related supply shocks.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-06-17\",\n      \"source_ids\": [\n        \"src-fed-fomc-20260617\"\n      ],\n      \"provenance_root\": \"src-fed-fomc-20260617\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Policy is not easing through an inflation/energy shock; long-duration and levered exposures require a higher hurdle rate.\"\n    },\n    {\n      \"id\": \"claim-regime-jobs-202606\",\n      \"statement\": \"US seasonally adjusted nonfarm payroll employment increased by 57,000 in June 2026 and the unemployment rate was 4.2%.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-06-30\",\n      \"source_ids\": [\n        \"src-bls-jobs-202606\"\n      ],\n      \"provenance_root\": \"src-bls-jobs-202606\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Employment growth is soft enough to raise growth sensitivity even though headline unemployment remains contained.\"\n    },\n    {\n      \"id\": \"claim-regime-cpi-202605\",\n      \"statement\": \"US seasonally adjusted CPI-U rose approximately 0.47% month over month in May 2026 (333.979 versus 332.407 in April).\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-05-31\",\n      \"source_ids\": [\n        \"src-bls-cpi-202605\"\n      ],\n      \"provenance_root\": \"src-bls-cpi-202605\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Inflation was too firm for complacency; June CPI on 2026-07-14 is a material portfolio catalyst.\"\n    },\n    {\n      \"id\": \"claim-regime-credit-20260708\",\n      \"statement\": \"ICE BofA US High Yield OAS was 2.70% and CCC-and-lower OAS was 9.75% on 2026-07-08.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-08\",\n      \"source_ids\": [\n        \"src-fred-hy-oas-20260708\"\n      ],\n      \"provenance_root\": \"src-fred-hy-oas-20260708\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Aggregate credit remains benign while weakest-quality credit is stressed, favoring quality and making levered speculative issuers vulnerable.\"\n    },\n    {\n      \"id\": \"claim-avav-funded-backlog-q3fy26\",\n      \"statement\": \"AeroVironment reported record funded backlog of approximately $1.1 billion in fiscal 2026 third-quarter results.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-01-31\",\n      \"source_ids\": [\n        \"src-avav-ir-q3-fy2026\"\n      ],\n      \"provenance_root\": \"src-avav-ir-q3-fy2026\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 0.9,\n      \"investment_impact\": \"AVAV has measurable funded demand, but conversion, margin, integration, valuation, and cash-flow work remain incomplete.\"\n    },\n    {\n      \"id\": \"claim-ions-cardio-ttransform-miss-20260709\",\n      \"statement\": \"Ionis and AstraZeneca disclosed that CARDIO-TTRansform did not meet its primary endpoint; the stabilizer-treated baseline subgroup showed no treatment effect, while a monotherapy subgroup had a nominally significant hazard ratio of 0.71.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-09\",\n      \"source_ids\": [\n        \"src-sec-ions-8k-20260709\"\n      ],\n      \"provenance_root\": \"src-sec-ions-8k-20260709\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"The core cardiomyopathy expansion thesis must be re-underwritten; a lower price alone does not justify averaging down.\"\n    },\n    {\n      \"id\": \"claim-ions-ntla-price-dislocation-20260710\",\n      \"statement\": \"At approximately 13:13 EDT on 2026-07-10, delayed market data showed IONS down 30.18% and NTLA down 13.81% over two trading days.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-internal-trigger-20260710\"\n      ],\n      \"provenance_root\": \"src-internal-trigger-20260710\",\n      \"verification_status\": \"corroborated\",\n      \"confidence\": 0.9,\n      \"investment_impact\": \"Both crossed investigation thresholds; the moves require causal diagnosis and valuation before any action.\"\n    },\n    {\n      \"id\": \"claim-ntla-no-new-8k-20260710\",\n      \"statement\": \"The Intellia SEC submissions index showed no company 8-K filed from 2026-07-07 through the 2026-07-10 verification time.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-sec-ntla-submissions-20260710\"\n      ],\n      \"provenance_root\": \"src-sec-ntla-submissions-20260710\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"NTLA's decline may be sector/read-through rather than a newly filed company-specific event; this remains an inference until all current news is checked.\"\n    },\n    {\n      \"id\": \"claim-lite-price-dislocation-20260710\",\n      \"statement\": \"At approximately 13:26 EDT on 2026-07-10, delayed market data showed LITE up 10.25% over two trading days, down 0.79% versus the prior close, with volume at 0.54x its configured 10-day-then-three-month average basis.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-internal-trigger-20260710\"\n      ],\n      \"provenance_root\": \"src-internal-trigger-20260710\",\n      \"verification_status\": \"corroborated_delayed_market_data\",\n      \"confidence\": 0.9,\n      \"investment_impact\": \"LITE crossed the pre-registered two-day investigation threshold, but the move and below-average volume do not establish a fundamental thesis.\"\n    },\n    {\n      \"id\": \"claim-lite-no-current-primary-event-20260710\",\n      \"statement\": \"As checked at 13:29 EDT on 2026-07-10, Lumentum's SEC submissions index contained no filing accepted after the 13:18 EDT prior-report cutoff; its latest filing was a Schedule 13G/A accepted on 2026-07-08. Lumentum's official newsroom listed no July 10 release and showed May 11, 2026 as its latest listed release date.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-sec-lite-submissions-20260710\",\n        \"src-lite-official-news-20260710\"\n      ],\n      \"provenance_root\": \"src-sec-lite-submissions-20260710\",\n      \"verification_status\": \"verified_primary_for_checked_filings_and_release_index\",\n      \"confidence\": 0.95,\n      \"investment_impact\": \"No current primary company event was found to explain the threshold crossing; causal and valuation work remain required.\"\n    }\n  ]\n}\n```",
+      "updated": "2026-07-10T15:37:22",
+      "content": "# Claim Ledger\n\n```json\n{\n  \"schema_version\": 1,\n  \"claims\": [\n    {\n      \"id\": \"claim-regime-fed-hold-20260617\",\n      \"statement\": \"The FOMC maintained the federal-funds target range at 3.50%-3.75% on 2026-06-17 and described inflation as elevated relative to 2%, partly because of energy-related supply shocks.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-06-17\",\n      \"source_ids\": [\n        \"src-fed-fomc-20260617\"\n      ],\n      \"provenance_root\": \"src-fed-fomc-20260617\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Policy is not easing through an inflation/energy shock; long-duration and levered exposures require a higher hurdle rate.\"\n    },\n    {\n      \"id\": \"claim-regime-jobs-202606\",\n      \"statement\": \"US seasonally adjusted nonfarm payroll employment increased by 57,000 in June 2026 and the unemployment rate was 4.2%.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-06-30\",\n      \"source_ids\": [\n        \"src-bls-jobs-202606\"\n      ],\n      \"provenance_root\": \"src-bls-jobs-202606\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Employment growth is soft enough to raise growth sensitivity even though headline unemployment remains contained.\"\n    },\n    {\n      \"id\": \"claim-regime-cpi-202605\",\n      \"statement\": \"US seasonally adjusted CPI-U rose approximately 0.47% month over month in May 2026 (333.979 versus 332.407 in April).\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-05-31\",\n      \"source_ids\": [\n        \"src-bls-cpi-202605\"\n      ],\n      \"provenance_root\": \"src-bls-cpi-202605\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Inflation was too firm for complacency; June CPI on 2026-07-14 is a material portfolio catalyst.\"\n    },\n    {\n      \"id\": \"claim-regime-credit-20260708\",\n      \"statement\": \"ICE BofA US High Yield OAS was 2.70% and CCC-and-lower OAS was 9.75% on 2026-07-08.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-08\",\n      \"source_ids\": [\n        \"src-fred-hy-oas-20260708\"\n      ],\n      \"provenance_root\": \"src-fred-hy-oas-20260708\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Aggregate credit remains benign while weakest-quality credit is stressed, favoring quality and making levered speculative issuers vulnerable.\"\n    },\n    {\n      \"id\": \"claim-avav-funded-backlog-q3fy26\",\n      \"statement\": \"AeroVironment reported record funded backlog of approximately $1.1 billion in fiscal 2026 third-quarter results.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-01-31\",\n      \"source_ids\": [\n        \"src-avav-ir-q3-fy2026\"\n      ],\n      \"provenance_root\": \"src-avav-ir-q3-fy2026\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 0.9,\n      \"investment_impact\": \"AVAV has measurable funded demand, but conversion, margin, integration, valuation, and cash-flow work remain incomplete.\"\n    },\n    {\n      \"id\": \"claim-ions-cardio-ttransform-miss-20260709\",\n      \"statement\": \"Ionis and AstraZeneca disclosed that CARDIO-TTRansform did not meet its primary endpoint; the stabilizer-treated baseline subgroup showed no treatment effect, while a monotherapy subgroup had a nominally significant hazard ratio of 0.71.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-09\",\n      \"source_ids\": [\n        \"src-sec-ions-8k-20260709\"\n      ],\n      \"provenance_root\": \"src-sec-ions-8k-20260709\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"The core cardiomyopathy expansion thesis must be re-underwritten; a lower price alone does not justify averaging down.\"\n    },\n    {\n      \"id\": \"claim-ions-ntla-price-dislocation-20260710\",\n      \"statement\": \"At approximately 13:13 EDT on 2026-07-10, delayed market data showed IONS down 30.18% and NTLA down 13.81% over two trading days.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-internal-trigger-20260710\"\n      ],\n      \"provenance_root\": \"src-internal-trigger-20260710\",\n      \"verification_status\": \"corroborated\",\n      \"confidence\": 0.9,\n      \"investment_impact\": \"Both crossed investigation thresholds; the moves require causal diagnosis and valuation before any action.\"\n    },\n    {\n      \"id\": \"claim-ntla-no-new-8k-20260710\",\n      \"statement\": \"The Intellia SEC submissions index showed no company 8-K filed from 2026-07-07 through the 2026-07-10 verification time.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-sec-ntla-submissions-20260710\"\n      ],\n      \"provenance_root\": \"src-sec-ntla-submissions-20260710\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"NTLA's decline may be sector/read-through rather than a newly filed company-specific event; this remains an inference until all current news is checked.\"\n    },\n    {\n      \"id\": \"claim-lite-price-dislocation-20260710\",\n      \"statement\": \"At approximately 13:26 EDT on 2026-07-10, delayed market data showed LITE up 10.25% over two trading days, down 0.79% versus the prior close, with volume at 0.54x its configured 10-day-then-three-month average basis.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-internal-trigger-20260710\"\n      ],\n      \"provenance_root\": \"src-internal-trigger-20260710\",\n      \"verification_status\": \"corroborated_delayed_market_data\",\n      \"confidence\": 0.9,\n      \"investment_impact\": \"LITE crossed the pre-registered two-day investigation threshold, but the move and below-average volume do not establish a fundamental thesis.\"\n    },\n    {\n      \"id\": \"claim-lite-no-current-primary-event-20260710\",\n      \"statement\": \"As checked at 13:29 EDT on 2026-07-10, Lumentum's SEC submissions index contained no filing accepted after the 13:18 EDT prior-report cutoff; its latest filing was a Schedule 13G/A accepted on 2026-07-08. Lumentum's official newsroom listed no July 10 release and showed May 11, 2026 as its latest listed release date.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-sec-lite-submissions-20260710\",\n        \"src-lite-official-news-20260710\"\n      ],\n      \"provenance_root\": \"src-sec-lite-submissions-20260710\",\n      \"verification_status\": \"verified_primary_for_checked_filings_and_release_index\",\n      \"confidence\": 0.95,\n      \"investment_impact\": \"No current primary company event was found to explain the threshold crossing; causal and valuation work remain required.\"\n    },\n    {\n      \"id\": \"claim-oil-inventory-tightness-20260703\",\n      \"statement\": \"EIA data reviewed from 2026-03-27 through 2026-07-03 show an approximately 95.6 million barrel SPR decline; commercial crude fell approximately 50.3 million barrels over the broad period and Cushing fell from about 31.5 to 19.6 million barrels.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-03\",\n      \"source_ids\": [\n        \"src-eia-weekly-petroleum-20260703\"\n      ],\n      \"provenance_root\": \"src-eia-weekly-petroleum-20260703\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 0.98,\n      \"investment_impact\": \"Confirms physical tightness and reliance on government releases.\"\n    },\n    {\n      \"id\": \"claim-oil-normalization-surplus-risk-20260710\",\n      \"statement\": \"IEA reports renewed hostilities could upend normalization, but 44 million barrels of June OECD draws came from government releases, oil on water rose 117 million barrels, and improving Gulf flows could return the market to surplus.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-iea-omr-20260710\"\n      ],\n      \"provenance_root\": \"src-iea-omr-20260710\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Inventory depletion does not guarantee a durable oil-price rise.\"\n    },\n    {\n      \"id\": \"claim-eia-brent65-2027\",\n      \"statement\": \"EIA July STEO forecasts oversupply after near-term draws and Brent averaging US$65 per barrel in 2027.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-07\",\n      \"source_ids\": [\n        \"src-eia-steo-20260707\"\n      ],\n      \"provenance_root\": \"src-eia-steo-20260707\",\n      \"verification_status\": \"verified_primary\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Below both companies' comfortable self-funding level under current plans.\"\n    },\n    {\n      \"id\": \"claim-obe-guidance-leverage-20260702\",\n      \"statement\": \"OBE guidance is 29,000–31,000 boe/d and targets 22% 2027 growth; at US$75 WTI it forecasts about C$310m FFO, negative C$14m FCF and C$395m year-end net debt.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-07-02\",\n      \"source_ids\": [\n        \"src-sec-obe-guidance-20260702\"\n      ],\n      \"provenance_root\": \"src-sec-obe-guidance-20260702\",\n      \"verification_status\": \"verified_primary_issuer_guidance\",\n      \"confidence\": 0.95,\n      \"investment_impact\": \"Leveraged growth program, not a low-risk cash-return vehicle.\"\n    },\n    {\n      \"id\": \"claim-joy-q1-capital-risk-20260331\",\n      \"statement\": \"JOY reported 10,456 boe/d, approximately 60% oil/NGL, C$13.7m adjusted funds flow and about C$56m net debt; its plan calls for C$80–90m capital plus about C$7m abandonment spending.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-03-31\",\n      \"source_ids\": [\n        \"src-joy-q1-mda-2026\",\n        \"src-joy-presentation-202606\"\n      ],\n      \"provenance_root\": \"src-joy-q1-mda-2026\",\n      \"verification_status\": \"verified_primary_issuer_disclosure\",\n      \"confidence\": 0.95,\n      \"investment_impact\": \"Not self-funding at mid-US$60s WTI under the current plan.\"\n    },\n    {\n      \"id\": \"claim-joy-convert-aro-20260331\",\n      \"statement\": \"JOY Q1 statements report about C$35.6m carrying value of 10.25% converts due 2029 at C$5 and about C$217.3m undiscounted decommissioning cash flows.\",\n      \"classification\": \"FACT\",\n      \"as_of\": \"2026-03-31\",\n      \"source_ids\": [\n        \"src-joy-q1-fs-2026\"\n      ],\n      \"provenance_root\": \"src-joy-q1-fs-2026\",\n      \"verification_status\": \"verified_primary_issuer_financials\",\n      \"confidence\": 1.0,\n      \"investment_impact\": \"Interest, dilution/refinancing and abandonment risk reduce equity value.\"\n    },\n    {\n      \"id\": \"claim-obe-joy-scenario-20260710\",\n      \"statement\": \"An explicit 45% bear/40% base/15% bull scenario model at reference prices produced rough weighted returns of negative 23% for OBE and negative 11% for JOY.\",\n      \"classification\": \"ESTIMATE\",\n      \"as_of\": \"2026-07-10\",\n      \"source_ids\": [\n        \"src-eia-steo-20260707\",\n        \"src-iea-omr-20260710\",\n        \"src-sec-obe-guidance-20260702\",\n        \"src-joy-presentation-202606\"\n      ],\n      \"provenance_root\": \"src-eia-steo-20260707\",\n      \"verification_status\": \"analyst_model_explicit_assumptions\",\n      \"confidence\": 0.65,\n      \"investment_impact\": \"Neither clears immediate BUY; JOY ranks ahead.\"\n    }\n  ]\n}\n```",
       "summary": "Claim Ledger json { \"schema_version\": 1,"
     },
     {
@@ -1537,8 +1621,8 @@
       "title": "Source Ledger",
       "category": "Core Research",
       "source": "office\\data\\sources.json",
-      "updated": "2026-07-10T13:31:58",
-      "content": "# Source Ledger\n\n```json\n{\n  \"schema_version\": 1,\n  \"sources\": [\n    {\n      \"id\": \"src-fed-fomc-20260617\",\n      \"name\": \"Federal Reserve FOMC statement — 2026-06-17\",\n      \"url\": \"https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm\",\n      \"tier\": 1,\n      \"type\": \"official_policy_release\",\n      \"expertise\": [\n        \"monetary policy\",\n        \"federal funds rate\"\n      ],\n      \"incentives\": \"Official policy communication\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T11:48:09-04:00\"\n    },\n    {\n      \"id\": \"src-bls-jobs-202606\",\n      \"name\": \"BLS Employment Situation — June 2026\",\n      \"url\": \"https://api.bls.gov/publicAPI/v2/timeseries/data/\",\n      \"tier\": 1,\n      \"type\": \"official_statistics_api\",\n      \"expertise\": [\n        \"US employment\",\n        \"unemployment\"\n      ],\n      \"incentives\": \"Official statistical release\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:12:00-04:00\"\n    },\n    {\n      \"id\": \"src-bls-cpi-202605\",\n      \"name\": \"BLS Consumer Price Index — May 2026\",\n      \"url\": \"https://api.bls.gov/publicAPI/v2/timeseries/data/\",\n      \"tier\": 1,\n      \"type\": \"official_statistics_api\",\n      \"expertise\": [\n        \"US inflation\",\n        \"consumer prices\"\n      ],\n      \"incentives\": \"Official statistical release\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:12:00-04:00\"\n    },\n    {\n      \"id\": \"src-fred-hy-oas-20260708\",\n      \"name\": \"FRED ICE BofA US High Yield and CCC OAS\",\n      \"url\": \"https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2,BAMLH0A3HYC\",\n      \"tier\": 1,\n      \"type\": \"official_data_distribution\",\n      \"expertise\": [\n        \"US high-yield credit spreads\"\n      ],\n      \"incentives\": \"Public data distribution\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T11:48:09-04:00\"\n    },\n    {\n      \"id\": \"src-avav-ir-q3-fy2026\",\n      \"name\": \"AeroVironment fiscal 2026 third-quarter results\",\n      \"url\": \"https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-fiscal-2026-third-quarter-results\",\n      \"tier\": 1,\n      \"type\": \"company_official_release\",\n      \"expertise\": [\n        \"AVAV financials\",\n        \"funded backlog\"\n      ],\n      \"incentives\": \"Issuer communication; promotional incentive\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T11:48:09-04:00\"\n    },\n    {\n      \"id\": \"src-sec-ions-8k-20260709\",\n      \"name\": \"Ionis 2026-07-09 Form 8-K, Exhibit 99.1\",\n      \"url\": \"https://www.sec.gov/Archives/edgar/data/874015/000114036126028092/ef20077664_ex99-1.htm\",\n      \"tier\": 1,\n      \"type\": \"regulatory_filing_exhibit\",\n      \"expertise\": [\n        \"IONS\",\n        \"eplontersen\",\n        \"CARDIO-TTRansform\"\n      ],\n      \"incentives\": \"Legally filed issuer disclosure; promotional framing risk\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:17:00-04:00\"\n    },\n    {\n      \"id\": \"src-sec-ntla-submissions-20260710\",\n      \"name\": \"Intellia SEC submissions index as of 2026-07-10\",\n      \"url\": \"https://data.sec.gov/submissions/CIK0001652130.json\",\n      \"tier\": 1,\n      \"type\": \"regulatory_filings_index\",\n      \"expertise\": [\n        \"NTLA filings\"\n      ],\n      \"incentives\": \"Official filings distribution\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:17:00-04:00\"\n    },\n    {\n      \"id\": \"src-internal-trigger-20260710\",\n      \"name\": \"Hermes deterministic delayed-price trigger log\",\n      \"url\": \"file:///[local-home]/workspace/investment-research/state/trigger_evaluations.jsonl\",\n      \"tier\": 4,\n      \"type\": \"internal_monitor_using_delayed_yahoo_chart_data\",\n      \"expertise\": [\n        \"price\",\n        \"volume\",\n        \"trigger thresholds\"\n      ],\n      \"incentives\": \"Deterministic local monitor\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"corroboration\",\n      \"last_verified_at\": \"2026-07-10T13:26:48-04:00\"\n    },\n    {\n      \"id\": \"src-sec-lite-submissions-20260710\",\n      \"name\": \"Lumentum SEC submissions index as of 2026-07-10 13:29 EDT\",\n      \"url\": \"https://data.sec.gov/submissions/CIK0001633978.json\",\n      \"tier\": 1,\n      \"type\": \"regulatory_filings_index\",\n      \"expertise\": [\n        \"LITE filings\"\n      ],\n      \"incentives\": \"Official filings distribution\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:29:36-04:00\"\n    },\n    {\n      \"id\": \"src-lite-official-news-20260710\",\n      \"name\": \"Lumentum official news releases page as of 2026-07-10 13:29 EDT\",\n      \"url\": \"https://www.lumentum.com/en/newsroom/news-releases\",\n      \"tier\": 1,\n      \"type\": \"company_official_release_index\",\n      \"expertise\": [\n        \"LITE company announcements\"\n      ],\n      \"incentives\": \"Issuer communication; promotional incentive\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:29:36-04:00\"\n    }\n  ]\n}\n```",
+      "updated": "2026-07-10T15:37:22",
+      "content": "# Source Ledger\n\n```json\n{\n  \"schema_version\": 1,\n  \"sources\": [\n    {\n      \"id\": \"src-fed-fomc-20260617\",\n      \"name\": \"Federal Reserve FOMC statement — 2026-06-17\",\n      \"url\": \"https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm\",\n      \"tier\": 1,\n      \"type\": \"official_policy_release\",\n      \"expertise\": [\n        \"monetary policy\",\n        \"federal funds rate\"\n      ],\n      \"incentives\": \"Official policy communication\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T11:48:09-04:00\"\n    },\n    {\n      \"id\": \"src-bls-jobs-202606\",\n      \"name\": \"BLS Employment Situation — June 2026\",\n      \"url\": \"https://api.bls.gov/publicAPI/v2/timeseries/data/\",\n      \"tier\": 1,\n      \"type\": \"official_statistics_api\",\n      \"expertise\": [\n        \"US employment\",\n        \"unemployment\"\n      ],\n      \"incentives\": \"Official statistical release\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:12:00-04:00\"\n    },\n    {\n      \"id\": \"src-bls-cpi-202605\",\n      \"name\": \"BLS Consumer Price Index — May 2026\",\n      \"url\": \"https://api.bls.gov/publicAPI/v2/timeseries/data/\",\n      \"tier\": 1,\n      \"type\": \"official_statistics_api\",\n      \"expertise\": [\n        \"US inflation\",\n        \"consumer prices\"\n      ],\n      \"incentives\": \"Official statistical release\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:12:00-04:00\"\n    },\n    {\n      \"id\": \"src-fred-hy-oas-20260708\",\n      \"name\": \"FRED ICE BofA US High Yield and CCC OAS\",\n      \"url\": \"https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2,BAMLH0A3HYC\",\n      \"tier\": 1,\n      \"type\": \"official_data_distribution\",\n      \"expertise\": [\n        \"US high-yield credit spreads\"\n      ],\n      \"incentives\": \"Public data distribution\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T11:48:09-04:00\"\n    },\n    {\n      \"id\": \"src-avav-ir-q3-fy2026\",\n      \"name\": \"AeroVironment fiscal 2026 third-quarter results\",\n      \"url\": \"https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-fiscal-2026-third-quarter-results\",\n      \"tier\": 1,\n      \"type\": \"company_official_release\",\n      \"expertise\": [\n        \"AVAV financials\",\n        \"funded backlog\"\n      ],\n      \"incentives\": \"Issuer communication; promotional incentive\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T11:48:09-04:00\"\n    },\n    {\n      \"id\": \"src-sec-ions-8k-20260709\",\n      \"name\": \"Ionis 2026-07-09 Form 8-K, Exhibit 99.1\",\n      \"url\": \"https://www.sec.gov/Archives/edgar/data/874015/000114036126028092/ef20077664_ex99-1.htm\",\n      \"tier\": 1,\n      \"type\": \"regulatory_filing_exhibit\",\n      \"expertise\": [\n        \"IONS\",\n        \"eplontersen\",\n        \"CARDIO-TTRansform\"\n      ],\n      \"incentives\": \"Legally filed issuer disclosure; promotional framing risk\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:17:00-04:00\"\n    },\n    {\n      \"id\": \"src-sec-ntla-submissions-20260710\",\n      \"name\": \"Intellia SEC submissions index as of 2026-07-10\",\n      \"url\": \"https://data.sec.gov/submissions/CIK0001652130.json\",\n      \"tier\": 1,\n      \"type\": \"regulatory_filings_index\",\n      \"expertise\": [\n        \"NTLA filings\"\n      ],\n      \"incentives\": \"Official filings distribution\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:17:00-04:00\"\n    },\n    {\n      \"id\": \"src-internal-trigger-20260710\",\n      \"name\": \"Hermes deterministic delayed-price trigger log\",\n      \"url\": \"file:///[local-home]/workspace/investment-research/state/trigger_evaluations.jsonl\",\n      \"tier\": 4,\n      \"type\": \"internal_monitor_using_delayed_yahoo_chart_data\",\n      \"expertise\": [\n        \"price\",\n        \"volume\",\n        \"trigger thresholds\"\n      ],\n      \"incentives\": \"Deterministic local monitor\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"corroboration\",\n      \"last_verified_at\": \"2026-07-10T13:26:48-04:00\"\n    },\n    {\n      \"id\": \"src-sec-lite-submissions-20260710\",\n      \"name\": \"Lumentum SEC submissions index as of 2026-07-10 13:29 EDT\",\n      \"url\": \"https://data.sec.gov/submissions/CIK0001633978.json\",\n      \"tier\": 1,\n      \"type\": \"regulatory_filings_index\",\n      \"expertise\": [\n        \"LITE filings\"\n      ],\n      \"incentives\": \"Official filings distribution\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:29:36-04:00\"\n    },\n    {\n      \"id\": \"src-lite-official-news-20260710\",\n      \"name\": \"Lumentum official news releases page as of 2026-07-10 13:29 EDT\",\n      \"url\": \"https://www.lumentum.com/en/newsroom/news-releases\",\n      \"tier\": 1,\n      \"type\": \"company_official_release_index\",\n      \"expertise\": [\n        \"LITE company announcements\"\n      ],\n      \"incentives\": \"Issuer communication; promotional incentive\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T13:29:36-04:00\"\n    },\n    {\n      \"id\": \"src-iea-omr-20260710\",\n      \"name\": \"IEA Oil Market Report — July 2026\",\n      \"url\": \"https://www.iea.org/reports/oil-market-report-july-2026\",\n      \"tier\": 1,\n      \"type\": \"official_intergovernmental_market_report\",\n      \"expertise\": [\n        \"global oil supply\",\n        \"demand\",\n        \"inventories\",\n        \"Hormuz flows\"\n      ],\n      \"incentives\": \"Official energy-security analysis\",\n      \"bias_risk\": \"low-medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T15:12:08-04:00\"\n    },\n    {\n      \"id\": \"src-eia-steo-20260707\",\n      \"name\": \"EIA Short-Term Energy Outlook — July 2026\",\n      \"url\": \"https://www.eia.gov/outlooks/steo/\",\n      \"tier\": 1,\n      \"type\": \"official_forecast\",\n      \"expertise\": [\n        \"oil balances\",\n        \"Brent forecast\"\n      ],\n      \"incentives\": \"Official statistical forecast\",\n      \"bias_risk\": \"low-medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T15:12:08-04:00\"\n    },\n    {\n      \"id\": \"src-eia-weekly-petroleum-20260703\",\n      \"name\": \"EIA weekly petroleum data through 2026-07-03\",\n      \"url\": \"https://api.eia.gov/v2/petroleum/\",\n      \"tier\": 1,\n      \"type\": \"official_statistics_api\",\n      \"expertise\": [\n        \"SPR\",\n        \"commercial crude\",\n        \"Cushing\"\n      ],\n      \"incentives\": \"Official statistics\",\n      \"bias_risk\": \"low\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T15:12:08-04:00\"\n    },\n    {\n      \"id\": \"src-sec-obe-guidance-20260702\",\n      \"name\": \"Obsidian acquisition close and updated guidance\",\n      \"url\": \"https://www.sec.gov/Archives/edgar/data/1334388/000119312526293579/july_2_pr_acq_close_guid.htm\",\n      \"tier\": 1,\n      \"type\": \"regulatory_filing_exhibit\",\n      \"expertise\": [\n        \"OBE guidance\",\n        \"Belly River\",\n        \"commodity sensitivity\"\n      ],\n      \"incentives\": \"Filed issuer disclosure; promotional risk\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T15:12:08-04:00\"\n    },\n    {\n      \"id\": \"src-sec-obe-rbl-20260623\",\n      \"name\": \"Obsidian syndicated credit facility release\",\n      \"url\": \"https://www.sec.gov/Archives/edgar/data/1334388/000119312526279747/obe-ex99_1.htm\",\n      \"tier\": 1,\n      \"type\": \"regulatory_filing_exhibit\",\n      \"expertise\": [\n        \"OBE credit facility\"\n      ],\n      \"incentives\": \"Filed issuer disclosure\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T15:12:08-04:00\"\n    },\n    {\n      \"id\": \"src-joy-q1-fs-2026\",\n      \"name\": \"Journey Q1 2026 financial statements\",\n      \"url\": \"https://www.journeyenergy.ca/wp-content/uploads/Reports/Financial_Reports/JEI_FS_Q1_2026.pdf\",\n      \"tier\": 1,\n      \"type\": \"issuer_financial_statements\",\n      \"expertise\": [\n        \"JOY debt\",\n        \"convertibles\",\n        \"decommissioning\"\n      ],\n      \"incentives\": \"Issuer disclosure\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T15:12:08-04:00\"\n    },\n    {\n      \"id\": \"src-joy-q1-mda-2026\",\n      \"name\": \"Journey Q1 2026 MD&A\",\n      \"url\": \"https://www.journeyenergy.ca/wp-content/uploads/Reports/Financial_Reports/JEI_MDA_Q1_2026.pdf\",\n      \"tier\": 1,\n      \"type\": \"issuer_mda\",\n      \"expertise\": [\n        \"JOY production\",\n        \"AFF\",\n        \"net debt\",\n        \"capital\"\n      ],\n      \"incentives\": \"Issuer disclosure; promotional risk\",\n      \"bias_risk\": \"medium\",\n      \"permitted_use\": \"validation\",\n      \"last_verified_at\": \"2026-07-10T15:12:08-04:00\"\n    },\n    {\n      \"id\": \"src-joy-presentation-202606\",\n      \"name\": \"Journey June 2026 presentation\",\n      \"url\": \"https://www.journeyenergy.ca/wp-content/uploads/Reports/Presentations/JOURNEY_June_2026_CORPORATE_PRESENTATION.pdf\",\n      \"tier\": 1,\n      \"type\": \"issuer_presentation\",\n      \"expertise\": [\n        \"JOY guidance\",\n        \"Duvernay\",\n        \"power\",\n        \"NAV\"\n      ],\n      \"incentives\": \"Issuer marketing\",\n      \"bias_risk\": \"high\",\n      \"permitted_use\": \"corroboration_and_model_input\",\n      \"last_verified_at\": \"2026-07-10T15:12:08-04:00\"\n    }\n  ]\n}\n```",
       "summary": "Source Ledger json { \"schema_version\": 1,"
     },
     {
@@ -1689,10 +1773,10 @@
       "id": "job-04aa99181e16",
       "title": "Market Trigger Watcher",
       "category": "Desk Outputs",
-      "source": "cron/04aa99181e16/2026-07-10_12-41-49.md — final response only",
-      "updated": "2026-07-10T13:41:49",
-      "content": "# Cron Job: Investment market trigger watcher\n\n**Job ID:** 04aa99181e16\n**Run Time:** 2026-07-10 12:41:49\n**Mode:** no_agent (script)\n**Status:** silent (empty output)",
-      "summary": "Cron Job: Investment market trigger watcher Job ID: 04aa99181e16 Run Time: 20260710 12:41:49 Mode: no_agent (script)"
+      "source": "cron/04aa99181e16/2026-07-11_08-45-26.md — final response only",
+      "updated": "2026-07-11T09:45:26",
+      "content": "# Cron Job: Investment market trigger watcher\n\n**Job ID:** 04aa99181e16\n**Run Time:** 2026-07-11 08:45:26\n**Mode:** no_agent (script)\n**Status:** silent (empty output)",
+      "summary": "Cron Job: Investment market trigger watcher Job ID: 04aa99181e16 Run Time: 20260711 08:45:26 Mode: no_agent (script)"
     }
   ]
 }
