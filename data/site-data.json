@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-13T14:33:56-04:00",
+    "generatedAt": "2026-07-13T15:04:12-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -10,9 +10,9 @@
     "gate": "FAIL",
     "urgency": "Trigger-dependent",
     "materialChanges": [
-      "**No material change; no action.** `portfolio.json` remains `awaiting_authoritative_export`. Positions, cash/liabilities, account and tax treatment, base currency, constraints, options, and margin terms remain non-authoritative. Authorized target/initial/max sizing and borrowed capital remain **0%**.",
-      "No new SEC filing was present after the 2026-07-11 weekly-IC cutoff for AVAV, IONS, NTLA, LITE, AAOI, TMDX, VST, KTOS, or the trigger watchlist issuers checked. No new price/volume alert was recorded after 2026-07-10; markets were closed over the weekend.",
-      "Official macro evidence did not change the regime call: the latest Treasury curve remains 2026-07-10, the latest available HY/CCC OAS observations remain 2026-07-09, and the Federal Reserve press feed contains no release after 2026-07-09."
+      "No material change; no action. portfolio data remains not yet connected. Positions, cash/liabilities, account and tax treatment, base currency, constraints, options, and margin terms remain non-authoritative. Authorized target/initial/max sizing and borrowed capital remain 0%.",
+      "No new company filing or market alert changed the current investment calls.",
+      "Rates, credit spreads, and Federal Reserve evidence did not change the current regime call."
     ],
     "catalysts": [
       "**2026-07-14, 08:30 EDT — June CPI.** Owner: Macro Strategist. Reassess inflation-shock versus slowdown probabilities only after the official release; Gate 0 still prohibits a trade.",
@@ -20,7 +20,7 @@
     ],
     "evidenceCutoff": [
       "**2026-07-13 09:16 EDT.** Direct sources: [SEC company submissions](https://data.sec.gov/submissions/), [Federal Reserve press feed](https://www.federalreserve.gov/feeds/press_all.xml), [U.S. Treasury yield curve](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026), [FRED HY/CCC OAS](https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2,BAMLH0A3HYC), and [BLS release calendar](https://www.bls.gov/schedule/news_release/bls.ics).",
-      "Managed search/extraction was unavailable; direct official endpoints were used. Missing input: authoritative current broker export and constraints."
+      "Missing input: authoritative current broker export and constraints."
     ],
     "reportId": "report-office-reports-daily-2026-07-13-md",
     "date": "2026-07-13"
@@ -41,22 +41,25 @@
     "message": "Current holdings are not verified, so no buy, add, hold, reduce, or sizing call can be authorized."
   },
   "currentBuys": [],
+  "buyCandidates": [],
   "actionCounts": {
     "INVESTIGATE": 4,
     "AVOID": 1
   },
   "decisions": [
     {
-      "id": "rec-avav-20260711-weekly",
-      "version": 1,
-      "as_of": "2026-07-11T11:20:00-04:00",
       "instrument": "AVAV",
       "action": "INVESTIGATE",
+      "researchRating": "WATCH",
+      "note": {
+        "call": "Potential buy; finish the numbers first.",
+        "why": "Defense demand and funded backlog are strong, and the price reset may have lowered expectations.",
+        "upside": "Shares could rerate if backlog becomes profitable revenue and free cash flow.",
+        "risk": "BlueHalo integration, dilution, and weak cash conversion may make the stock expensive.",
+        "next": "Normalized FY2027 margin, cash-flow, debt, and dilution model."
+      },
+      "as_of": "2026-07-11T11:20:00-04:00",
       "conviction": 5,
-      "current_allocation_pct": null,
-      "target_allocation_pct": 0,
-      "time_horizon": "Complete forensic underwriting before establishing a 12–36 month investment horizon",
-      "urgency": "This week",
       "executive_thesis": [
         "AVAV is the only lead advanced from weekly triage because funded backlog is primary-source verified and its 21% one-month price decline creates a plausible expectations reset.",
         "At the July 10 delayed close, estimated enterprise value is US$7.67 billion, about 3.88x FY2026 revenue; this is not obviously cheap against negative GAAP operating income and cash flow.",
@@ -64,20 +67,25 @@
         "BlueHalo purchase accounting, organic margins, working capital and dilution are not normalized, so return scenarios and positive expected value are not yet defensible.",
         "Gate 0 fails; current, target, initial and maximum authorized allocations remain 0%."
       ],
-      "alpha": {
-        "market_belief": "The post-decline price still appears to capitalize durable defense-autonomy growth and successful BlueHalo integration despite near-term accounting and cash-conversion noise.",
-        "our_belief": "Funded backlog supports revenue visibility, but value depends on converting it into organic margin and FCF rather than adjusted-profit narratives.",
-        "why_right": "The filing separates appropriated funded backlog from a larger unfunded award pool and reports negative FY2026 GAAP operating and cash flow, making conversion economics the key disputed variable.",
-        "why_opportunity_exists": "A 21% one-month decline may have reset expectations faster than long-cycle funded demand changed.",
-        "edge_decay": "The edge disappears when FY2027 conversion, margins and working capital become visible in filings.",
-        "edge_falsifier": "Normalized positive FCF does not emerge from funded-backlog conversion or conservative valuation fails to reach 3:1 upside/downside versus the current enterprise value."
-      },
       "return_profile": {
         "scenarios": [],
         "probability_weighted_expected_return_pct": null,
         "realistic_downside_pct": null,
         "upside_downside_ratio": null,
         "expected_holding_period": "Not established until forensic valuation is complete"
+      },
+      "execution": {
+        "initial_allocation_pct": 0,
+        "maximum_allocation_pct": 0,
+        "entry_method": "No trade; forensic, variant, red-team, portfolio-risk and Gate 0 clearance are required",
+        "add_conditions": [
+          "Normalized FCF and valuation clear all gates"
+        ],
+        "reduce_conditions": [],
+        "exit_conditions": [
+          "If later owned, funded-backlog conversion or integration economics fail the pre-underwritten thresholds"
+        ],
+        "hedge": null
       },
       "catalysts": [
         {
@@ -116,54 +124,12 @@
         "Do not count unfunded backlog as contracted revenue or use adjusted earnings without a cash bridge.",
         "Do not size while portfolio Gate 0 fails."
       ],
-      "execution": {
-        "initial_allocation_pct": 0,
-        "maximum_allocation_pct": 0,
-        "entry_method": "No trade; forensic, variant, red-team, portfolio-risk and Gate 0 clearance are required",
-        "add_conditions": [
-          "Normalized FCF and valuation clear all gates"
-        ],
-        "reduce_conditions": [],
-        "exit_conditions": [
-          "If later owned, funded-backlog conversion or integration economics fail the pre-underwritten thresholds"
-        ],
-        "hedge": null
-      },
-      "evidence": [
-        {
-          "claim_id": "claim-avav-security-snapshot-20260710",
-          "source_id": "src-sec-avav-10k-20260629"
-        },
-        {
-          "claim_id": "claim-avav-forensic-snapshot-fy2026",
-          "source_id": "src-sec-avav-10k-20260629"
-        },
-        {
-          "claim_id": "claim-avav-funded-backlog-fy2026",
-          "source_id": "src-sec-avav-10k-20260629"
-        },
-        {
-          "claim_id": "claim-treasury-curve-20260710",
-          "source_id": "src-us-treasury-yield-curve-20260710"
-        }
-      ],
       "open_questions": [
         "What are FY2026 pro-forma organic revenue, gross margin and segment operating margin excluding purchase accounting?",
         "How much of negative cash conversion is temporary working capital versus structural contract economics?",
         "What fully diluted share count and net-debt path belong in each scenario?",
         "Does AVAV beat KTOS and a 3.85% three-month Treasury hurdle after downside and dilution?"
       ],
-      "gate_status": {
-        "gate_0_portfolio": "FAIL",
-        "gate_1_discovery": "PASS",
-        "gate_2_triage": "PASS_74_OF_100",
-        "gate_3_underwriting": "BLOCK_INCOMPLETE",
-        "gate_4_variant": "PROVISIONAL",
-        "gate_5_red_team": "REWORK",
-        "gate_6_risk": "BLOCKED",
-        "gate_7_cio": "INVESTIGATE_ONLY",
-        "gate_8_execution": "NO_TRADE"
-      },
       "evidenceLinks": [
         {
           "label": "AeroVironment fiscal 2026 Form 10-K",
@@ -181,30 +147,24 @@
       ]
     },
     {
-      "id": "rec-obe-20260710-reentry",
-      "version": 1,
-      "as_of": "2026-07-10T15:12:08-04:00",
       "instrument": "OBE.TO",
       "action": "AVOID",
+      "researchRating": "AVOID",
+      "note": {
+        "call": "Avoid for now.",
+        "why": "The company can still burn cash at reasonable oil prices while carrying meaningful debt.",
+        "upside": "A sustained oil price above US$75 and falling debt could create a future entry.",
+        "risk": "Lower oil or weak execution could cause severe downside.",
+        "next": "Positive free cash flow and sequential debt reduction."
+      },
+      "as_of": "2026-07-10T15:12:08-04:00",
       "conviction": 8,
-      "current_allocation_pct": 0,
-      "target_allocation_pct": 0,
-      "time_horizon": "Trigger-dependent re-underwrite over 12–36 months",
-      "urgency": "Trigger-dependent",
       "executive_thesis": [
         "Tight oil is real but normalization remains plausible.",
         "OBE forecasts negative FCF even at US$75 WTI.",
         "Bear loss is incompatible with a concentrated position.",
         "Do not buy or short; wait for FCF and debt proof."
       ],
-      "alpha": {
-        "market_belief": "Near-term tightness, but normalization and 2027 oversupply cap the strip.",
-        "our_belief": "Tightness is real but prices do not compensate for cash burn, leverage and execution risk.",
-        "why_right": "Releases and tanker normalization can bridge scarcity before shareholder FCF arrives.",
-        "why_opportunity_exists": "A future entry may emerge after a valuation discount or debt/FCF confirmation.",
-        "edge_decay": "Normalization can arrive before balance sheets improve.",
-        "edge_falsifier": "Sustained physical disruption, a >US$75 strip and positive company FCF."
-      },
       "return_profile": {
         "scenarios": [
           {
@@ -240,6 +200,23 @@
         "upside_downside_ratio": 1.05,
         "expected_holding_period": "12–36 months only after a future entry clears"
       },
+      "execution": {
+        "initial_allocation_pct": 0,
+        "maximum_allocation_pct": 0,
+        "entry_method": "No trade; future staged starter only after all gates pass.",
+        "add_conditions": [
+          "Positive FCF",
+          "Sequential debt decline",
+          "Positive EV and at least 3:1 upside/downside"
+        ],
+        "reduce_conditions": [],
+        "exit_conditions": [
+          "WTI strip below US$65 with cash-negative capex",
+          "Debt fails to decline",
+          "Borrowing-base stress"
+        ],
+        "hedge": null
+      },
       "catalysts": [
         {
           "event": "Qualifying macro and company evidence trigger",
@@ -270,48 +247,10 @@
       "invalidation": [
         "A future BUY requires positive expected value, at least 3:1 upside/downside and materially bounded bear loss."
       ],
-      "execution": {
-        "initial_allocation_pct": 0,
-        "maximum_allocation_pct": 0,
-        "entry_method": "No trade; future staged starter only after all gates pass.",
-        "add_conditions": [
-          "Positive FCF",
-          "Sequential debt decline",
-          "Positive EV and at least 3:1 upside/downside"
-        ],
-        "reduce_conditions": [],
-        "exit_conditions": [
-          "WTI strip below US$65 with cash-negative capex",
-          "Debt fails to decline",
-          "Borrowing-base stress"
-        ],
-        "hedge": null
-      },
-      "evidence": [
-        {
-          "claim_id": "claim-obe-guidance-leverage-20260702",
-          "source_id": "src-sec-obe-guidance-20260702"
-        },
-        {
-          "claim_id": "claim-obe-joy-scenario-20260710",
-          "source_id": "src-iea-omr-20260710"
-        }
-      ],
       "open_questions": [
         "Current portfolio",
         "Post-acquisition FCF and debt"
       ],
-      "gate_status": {
-        "gate_0_portfolio": "FAIL",
-        "gate_1_discovery": "PASS",
-        "gate_2_triage": "PASS",
-        "gate_3_underwriting": "PASS",
-        "gate_4_variant": "PASS",
-        "gate_5_red_team": "IN_PROGRESS",
-        "gate_6_risk": "BLOCKED",
-        "gate_7_cio": "AVOID",
-        "gate_8_execution": "NO_TRADE"
-      },
       "evidenceLinks": [
         {
           "label": "Obsidian acquisition close and updated guidance",
@@ -328,30 +267,24 @@
       ]
     },
     {
-      "id": "rec-joy-20260710-reentry",
-      "version": 1,
-      "as_of": "2026-07-10T15:12:08-04:00",
       "instrument": "JOY.TO",
       "action": "INVESTIGATE",
+      "researchRating": "WATCH",
+      "note": {
+        "call": "Conditional watch.",
+        "why": "Assets and leverage look better than OBE, but the current plan remains cash-negative near US$65 oil.",
+        "upside": "A cheaper entry or successful Duvernay and power execution could improve the return profile.",
+        "risk": "Project delays, refinancing pressure, or lower oil can erase the upside.",
+        "next": "Price near C$3.40 or verified operating progress with stable debt."
+      },
+      "as_of": "2026-07-10T15:12:08-04:00",
       "conviction": 7,
-      "current_allocation_pct": 0,
-      "target_allocation_pct": 0,
-      "time_horizon": "Trigger-dependent re-underwrite over 12–36 months",
-      "urgency": "Trigger-dependent",
       "executive_thesis": [
         "JOY ranks ahead of OBE on leverage and asset support.",
         "Current plan remains cash-negative near US$65.",
         "Duvernay, power and converts add execution risk.",
         "No buy or short until valuation or evidence improves."
       ],
-      "alpha": {
-        "market_belief": "Near-term tightness, but normalization and 2027 oversupply cap the strip.",
-        "our_belief": "Tightness is real but prices do not compensate for cash burn, leverage and execution risk.",
-        "why_right": "Releases and tanker normalization can bridge scarcity before shareholder FCF arrives.",
-        "why_opportunity_exists": "A future entry may emerge after a valuation discount or debt/FCF confirmation.",
-        "edge_decay": "Normalization can arrive before balance sheets improve.",
-        "edge_falsifier": "Sustained physical disruption, a >US$75 strip and positive company FCF."
-      },
       "return_profile": {
         "scenarios": [
           {
@@ -387,6 +320,24 @@
         "upside_downside_ratio": 1.3,
         "expected_holding_period": "12–36 months only after a future entry clears"
       },
+      "execution": {
+        "initial_allocation_pct": 0,
+        "maximum_allocation_pct": 0,
+        "entry_method": "No trade; future 3% staging tranche only after all gates pass, within one concentrated oil-thesis slot.",
+        "add_conditions": [
+          "Operating confirmation",
+          "Stable or falling debt",
+          "Positive EV and at least 3:1 upside/downside"
+        ],
+        "reduce_conditions": [],
+        "exit_conditions": [
+          "Duvernay miss",
+          "Power delay",
+          "Refinancing deterioration",
+          "WTI strip below US$65 with unchanged capex"
+        ],
+        "hedge": null
+      },
       "catalysts": [
         {
           "event": "Qualifying macro and company evidence trigger",
@@ -417,54 +368,11 @@
       "invalidation": [
         "A future BUY requires positive expected value, at least 3:1 upside/downside and materially bounded bear loss."
       ],
-      "execution": {
-        "initial_allocation_pct": 0,
-        "maximum_allocation_pct": 0,
-        "entry_method": "No trade; future 3% staging tranche only after all gates pass, within one concentrated oil-thesis slot.",
-        "add_conditions": [
-          "Operating confirmation",
-          "Stable or falling debt",
-          "Positive EV and at least 3:1 upside/downside"
-        ],
-        "reduce_conditions": [],
-        "exit_conditions": [
-          "Duvernay miss",
-          "Power delay",
-          "Refinancing deterioration",
-          "WTI strip below US$65 with unchanged capex"
-        ],
-        "hedge": null
-      },
-      "evidence": [
-        {
-          "claim_id": "claim-joy-q1-capital-risk-20260331",
-          "source_id": "src-joy-q1-mda-2026"
-        },
-        {
-          "claim_id": "claim-joy-convert-aro-20260331",
-          "source_id": "src-joy-q1-fs-2026"
-        },
-        {
-          "claim_id": "claim-obe-joy-scenario-20260710",
-          "source_id": "src-joy-presentation-202606"
-        }
-      ],
       "open_questions": [
         "Current portfolio",
         "Duvernay type curves",
         "Power economics"
       ],
-      "gate_status": {
-        "gate_0_portfolio": "FAIL",
-        "gate_1_discovery": "PASS",
-        "gate_2_triage": "PASS",
-        "gate_3_underwriting": "PASS",
-        "gate_4_variant": "PASS",
-        "gate_5_red_team": "IN_PROGRESS",
-        "gate_6_risk": "BLOCKED",
-        "gate_7_cio": "INVESTIGATE",
-        "gate_8_execution": "NO_TRADE"
-      },
       "evidenceLinks": [
         {
           "label": "Journey Q1 2026 MD&A",
@@ -485,35 +393,44 @@
       ]
     },
     {
-      "id": "rec-lite-20260710-price-alert",
-      "version": 1,
-      "as_of": "2026-07-10T13:29:36-04:00",
       "instrument": "LITE",
       "action": "INVESTIGATE",
+      "researchRating": "WATCH",
+      "note": {
+        "call": "Watch, not buy.",
+        "why": "The share-price move is real, but no new company event or valuation discount has been established.",
+        "upside": "AI-network demand could lift revenue and margins if customer orders accelerate.",
+        "risk": "The move may be trading flow and could reverse.",
+        "next": "Next filing or earnings update, plus a current valuation check."
+      },
+      "as_of": "2026-07-10T13:29:36-04:00",
       "conviction": 1,
-      "current_allocation_pct": null,
-      "target_allocation_pct": 0,
-      "time_horizon": "Complete causal and valuation triage before establishing any holding-period view",
-      "urgency": "This week",
       "executive_thesis": [
         "LITE crossed its pre-registered two-trading-day price threshold, but below-average volume and modest same-day movement do not establish a thesis.",
         "No SEC filing after the prior-report cutoff or July 10 company release was found in the checked primary indexes.",
         "A current-price valuation, demand/margin bridge, dilution check, and peer comparison are absent; the only valid action is investigation at 0%."
       ],
-      "alpha": {
-        "market_belief": "Unknown; the price move may reflect flows, positioning, or information not identified in the checked primary sources.",
-        "our_belief": "No differentiated fundamental or valuation view is established.",
-        "why_right": "Not assessable until a primary-source cause and current valuation are established.",
-        "why_opportunity_exists": "A threshold crossing can expose a new information set, but it is only a lead.",
-        "edge_decay": "Any event or flow dislocation will decay as primary information and market positioning become clearer.",
-        "edge_falsifier": "No primary catalyst or valuation edge survives triage."
-      },
       "return_profile": {
         "scenarios": [],
         "probability_weighted_expected_return_pct": null,
         "realistic_downside_pct": null,
         "upside_downside_ratio": null,
         "expected_holding_period": "Not established"
+      },
+      "execution": {
+        "initial_allocation_pct": 0,
+        "maximum_allocation_pct": 0,
+        "entry_method": "No trade; complete Gate 2 triage and portfolio Gate 0",
+        "add_conditions": [
+          "Forensic, variant-perception, red-team, portfolio-risk, and CIO gates pass"
+        ],
+        "reduce_conditions": [
+          "If currently held, no portfolio action is permitted until the authoritative position and thesis are supplied"
+        ],
+        "exit_conditions": [
+          "If currently held, escalate only after authoritative position data and fundamental invalidation evidence"
+        ],
+        "hedge": null
       },
       "catalysts": [
         {
@@ -546,56 +463,12 @@
         "Price movement alone cannot validate a LITE investment thesis.",
         "Do not escalate without current price/share count, forensic valuation, primary demand evidence, red-team review, and portfolio risk clearance."
       ],
-      "execution": {
-        "initial_allocation_pct": 0,
-        "maximum_allocation_pct": 0,
-        "entry_method": "No trade; complete Gate 2 triage and portfolio Gate 0",
-        "add_conditions": [
-          "Forensic, variant-perception, red-team, portfolio-risk, and CIO gates pass"
-        ],
-        "reduce_conditions": [
-          "If currently held, no portfolio action is permitted until the authoritative position and thesis are supplied"
-        ],
-        "exit_conditions": [
-          "If currently held, escalate only after authoritative position data and fundamental invalidation evidence"
-        ],
-        "hedge": null
-      },
-      "evidence": [
-        {
-          "claim_id": "claim-lite-price-dislocation-20260710",
-          "source_id": "src-internal-trigger-20260710"
-        },
-        {
-          "claim_id": "claim-lite-no-current-primary-event-20260710",
-          "source_id": "src-sec-lite-submissions-20260710"
-        },
-        {
-          "claim_id": "claim-lite-no-current-primary-event-20260710",
-          "source_id": "src-lite-official-news-20260710"
-        }
-      ],
       "open_questions": [
         "Is LITE held, in which account, at what size and tax basis?",
         "What primary event, customer evidence, or forced flow explains the two-day move?",
         "What current growth, margin, share-count, and integration assumptions are embedded in valuation?"
       ],
-      "gate_status": {
-        "gate_0_portfolio": "FAIL",
-        "gate_1_discovery": "PASS_PRICE_TRIGGER",
-        "gate_2_triage": "IN_PROGRESS",
-        "gate_3_underwriting": "NOT_STARTED",
-        "gate_4_variant": "NOT_ESTABLISHED",
-        "gate_5_red_team": "NOT_STARTED",
-        "gate_6_risk": "BLOCKED",
-        "gate_7_cio": "INVESTIGATE_ONLY",
-        "gate_8_execution": "NO_TRADE"
-      },
       "evidenceLinks": [
-        {
-          "label": "Hermes deterministic delayed-price trigger log",
-          "url": "file:///C:/Users/Leemer/workspace/investment-research/state/trigger_evaluations.jsonl"
-        },
         {
           "label": "Lumentum SEC submissions index as of 2026-07-10 13:29 EDT",
           "url": "https://data.sec.gov/submissions/CIK0001633978.json"
@@ -613,36 +486,45 @@
       ]
     },
     {
-      "id": "rec-ions-20260710-event",
-      "version": 1,
-      "as_of": "2026-07-10T13:17:00-04:00",
       "instrument": "IONS",
       "action": "INVESTIGATE",
+      "researchRating": "WATCH",
+      "note": {
+        "call": "Do not buy yet.",
+        "why": "A major heart-disease trial failed, reducing the likely value of eplontersen.",
+        "upside": "Upside returns if regulators support a narrower use or the remaining pipeline is worth more than the market assumes.",
+        "risk": "The remaining drugs and cash may not support today’s valuation.",
+        "next": "Full trial data and the Ionis/AstraZeneca regulatory plan."
+      },
+      "as_of": "2026-07-10T13:17:00-04:00",
       "conviction": 2,
-      "current_allocation_pct": null,
-      "target_allocation_pct": 0,
-      "time_horizon": "Immediate event re-underwrite; no holding-period view until valuation is rebuilt",
-      "urgency": "Immediate",
       "executive_thesis": [
         "CARDIO-TTRansform missed its primary endpoint; adding eplontersen to stabilizer therapy showed no treatment effect.",
         "The nominally significant monotherapy subgroup is hypothesis-generating until regulatory and full-data support are established.",
         "The 30.18% two-day decline is large but cannot be called asymmetric without rebuilding remaining pipeline value, cash, dilution, and label probability.",
         "If IONS is currently held, averaging down is prohibited until the event is re-underwritten."
       ],
-      "alpha": {
-        "market_belief": "Unknown pending expectations and valuation work; price action implies a severe reduction in eplontersen ATTR-CM value.",
-        "our_belief": "No differentiated valuation view is yet established.",
-        "why_right": "Not assessable until full trial, regulatory path, pipeline SOTP, cash, and dilution are modeled.",
-        "why_opportunity_exists": "Potential forced/event selling may create mispricing, but that is a lead, not evidence.",
-        "edge_decay": "Any dislocation edge will decay as full data and analyst models update.",
-        "edge_falsifier": "Remaining pipeline and cash-adjusted value fail to support the post-event enterprise value or the monotherapy path lacks regulatory viability."
-      },
       "return_profile": {
         "scenarios": [],
         "probability_weighted_expected_return_pct": null,
         "realistic_downside_pct": null,
         "upside_downside_ratio": null,
         "expected_holding_period": "Not established"
+      },
+      "execution": {
+        "initial_allocation_pct": 0,
+        "maximum_allocation_pct": 0,
+        "entry_method": "No trade; complete event underwriting and portfolio Gate 0",
+        "add_conditions": [
+          "Forensic valuation, red team, and risk gates pass"
+        ],
+        "reduce_conditions": [
+          "If currently held, decision awaits authoritative position data and event re-underwriting"
+        ],
+        "exit_conditions": [
+          "If currently held, escalate immediately if remaining value is below market value after conservative assumptions"
+        ],
+        "hedge": null
       },
       "catalysts": [
         {
@@ -680,56 +562,16 @@
         "No BUY/ADD thesis exists until the current enterprise value is supported by a probability-weighted pipeline and cash model.",
         "Do not use the monotherapy subgroup as core evidence without full statistical and regulatory context."
       ],
-      "execution": {
-        "initial_allocation_pct": 0,
-        "maximum_allocation_pct": 0,
-        "entry_method": "No trade; complete event underwriting and portfolio Gate 0",
-        "add_conditions": [
-          "Forensic valuation, red team, and risk gates pass"
-        ],
-        "reduce_conditions": [
-          "If currently held, decision awaits authoritative position data and event re-underwriting"
-        ],
-        "exit_conditions": [
-          "If currently held, escalate immediately if remaining value is below market value after conservative assumptions"
-        ],
-        "hedge": null
-      },
-      "evidence": [
-        {
-          "claim_id": "claim-ions-cardio-ttransform-miss-20260709",
-          "source_id": "src-sec-ions-8k-20260709"
-        },
-        {
-          "claim_id": "claim-ions-ntla-price-dislocation-20260710",
-          "source_id": "src-internal-trigger-20260710"
-        }
-      ],
       "open_questions": [
         "Is IONS held, in which account, at what size and tax basis?",
         "What value did consensus assign to ATTR-CM before and after the event?",
         "What is the regulator/partner view of a monotherapy-only path?",
         "What are cash, debt, burn, dilution, and probability-weighted values of the remaining pipeline?"
       ],
-      "gate_status": {
-        "gate_0_portfolio": "FAIL",
-        "gate_1_discovery": "PASS_EVENT",
-        "gate_2_triage": "IN_PROGRESS",
-        "gate_3_underwriting": "NOT_STARTED",
-        "gate_4_variant": "NOT_ESTABLISHED",
-        "gate_5_red_team": "NOT_STARTED",
-        "gate_6_risk": "BLOCKED",
-        "gate_7_cio": "INVESTIGATE_ONLY",
-        "gate_8_execution": "NO_TRADE"
-      },
       "evidenceLinks": [
         {
           "label": "Ionis 2026-07-09 Form 8-K, Exhibit 99.1",
           "url": "https://www.sec.gov/Archives/edgar/data/874015/000114036126028092/ef20077664_ex99-1.htm"
-        },
-        {
-          "label": "Hermes deterministic delayed-price trigger log",
-          "url": "file:///C:/Users/Leemer/workspace/investment-research/state/trigger_evaluations.jsonl"
         }
       ],
       "relatedReports": [
@@ -742,263 +584,169 @@
   ],
   "watchlist": [
     {
-      "id": "event-ions-20260710",
       "instrument": "IONS",
-      "stage": "event_reunderwrite",
-      "sector": "Healthcare",
       "theme": "RNA therapeutics / ATTR",
-      "owner_role": "Consumer, Financials, Healthcare, and Generalist Specialist",
+      "stage": "event_reunderwrite",
       "action": "INVESTIGATE",
       "research_priority": "urgent",
       "trigger": "Rebuild eplontersen ATTR-CM economics and pipeline SOTP from the failed primary endpoint, including monotherapy-label probability and current valuation.",
       "invalidation": "Do not treat subgroup evidence as registration-grade without regulator/partner support; reject if remaining pipeline value cannot support the current enterprise value.",
-      "next_event": "Full trial data, regulatory strategy, and partner guidance",
-      "source_status": "primary_event_verified; valuation_incomplete",
-      "portfolio_allocation_pct": 0
+      "next_event": "Full trial data, regulatory strategy, and partner guidance"
     },
     {
-      "id": "context-aaoi-20260710",
       "instrument": "AAOI",
-      "stage": "legacy_context_incomplete",
-      "sector": "Information Technology",
       "theme": "AI optical transceivers",
-      "owner_role": "AI, Semiconductor, and Compute-Infrastructure Specialist",
+      "stage": "legacy_context_incomplete",
       "action": "INVESTIGATE",
       "research_priority": "high_if_current_holding",
       "trigger": "Obtain current holding/allocation and complete cash, debt, shares, AR, inventory, customer concentration, gross-margin sensitivity, and dilution model.",
       "invalidation": "Sub-30% gross margin persists, dilution offsets operating progress, receivables/inventory outrun revenue, or customer shipment timing slips.",
-      "next_event": null,
-      "source_status": "legacy_research_model_incomplete",
-      "portfolio_allocation_pct": 0
+      "next_event": null
     },
     {
-      "id": "lead-avav-20260711-v2",
       "instrument": "AVAV",
-      "stage": "gate3_forensic",
-      "sector": "Industrials",
       "theme": "defense autonomy and counter-UAS",
-      "owner_role": "Forensic Accounting and Valuation Analyst",
+      "stage": "gate3_forensic",
       "action": "INVESTIGATE",
       "research_priority": "high",
       "trigger": "By 2026-07-17, reconcile FY2026 acquisition accounting and negative cash conversion into an organic backlog-to-margin model and compare with KTOS plus 3-month T-bills.",
       "invalidation": "Return to rejected status if funded backlog fails to bridge to normalized positive FCF, dilution/debt erase upside, or conservative upside/downside remains below 3:1.",
-      "next_event": "Forensic completion deadline 2026-07-17; next issuer filing if earlier",
-      "source_status": "current_price_and_share_count_corroborated; primary_10k_verified; valuation_incomplete",
-      "portfolio_allocation_pct": 0
+      "next_event": "Forensic completion deadline 2026-07-17; next issuer filing if earlier"
     },
     {
-      "id": "event-ntla-20260710",
       "instrument": "NTLA",
-      "stage": "readthrough_diagnosis",
-      "sector": "Healthcare",
       "theme": "in-vivo gene editing / ATTR",
-      "owner_role": "Consumer, Financials, Healthcare, and Generalist Specialist",
+      "stage": "readthrough_diagnosis",
       "action": "INVESTIGATE",
       "research_priority": "high",
       "trigger": "Determine whether IONS read-through changes NTLA's mechanism, comparator, endpoint probability, commercial assumptions, or only sentiment; verify all current disclosures.",
       "invalidation": "Avoid if clinical/endpoint comparability makes the IONS failure directly adverse or cash runway/dilution overwhelms option value.",
-      "next_event": "Company-specific clinical or regulatory update",
-      "source_status": "price_event_verified; causal_inference_unconfirmed",
-      "portfolio_allocation_pct": 0
+      "next_event": "Company-specific clinical or regulatory update"
     },
     {
-      "id": "reentry-joy-20260710",
       "instrument": "JOY.TO",
-      "stage": "conditional_reentry",
-      "sector": "Energy",
       "theme": "Canadian small-cap oil / Duvernay / power",
-      "owner_role": "Energy, Power, Commodities, and Infrastructure Specialist",
+      "stage": "conditional_reentry",
       "action": "INVESTIGATE",
       "research_priority": "high_on_trigger",
       "trigger": "Price near or below C$3.40 or verified Duvernay/power execution with stable debt and supportive strip.",
       "invalidation": "Duvernay miss, power delay, refinancing deterioration, or <US$65 strip with unchanged capex.",
-      "next_event": "Next results, Duvernay update and power commissioning",
-      "source_status": "primary_sources_verified; model_complete; portfolio_gate_failed",
-      "portfolio_allocation_pct": 0
+      "next_event": "Next results, Duvernay update and power commissioning"
     },
     {
-      "id": "reentry-obe-20260710",
       "instrument": "OBE.TO",
-      "stage": "conditional_reentry",
-      "sector": "Energy",
       "theme": "Canadian small-cap oil / Iran-Hormuz",
-      "owner_role": "Energy, Power, Commodities, and Infrastructure Specialist",
+      "stage": "conditional_reentry",
       "action": "AVOID",
       "research_priority": "high_on_trigger",
       "trigger": "Positive post-acquisition FCF and sequential debt decline plus >US$75 strip or better valuation.",
       "invalidation": "Debt fails to decline, borrowing stress, or <US$65 strip with cash-negative capex.",
-      "next_event": "Next quarterly results and oil-balance updates",
-      "source_status": "primary_sources_verified; portfolio_gate_failed",
-      "portfolio_allocation_pct": 0
+      "next_event": "Next quarterly results and oil-balance updates"
     },
     {
-      "id": "event-lite-20260710",
       "instrument": "LITE",
-      "stage": "price_dislocation_diagnosis",
-      "sector": "Information Technology",
       "theme": "optical components / AI connectivity",
-      "owner_role": "AI, Semiconductor, and Compute-Infrastructure Specialist",
+      "stage": "price_dislocation_diagnosis",
       "action": "INVESTIGATE",
       "research_priority": "medium",
       "trigger": "Identify a primary-source cause for the 10.25% two-trading-day move, then complete current-price/share-count valuation, demand, margin, dilution, and peer checks.",
       "invalidation": "Do not infer fundamental upside from price action; de-escalate if no primary evidence or valuation edge survives triage.",
-      "next_event": "Next official company filing/release or confirmed earnings date",
-      "source_status": "price_threshold_verified; no_current_primary_company_event_found; valuation_incomplete",
-      "portfolio_allocation_pct": 0
+      "next_event": "Next official company filing/release or confirmed earnings date"
     },
     {
-      "id": "lead-tmdx-20260710",
       "instrument": "TMDX",
-      "stage": "lead_unverified",
-      "sector": "Healthcare",
       "theme": "transplant medtech and logistics",
-      "owner_role": "Consumer, Financials, Healthcare, and Generalist Specialist",
+      "stage": "lead_unverified",
       "action": "INVESTIGATE",
       "research_priority": "medium",
       "trigger": "Verify current filings, commercial volume, aircraft/logistics capital intensity, margins, reimbursement, valuation, and competitive alternatives.",
       "invalidation": "Growth depends on uneconomic logistics capital, reimbursement weakens, or margin/cash conversion fails.",
-      "next_event": null,
-      "source_status": "legacy_desk_lead_requires_primary_verification",
-      "portfolio_allocation_pct": 0
+      "next_event": null
     },
     {
-      "id": "lead-vst-20260710",
       "instrument": "VST",
-      "stage": "lead_unverified",
-      "sector": "Utilities",
       "theme": "named long-duration power contracts",
-      "owner_role": "Energy, Power, Commodities, and Infrastructure Specialist",
+      "stage": "lead_unverified",
       "action": "INVESTIGATE",
       "research_priority": "medium",
       "trigger": "Verify PPA terms, MW timing, incremental EBITDA/EPS, regulatory exposure, hedging, debt, current valuation, and alternatives.",
       "invalidation": "Contract economics are already fully priced, regulatory changes impair returns, or capacity/timing cannot convert to cash flow.",
-      "next_event": null,
-      "source_status": "legacy_desk_lead_requires_primary_verification",
-      "portfolio_allocation_pct": 0
+      "next_event": null
     }
   ],
   "researchTasks": [
     {
-      "id": "rq-portfolio-intake",
       "priority": "P0",
-      "gate": 0,
-      "status": "blocked_external_input",
-      "owner_role": "Portfolio Risk and Capital-Allocation Officer",
       "task": "Ingest an authoritative current portfolio export and investment constraints.",
-      "required_evidence": [
-        "positions with quantities and instrument identifiers",
-        "cash and relevant liabilities",
-        "cost basis or tax lots where available",
-        "account/tax type",
-        "base currency",
-        "liquidity horizon and risk constraints"
-      ],
-      "completion_test": "portfolio.json status is authoritative_current and validator reports Gate 0 PASS",
       "next_trigger": "User supplies current export or structured holdings"
     },
     {
-      "id": "rq-zero-based-cross-sector",
       "priority": "P1",
-      "gate": 1,
-      "status": "ready",
-      "owner_role": "Quantitative and Market-Structure Analyst / Discovery Engine",
       "task": "Run a zero-based opportunity scan outside AI infrastructure across rates/credit/FX/commodities, consumer, financials, healthcare, international/EM, and special situations.",
-      "required_evidence": [
-        "explicit universe and data timestamp",
-        "at least one lead per neglected lane or a documented rejection",
-        "cross-sector comparison",
-        "liquidity and catalyst checks"
-      ],
-      "completion_test": "At least 50% of leads are outside the top three legacy themes and every lead has a specialist owner",
       "next_trigger": "Weekly investment committee cycle"
     },
     {
-      "id": "rq-avav-underwriting",
       "priority": "P1",
-      "gate": 2,
-      "status": "ready",
-      "owner_role": "Industrials, Defence, Aerospace, and Supply-Chain Specialist",
       "task": "Triage AVAV and KTOS using funded program evidence, current valuation, backlog conversion, cash flow, integration, and alternatives.",
-      "required_evidence": [
-        "latest 10-K/10-Q and earnings release",
-        "current price/share count/net debt",
-        "funded versus unfunded backlog",
-        "program appropriations/task orders",
-        "BlueHalo integration and segment margins",
-        "bear/base/bull valuation"
-      ],
-      "completion_test": "Triage score >=70 with direct sources and no hard fail",
       "next_trigger": "Next deep-research cycle"
     },
     {
-      "id": "rq-avav-forensic-20260711",
       "priority": "P1",
-      "gate": 3,
-      "status": "ready",
-      "owner_role": "Forensic Accounting and Valuation Analyst",
       "task": "Normalize AVAV FY2026 BlueHalo acquisition accounting, cash conversion and FY2027 backlog-to-margin bridge before variant and red-team gates.",
-      "required_evidence": [
-        "purchase-accounting and integration bridge",
-        "segment organic revenue and margin",
-        "working-capital normalization",
-        "diluted share bridge",
-        "bear/base/bull valuation",
-        "KTOS and T-bill opportunity-cost comparison"
-      ],
-      "completion_test": "Forensic verdict PASS with scenarios summing to 100%, positive EV and at least 3:1 upside/downside, or explicit rejection",
       "next_trigger": "Complete by 2026-07-17 or re-rank after a material AVAV filing"
     },
     {
-      "id": "rq-aaoi-reunderwrite",
       "priority": "P1_if_held",
-      "gate": 3,
-      "status": "blocked_portfolio_context",
-      "owner_role": "Forensic Accounting and Valuation Analyst",
       "task": "Complete the AAOI model and determine whether legacy thesis exposure remains justified.",
-      "required_evidence": [
-        "latest price and share count",
-        "cash/debt",
-        "AR/DSO and inventory",
-        "customer concentration",
-        "ATM/dilution activity",
-        "gross-margin sensitivity",
-        "shipment/order timing",
-        "peer and alternative comparison"
-      ],
-      "completion_test": "Forensic gate and red-team gate completed",
       "next_trigger": "Portfolio confirms current position or user requests stand-alone underwriting"
     },
     {
-      "id": "rq-obe-joy-conditional-reentry",
       "priority": "P1_on_trigger",
-      "gate": 6,
-      "status": "blocked_portfolio_and_evidence",
-      "owner_role": "Portfolio Risk and Capital-Allocation Officer",
       "task": "Re-underwrite the OBE/JOY oil-thesis slot under the concentrated-barbell mandate when triggers fire.",
-      "required_evidence": [
-        "authoritative portfolio",
-        "WTI strip and releases",
-        "OBE FCF/debt",
-        "JOY Duvernay/power/debt",
-        "refreshed EV with bounded downside"
-      ],
-      "completion_test": "Positive EV, at least 3:1 upside/downside, red-team PASS and Gate 0 PASS before a 3% staging tranche; further proof before 10%–15% full size",
       "next_trigger": "WTI >US$75 for 20 sessions, releases slow with draws, JOY near C$3.40, or qualifying results"
     }
   ],
-  "forecasts": [
+  "marketNotes": [],
+  "glossary": [
     {
-      "id": "fc-avav-funded-backlog-conversion-fy2027-20260711",
-      "created_at": "2026-07-11T11:20:00-04:00",
-      "question": "Will AVAV recognize at least US$1.00555 billion of its 2026-04-30 funded backlog as revenue during FY2027?",
-      "probability": 0.65,
-      "resolution_date": "2027-06-30",
-      "resolution_rule": "Resolve 1 if AVAV's FY2027 10-K or an equally authoritative filing discloses that at least US$1.00555 billion of the 2026-04-30 funded backlog was recognized during FY2027; resolve 0 if less; cancel only if disclosure makes the cohort untraceable.",
-      "status": "open",
-      "outcome": null,
-      "resolved_at": null,
-      "resolution_source_id": null,
-      "linked_recommendation_id": "rec-avav-20260711-weekly"
+      "term": "Research call",
+      "definition": "Our view of the stock on its own: buy, watch, or avoid."
+    },
+    {
+      "term": "Buy candidate",
+      "definition": "The research looks attractive, but the exact account and position size may still be undecided."
+    },
+    {
+      "term": "Current buy",
+      "definition": "A buy that has passed research and has a trade size cleared for your portfolio."
+    },
+    {
+      "term": "Gate 0 / portfolio check",
+      "definition": "The old internal name for checking your holdings, cash, accounts, and risk limits. It is blocked because those inputs are not connected—not because every stock is unattractive."
+    },
+    {
+      "term": "Sizing blocked",
+      "definition": "We can rate the investment, but cannot responsibly say how many shares to buy yet."
+    },
+    {
+      "term": "Catalyst",
+      "definition": "An event that could move the stock or prove the thesis."
+    },
+    {
+      "term": "Thesis-breaker",
+      "definition": "Evidence that would make us change or abandon the investment view."
+    },
+    {
+      "term": "Weighted return",
+      "definition": "The average return across bear, base, and bull outcomes after applying their probabilities."
+    },
+    {
+      "term": "Realistic downside",
+      "definition": "The loss in a plausible bad case—not the absolute worst imaginable outcome."
+    },
+    {
+      "term": "Upside / downside",
+      "definition": "Credible upside divided by plausible downside. Roughly 3:1 is a strong hurdle."
     }
   ],
   "reports": [
@@ -1008,7 +756,7 @@
       "category": "Daily Brief",
       "date": "2026-07-13",
       "updated": "2026-07-13T09:31:45-04:00",
-      "content": "# Daily Executive Brief — 2026-07-13\n\n## DECISION\n\n**Action required today:** NONE — no material change; no capital action  \n**Portfolio Gate 0:** FAIL  \n**Urgency:** Trigger-dependent\n\n## MATERIAL CHANGES\n\n- **No material change; no action.** `portfolio.json` remains `awaiting_authoritative_export`. Positions, cash/liabilities, account and tax treatment, base currency, constraints, options, and margin terms remain non-authoritative. Authorized target/initial/max sizing and borrowed capital remain **0%**.\n- No new SEC filing was present after the 2026-07-11 weekly-IC cutoff for AVAV, IONS, NTLA, LITE, AAOI, TMDX, VST, KTOS, or the trigger watchlist issuers checked. No new price/volume alert was recorded after 2026-07-10; markets were closed over the weekend.\n- Official macro evidence did not change the regime call: the latest Treasury curve remains 2026-07-10, the latest available HY/CCC OAS observations remain 2026-07-09, and the Federal Reserve press feed contains no release after 2026-07-09.\n\n## PORTFOLIO ACTIONS\n\n| Instrument | Action | Current | Target | Initial/Max | Timing | Invalidation |\n|---|---|---:|---:|---:|---|---|\n| Portfolio-wide | INVESTIGATE | Unknown | 0% | 0% / 0% | Pending authoritative export | Gate 0 remains failed |\n\n## RISKS / CATALYSTS\n\n- **2026-07-14, 08:30 EDT — June CPI.** Owner: Macro Strategist. Reassess inflation-shock versus slowdown probabilities only after the official release; Gate 0 still prohibits a trade.\n- **2026-07-17 — AVAV forensic deadline.** Promote only if acquisition accounting, organic margins, working capital, net debt, dilution, and three valuation scenarios establish positive expected value and at least 3:1 upside/downside; otherwise return to Gate 2 or reject.\n\n## EVIDENCE CUTOFF\n\n- **2026-07-13 09:16 EDT.** Direct sources: [SEC company submissions](https://data.sec.gov/submissions/), [Federal Reserve press feed](https://www.federalreserve.gov/feeds/press_all.xml), [U.S. Treasury yield curve](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026), [FRED HY/CCC OAS](https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2,BAMLH0A3HYC), and [BLS release calendar](https://www.bls.gov/schedule/news_release/bls.ics).\n- Managed search/extraction was unavailable; direct official endpoints were used. Missing input: authoritative current broker export and constraints.",
+      "content": "# Daily Executive Brief — 2026-07-13\n\n## DECISION\n\n**Action required today:** NONE — no material change; no capital action  \n**Portfolio Gate 0:** FAIL  \n**Urgency:** Trigger-dependent\n\n## MATERIAL CHANGES\n\n- **No material change; no action.** portfolio data remains not yet connected. Positions, cash/liabilities, account and tax treatment, base currency, constraints, options, and margin terms remain non-authoritative. Authorized target/initial/max sizing and borrowed capital remain **0%**.\n- No new SEC filing was present after the 2026-07-11 weekly-IC cutoff for AVAV, IONS, NTLA, LITE, AAOI, TMDX, VST, KTOS, or the trigger watchlist issuers checked. No new price/volume alert was recorded after 2026-07-10; markets were closed over the weekend.\n- Official macro evidence did not change the regime call: the latest Treasury curve remains 2026-07-10, the latest available HY/CCC OAS observations remain 2026-07-09, and the Federal Reserve press feed contains no release after 2026-07-09.\n\n## PORTFOLIO ACTIONS\n\n| Instrument | Action | Current | Target | Initial/Max | Timing | Invalidation |\n|---|---|---:|---:|---:|---|---|\n| Portfolio-wide | INVESTIGATE | Unknown | 0% | 0% / 0% | Pending verified holdings | Gate 0 remains failed |\n\n## RISKS / CATALYSTS\n\n- **2026-07-14, 08:30 EDT — June CPI.** Owner: Macro Strategist. Reassess inflation-shock versus slowdown probabilities only after the official release; Gate 0 still prohibits a trade.\n- **2026-07-17 — AVAV forensic deadline.** Promote only if acquisition accounting, organic margins, working capital, net debt, dilution, and three valuation scenarios establish positive expected value and at least 3:1 upside/downside; otherwise return to Gate 2 or reject.\n\n## EVIDENCE CUTOFF\n\n- **2026-07-13 09:16 EDT.** Direct sources: [SEC company submissions](https://data.sec.gov/submissions/), [Federal Reserve press feed](https://www.federalreserve.gov/feeds/press_all.xml), [U.S. Treasury yield curve](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026), [FRED HY/CCC OAS](https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2,BAMLH0A3HYC), and [BLS release calendar](https://www.bls.gov/schedule/news_release/bls.ics).\n- Missing input: authoritative current broker export and constraints.",
       "summary": "Action required today: NONE — no material change; no capital action Portfolio Gate 0: FAIL Urgency: Trigger-dependent",
       "tags": [
         "AAOI",
@@ -1133,8 +881,8 @@
       "category": "Weekly IC",
       "date": "2026-07-11",
       "updated": "2026-07-11T11:07:27-04:00",
-      "content": "# Weekly Investment Committee — 2026-07-11\n\n**Evidence cutoff:** 2026-07-11 11:20 EDT; market prices are delayed 2026-07-10 closes.  \n**Portfolio Gate 0:** **FAIL** — `portfolio.json` remains `awaiting_authoritative_export`. Only `INVESTIGATE`/`AVOID`; all current/target/initial/max authorized allocations are **0%** and borrowed capital is **0%**.\n\n## CIO DECISIONS\n\n1. **AVAV — INVESTIGATE (5/10).** Current allocation unknown; target/initial/max **0% / 0% / 0%**. Advance from Gate 2 (74/100) to Gate 3 forensic work, due **2026-07-17**. Delayed close **US$144.58** and 50.608m dated shares imply **US$7.32bn market cap**; cash/debt imply **US$7.67bn EV**, **3.88x FY2026 sales**. Recognition path: US$1.183bn funded backlog, with issuer expecting about 85% recognized in FY2027. Invalidation: normalized funded-backlog conversion fails to produce positive FCF, dilution/debt erase the valuation edge, or conservative upside/downside remains below 3:1. **No trade.**\n2. **IONS — INVESTIGATE (2/10).** Current allocation unknown; target/initial/max **0% / 0% / 0%**. The CARDIO-TTRansform primary-endpoint failure is verified, but full data, regulator/partner strategy and pipeline SOTP are absent. Hard fail: no defensible EV or return distribution. Do not average down.\n3. **JOY.TO — INVESTIGATE (7/10 research conviction; 0% capital).** Existing model still yields roughly **−11.3% probability-weighted return** with **−53% realistic downside**. It remains preferred to OBE inside the oil slot, but not to cash/T-bills or AVAV for research priority. Re-open only on its registered price/operating/debt triggers.\n\nNo `BUY/ADD/HOLD/REDUCE/EXIT/HEDGE` cleared the gates.\n\n## REGIME AND PORTFOLIO\n\n| Regime | Probability | Evidence and implication |\n|---|---:|---|\n| Sticky inflation / soft growth | 45% | Fed remains 3.50%–3.75%; June payroll growth was soft; 3m/10y/30y Treasury yields were 3.85%/4.56%/5.06% on July 10. Prefer balance-sheet quality and near-duration cash flows. |\n| Energy/geopolitical inflation shock | 30% | Physical oil tightness is real, but July IEA/EIA evidence still allows normalization; USO fell 15.6% over the sampled month. Avoid levered producers that need a high strip. |\n| Disinflation with sharper slowdown | 25% | Long-duration Treasuries and defensives would improve, while weak credit/cyclicals deteriorate. TLT was down 1.8% over the sampled month, so this is not the priced base case. |\n\n**Cross-asset read:** delayed one-month proxies show SPY +2.3%, QQQ +1.2%, IWM +1.9%, XLF +5.9%, XLV +4.4%, EFA −0.4%, EEM −0.9%, TLT −1.8%, UUP +1.6%, GLD −2.4%, and USO −15.6%. This is consistent with resilient U.S. risk assets, stronger financials/healthcare, firm USD and pressure on duration/commodities—not a broad panic.\n\n**Portfolio risk:** exposures, concentrations, tax lots, FX, options, cash needs and margin terms remain unknown. Correlated-loss and forced-liquidation stress cannot be run. The only defensible risk budget is **0% new capital and 0% borrowed capital** pending Gate 0.\n\n## CANDIDATES THROUGH GATES\n\n| Candidate | Gate | Triage | EV | Downside | Catalyst | Red team | Portfolio fit | CIO action |\n|---|---:|---:|---:|---:|---|---|---|---|\n| AVAV | 3 | 74/100 | Not yet defensible | Not yet defensible | Normalized model by 2026-07-17; funded-backlog conversion thereafter | **REWORK:** acquisition accounting, cash conversion, debt/dilution | Blocked by Gate 0; compare with TMDX/KTOS and 3m T-bills | **INVESTIGATE, 0%** |\n| IONS | 2 | 58/100; hard fail | Not modeled | Unbounded pending SOTP | Full trial/regulatory strategy; date unverified | **BLOCK-INCOMPLETE:** subgroup/regulatory and pipeline value | Blocked | **INVESTIGATE, 0%** |\n| JOY.TO | 5 complete / 6 blocked | Prior pass | −11.3% weighted | −53% | Price ≤C$3.40 or verified Duvernay/power execution with stable debt | **REWORK:** commodity, execution, refinancing | Inferior to 3.85% 3m Treasury hurdle | **INVESTIGATE, 0%** |\n\n### AVAV specialist conflict reconciliation\n\n- **Industrials specialist steelman:** appropriated funded backlog rose to US$1.183bn; about 85% is expected to convert in FY2027, and the 21% one-month price decline may have reset expectations without destroying long-cycle demand.\n- **Forensic view:** FY2026 revenue was US$1.977bn, but GAAP operating loss was US$311m; CFO was −US$78m and capex US$63m. At 3.88x trailing sales EV, investors still pay for successful normalization.\n- **Independent red team:** BlueHalo integration, purchase accounting, cost-to-complete estimates, working-capital demands, debt and dilution can make backlog growth economically hollow. US$1.458bn unfunded backlog is not an ASC 606 obligation and receives no contracted-revenue credit.\n- **CIO reconciliation:** advance research, not capital. A 65% forecast is registered that at least US$1.00555bn of the April 2026 funded-backlog cohort is recognized in FY2027; margin and FCF still determine value.\n\n**Opportunity-cost comparison:** AVAV is the best promoted lead. Outside its sector, TMDX is the best retained research alternative because transplant logistics has a distinct demand driver, but its current commercial-volume, reimbursement, aircraft-capital and valuation work is incomplete and therefore it does not pass triage. Three-month Treasuries yield **3.85%** with materially lower underwriting risk; AVAV must show positive expected return and at least 3:1 upside/downside after debt/dilution to displace that hurdle. KTOS remains the direct-sector comparator but its May 2026 share count shows material expansion and its forensic comparison is unfinished.\n\n## REJECTED / DEFERRED\n\n- **OBE.TO — AVOID:** issuer guidance remains cash-negative even at US$75 WTI; prior weighted return −23% and bear downside −63%. Re-open only with positive FCF, sequential debt reduction and supportive strip.\n- **NTLA — deferred:** IONS read-through is not yet mapped to NTLA's mechanism, endpoint, comparator, cash runway and dilution; price sympathy is not evidence.\n- **LITE / AAOI — deferred:** large price moves and legacy AI-optics narratives do not replace current unit, margin, working-capital and dilution models. AAOI's sampled one-month decline was 30.6%; no falling-knife promotion.\n- **TMDX — deferred:** distinct healthcare opportunity, but primary commercial-volume, reimbursement, logistics-capital and current valuation evidence remain incomplete.\n- **VST — deferred:** positive power theme and sampled one-month strength (+8.5%), but contract economics, hedges, regulatory exposure and current valuation are not reconciled.\n- **KTOS — deferred:** direct AVAV alternative; funded economics, cash conversion and dilution-adjusted valuation are not yet comparable.\n- **Cash/T-bills — benchmark, not rejected:** 3m Treasury yield of 3.85% is the minimum opportunity-cost hurdle.\n\n## ZERO-BASED DISCOVERY\n\n**Coverage quota:** 14 of 16 lanes (87.5%) were outside the legacy AI-optics/compute focus; no current holdings could be used because the portfolio ledger is non-authoritative. Every mandated lane was searched; only AVAV advanced.\n\n| Lane searched | Evidence/screen | Result |\n|---|---|---|\n| Macro/rates/sovereigns | Fed releases; Treasury 1m–30y curve | Positive cash hurdle and long-end duration pressure; no sovereign trade advanced. |\n| Credit | HY/CCC spread ledger plus HYG/LQD price proxies | Aggregate credit not distressed enough for broad credit beta; weakest issuers remain vulnerable. |\n| FX | UUP proxy +1.6% sampled month | Firm USD is a headwind to unhedged foreign returns; no clean variant identified. |\n| Commodities | EIA/IEA oil evidence; USO/GLD proxies | Oil normalization risk defeats levered OBE/JOY; gold lacked a fresh catalyst. |\n| Broad equities | SPY/QQQ/IWM | U.S. equities resilient; no index dislocation versus T-bills. |\n| Consumer | XLY and generalist screen | No primary-source candidate cleared valuation/catalyst triage. |\n| Financials | XLF +5.9% sampled month; rate curve | Strength is visible, but no bank/insurer had a verified security-level variant in this cycle. |\n| Healthcare | XLV; IONS/NTLA event; TMDX | IONS is event work, NTLA is read-through diagnosis, TMDX deferred. None cleared underwriting. |\n| Software/internet | IGV proxy | No primary-source lead with a valuation reset and recognition path cleared triage. |\n| Industrials/defense | AVAV/KTOS; ITA proxy | **AVAV advanced** on funded backlog plus price reset; KTOS retained as comparator. |\n| Energy/materials | XLE/XLB; OBE/JOY; EIA/IEA | Levered producers fail downside/FCF tests; no new miner/materials lead passed. |\n| Real estate/infrastructure | XLRE; VST | Rate pressure limits broad REIT appeal; VST contract valuation remains incomplete. |\n| International/EM | EFA/EEM | Relative weakness alone is not a catalyst; currency and country-specific evidence absent. |\n| Small/mid caps | IWM; AVAV/KTOS/TMDX/OBE/JOY | AVAV only pass; financing/dilution and cash-conversion hard fails rejected others. |\n| Special situations | Current SEC/company-event queue | No merger, spin, tender, recap or forced-flow setup had verified legal terms and bounded break value. |\n| Contradiction search | Oil tightness versus IEA/EIA normalization; defense backlog versus cash burn | Both favored narratives have credible disconfirming evidence; conviction was capped accordingly. |\n\n## NEXT-WEEK CATALYSTS\n\n- **2026-07-14, 08:30 EDT — June CPI.** Owner: Macro Strategist. If sequential inflation re-accelerates versus May, raise the inflation-shock regime and keep duration/leverage research hurdles high; if broad disinflation arrives with weaker activity evidence, raise the slowdown scenario and re-screen duration/defensives. No trade is authorized from the release without Gate 0.\n- **2026-07-17 — AVAV forensic deadline.** Owner: Forensic Accounting and Valuation. Promote to variant/red-team only if organic margin, working capital, net debt, dilution and three valuation scenarios are reconciled; otherwise return it to Gate 2 or reject.\n- **2026-07-18 — next weekly IC.** Owner: CIO. Re-run all lanes, compare the surviving lead with the best outside-sector candidate and the then-current T-bill hurdle.\n\n## EVIDENCE AND DISSENT\n\nPrimary: [Federal Reserve FOMC statement, 2026-06-17](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm); [U.S. Treasury yield curve, observed 2026-07-10](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026); [AVAV FY2026 10-K, filed 2026-06-29](https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/avav-20260430x10k.htm); [IONS event filing, 2026-07-09](https://www.sec.gov/Archives/edgar/data/874015/000114036126028092/ef20077664_ex99-1.htm); [EIA July STEO](https://www.eia.gov/outlooks/steo/); [IEA July Oil Market Report](https://www.iea.org/reports/oil-market-report-july-2026).\n\nMarket prices and one-month changes are delayed Yahoo chart observations and are corroboration only, not primary evidence or executable quotes. The strongest dissent is that AVAV's FY2026 cash burn is acquisition-distorted and funded backlog makes the current multiple attractive; the unresolved answer is whether normalized organic FCF validates that claim. Managed web search was unavailable, so discovery used direct official endpoints, SEC filings, registered ledgers and deterministic delayed-price data; this limits discovery breadth and is one reason only one candidate advanced.",
-      "summary": "Evidence cutoff: 2026-07-11 11:20 EDT; market prices are delayed 2026-07-10 closes. Portfolio Gate 0: FAIL — portfolio.json remains awaitingauthoritativeexport. Only INVESTIGATE/AVOID; all current/target/initial/max authorized allocations are 0% and borrowed capital is 0%.",
+      "content": "# Weekly Investment Committee — 2026-07-11\n\n**Evidence cutoff:** 2026-07-11 11:20 EDT; market prices are delayed 2026-07-10 closes.  \n**Portfolio Gate 0:** **FAIL** — portfolio data remains not yet connected. Only `INVESTIGATE`/`AVOID`; all current/target/initial/max authorized allocations are **0%** and borrowed capital is **0%**.\n\n## CIO DECISIONS\n\n1. **AVAV — INVESTIGATE (5/10).** Current allocation unknown; target/initial/max **0% / 0% / 0%**. Advance from Gate 2 (74/100) to Gate 3 forensic work, due **2026-07-17**. Delayed close **US$144.58** and 50.608m dated shares imply **US$7.32bn market cap**; cash/debt imply **US$7.67bn EV**, **3.88x FY2026 sales**. Recognition path: US$1.183bn funded backlog, with issuer expecting about 85% recognized in FY2027. Invalidation: normalized funded-backlog conversion fails to produce positive FCF, dilution/debt erase the valuation edge, or conservative upside/downside remains below 3:1. **No trade.**\n2. **IONS — INVESTIGATE (2/10).** Current allocation unknown; target/initial/max **0% / 0% / 0%**. The CARDIO-TTRansform primary-endpoint failure is verified, but full data, regulator/partner strategy and pipeline SOTP are absent. Hard fail: no defensible EV or return distribution. Do not average down.\n3. **JOY.TO — INVESTIGATE (7/10 research conviction; 0% capital).** Existing model still yields roughly **−11.3% probability-weighted return** with **−53% realistic downside**. It remains preferred to OBE inside the oil slot, but not to cash/T-bills or AVAV for research priority. Re-open only on its registered price/operating/debt triggers.\n\nNo `BUY/ADD/HOLD/REDUCE/EXIT/HEDGE` cleared the gates.\n\n## REGIME AND PORTFOLIO\n\n| Regime | Probability | Evidence and implication |\n|---|---:|---|\n| Sticky inflation / soft growth | 45% | Fed remains 3.50%–3.75%; June payroll growth was soft; 3m/10y/30y Treasury yields were 3.85%/4.56%/5.06% on July 10. Prefer balance-sheet quality and near-duration cash flows. |\n| Energy/geopolitical inflation shock | 30% | Physical oil tightness is real, but July IEA/EIA evidence still allows normalization; USO fell 15.6% over the sampled month. Avoid levered producers that need a high strip. |\n| Disinflation with sharper slowdown | 25% | Long-duration Treasuries and defensives would improve, while weak credit/cyclicals deteriorate. TLT was down 1.8% over the sampled month, so this is not the priced base case. |\n\n**Cross-asset read:** delayed one-month proxies show SPY +2.3%, QQQ +1.2%, IWM +1.9%, XLF +5.9%, XLV +4.4%, EFA −0.4%, EEM −0.9%, TLT −1.8%, UUP +1.6%, GLD −2.4%, and USO −15.6%. This is consistent with resilient U.S. risk assets, stronger financials/healthcare, firm USD and pressure on duration/commodities—not a broad panic.\n\n**Portfolio risk:** exposures, concentrations, tax lots, FX, options, cash needs and margin terms remain unknown. Correlated-loss and forced-liquidation stress cannot be run. The only defensible risk budget is **0% new capital and 0% borrowed capital** pending Gate 0.\n\n## CANDIDATES THROUGH GATES\n\n| Candidate | Gate | Triage | EV | Downside | Catalyst | Red team | Portfolio fit | CIO action |\n|---|---:|---:|---:|---:|---|---|---|---|\n| AVAV | 3 | 74/100 | Not yet defensible | Not yet defensible | Normalized model by 2026-07-17; funded-backlog conversion thereafter | **REWORK:** acquisition accounting, cash conversion, debt/dilution | Blocked by Gate 0; compare with TMDX/KTOS and 3m T-bills | **INVESTIGATE, 0%** |\n| IONS | 2 | 58/100; hard fail | Not modeled | Unbounded pending SOTP | Full trial/regulatory strategy; date unverified | **BLOCK-INCOMPLETE:** subgroup/regulatory and pipeline value | Blocked | **INVESTIGATE, 0%** |\n| JOY.TO | 5 complete / 6 blocked | Prior pass | −11.3% weighted | −53% | Price ≤C$3.40 or verified Duvernay/power execution with stable debt | **REWORK:** commodity, execution, refinancing | Inferior to 3.85% 3m Treasury hurdle | **INVESTIGATE, 0%** |\n\n### AVAV specialist conflict reconciliation\n\n- **Industrials specialist steelman:** appropriated funded backlog rose to US$1.183bn; about 85% is expected to convert in FY2027, and the 21% one-month price decline may have reset expectations without destroying long-cycle demand.\n- **Forensic view:** FY2026 revenue was US$1.977bn, but GAAP operating loss was US$311m; CFO was −US$78m and capex US$63m. At 3.88x trailing sales EV, investors still pay for successful normalization.\n- **Independent red team:** BlueHalo integration, purchase accounting, cost-to-complete estimates, working-capital demands, debt and dilution can make backlog growth economically hollow. US$1.458bn unfunded backlog is not an ASC 606 obligation and receives no contracted-revenue credit.\n- **CIO reconciliation:** advance research, not capital. A 65% forecast is registered that at least US$1.00555bn of the April 2026 funded-backlog cohort is recognized in FY2027; margin and FCF still determine value.\n\n**Opportunity-cost comparison:** AVAV is the best promoted lead. Outside its sector, TMDX is the best retained research alternative because transplant logistics has a distinct demand driver, but its current commercial-volume, reimbursement, aircraft-capital and valuation work is incomplete and therefore it does not pass triage. Three-month Treasuries yield **3.85%** with materially lower underwriting risk; AVAV must show positive expected return and at least 3:1 upside/downside after debt/dilution to displace that hurdle. KTOS remains the direct-sector comparator but its May 2026 share count shows material expansion and its forensic comparison is unfinished.\n\n## REJECTED / DEFERRED\n\n- **OBE.TO — AVOID:** issuer guidance remains cash-negative even at US$75 WTI; prior weighted return −23% and bear downside −63%. Re-open only with positive FCF, sequential debt reduction and supportive strip.\n- **NTLA — deferred:** IONS read-through is not yet mapped to NTLA's mechanism, endpoint, comparator, cash runway and dilution; price sympathy is not evidence.\n- **LITE / AAOI — deferred:** large price moves and legacy AI-optics narratives do not replace current unit, margin, working-capital and dilution models. AAOI's sampled one-month decline was 30.6%; no falling-knife promotion.\n- **TMDX — deferred:** distinct healthcare opportunity, but primary commercial-volume, reimbursement, logistics-capital and current valuation evidence remain incomplete.\n- **VST — deferred:** positive power theme and sampled one-month strength (+8.5%), but contract economics, hedges, regulatory exposure and current valuation are not reconciled.\n- **KTOS — deferred:** direct AVAV alternative; funded economics, cash conversion and dilution-adjusted valuation are not yet comparable.\n- **Cash/T-bills — benchmark, not rejected:** 3m Treasury yield of 3.85% is the minimum opportunity-cost hurdle.\n\n## ZERO-BASED DISCOVERY\n\n**Coverage quota:** 14 of 16 lanes (87.5%) were outside the legacy AI-optics/compute focus; no current holdings could be used because the portfolio ledger is non-authoritative. Every mandated lane was searched; only AVAV advanced.\n\n| Lane searched | Evidence/screen | Result |\n|---|---|---|\n| Macro/rates/sovereigns | Fed releases; Treasury 1m–30y curve | Positive cash hurdle and long-end duration pressure; no sovereign trade advanced. |\n| Credit | HY/CCC spread ledger plus HYG/LQD price proxies | Aggregate credit not distressed enough for broad credit beta; weakest issuers remain vulnerable. |\n| FX | UUP proxy +1.6% sampled month | Firm USD is a headwind to unhedged foreign returns; no clean variant identified. |\n| Commodities | EIA/IEA oil evidence; USO/GLD proxies | Oil normalization risk defeats levered OBE/JOY; gold lacked a fresh catalyst. |\n| Broad equities | SPY/QQQ/IWM | U.S. equities resilient; no index dislocation versus T-bills. |\n| Consumer | XLY and generalist screen | No primary-source candidate cleared valuation/catalyst triage. |\n| Financials | XLF +5.9% sampled month; rate curve | Strength is visible, but no bank/insurer had a verified security-level variant in this cycle. |\n| Healthcare | XLV; IONS/NTLA event; TMDX | IONS is event work, NTLA is read-through diagnosis, TMDX deferred. None cleared underwriting. |\n| Software/internet | IGV proxy | No primary-source lead with a valuation reset and recognition path cleared triage. |\n| Industrials/defense | AVAV/KTOS; ITA proxy | **AVAV advanced** on funded backlog plus price reset; KTOS retained as comparator. |\n| Energy/materials | XLE/XLB; OBE/JOY; EIA/IEA | Levered producers fail downside/FCF tests; no new miner/materials lead passed. |\n| Real estate/infrastructure | XLRE; VST | Rate pressure limits broad REIT appeal; VST contract valuation remains incomplete. |\n| International/EM | EFA/EEM | Relative weakness alone is not a catalyst; currency and country-specific evidence absent. |\n| Small/mid caps | IWM; AVAV/KTOS/TMDX/OBE/JOY | AVAV only pass; financing/dilution and cash-conversion hard fails rejected others. |\n| Special situations | Current SEC/company-event queue | No merger, spin, tender, recap or forced-flow setup had verified legal terms and bounded break value. |\n| Contradiction search | Oil tightness versus IEA/EIA normalization; defense backlog versus cash burn | Both favored narratives have credible disconfirming evidence; conviction was capped accordingly. |\n\n## NEXT-WEEK CATALYSTS\n\n- **2026-07-14, 08:30 EDT — June CPI.** Owner: Macro Strategist. If sequential inflation re-accelerates versus May, raise the inflation-shock regime and keep duration/leverage research hurdles high; if broad disinflation arrives with weaker activity evidence, raise the slowdown scenario and re-screen duration/defensives. No trade is authorized from the release without Gate 0.\n- **2026-07-17 — AVAV forensic deadline.** Owner: Forensic Accounting and Valuation. Promote to variant/red-team only if organic margin, working capital, net debt, dilution and three valuation scenarios are reconciled; otherwise return it to Gate 2 or reject.\n- **2026-07-18 — next weekly IC.** Owner: CIO. Re-run all lanes, compare the surviving lead with the best outside-sector candidate and the then-current T-bill hurdle.\n\n## EVIDENCE AND DISSENT\n\nPrimary: [Federal Reserve FOMC statement, 2026-06-17](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm); [U.S. Treasury yield curve, observed 2026-07-10](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026); [AVAV FY2026 10-K, filed 2026-06-29](https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/avav-20260430x10k.htm); [IONS event filing, 2026-07-09](https://www.sec.gov/Archives/edgar/data/874015/000114036126028092/ef20077664_ex99-1.htm); [EIA July STEO](https://www.eia.gov/outlooks/steo/); [IEA July Oil Market Report](https://www.iea.org/reports/oil-market-report-july-2026).\n\nMarket prices and one-month changes are delayed Yahoo chart observations and are corroboration only, not primary evidence or executable quotes. The strongest dissent is that AVAV's FY2026 cash burn is acquisition-distorted and funded backlog makes the current multiple attractive; the unresolved answer is whether normalized organic FCF validates that claim. Managed web search was unavailable, so discovery used direct official endpoints, SEC filings, registered ledgers and deterministic delayed-price data; this limits discovery breadth and is one reason only one candidate advanced.",
+      "summary": "Evidence cutoff: 2026-07-11 11:20 EDT; market prices are delayed 2026-07-10 closes. Portfolio Gate 0: FAIL — portfolio data remains not yet connected. Only INVESTIGATE/AVOID; all current/target/initial/max authorized allocations are 0% and borrowed capital is 0%.",
       "tags": [
         "AAOI",
         "AVAV",
@@ -1190,7 +938,7 @@
       "category": "Daily Brief",
       "date": "2026-07-10",
       "updated": "2026-07-10T13:32:40-04:00",
-      "content": "# Daily Executive Brief — 2026-07-10\n\n## DECISION\n\n**Action required today:** INVESTIGATE — LITE only; no capital action  \n**Portfolio Gate 0:** FAIL  \n**Urgency:** This week\n\n## MATERIAL CHANGES\n\n- **Gate 0 remains failed.** `portfolio.json` is still `awaiting_authoritative_export`; positions, cash/liabilities, account/tax types, base currency, constraints, options, and margin terms are not authoritative. All targets and initial/max sizes remain **0%**; borrowed capital remains **0%**.\n- **FACT:** At 13:26 EDT, delayed data showed LITE **+10.25% over two trading days**, triggering its registered threshold; it was **−0.79% on the day** with **0.54x** average volume. This is a price alert—not a thesis.\n- **FACT:** No LITE SEC filing was accepted after the 13:18 EDT prior-report cutoff; the latest listed filing was a Schedule 13G/A accepted July 8. Lumentum’s official newsroom showed no July 10 release and listed May 11 as its latest release. **INFERENCE:** no current primary company event explains the move; cause and valuation remain unresolved.\n\n## PORTFOLIO ACTIONS\n\n| Instrument | Action | Current | Target | Initial/Max | Timing | Invalidation |\n|---|---|---:|---:|---:|---|---|\n| LITE | INVESTIGATE | Unknown | 0% | 0% / 0% | This week | No primary catalyst or valuation edge survives triage |\n\n## RISKS / CATALYSTS\n\n- LITE remains at Gate 2. Current price/share count, forensic valuation, demand/margin bridge, dilution, consensus/variant evidence, independent red team, and portfolio-risk review are incomplete; no BUY/ADD sizing is permitted.\n- No new decision-relevant Fed, Treasury, or HY-credit release was found after the prior note. Next dated macro trigger: **June CPI, July 14 at 08:30 EDT**.\n\n## EVIDENCE CUTOFF\n\n- **2026-07-10 13:29 EDT.** Sources: [LITE delayed chart](https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=5d&interval=1d&includePrePost=false); [SEC submissions](https://data.sec.gov/submissions/CIK0001633978.json); [Lumentum newsroom](https://www.lumentum.com/en/newsroom/news-releases); [Fed releases](https://www.federalreserve.gov/feeds/press_all.xml); [BLS calendar](https://www.bls.gov/schedule/news_release/bls.ics).\n- **Missing inputs:** authoritative broker export and constraints; LITE valuation/catalyst evidence. Managed web search was unavailable, so checks used direct official endpoints.",
+      "content": "# Daily Executive Brief — 2026-07-10\n\n## DECISION\n\n**Action required today:** INVESTIGATE — LITE only; no capital action  \n**Portfolio Gate 0:** FAIL  \n**Urgency:** This week\n\n## MATERIAL CHANGES\n\n- **Gate 0 remains failed.** portfolio data is still not yet connected; positions, cash/liabilities, account/tax types, base currency, constraints, options, and margin terms are not authoritative. All targets and initial/max sizes remain **0%**; borrowed capital remains **0%**.\n- **FACT:** At 13:26 EDT, delayed data showed LITE **+10.25% over two trading days**, triggering its registered threshold; it was **−0.79% on the day** with **0.54x** average volume. This is a price alert—not a thesis.\n- **FACT:** No LITE SEC filing was accepted after the 13:18 EDT prior-report cutoff; the latest listed filing was a Schedule 13G/A accepted July 8. Lumentum’s official newsroom showed no July 10 release and listed May 11 as its latest release. **INFERENCE:** no current primary company event explains the move; cause and valuation remain unresolved.\n\n## PORTFOLIO ACTIONS\n\n| Instrument | Action | Current | Target | Initial/Max | Timing | Invalidation |\n|---|---|---:|---:|---:|---|---|\n| LITE | INVESTIGATE | Unknown | 0% | 0% / 0% | This week | No primary catalyst or valuation edge survives triage |\n\n## RISKS / CATALYSTS\n\n- LITE remains at Gate 2. Current price/share count, forensic valuation, demand/margin bridge, dilution, consensus/variant evidence, independent red team, and portfolio-risk review are incomplete; no BUY/ADD sizing is permitted.\n- No new decision-relevant Fed, Treasury, or HY-credit release was found after the prior note. Next dated macro trigger: **June CPI, July 14 at 08:30 EDT**.\n\n## EVIDENCE CUTOFF\n\n- **2026-07-10 13:29 EDT.** Sources: [LITE delayed chart](https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=5d&interval=1d&includePrePost=false); [SEC submissions](https://data.sec.gov/submissions/CIK0001633978.json); [Lumentum newsroom](https://www.lumentum.com/en/newsroom/news-releases); [Fed releases](https://www.federalreserve.gov/feeds/press_all.xml); [BLS calendar](https://www.bls.gov/schedule/news_release/bls.ics).\n- **Missing inputs:** authoritative broker export and constraints; LITE valuation/catalyst evidence. Managed web search was unavailable, so checks used direct official endpoints.",
       "summary": "Action required today: INVESTIGATE — LITE only; no capital action Portfolio Gate 0: FAIL Urgency: This week",
       "tags": [
         "LITE"
@@ -1400,11 +1148,11 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 109.61,
-      "changePct": -11.15,
+      "price": 109.85,
+      "changePct": -10.95,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-13T14:33-04:00",
+      "quoteTime": "2026-07-13T15:04-04:00",
       "sparkline": [
         114.92,
         114.71,
@@ -1439,17 +1187,17 @@
         111.155,
         109.8,
         109.669,
-        109.53,
-        109.61
+        109.88,
+        109.85
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 141.65,
-      "changePct": -19.9,
+      "price": 141.66,
+      "changePct": -19.89,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-13T14:33-04:00",
+      "quoteTime": "2026-07-13T15:03-04:00",
       "sparkline": [
         165.17,
         164.22,
@@ -1484,17 +1232,17 @@
         142.33,
         141.595,
         141.665,
-        141.62,
-        141.655
+        141.65,
+        141.66
       ]
     },
     {
       "ticker": "IONS",
-      "price": 56.85,
-      "changePct": -31.65,
+      "price": 56.61,
+      "changePct": -31.94,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-13T14:33-04:00",
+      "quoteTime": "2026-07-13T15:04-04:00",
       "sparkline": [
         84.127,
         85.5,
@@ -1529,17 +1277,17 @@
         56.13,
         56.395,
         56.75,
-        56.82,
-        56.85
+        56.62,
+        56.61
       ]
     },
     {
       "ticker": "JOY.TO",
-      "price": 4.28,
-      "changePct": 7.54,
+      "price": 4.27,
+      "changePct": 7.29,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-07-13T14:32-04:00",
+      "quoteTime": "2026-07-13T15:04-04:00",
       "sparkline": [
         4.16,
         4.14,
@@ -1574,17 +1322,17 @@
         4.18,
         4.15,
         4.26,
-        4.25,
-        4.28
+        4.28,
+        4.27
       ]
     },
     {
       "ticker": "LITE",
-      "price": 765.5,
-      "changePct": 4.68,
+      "price": 767.33,
+      "changePct": 4.93,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-13T14:33-04:00",
+      "quoteTime": "2026-07-13T15:04-04:00",
       "sparkline": [
         691.685,
         695.28,
@@ -1619,17 +1367,17 @@
         782.8093,
         769.36,
         763.805,
-        764.75,
-        765.5
+        767.03,
+        767.33
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 12.85,
-      "changePct": -27.94,
+      "price": 13.02,
+      "changePct": -27.05,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-13T14:33-04:00",
+      "quoteTime": "2026-07-13T15:04-04:00",
       "sparkline": [
         17.05,
         17.22,
@@ -1664,17 +1412,17 @@
         13.0044,
         12.8613,
         12.845,
-        12.845,
-        12.855
+        13.025,
+        13.015
       ]
     },
     {
       "ticker": "OBE.TO",
-      "price": 12.84,
-      "changePct": 14.75,
+      "price": 12.92,
+      "changePct": 15.46,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-07-13T14:33-04:00",
+      "quoteTime": "2026-07-13T15:03-04:00",
       "sparkline": [
         11.43,
         11.28,
@@ -1709,17 +1457,17 @@
         12.27,
         12.45,
         12.82,
-        12.83,
-        12.84
+        12.93,
+        12.92
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 75.98,
-      "changePct": 6.67,
+      "price": 75.13,
+      "changePct": 5.48,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-13T14:33-04:00",
+      "quoteTime": "2026-07-13T15:03-04:00",
       "sparkline": [
         69.09,
         69.245,
@@ -1754,17 +1502,17 @@
         76.68,
         75.64,
         75.83,
-        75.87,
-        75.98
+        75.58,
+        75.13
       ]
     },
     {
       "ticker": "VST",
-      "price": 157.01,
-      "changePct": -0.13,
+      "price": 157.27,
+      "changePct": 0.03,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-13T14:33-04:00",
+      "quoteTime": "2026-07-13T15:04-04:00",
       "sparkline": [
         154.745,
         155.17,
@@ -1799,13 +1547,14 @@
         157.22,
         157.205,
         156.72,
-        156.975,
-        157.01
+        157.375,
+        157.27
       ]
     }
   ],
   "stats": {
     "currentBuys": 0,
+    "buyCandidates": 0,
     "decisions": 5,
     "watchlist": 9,
     "reports": 13,

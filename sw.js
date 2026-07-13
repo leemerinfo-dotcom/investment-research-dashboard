@@ -1,4 +1,4 @@
-const CACHE = "gus-investment-office-v1";
+const CACHE = "gus-investment-office-v3";
 const SHELL = ["./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest", "./data/site-data.json", "./icons/icon-192.png"];
 
 self.addEventListener("install", event => {

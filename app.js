@@ -1,6 +1,6 @@
 let DATA = null;
 let activeDecisionFilter = "ALL";
-let activeReportFilter = "All";
+let activeReportFilter = "Briefs & memos";
 let reportSearch = "";
 let selectedReportId = null;
 let reportReading = false;
@@ -11,9 +11,10 @@ const escapeHtml = (value = "") => String(value).replace(/[&<>'"]/g, char => ({ 
 
 const VIEW_META = {
   today: ["Executive brief", "Today"],
-  decisions: ["Current calls", "Decisions"],
+  decisions: ["Research ratings", "Ideas"],
   reports: ["Linked research notes", "Reports"],
-  watch: ["Triggers and catalysts", "Watch"]
+  watch: ["Markets and catalysts", "Watch"],
+  guide: ["Plain-language reference", "Guide"]
 };
 
 function md(text) {
@@ -59,7 +60,7 @@ function actionClass(action) {
 
 function actionHeadline(action) {
   const normalized = String(action || "NONE").toUpperCase();
-  if (normalized.startsWith("NONE")) return "No action today";
+  if (normalized.startsWith("NONE")) return "No trade cleared today";
   if (normalized.startsWith("BUY")) return "Buy action cleared";
   if (normalized.startsWith("ADD")) return "Add action cleared";
   return normalized.split("—")[0].trim();
@@ -102,7 +103,7 @@ function switchView(view, { updateHash = true, scroll = true } = {}) {
   $$(".view").forEach(section => section.classList.toggle("active", section.id === view));
   updateHeader(view);
   if (updateHash && location.hash !== `#${view}`) history.pushState(null, "", `#${view}`);
-  if (view === "reports" && !currentHash().detail && window.innerWidth < 820) {
+  if (view === "reports" && updateHash && !currentHash().detail && window.innerWidth < 820) {
     reportReading = false;
     renderReports();
   }
@@ -156,14 +157,15 @@ function renderShell() {
 }
 
 function priorityDecisionMarkup(decision) {
-  const lede = (decision.executive_thesis || [])[0] || "No executive thesis recorded.";
-  return `<details class="decision-card ${actionClass(decision.action)}">
+  const note = decision.note || {};
+  const rating = decision.researchRating || "WATCH";
+  return `<details class="decision-card ${actionClass(rating)}">
     <summary>
       <span class="decision-summary">
         <span class="ticker">${escapeHtml(decision.instrument)}</span>
-        <span class="action-badge ${actionClass(decision.action)}">${escapeHtml(decision.action)}</span>
+        <span class="action-badge ${actionClass(rating)}">${escapeHtml(rating)}</span>
         ${quoteMarkup(decision.instrument)}
-        <p class="decision-lede">${escapeHtml(lede)}</p>
+        <p class="decision-lede"><strong>${escapeHtml(note.call || "Research incomplete.")}</strong> ${escapeHtml(note.why || "")}</p>
       </span>
     </summary>
     ${decisionDetailMarkup(decision)}
@@ -172,33 +174,24 @@ function priorityDecisionMarkup(decision) {
 
 function decisionDetailMarkup(decision) {
   const profile = decision.return_profile || {};
-  const execution = decision.execution || {};
-  const thesis = decision.executive_thesis || [];
-  const risks = (decision.risks || []).slice().sort((a, b) => Number(a.rank || 99) - Number(b.rank || 99));
+  const note = decision.note || {};
   const relatedReports = (decision.relatedReports || []).map(id => reportById(id)).filter(Boolean);
-  const expectedReturn = profile.probability_weighted_expected_return_pct;
-  const downside = profile.realistic_downside_pct;
-  const ratio = profile.upside_downside_ratio;
-  const scenarios = profile.scenarios || [];
+  const metrics = [
+    [profile.probability_weighted_expected_return_pct, "Weighted return", value => pct(value)],
+    [profile.realistic_downside_pct, "Realistic downside", value => pct(value)],
+    [profile.upside_downside_ratio, "Upside / downside", value => `${value}:1`]
+  ].filter(([value]) => value !== null && value !== undefined);
   return `<div class="decision-detail">
-    <div class="metric-line">
-      <div><strong>${escapeHtml(decision.conviction ?? "—")}/10</strong><span>Research conviction</span></div>
-      <div><strong>${expectedReturn === null || expectedReturn === undefined ? "—" : pct(expectedReturn)}</strong><span>Weighted return</span></div>
-      <div><strong>${downside === null || downside === undefined ? "—" : pct(downside)}</strong><span>Realistic downside</span></div>
-      <div><strong>${ratio === null || ratio === undefined ? "—" : `${ratio}:1`}</strong><span>Upside / downside</span></div>
+    ${metrics.length ? `<div class="metric-line">${metrics.map(([value, label, format]) => `<div><strong>${format(value)}</strong><span>${label}</span></div>`).join("")}</div>` : ""}
+    <div class="plain-note">
+      <div><span>Call</span><p>${escapeHtml(note.call || "Research incomplete.")}</p></div>
+      <div><span>Why</span><p>${escapeHtml(note.why || "Not yet established.")}</p></div>
+      <div><span>Upside</span><p>${escapeHtml(note.upside || "Not yet modeled.")}</p></div>
+      <div><span>Risk</span><p>${escapeHtml(note.risk || "Not yet established.")}</p></div>
+      <div><span>Next check</span><p>${escapeHtml(note.next || "No dated check established.")}</p></div>
     </div>
-    <div class="detail-grid">
-      <div class="detail-field"><span class="field-label">Executive thesis</span><ul>${thesis.map(item => `<li>${escapeHtml(item)}</li>`).join("") || "<li>Not established.</li>"}</ul></div>
-      <div class="detail-field"><span class="field-label">Execution status</span><p>${escapeHtml(execution.entry_method || "No execution plan cleared.")}</p></div>
-      <div class="detail-field"><span class="field-label">Catalyst</span><ul>${(decision.catalysts || []).map(item => `<li><strong>${escapeHtml(item.timing || "Timing open")}</strong> — ${escapeHtml(item.event || "")}</li>`).join("") || "<li>No dated catalyst established.</li>"}</ul></div>
-      <div class="detail-field"><span class="field-label">Key risks</span><ul>${risks.map(item => `<li>${escapeHtml(item.risk || "")}</li>`).join("") || "<li>Not established.</li>"}</ul></div>
-      <div class="detail-field"><span class="field-label">Add only if</span><ul>${(execution.add_conditions || []).map(item => `<li>${escapeHtml(item)}</li>`).join("") || "<li>No add condition cleared.</li>"}</ul></div>
-      <div class="detail-field"><span class="field-label">Invalidation</span><ul>${(decision.invalidation || []).map(item => `<li>${escapeHtml(item)}</li>`).join("") || "<li>Not established.</li>"}</ul></div>
-      ${scenarios.length ? `<div class="detail-field"><span class="field-label">Scenario range</span><ul>${scenarios.map(item => `<li><strong>${escapeHtml(item.name || "Scenario")}: ${pct(item.total_return_pct)}</strong> at ${escapeHtml(item.probability_pct)}% probability</li>`).join("")}</ul></div>` : ""}
-      ${(decision.open_questions || []).length ? `<div class="detail-field"><span class="field-label">Open questions</span><ul>${decision.open_questions.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul></div>` : ""}
-    </div>
-    ${(decision.evidenceLinks || []).length ? `<div class="detail-field"><span class="field-label">Primary evidence</span><ul class="source-list">${decision.evidenceLinks.map(link => `<li><a href="${escapeHtml(link.url)}">${escapeHtml(link.label)} ↗</a></li>`).join("")}</ul></div>` : ""}
-    ${relatedReports.length ? `<div class="detail-field"><span class="field-label">Related reports</span><div class="related-links">${relatedReports.map(report => `<button type="button" data-report="${escapeHtml(report.id)}">${escapeHtml(report.title)}</button>`).join("")}</div></div>` : ""}
+    ${(decision.evidenceLinks || []).length ? `<div class="detail-field"><span class="field-label">Sources</span><ul class="source-list">${decision.evidenceLinks.map(link => `<li><a href="${escapeHtml(link.url)}">${escapeHtml(link.label)} ↗</a></li>`).join("")}</ul></div>` : ""}
+    ${relatedReports.length ? `<div class="detail-field"><span class="field-label">Read more</span><div class="related-links">${relatedReports.map(report => `<button type="button" data-report="${escapeHtml(report.id)}">${escapeHtml(report.title)}</button>`).join("")}</div></div>` : ""}
   </div>`;
 }
 
@@ -210,49 +203,65 @@ function bindDecisionLinks(root) {
   decorateLinks(root);
 }
 
+function marketNoteMarkup(item) {
+  const links = item.links || [];
+  return `<details class="market-note">
+    <summary><span class="market-scope">${escapeHtml(item.scope || "Market")}</span><p>${escapeHtml(item.notice || "No material change.")}</p></summary>
+    <div class="market-note-body">
+      <div><span>Prediction</span><p>${escapeHtml(item.prediction || "No forecast established.")}</p></div>
+      <div><span>Investment effect</span><p>${escapeHtml(item.implication || "No action implied.")}</p></div>
+      <div><span>What changes the view</span><p>${escapeHtml(item.change || "New primary evidence.")}</p></div>
+      ${links.length ? `<div><span>Sources</span><p>${links.map(link => `<a href="${escapeHtml(link.url)}">${escapeHtml(link.label)} ↗</a>`).join(" · ")}</p></div>` : ""}
+    </div>
+  </details>`;
+}
+
 function renderToday() {
   const root = $("#today");
   const executive = DATA.executive || {};
-  const decisions = (DATA.decisions || []).filter(item => item.action !== "AVOID").slice(0, 3);
+  const ratingOrder = { "BUY": 0, "CONDITIONAL BUY": 1, "WATCH": 2, "AVOID": 3 };
+  const decisions = (DATA.decisions || []).slice().sort((a, b) => (ratingOrder[a.researchRating] ?? 9) - (ratingOrder[b.researchRating] ?? 9)).slice(0, 3);
   const action = executive.action || "NONE";
-  const buyText = DATA.currentBuys.length ? `${DATA.currentBuys.length} cleared` : "None cleared";
-  const gateText = DATA.portfolio.authoritative ? "Ready" : "Blocked";
+  const buyText = (DATA.currentBuys || []).length ? `${DATA.currentBuys.length} cleared` : "None";
+  const candidateText = (DATA.buyCandidates || []).length ? `${DATA.buyCandidates.length}` : "None yet";
+  const sizingText = DATA.portfolio.authoritative ? "Ready" : "Blocked";
   const report = reportById(executive.reportId);
 
-  root.innerHTML = `<div class="page-intro"><span class="eyebrow">Executive decision book</span><h2>Today</h2><p>What changed, what requires action, and what could change the call.</p></div>
+  root.innerHTML = `<div class="page-intro"><span class="eyebrow">Executive investment note</span><h2>Today</h2><p>The call, the best ideas, and what could change next.</p></div>
     <section class="decision-banner ${actionClass(action)}">
-      <div class="banner-top"><div><span class="section-label">CIO decision · ${escapeHtml(executive.date || "Current edition")}</span><h2>${escapeHtml(actionHeadline(action))}</h2></div><span class="urgency">${escapeHtml(executive.urgency || "Trigger-dependent")}</span></div>
-      <p class="banner-note">${DATA.portfolio.authoritative ? "Portfolio inputs are current; cleared actions can include sizing." : "No capital action is authorized. Portfolio holdings and account constraints are not current, so the office can only investigate or avoid."}</p>
-      ${report ? `<button type="button" class="link-button" data-report="${escapeHtml(report.id)}">Read today’s full brief →</button>` : ""}
+      <div class="banner-top"><div><span class="section-label">Today’s trade decision · ${escapeHtml(executive.date || "Current edition")}</span><h2>${escapeHtml(actionHeadline(action))}</h2></div><span class="urgency">${escapeHtml(executive.urgency || "Trigger-dependent")}</span></div>
+      <p class="banner-note">${DATA.portfolio.authoritative ? "Portfolio inputs are current, so approved ideas can be sized." : "Research can still produce buy candidates. Personal trade sizing is blocked until holdings, cash, and account limits are connected."}</p>
+      <div class="banner-links">${report ? `<button type="button" class="link-button" data-report="${escapeHtml(report.id)}">Read the brief →</button>` : ""}<button type="button" class="link-button" data-go="guide">Why is sizing blocked? →</button></div>
     </section>
 
     <div class="status-strip" aria-label="Executive status">
+      <div class="status-cell"><span class="status-value text">${escapeHtml(candidateText)}</span><span class="status-label">Buy candidates</span></div>
       <div class="status-cell"><span class="status-value text">${escapeHtml(buyText)}</span><span class="status-label">Current buys</span></div>
-      <div class="status-cell"><span class="status-value text">${escapeHtml(gateText)}</span><span class="status-label">Portfolio gate</span></div>
-      <div class="status-cell"><span class="status-value">${DATA.decisions.length}</span><span class="status-label">Current calls</span></div>
+      <div class="status-cell"><span class="status-value text">${escapeHtml(sizingText)}</span><span class="status-label">Trade sizing</span></div>
     </div>
 
     <div class="today-grid">
       <div class="today-main">
         <section class="section">
-          <div class="section-head"><div><span class="section-label">Decision queue</span><h3>Priority calls</h3></div><p>Latest CIO records, not a price-move leaderboard</p></div>
-          <div class="decision-list compact">${decisions.length ? decisions.map(priorityDecisionMarkup).join("") : `<div class="empty-state">No current decision records.</div>`}</div>
-          <button type="button" class="link-button" data-go="decisions">See all decisions →</button>
+          <div class="section-head"><div><span class="section-label">Opportunity list</span><h3>Best ideas now</h3></div><p>Research ranking—not a price-move leaderboard</p></div>
+          <div class="decision-list compact">${decisions.length ? decisions.map(priorityDecisionMarkup).join("") : `<div class="empty-state">No current research ratings.</div>`}</div>
+          <button type="button" class="link-button" data-go="decisions">See all ideas →</button>
         </section>
       </div>
 
       <aside class="today-side">
+        ${(DATA.marketNotes || []).length ? `<section class="section">
+          <div class="section-head"><div><span class="section-label">Market and industries</span><h3>Current view</h3></div></div>
+          <div class="market-note-list">${DATA.marketNotes.slice(0, 3).map(marketNoteMarkup).join("")}</div>
+          <button type="button" class="link-button" data-go="watch">See all market notes →</button>
+        </section>` : ""}
         <section class="section">
-          <div class="section-head"><div><span class="section-label">Since prior brief</span><h3>Material changes</h3></div></div>
+          <div class="section-head"><div><span class="section-label">Since prior brief</span><h3>What changed</h3></div></div>
           <ul class="change-list">${(executive.materialChanges || []).map(item => `<li>${inlineMd(item)}</li>`).join("") || "<li>No decision-relevant change recorded.</li>"}</ul>
         </section>
         <section class="section">
           <div class="section-head"><div><span class="section-label">Next checks</span><h3>Catalysts</h3></div></div>
           <ul class="catalyst-list">${(executive.catalysts || []).map(item => `<li>${inlineMd(item)}</li>`).join("") || "<li>No dated catalyst recorded.</li>"}</ul>
-        </section>
-        <section class="portfolio-callout ${DATA.portfolio.authoritative ? "pass" : ""}">
-          <span class="section-label">Portfolio status</span><h3>${escapeHtml(DATA.portfolio.status)}</h3><p>${escapeHtml(DATA.portfolio.message)}</p>
-          ${DATA.portfolio.missing.length ? `<div class="missing-list">${DATA.portfolio.missing.map(item => `<span>${escapeHtml(item)}</span>`).join("")}</div>` : ""}
         </section>
       </aside>
     </div>`;
@@ -263,17 +272,21 @@ function renderToday() {
 }
 
 function decisionFilters() {
-  const available = ["ALL", "BUY", "ADD", "HOLD", "INVESTIGATE", "AVOID", "REDUCE", "EXIT"]
-    .filter(action => action === "ALL" || (DATA.decisions || []).some(item => item.action === action));
-  return available.map(action => `<button type="button" class="filter-chip ${activeDecisionFilter === action ? "active" : ""}" data-decision-filter="${action}">${action === "ALL" ? "All calls" : `${action} ${DATA.actionCounts[action] || ""}`}</button>`).join("");
+  const available = ["ALL", "BUY", "CONDITIONAL BUY", "WATCH", "AVOID"]
+    .filter(rating => rating === "ALL" || (DATA.decisions || []).some(item => item.researchRating === rating));
+  return available.map(rating => {
+    const count = (DATA.decisions || []).filter(item => item.researchRating === rating).length;
+    return `<button type="button" class="filter-chip ${activeDecisionFilter === rating ? "active" : ""}" data-decision-filter="${rating}">${rating === "ALL" ? "All ideas" : `${rating} ${count}`}</button>`;
+  }).join("");
 }
 
 function renderDecisions() {
   const root = $("#decisions");
-  const decisions = (DATA.decisions || []).filter(item => activeDecisionFilter === "ALL" || item.action === activeDecisionFilter);
-  root.innerHTML = `<div class="page-intro"><span class="eyebrow">Current investment calls</span><h2>Decisions</h2><p>One current record per instrument. Expand a call for thesis, catalyst, risk, sizing gate, and primary evidence.</p></div>
-    <div class="filters" aria-label="Decision filters">${decisionFilters()}</div>
-    <div class="decision-list">${decisions.length ? decisions.map(priorityDecisionMarkup).join("") : `<div class="empty-state">No decisions match this filter.</div>`}</div>`;
+  const decisions = (DATA.decisions || []).filter(item => activeDecisionFilter === "ALL" || item.researchRating === activeDecisionFilter);
+  root.innerHTML = `<div class="page-intro"><span class="eyebrow">Current research ratings</span><h2>Ideas</h2><p>Simple calls first. Tap an idea for the upside, risk, next check, and sources.</p></div>
+    <div class="rating-key"><strong>Research rating</strong> answers “is the stock attractive?” <strong>Trade sizing</strong> answers “how much belongs in your accounts?”</div>
+    <div class="filters" aria-label="Idea filters">${decisionFilters()}</div>
+    <div class="decision-list">${decisions.length ? decisions.map(priorityDecisionMarkup).join("") : `<div class="empty-state">No ideas match this filter.</div>`}</div>`;
   $$('[data-decision-filter]', root).forEach(button => button.addEventListener("click", () => {
     activeDecisionFilter = button.dataset.decisionFilter;
     renderDecisions();
@@ -282,13 +295,13 @@ function renderDecisions() {
 }
 
 function reportCategories() {
-  return ["All", ...new Set((DATA.reports || []).map(report => report.category))];
+  return ["Briefs & memos", ...new Set((DATA.reports || []).map(report => report.category))];
 }
 
 function filteredReports() {
   const query = reportSearch.toLowerCase().trim();
   return (DATA.reports || []).filter(report => {
-    const categoryMatch = activeReportFilter === "All" || report.category === activeReportFilter;
+    const categoryMatch = activeReportFilter === "Briefs & memos" ? report.category !== "Market Signal" : report.category === activeReportFilter;
     const queryMatch = !query || [report.title, report.summary, report.category, ...(report.tags || [])].join(" ").toLowerCase().includes(query);
     return categoryMatch && queryMatch;
   });
@@ -310,11 +323,12 @@ function reportReaderMarkup(report) {
     <header class="reader-header"><span class="section-label">${escapeHtml(report.category)}</span><h2>${escapeHtml(report.title)}</h2><p>Updated ${fmtDate(report.updated, { dateStyle: "medium", timeStyle: "short" })}</p>${report.tags.length ? `<div class="tag-row">${report.tags.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>` : ""}</header>
     <article class="markdown-body">${md(report.content)}</article>
     ${(report.links || []).length ? `<section class="backlinks"><span class="section-label">Direct sources</span><h3>Links in this report</h3><ul class="source-list">${report.links.map(link => `<li><a href="${escapeHtml(link.url)}">${escapeHtml(link.label)} ↗</a></li>`).join("")}</ul></section>` : ""}
-    ${decisions.length ? `<section class="backlinks"><span class="section-label">Backlinks</span><h3>Related decisions</h3><div class="related-links">${decisions.map(decision => `<button type="button" data-decision="${escapeHtml(decision.instrument)}">${escapeHtml(decision.instrument)} · ${escapeHtml(decision.action)}</button>`).join("")}</div></section>` : ""}`;
+    ${decisions.length ? `<section class="backlinks"><span class="section-label">Backlinks</span><h3>Related decisions</h3><div class="related-links">${decisions.map(decision => `<button type="button" data-decision="${escapeHtml(decision.instrument)}">${escapeHtml(decision.instrument)} · ${escapeHtml(decision.researchRating || "WATCH")}</button>`).join("")}</div></section>` : ""}`;
 }
 
 function renderReports() {
   const root = $("#reports");
+  root.classList.toggle("reading-mode", reportReading);
   if (!selectedReportId) selectedReportId = (DATA.reports || [])[0]?.id || null;
   const selected = reportById(selectedReportId);
   root.innerHTML = `<div class="page-intro"><span class="eyebrow">Linked research notes</span><h2>Reports</h2><p>Daily briefs, weekly investment committee notes, investment memos, and material market signals. Raw ledgers and system files are intentionally excluded.</p></div>
@@ -373,7 +387,11 @@ function renderWatch() {
   const root = $("#watch");
   const alerts = DATA.alerts || [];
   const tasks = DATA.researchTasks || [];
-  root.innerHTML = `<div class="page-intro"><span class="eyebrow">Triggers and catalysts</span><h2>Watch</h2><p>Observable conditions that can change a decision. No vague “monitoring,” and no raw system status.</p></div>
+  root.innerHTML = `<div class="page-intro"><span class="eyebrow">Markets and catalysts</span><h2>Watch</h2><p>Broad market, industry outlooks, and the events that can change an investment call.</p></div>
+    ${(DATA.marketNotes || []).length ? `<section class="section">
+      <div class="section-head"><div><span class="section-label">Outlook</span><h3>Market and industry notes</h3></div><p>Notice → prediction → investment effect</p></div>
+      <div class="market-note-list full">${DATA.marketNotes.map(marketNoteMarkup).join("")}</div>
+    </section>` : ""}
     <section class="section">
       <div class="section-head"><div><span class="section-label">Action conditions</span><h3>Watchlist</h3></div><p>${DATA.watchlist.length} current instruments</p></div>
       <div class="watch-list">${DATA.watchlist.map(watchCardMarkup).join("") || `<div class="empty-state">No watchlist entries.</div>`}</div>
@@ -387,6 +405,32 @@ function renderWatch() {
       <ul class="change-list">${tasks.map(task => `<li><strong>${escapeHtml(task.priority || "")}</strong> · ${escapeHtml(task.task || "")}<br><span class="watch-stage">Next: ${escapeHtml(task.next_trigger || "Open")}</span></li>`).join("") || "<li>No open decision work.</li>"}</ul>
     </section>`;
   $$('[data-report]', root).forEach(button => button.addEventListener("click", () => openReport(button.dataset.report)));
+  decorateLinks(root);
+}
+
+function renderGuide() {
+  const root = $("#guide");
+  const missing = DATA.portfolio.missing || [];
+  root.innerHTML = `<div class="page-intro"><span class="eyebrow">Plain-language reference</span><h2>Guide</h2><p>What each investment term means and why a trade may be blocked.</p></div>
+    <section class="guide-lead">
+      <span class="section-label">Why sizing is blocked</span>
+      <h3>${escapeHtml(DATA.portfolio.status)}</h3>
+      <p><strong>Simple answer:</strong> I do not have a current, verified picture of what you own, your cash, and your account limits. Research can still find attractive stocks; only the personal trade size is blocked.</p>
+      ${missing.length ? `<div class="missing-list">${missing.map(item => `<span>${escapeHtml(item)}</span>`).join("")}</div>` : ""}
+    </section>
+    <section class="section">
+      <div class="section-head"><div><span class="section-label">Note format</span><h3>How to read an idea</h3></div></div>
+      <div class="plain-note guide-format">
+        <div><span>Call</span><p>Buy, conditional buy, watch, or avoid.</p></div>
+        <div><span>Why</span><p>The one fact that matters most.</p></div>
+        <div><span>Upside / risk</span><p>What can go right and the main way we lose.</p></div>
+        <div><span>Next check</span><p>The evidence or event that can change the call.</p></div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-head"><div><span class="section-label">Glossary</span><h3>Terms in this app</h3></div></div>
+      <dl class="glossary-list">${(DATA.glossary || []).map(item => `<div><dt>${escapeHtml(item.term)}</dt><dd>${escapeHtml(item.definition)}</dd></div>`).join("")}</dl>
+    </section>`;
 }
 
 function routeFromHash() {
@@ -413,6 +457,7 @@ async function load() {
   renderDecisions();
   renderReports();
   renderWatch();
+  renderGuide();
   routeFromHash();
   decorateLinks();
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
