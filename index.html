@@ -4,68 +4,60 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#f7f3e8" />
-  <meta name="description" content="Hermes Personal Investment Office — decisions, portfolio risk, evidence, catalysts, and market monitoring." />
-  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2NCA2NCc+PHJlY3Qgd2lkdGg9JzY0JyBoZWlnaHQ9JzY0JyBmaWxsPScjZjdmM2U4Jy8+PHJlY3QgeD0nNCcgeT0nNCcgd2lkdGg9JzU2JyBoZWlnaHQ9JzU2JyBmaWxsPSdub25lJyBzdHJva2U9JyMxODQ5OWEnIHN0cm9rZS13aWR0aD0nNCcvPjx0ZXh0IHg9JzMyJyB5PSc0NCcgdGV4dC1hbmNob3I9J21pZGRsZScgZm9udC1mYW1pbHk9J3NlcmlmJyBmb250LXNpemU9JzQwJyBmb250LXdlaWdodD0nNzAwJyBmaWxsPScjMTg0OTlhJz5HPC90ZXh0Pjwvc3ZnPg==" />
-  <title>Hermes Personal Investment Office</title>
+  <meta name="description" content="Gus Investment Office — executive decisions, catalysts, and investment reports." />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Gus Office" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <link rel="icon" href="icons/icon-192.png" />
   <link rel="stylesheet" href="styles.css" />
+  <title>Gus Investment Office</title>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.7/dist/purify.min.js"></script>
 </head>
 <body>
-  <a class="skip-link" href="#mainContent">Skip to research</a>
-  <div class="shell">
-    <aside class="sidebar" aria-label="Research desk navigation">
-      <div class="brand">
-        <div class="brand-mark" aria-hidden="true">G</div>
-        <div class="brand-copy">
-          <h1>Personal Investment Office</h1>
-          <p>Public-markets decision system</p>
-        </div>
+  <a class="skip-link" href="#mainContent">Skip to content</a>
+  <div class="app-shell">
+    <aside class="desktop-rail" aria-label="Investment Office navigation">
+      <div class="identity">
+        <div class="monogram" aria-hidden="true">G</div>
+        <div><strong>Gus Investment Office</strong><span>Executive decision book</span></div>
       </div>
-
-      <nav class="nav" aria-label="Dashboard sections">
-        <button type="button" data-view="overview" class="active"><span>01</span>Overview</button>
-        <button type="button" data-view="tape"><span>02</span>Market tape</button>
-        <button type="button" data-view="scorecard"><span>03</span>Scorecard</button>
-        <button type="button" data-view="alerts"><span>04</span>Alerts</button>
-        <button type="button" data-view="files"><span>05</span>Archive</button>
+      <nav class="primary-nav" aria-label="Primary sections">
+        <button type="button" data-view="today" class="active"><span>01</span>Today</button>
+        <button type="button" data-view="decisions"><span>02</span>Decisions</button>
+        <button type="button" data-view="reports"><span>03</span>Reports</button>
+        <button type="button" data-view="watch"><span>04</span>Watch</button>
       </nav>
-
-      <div class="searchbox">
-        <label for="search">Search the archive</label>
-        <input id="search" type="search" autocomplete="off" placeholder="Ticker, theme, thesis-breaker…" aria-controls="fileList" />
-        <div id="fileList" class="file-list" aria-label="Research documents"></div>
+      <div class="rail-status">
+        <span id="railGate" class="status-dot"></span>
+        <div><strong id="railGateLabel">Checking portfolio</strong><small id="railUpdated"></small></div>
       </div>
-
-      <p class="sidebar-note">Sanitized static edition<br />No portfolio amounts or private context</p>
     </aside>
 
-    <main id="mainContent" class="main" tabindex="-1">
-      <header class="masthead">
-        <div class="edition-line">
-          <span>Public markets</span>
-          <span>Global · Cross-asset · After-tax</span>
-        </div>
-        <div class="masthead-body">
-          <div>
-            <p class="eyebrow">Chief investment office / decision support</p>
-            <h2 id="pageTitle">Executive Office</h2>
-            <p id="pageDek" class="dek">Actions, risk, active theses, and the evidence that changes the call.</p>
-          </div>
-          <button type="button" id="copyLink" class="text-button">Copy edition link</button>
-        </div>
-        <div class="edition-meta">
-          <span id="generated"></span>
-          <span id="editionStats"></span>
-        </div>
+    <div class="app-column">
+      <header class="app-header">
+        <div class="mobile-identity"><span class="mini-monogram">G</span><div><strong>Investment Office</strong><small id="mobileUpdated">Loading edition…</small></div></div>
+        <div class="view-heading"><p id="viewEyebrow">Executive brief</p><h1 id="viewTitle">Today</h1></div>
+        <button type="button" id="shareApp" class="share-button" aria-label="Share this edition">Share</button>
       </header>
 
-      <section id="overview" class="view active" aria-label="Overview"></section>
-      <section id="tape" class="view" aria-label="Market tape"></section>
-      <section id="scorecard" class="view" aria-label="Active sleeve scorecard"></section>
-      <section id="alerts" class="view" aria-label="Market alerts"></section>
-      <section id="files" class="view" aria-label="Research archive"></section>
-    </main>
+      <main id="mainContent" tabindex="-1">
+        <section id="today" class="view active" aria-label="Today's executive brief"></section>
+        <section id="decisions" class="view" aria-label="Current investment decisions"></section>
+        <section id="reports" class="view" aria-label="Investment reports"></section>
+        <section id="watch" class="view" aria-label="Catalysts and watchlist"></section>
+      </main>
+    </div>
+
+    <nav class="bottom-nav" aria-label="Mobile navigation">
+      <button type="button" data-view="today" class="active"><span class="nav-glyph" aria-hidden="true">●</span><span>Today</span></button>
+      <button type="button" data-view="decisions"><span class="nav-glyph" aria-hidden="true">◎</span><span>Decisions</span></button>
+      <button type="button" data-view="reports"><span class="nav-glyph" aria-hidden="true">≡</span><span>Reports</span></button>
+      <button type="button" data-view="watch"><span class="nav-glyph" aria-hidden="true">◇</span><span>Watch</span></button>
+    </nav>
   </div>
   <script src="app.js"></script>
 </body>
