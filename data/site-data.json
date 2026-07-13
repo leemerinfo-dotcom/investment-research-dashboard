@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-13T16:05:21-04:00",
+    "generatedAt": "2026-07-13T16:36:22-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -877,11 +877,11 @@
     },
     {
       "ticker": "OBE.TO",
-      "price": 12.83,
-      "changePct": 14.66,
+      "price": 12.75,
+      "changePct": 13.94,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-07-13T14:32-04:00",
+      "quoteTime": "2026-07-13T16:00-04:00",
       "sparkline": [
         11.43,
         11.28,
@@ -917,7 +917,8 @@
         12.45,
         12.82,
         12.82,
-        12.83
+        12.76,
+        12.75
       ]
     },
     {
@@ -968,11 +969,11 @@
     },
     {
       "ticker": "VST",
-      "price": 158.11,
+      "price": 158.12,
       "changePct": 0.57,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-13T15:30-04:00",
+      "quoteTime": "2026-07-13T16:00-04:00",
       "sparkline": [
         154.745,
         155.17,
@@ -1008,7 +1009,8 @@
         157.205,
         156.72,
         157.66,
-        158.11
+        158.1,
+        158.12
       ]
     }
   ],
