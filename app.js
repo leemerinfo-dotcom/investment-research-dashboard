@@ -19,14 +19,26 @@ const VIEW_META = {
 
 function md(text) {
   if (!text) return "";
-  const html = window.marked ? marked.parse(text, { mangle: false, headerIds: false }) : escapeHtml(text).replace(/\n/g, "<br>");
-  return window.DOMPurify ? DOMPurify.sanitize(html) : html;
+  if (!window.marked || !window.DOMPurify) {
+    return `<pre class="render-fallback">${escapeHtml(text)}</pre>`;
+  }
+  const html = window.marked.parse(text, { mangle: false, headerIds: false });
+  return window.DOMPurify.sanitize(html, {
+    USE_PROFILES: { html: true },
+    FORBID_TAGS: ["script", "style", "iframe", "object", "embed", "form"],
+    FORBID_ATTR: ["style", "srcdoc"]
+  });
 }
 
 function inlineMd(text) {
   if (!text) return "";
-  const html = window.marked ? marked.parseInline(text, { mangle: false, headerIds: false }) : escapeHtml(text);
-  return window.DOMPurify ? DOMPurify.sanitize(html) : html;
+  if (!window.marked || !window.DOMPurify) return escapeHtml(text);
+  const html = window.marked.parseInline(text, { mangle: false, headerIds: false });
+  return window.DOMPurify.sanitize(html, {
+    USE_PROFILES: { html: true },
+    ALLOWED_TAGS: ["strong", "em", "code", "a"],
+    ALLOWED_ATTR: ["href", "title"]
+  });
 }
 
 function decorateLinks(root = document) {
@@ -386,7 +398,6 @@ function watchCardMarkup(item) {
 function renderWatch() {
   const root = $("#watch");
   const alerts = DATA.alerts || [];
-  const tasks = DATA.researchTasks || [];
   root.innerHTML = `<div class="page-intro"><span class="eyebrow">Markets and catalysts</span><h2>Watch</h2><p>Broad market, industry outlooks, and the events that can change an investment call.</p></div>
     ${(DATA.marketNotes || []).length ? `<section class="section">
       <div class="section-head"><div><span class="section-label">Outlook</span><h3>Market and industry notes</h3></div><p>Notice → prediction → investment effect</p></div>
@@ -399,10 +410,6 @@ function renderWatch() {
     <section class="section">
       <div class="section-head"><div><span class="section-label">Recent triggers</span><h3>Market signals</h3></div><p>Tap a signal to read the report</p></div>
       <div class="signal-list">${alerts.map(alert => `<button type="button" class="signal-row" data-report="${escapeHtml(alert.reportId)}"><span class="signal-level ${alert.level >= 3 ? "high" : ""}">L${alert.level || "—"}</span><strong>${escapeHtml(alert.title)}</strong><time>${escapeHtml(alert.date)}</time></button>`).join("") || `<div class="empty-state">No recent market signals.</div>`}</div>
-    </section>
-    <section class="section">
-      <div class="section-head"><div><span class="section-label">Office work</span><h3>Next deliverables</h3></div><p>Only work that can advance a decision</p></div>
-      <ul class="change-list">${tasks.map(task => `<li><strong>${escapeHtml(task.priority || "")}</strong> · ${escapeHtml(task.task || "")}<br><span class="watch-stage">Next: ${escapeHtml(task.next_trigger || "Open")}</span></li>`).join("") || "<li>No open decision work.</li>"}</ul>
     </section>`;
   $$('[data-report]', root).forEach(button => button.addEventListener("click", () => openReport(button.dataset.report)));
   decorateLinks(root);
@@ -439,6 +446,11 @@ function routeFromHash() {
     selectedReportId = route.detail;
     reportReading = true;
     renderReports();
+  } else if (route.view === "reports") {
+    reportReading = false;
+    renderReports();
+  } else {
+    reportReading = false;
   }
   switchView(route.view, { updateHash: false, scroll: false });
 }
@@ -460,11 +472,11 @@ async function load() {
   renderGuide();
   routeFromHash();
   decorateLinks();
-  if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+  if (!window.__STANDALONE__ && "serviceWorker" in navigator && location.protocol.startsWith("http")) {
     navigator.serviceWorker.register("sw.js").catch(() => {});
   }
 }
 
 load().catch(error => {
-  document.body.innerHTML = `<main style="max-width:760px;margin:50px auto;padding:24px;font-family:Times New Roman,serif"><h1>Investment Office failed to load</h1><pre style="white-space:pre-wrap">${escapeHtml(error.stack || error)}</pre></main>`;
+  document.body.innerHTML = `<main class="load-error"><h1>Investment Office failed to load</h1><pre>${escapeHtml(error.stack || error)}</pre></main>`;
 });

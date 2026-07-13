@@ -259,6 +259,9 @@ a:hover { color: #0e3472; }
 .signal-row time { color: var(--muted); font: 9px/1 var(--ui); white-space: nowrap; }
 
 .empty-state { padding: 22px 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); color: var(--muted); font-style: italic; }
+.render-fallback { max-width: 100%; overflow: auto; padding: 12px; border: 1px solid var(--line); background: var(--paper); white-space: pre-wrap; }
+.load-error { max-width: 760px; margin: 50px auto; padding: 24px; }
+.load-error pre { white-space: pre-wrap; }
 .guide-lead { padding: 16px 0; border-top: 4px solid var(--blue); border-bottom: 1px solid var(--ink); }
 .guide-lead h3 { margin: 0 0 7px; font-size: 28px; line-height: 1; }
 .guide-lead p { max-width: 68ch; margin: 0; color: var(--ink-2); }
