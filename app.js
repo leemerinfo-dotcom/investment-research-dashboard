@@ -186,6 +186,7 @@ function priorityDecisionMarkup(decision) {
 
 function decisionDetailMarkup(decision) {
   const profile = decision.return_profile || {};
+  const allocation = decision.allocationPlan || {};
   const note = decision.note || {};
   const relatedReports = (decision.relatedReports || []).map(id => reportById(id)).filter(Boolean);
   const metrics = [
@@ -193,8 +194,14 @@ function decisionDetailMarkup(decision) {
     [profile.realistic_downside_pct, "Realistic downside", value => pct(value)],
     [profile.upside_downside_ratio, "Upside / downside", value => `${value}:1`]
   ].filter(([value]) => value !== null && value !== undefined);
+  const allocationMetrics = [
+    [allocation.initialPct, "Initial", value => `${value}%`],
+    [allocation.targetPct, "Target", value => `${value}%`],
+    [allocation.maximumPct, "Maximum", value => `${value}%`]
+  ].filter(([value]) => value !== null && value !== undefined && Number(value) > 0);
   return `<div class="decision-detail">
     ${metrics.length ? `<div class="metric-line">${metrics.map(([value, label, format]) => `<div><strong>${format(value)}</strong><span>${label}</span></div>`).join("")}</div>` : ""}
+    ${allocationMetrics.length ? `<div class="allocation-plan"><span class="field-label">Ideal allocation · independent of available cash</span><div class="metric-line">${allocationMetrics.map(([value, label, format]) => `<div><strong>${format(value)}</strong><span>${label}</span></div>`).join("")}</div>${allocation.entryMethod ? `<p>${escapeHtml(allocation.entryMethod)}</p>` : ""}<small>Investment merit and ideal sizing are shown even when the account has no cash. Funding and margin are separate decisions.</small></div>` : ""}
     <div class="plain-note">
       <div><span>Call</span><p>${escapeHtml(note.call || "Research incomplete.")}</p></div>
       <div><span>Why</span><p>${escapeHtml(note.why || "Not yet established.")}</p></div>
@@ -228,34 +235,47 @@ function marketNoteMarkup(item) {
   </details>`;
 }
 
+function portfolioActionMarkup(item) {
+  return `<article class="portfolio-action ${actionClass(item.action)}">
+    <div class="portfolio-action-head"><span><strong>${escapeHtml(item.instrument)}</strong><small>${escapeHtml(item.scope || "Portfolio")}</small></span><span class="action-badge ${actionClass(item.action)}">${escapeHtml(item.action)}</span></div>
+    <p>${escapeHtml(item.reason || "No context note recorded.")}</p>
+    <div class="portfolio-action-detail"><span>Target</span><p>${escapeHtml(item.target || "No target established.")}</p><span>Next check</span><p>${escapeHtml(item.next || "No dated check established.")}</p></div>
+  </article>`;
+}
+
 function renderToday() {
   const root = $("#today");
   const executive = DATA.executive || {};
+  const portfolioActions = DATA.portfolio.actions || [];
   const ratingOrder = { "BUY": 0, "CONDITIONAL BUY": 1, "WATCH": 2, "AVOID": 3 };
   const decisions = (DATA.decisions || []).slice().sort((a, b) => (ratingOrder[a.researchRating] ?? 9) - (ratingOrder[b.researchRating] ?? 9)).slice(0, 3);
   const action = executive.action || "NONE";
   const buyText = (DATA.currentBuys || []).length ? `${DATA.currentBuys.length} cleared` : "None";
   const candidateText = (DATA.buyCandidates || []).length ? `${DATA.buyCandidates.length}` : "None yet";
-  const sizingText = DATA.portfolio.authoritative ? "Ready" : "Blocked";
+  const sizingText = DATA.portfolio.authoritative ? "Context ready" : "Research only";
   const report = reportById(executive.reportId);
 
   root.innerHTML = `<div class="page-intro"><span class="eyebrow">Executive investment note</span><h2>Today</h2><p>The call, the best ideas, and what could change next.</p></div>
     <section class="decision-banner ${actionClass(action)}">
       <div class="banner-top"><div><span class="section-label">Today’s trade decision · ${escapeHtml(executive.date || "Current edition")}</span><h2>${escapeHtml(actionHeadline(action))}</h2></div><span class="urgency">${escapeHtml(executive.urgency || "Trigger-dependent")}</span></div>
-      <p class="banner-note">${DATA.portfolio.authoritative ? "Portfolio inputs are current, so approved ideas can be sized." : "Research can still produce buy candidates. Personal trade sizing is blocked until holdings, cash, and account limits are connected."}</p>
-      <div class="banner-links">${report ? `<button type="button" class="link-button" data-report="${escapeHtml(report.id)}">Read the brief →</button>` : ""}<button type="button" class="link-button" data-go="guide">Why is sizing blocked? →</button></div>
+      <p class="banner-note">Research calls, rankings, and ideal allocation ranges are shown regardless of available cash. Your portfolio only changes concentration actions and the personal funding plan. ${escapeHtml(DATA.portfolio.margin?.message || "Margin is never treated as cash.")}</p>
+      <div class="banner-links">${report ? `<button type="button" class="link-button" data-report="${escapeHtml(report.id)}">Read the brief →</button>` : ""}<button type="button" class="link-button" data-go="guide">How calls and funding differ →</button></div>
     </section>
 
     <div class="status-strip" aria-label="Executive status">
       <div class="status-cell"><span class="status-value text">${escapeHtml(candidateText)}</span><span class="status-label">Buy candidates</span></div>
       <div class="status-cell"><span class="status-value text">${escapeHtml(buyText)}</span><span class="status-label">Current buys</span></div>
-      <div class="status-cell"><span class="status-value text">${escapeHtml(sizingText)}</span><span class="status-label">Trade sizing</span></div>
+      <div class="status-cell"><span class="status-value text">${escapeHtml(sizingText)}</span><span class="status-label">Portfolio context</span></div>
     </div>
 
     <div class="today-grid">
       <div class="today-main">
+        ${portfolioActions.length ? `<section class="section">
+          <div class="section-head"><div><span class="section-label">Your portfolio context</span><h3>Hold / trim plan</h3></div><p>Account-aware, but never a capital gate on research</p></div>
+          <div class="portfolio-action-list">${portfolioActions.map(portfolioActionMarkup).join("")}</div>
+        </section>` : ""}
         <section class="section">
-          <div class="section-head"><div><span class="section-label">Opportunity list</span><h3>Best ideas now</h3></div><p>Research ranking—not a price-move leaderboard</p></div>
+          <div class="section-head"><div><span class="section-label">Opportunity list</span><h3>Best ideas now</h3></div><p>Ranked on investment merit—even with $0 available</p></div>
           <div class="decision-list compact">${decisions.length ? decisions.map(priorityDecisionMarkup).join("") : `<div class="empty-state">No current research ratings.</div>`}</div>
           <button type="button" class="link-button" data-go="decisions">See all ideas →</button>
         </section>
@@ -418,11 +438,12 @@ function renderWatch() {
 function renderGuide() {
   const root = $("#guide");
   const missing = DATA.portfolio.missing || [];
-  root.innerHTML = `<div class="page-intro"><span class="eyebrow">Plain-language reference</span><h2>Guide</h2><p>What each investment term means and why a trade may be blocked.</p></div>
+  root.innerHTML = `<div class="page-intro"><span class="eyebrow">Plain-language reference</span><h2>Guide</h2><p>How research calls, portfolio context, and funding fit together.</p></div>
     <section class="guide-lead">
-      <span class="section-label">Why sizing is blocked</span>
+      <span class="section-label">Capital never hides an idea</span>
       <h3>${escapeHtml(DATA.portfolio.status)}</h3>
-      <p><strong>Simple answer:</strong> I do not have a current, verified picture of what you own, your cash, and your account limits. Research can still find attractive stocks; only the personal trade size is blocked.</p>
+      <p><strong>Simple answer:</strong> Buy, hold, trim, watch, and avoid calls are based on investment merit. Ideal percentage sizing is also shown without regard to current cash. Your finances are used only for concentration, account fit, sequencing, and the separate funding plan.</p>
+      <p><strong>Margin:</strong> ${escapeHtml(DATA.portfolio.margin?.message || "Borrowing capacity is excluded unless explicitly authorized and stress-tested.")}</p>
       ${missing.length ? `<div class="missing-list">${missing.map(item => `<span>${escapeHtml(item)}</span>`).join("")}</div>` : ""}
     </section>
     <section class="section">

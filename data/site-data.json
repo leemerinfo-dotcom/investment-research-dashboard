@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-07-14T12:26:06-04:00",
+    "generatedAt": "2026-07-14T12:40:49-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
   },
   "executive": {
     "action": "NONE — no material change; no capital action",
-    "gate": "FAIL",
+    "gate": "PASS",
     "urgency": "Trigger-dependent",
     "materialChanges": [
-      "Portfolio inputs are still missing, so personal trade sizing remains blocked.",
+      "Portfolio context is connected; research calls remain independent of available cash.",
       "No new company filing or market alert changed the investment calls.",
       "Rates, credit spreads, and Federal Reserve evidence did not change the market view."
     ],
@@ -26,19 +26,43 @@
     "date": "2026-07-13"
   },
   "portfolio": {
-    "authoritative": false,
-    "gate": "FAIL",
-    "status": "Portfolio not connected",
-    "asOf": "2026-07-10T11:48:09-04:00",
-    "missing": [
-      "positions",
-      "cost basis",
-      "cash & liabilities",
-      "account types",
-      "base currency",
-      "risk constraints"
+    "authoritative": true,
+    "gate": "PASS",
+    "status": "Portfolio connected",
+    "asOf": "2026-07-14T12:04:38-04:00",
+    "missing": [],
+    "message": "Portfolio-aware buys and sizing are enabled.",
+    "actions": [
+      {
+        "instrument": "AAOI",
+        "action": "REDUCE",
+        "scope": "TFSA",
+        "reason": "The position exceeds the interim single-name ceiling and occupies nearly the entire intended 3-5-name conviction sleeve.",
+        "target": "Reduce to at most 25% of the TFSA now; 10-17% is the strategic full-position range unless underwriting earns an exception.",
+        "next": "Re-underwrite after the next results and verify the 800G/1.6T ramp, margins, working capital, customer concentration, and dilution risk."
+      },
+      {
+        "instrument": "VFV.TO",
+        "action": "HOLD",
+        "scope": "TFSA",
+        "reason": "The S&P 500 core is close to the strategic 50% portfolio target.",
+        "target": "Maintain roughly 50% of total registered assets as the strategic core.",
+        "next": "Rebalance with future contributions or conviction-sleeve sales rather than tactical market timing."
+      },
+      {
+        "instrument": "DRAM",
+        "action": "HOLD",
+        "scope": "FHSA",
+        "reason": "The long home-purchase horizon can tolerate a memory-cycle drawdown, but the FHSA is currently a single-theme account.",
+        "target": "Hold existing shares; direct future FHSA contributions to broad-market exposure until the sector position is below half the account.",
+        "next": "Begin systematic FHSA de-risking about five years before the expected home purchase."
+      }
     ],
-    "message": "Current holdings are not verified, so no buy, add, hold, reduce, or sizing call can be authorized."
+    "margin": {
+      "status": "Not linked",
+      "includedAsCapital": false,
+      "message": "Displayed margin buying power is only a preview and is excluded from every recommendation."
+    }
   },
   "currentBuys": [],
   "buyCandidates": [],
@@ -59,6 +83,13 @@
         "probability_weighted_expected_return_pct": null,
         "realistic_downside_pct": null,
         "upside_downside_ratio": null
+      },
+      "allocationPlan": {
+        "initialPct": 0,
+        "targetPct": 0,
+        "maximumPct": 0,
+        "entryMethod": "No trade; forensic, variant, red-team, portfolio-risk and Gate 0 clearance are required",
+        "capitalIndependent": true
       },
       "evidenceLinks": [
         {
@@ -93,6 +124,13 @@
         "realistic_downside_pct": -63.1,
         "upside_downside_ratio": 1.05
       },
+      "allocationPlan": {
+        "initialPct": 0,
+        "targetPct": 0,
+        "maximumPct": 0,
+        "entryMethod": "No trade; future staged starter only after all gates pass.",
+        "capitalIndependent": true
+      },
       "evidenceLinks": [
         {
           "label": "Obsidian acquisition close and updated guidance",
@@ -123,6 +161,13 @@
         "probability_weighted_expected_return_pct": -11.3,
         "realistic_downside_pct": -53.0,
         "upside_downside_ratio": 1.3
+      },
+      "allocationPlan": {
+        "initialPct": 0,
+        "targetPct": 0,
+        "maximumPct": 0,
+        "entryMethod": "No trade; future 3% staging tranche only after all gates pass, within one concentrated oil-thesis slot.",
+        "capitalIndependent": true
       },
       "evidenceLinks": [
         {
@@ -159,6 +204,13 @@
         "realistic_downside_pct": null,
         "upside_downside_ratio": null
       },
+      "allocationPlan": {
+        "initialPct": 0,
+        "targetPct": 0,
+        "maximumPct": 0,
+        "entryMethod": "No trade; complete Gate 2 triage and portfolio Gate 0",
+        "capitalIndependent": true
+      },
       "evidenceLinks": [
         {
           "label": "Lumentum SEC submissions index as of 2026-07-10 13:29 EDT",
@@ -191,6 +243,13 @@
         "probability_weighted_expected_return_pct": null,
         "realistic_downside_pct": null,
         "upside_downside_ratio": null
+      },
+      "allocationPlan": {
+        "initialPct": 0,
+        "targetPct": 0,
+        "maximumPct": 0,
+        "entryMethod": "No trade; complete event underwriting and portfolio Gate 0",
+        "capitalIndependent": true
       },
       "evidenceLinks": [
         {
@@ -387,23 +446,27 @@
   "glossary": [
     {
       "term": "Research call",
-      "definition": "Our view of the stock on its own: buy, watch, or avoid."
+      "definition": "Our view of the stock on its own: buy, conditional buy, watch, or avoid—independent of available cash."
     },
     {
       "term": "Buy candidate",
-      "definition": "The research looks attractive, but the exact account and position size may still be undecided."
+      "definition": "The research looks attractive. It remains visible even if the account has no cash or the personal funding plan is undecided."
     },
     {
       "term": "Current buy",
-      "definition": "A buy that has passed research and has a trade size cleared for your portfolio."
+      "definition": "A buy that has passed the research gates and has an actionable entry plan. Available cash is reported separately."
     },
     {
-      "term": "Gate 0 / portfolio check",
-      "definition": "The old internal name for checking your holdings, cash, accounts, and risk limits. It is blocked because those inputs are not connected—not because every stock is unattractive."
+      "term": "Portfolio context",
+      "definition": "Current holdings, account types, concentration, cash, and risk limits. These shape sequencing and funding but never hide an attractive idea."
     },
     {
-      "term": "Sizing blocked",
-      "definition": "We can rate the investment, but cannot responsibly say how many shares to buy yet."
+      "term": "Ideal allocation",
+      "definition": "The initial, target, and maximum portfolio percentages justified by the thesis, shown independently of current capital."
+    },
+    {
+      "term": "Funding plan",
+      "definition": "How an approved idea would actually be funded. Cash, sales, contributions, and any explicitly authorized borrowing are separate from the research call."
     },
     {
       "term": "Catalyst",
@@ -601,11 +664,11 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 127.2,
-      "changePct": 11.18,
+      "price": 125.54,
+      "changePct": 9.73,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-14T12:26-04:00",
+      "quoteTime": "2026-07-14T12:40-04:00",
       "sparkline": [
         116.05,
         111.45,
@@ -637,17 +700,18 @@
         111.86,
         119.3,
         124.34,
-        127.37,
-        127.2007
+        126.17,
+        125.455,
+        125.5425
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 144.0,
-      "changePct": -11.4,
+      "price": 145.2,
+      "changePct": -10.66,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-14T12:26-04:00",
+      "quoteTime": "2026-07-14T12:40-04:00",
       "sparkline": [
         161.325,
         158.18,
@@ -679,17 +743,18 @@
         141.87,
         144.26,
         144.32,
-        143.99,
-        144.0
+        144.85,
+        145.215,
+        145.2
       ]
     },
     {
       "ticker": "IONS",
-      "price": 55.08,
-      "changePct": -36.2,
+      "price": 54.86,
+      "changePct": -36.45,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-14T12:26-04:00",
+      "quoteTime": "2026-07-14T12:40-04:00",
       "sparkline": [
         84.92,
         84.645,
@@ -721,8 +786,9 @@
         56.73,
         55.53,
         54.605,
-        55.055,
-        55.08
+        54.86,
+        54.9,
+        54.86
       ]
     },
     {
@@ -731,7 +797,7 @@
       "changePct": -0.24,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-07-14T12:22-04:00",
+      "quoteTime": "2026-07-14T12:39-04:00",
       "sparkline": [
         4.4,
         4.42,
@@ -763,17 +829,18 @@
         4.24,
         4.29,
         4.24,
-        4.22,
+        4.24,
+        4.23,
         4.24
       ]
     },
     {
       "ticker": "LITE",
-      "price": 818.15,
-      "changePct": 17.06,
+      "price": 814.17,
+      "changePct": 16.49,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-14T12:26-04:00",
+      "quoteTime": "2026-07-14T12:40-04:00",
       "sparkline": [
         715.025,
         690.43,
@@ -805,17 +872,18 @@
         768.14,
         808.66,
         821.815,
-        818.76,
-        818.145
+        819.07,
+        814.25,
+        814.175
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 13.45,
-      "changePct": -22.81,
+      "price": 13.39,
+      "changePct": -23.21,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-14T12:26-04:00",
+      "quoteTime": "2026-07-14T12:40-04:00",
       "sparkline": [
         16.725,
         16.44,
@@ -847,17 +915,18 @@
         13.0105,
         13.145,
         13.165,
-        13.455,
-        13.455
+        13.46,
+        13.4,
+        13.385
       ]
     },
     {
       "ticker": "OBE.TO",
-      "price": 12.87,
-      "changePct": 11.33,
+      "price": 13.0,
+      "changePct": 12.46,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-07-14T12:25-04:00",
+      "quoteTime": "2026-07-14T12:40-04:00",
       "sparkline": [
         12.11,
         12.24,
@@ -889,17 +958,18 @@
         12.76,
         13.17,
         12.81,
-        12.87,
-        12.87
+        13.03,
+        12.99,
+        13.0
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 74.41,
-      "changePct": 4.63,
+      "price": 74.57,
+      "changePct": 4.87,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-14T12:22-04:00",
+      "quoteTime": "2026-07-14T12:40-04:00",
       "sparkline": [
         70.44,
         69.24,
@@ -931,17 +1001,18 @@
         75.69,
         74.3242,
         73.98,
-        74.48,
-        74.41
+        74.5274,
+        74.86,
+        74.575
       ]
     },
     {
       "ticker": "VST",
-      "price": 160.26,
-      "changePct": 2.91,
+      "price": 159.88,
+      "changePct": 2.66,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-14T12:25-04:00",
+      "quoteTime": "2026-07-14T12:40-04:00",
       "sparkline": [
         153.365,
         151.94,
@@ -973,8 +1044,9 @@
         158.1,
         166.79,
         163.86,
-        160.245,
-        160.265
+        160.36,
+        159.92,
+        159.88
       ]
     }
   ],

@@ -134,6 +134,23 @@ a:hover { color: #0e3472; }
 .missing-list { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
 .missing-list span, .tag, .category-pill { display: inline-flex; align-items: center; min-height: 24px; padding: 4px 7px; border: 1px solid var(--line); color: var(--muted); font: 700 9px/1 var(--ui); letter-spacing: .045em; text-transform: uppercase; }
 
+.portfolio-action-list { display: grid; gap: 14px; }
+.portfolio-action { padding: 13px 0 15px; border-top: 3px solid var(--blue); border-bottom: 1px solid var(--line); }
+.portfolio-action.reduce, .portfolio-action.exit { border-top-color: var(--red); }
+.portfolio-action.hold { border-top-color: var(--blue); }
+.portfolio-action.buy, .portfolio-action.add { border-top-color: var(--green); }
+.portfolio-action-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.portfolio-action-head strong { display: block; font: 700 19px/1 var(--ui); }
+.portfolio-action-head small { display: block; margin-top: 5px; color: var(--muted); font: 700 8px/1 var(--ui); letter-spacing: .07em; text-transform: uppercase; }
+.portfolio-action > p { margin: 11px 0; color: var(--ink-2); line-height: 1.35; }
+.portfolio-action-detail { display: grid; grid-template-columns: 64px 1fr; gap: 8px 12px; padding-top: 10px; border-top: 1px solid var(--line); }
+.portfolio-action-detail span { color: var(--blue); font: 700 8px/1.25 var(--ui); letter-spacing: .07em; text-transform: uppercase; }
+.portfolio-action-detail p { margin: 0; font-size: 14px; line-height: 1.35; }
+.allocation-plan { margin-top: 14px; padding: 12px 0; border-top: 2px solid var(--green); border-bottom: 1px solid var(--line); }
+.allocation-plan .metric-line { margin-top: 10px; }
+.allocation-plan p { margin: 10px 0 0; }
+.allocation-plan small { display: block; margin-top: 8px; color: var(--muted); font: 10px/1.35 var(--ui); }
+
 .decision-list { display: grid; gap: 16px; }
 .decision-card { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); }
 .decision-card.investigate { border-top-color: var(--amber); }
