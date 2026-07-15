@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-15T16:08:39-04:00",
+    "generatedAt": "2026-07-15T16:39:17-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -1032,11 +1032,11 @@
     },
     {
       "ticker": "VST",
-      "price": 160.2,
-      "changePct": 3.48,
+      "price": 160.23,
+      "changePct": 3.49,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-15T15:30-04:00",
+      "quoteTime": "2026-07-15T16:00-04:00",
       "sparkline": [
         158.46,
         158.415,
@@ -1072,7 +1072,8 @@
         158.61,
         159.06,
         159.94,
-        160.2
+        160.21,
+        160.23
       ]
     }
   ],
