@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-15T17:09:41-04:00",
+    "generatedAt": "2026-07-15T17:40:20-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -848,7 +848,49 @@
     },
     {
       "ticker": "LITE",
-      "error": "HTTPError"
+      "price": 752.0,
+      "changePct": 6.35,
+      "currency": "USD",
+      "exchange": "NMS",
+      "quoteTime": "2026-07-15T16:00-04:00",
+      "sparkline": [
+        779.5,
+        788.84,
+        789.45,
+        793.68,
+        787.89,
+        795.82,
+        785.77,
+        771.54,
+        775.745,
+        776.395,
+        780.69,
+        786.44,
+        795.195,
+        801.97,
+        792.135,
+        802.05,
+        782.8093,
+        769.36,
+        763.805,
+        765.435,
+        768.14,
+        808.66,
+        821.815,
+        819.07,
+        806.0,
+        808.45,
+        808.01,
+        814.69,
+        768.2044,
+        748.64,
+        722.455,
+        744.96,
+        754.255,
+        750.435,
+        751.88,
+        752.0
+      ]
     },
     {
       "ticker": "NTLA",
@@ -1041,6 +1083,6 @@
     "decisions": 5,
     "watchlist": 9,
     "reports": 4,
-    "quotes": 8
+    "quotes": 9
   }
 }
