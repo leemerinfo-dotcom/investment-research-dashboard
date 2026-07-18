@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-18T15:52:49-04:00",
+    "generatedAt": "2026-07-18T16:22:56-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -1002,8 +1002,8 @@
     },
     {
       "ticker": "OBE.TO",
-      "price": 13.5,
-      "changePct": 12.31,
+      "price": 13.49,
+      "changePct": 12.23,
       "currency": "CAD",
       "exchange": "TOR",
       "quoteTime": "2026-07-17T15:30-04:00",
@@ -1042,7 +1042,7 @@
         12.92,
         13.67,
         13.38,
-        13.5
+        13.49
       ]
     },
     {
