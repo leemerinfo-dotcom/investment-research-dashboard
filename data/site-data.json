@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-21T09:16:56-04:00",
+    "generatedAt": "2026-07-21T09:47:09-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -271,9 +271,9 @@
       "stage": "held_concentration_reunderwrite",
       "action": "REDUCE",
       "research_priority": "urgent",
-      "trigger": "Reduce the TFSA position to at most 25% using a limit order; independently complete current share-count, margin, working-capital, customer-concentration, capex and dilution underwriting before any re-add.",
+      "trigger": "Reduce the TFSA position to at most 25% using a limit order against the live broker ticket; as of delayed 2026-07-20 marks the position is still ~45.7% of TFSA / ~43.3% of registered assets. Independently complete current share-count, margin, working-capital, customer-concentration, capex and dilution underwriting before any re-add.",
       "invalidation": "Do not raise the 25% interim ceiling unless forensic valuation, variant perception, independent red team, portfolio stress and execution gates all pass on current evidence.",
-      "next_event": "Next issuer results and 800G/1.6T shipment, margin, working-capital and share-count update"
+      "next_event": "Broker execution of REDUCE; next issuer results and 800G/1.6T shipment, margin, working-capital and share-count update"
     },
     {
       "instrument": "IONS",
@@ -286,24 +286,24 @@
       "next_event": "Full trial data, regulatory strategy, and partner guidance"
     },
     {
+      "instrument": "KTOS",
+      "theme": "defense autonomy / hypersonics",
+      "stage": "event_forensic_triage",
+      "action": "INVESTIGATE",
+      "research_priority": "urgent",
+      "trigger": "By 2026-07-24, fold the July 14 ~US$400 million funding, July 20 Elroy manufacturing role, and July 21 ~US$156 million DOE NNSA C-UAS IDIQ into funded backlog, revenue, margins, cash receipts, working capital, diluted shares, net debt and current-price scenarios; compare directly with AVAV and T-bills.",
+      "invalidation": "Reject promotion if the funding is not economically additive, does not convert to normalized FCF, or valuation cannot support positive expected return and at least 3:1 upside/downside.",
+      "next_event": "Forensic AVAV/KTOS comparison refresh by 2026-07-24; next issuer filing if earlier"
+    },
+    {
       "instrument": "AVAV",
       "theme": "defense autonomy and counter-UAS",
       "stage": "gate3_forensic",
       "action": "INVESTIGATE",
       "research_priority": "high",
-      "trigger": "By 2026-07-17, reconcile FY2026 acquisition accounting and negative cash conversion into an organic backlog-to-margin model and compare with KTOS plus 3-month T-bills.",
+      "trigger": "Overdue versus 2026-07-17: reconcile FY2026 acquisition accounting and negative cash conversion into an organic backlog-to-margin model and compare with KTOS plus 3-month T-bills by 2026-07-24.",
       "invalidation": "Return to rejected status if funded backlog fails to bridge to normalized positive FCF, dilution/debt erase upside, or conservative upside/downside remains below 3:1.",
-      "next_event": "Forensic completion deadline 2026-07-17; next issuer filing if earlier"
-    },
-    {
-      "instrument": "KTOS",
-      "theme": "defense autonomy / hypersonics",
-      "stage": "event_forensic_triage",
-      "action": "INVESTIGATE",
-      "research_priority": "high",
-      "trigger": "By 2026-07-17, reconcile the approximately US$400 million funding into funded backlog, revenue, margins, cash receipts, working capital, diluted shares, net debt and current-price scenarios; compare directly with AVAV and T-bills.",
-      "invalidation": "Reject promotion if the funding is not economically additive, does not convert to normalized FCF, or valuation cannot support positive expected return and at least 3:1 upside/downside.",
-      "next_event": "Forensic AVAV/KTOS comparison deadline 2026-07-17; next issuer filing if earlier"
+      "next_event": "Forensic completion deadline extended to 2026-07-24 after miss; next issuer filing if earlier"
     },
     {
       "instrument": "NTLA",
@@ -333,7 +333,7 @@
       "research_priority": "high_on_trigger",
       "trigger": "Positive post-acquisition FCF and sequential total-debt decline after the C$75 million notes add-on, plus a sustained supportive WTI strip and refreshed valuation.",
       "invalidation": "Maintain AVOID if debt fails to decline, FCF remains negative, borrowing stress rises, or the strip falls below US$65 with cash-negative capex.",
-      "next_event": "Expected notes closing 2026-07-22 and next quarterly FCF/debt update"
+      "next_event": "Expected notes closing 2026-07-22 and next quarterly FCF/debt update; delayed WTI strength alone is insufficient"
     },
     {
       "instrument": "LITE",
@@ -361,7 +361,7 @@
       "stage": "capacity_auction_reunderwrite",
       "action": "INVESTIGATE",
       "research_priority": "medium_high",
-      "trigger": "Reconcile the 10,924.4 MW PJM award into incremental 2028/2029 EBITDA and FCF after hedges, costs, debt and tax, then compare with current valuation and alternative power names.",
+      "trigger": "Reconcile the 10,924.4 MW PJM award into incremental 2028/2029 EBITDA and FCF after hedges, costs, debt and tax; treat the July 16 receivables-facility upsizing to US$1.25 billion as liquidity context only, then compare with current valuation and alternative power names.",
       "invalidation": "De-escalate if the auction economics are already priced, largely offset by hedges/costs/regulation, or downside remains unbounded after leverage.",
       "next_event": "Next Vistra guidance or filing quantifying PJM auction earnings impact"
     }
@@ -680,19 +680,12 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 103.02,
-      "changePct": -7.92,
+      "price": 107.69,
+      "changePct": -14.16,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:47-04:00",
       "sparkline": [
-        119.3,
-        124.34,
-        126.17,
-        124.5,
-        124.21,
-        124.24,
-        125.42,
         113.72,
         111.34,
         107.77,
@@ -721,24 +714,18 @@
         103.175,
         103.07,
         102.92,
-        103.02
+        107.7,
+        107.69
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 142.6,
-      "changePct": 0.56,
+      "price": 142.18,
+      "changePct": -0.9,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:46-04:00",
       "sparkline": [
-        144.26,
-        144.32,
-        144.85,
-        144.01,
-        144.51,
-        144.175,
-        143.55,
         143.22,
         141.58,
         139.3001,
@@ -767,24 +754,18 @@
         144.405,
         140.465,
         142.6,
-        142.6
+        142.295,
+        142.18
       ]
     },
     {
       "ticker": "IONS",
-      "price": 52.95,
-      "changePct": -6.7,
+      "price": 52.84,
+      "changePct": -3.8,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:46-04:00",
       "sparkline": [
-        55.53,
-        54.605,
-        54.86,
-        55.185,
-        55.39,
-        55.0,
-        54.93,
         53.94,
         54.03,
         54.38,
@@ -813,24 +794,18 @@
         53.645,
         53.1,
         52.92,
-        52.95
+        52.685,
+        52.84
       ]
     },
     {
       "ticker": "JOY.TO",
-      "price": 4.42,
-      "changePct": 4.49,
+      "price": 4.47,
+      "changePct": 5.67,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:47-04:00",
       "sparkline": [
-        4.29,
-        4.24,
-        4.24,
-        4.21,
-        4.26,
-        4.25,
-        4.23,
         4.25,
         4.21,
         4.23,
@@ -859,24 +834,18 @@
         4.4,
         4.44,
         4.41,
-        4.42
+        4.47,
+        4.47
       ]
     },
     {
       "ticker": "KTOS",
-      "price": 45.94,
-      "changePct": -2.17,
+      "price": 46.15,
+      "changePct": -8.35,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:47-04:00",
       "sparkline": [
-        49.305,
-        49.58,
-        49.29,
-        49.84,
-        49.925,
-        50.14,
-        50.38,
         52.3799,
         50.87,
         49.4399,
@@ -905,24 +874,18 @@
         46.52,
         45.8909,
         45.94,
-        45.94
+        46.155,
+        46.155
       ]
     },
     {
       "ticker": "LITE",
-      "price": 765.55,
-      "changePct": -0.34,
+      "price": 811.37,
+      "changePct": -0.42,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:47-04:00",
       "sparkline": [
-        808.66,
-        821.815,
-        819.07,
-        806.0,
-        808.45,
-        808.01,
-        814.69,
         768.2044,
         748.64,
         722.455,
@@ -951,24 +914,18 @@
         774.465,
         774.06,
         765.01,
-        765.55
+        812.26,
+        811.37
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 10.92,
-      "changePct": -16.13,
+      "price": 11.1,
+      "changePct": -16.58,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:47-04:00",
       "sparkline": [
-        13.145,
-        13.165,
-        13.46,
-        13.525,
-        13.495,
-        13.435,
-        13.29,
         13.285,
         13.235,
         12.925,
@@ -997,24 +954,18 @@
         11.19,
         11.045,
         10.91,
-        10.92
+        11.09,
+        11.095
       ]
     },
     {
       "ticker": "OBE.TO",
-      "price": 13.26,
-      "changePct": 4.0,
+      "price": 13.56,
+      "changePct": 3.27,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:46-04:00",
       "sparkline": [
-        13.17,
-        12.81,
-        13.03,
-        12.9,
-        13.08,
-        13.11,
-        13.12,
         12.63,
         12.4,
         12.48,
@@ -1043,24 +994,18 @@
         13.34,
         13.38,
         13.23,
-        13.26
+        13.55,
+        13.56
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 73.47,
-      "changePct": -3.0,
+      "price": 72.96,
+      "changePct": -2.19,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:46-04:00",
       "sparkline": [
-        74.3242,
-        73.98,
-        74.5274,
-        74.35,
-        74.215,
-        74.36,
-        74.61,
         75.9,
         76.06,
         75.58,
@@ -1089,24 +1034,18 @@
         74.195,
         74.35,
         73.39,
-        73.47
+        72.95,
+        72.955
       ]
     },
     {
       "ticker": "VST",
-      "price": 157.99,
-      "changePct": -0.08,
+      "price": 160.06,
+      "changePct": 1.03,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-07-20T16:00-04:00",
+      "quoteTime": "2026-07-21T09:47-04:00",
       "sparkline": [
-        166.79,
-        163.86,
-        160.36,
-        157.82,
-        158.215,
-        158.445,
-        158.41,
         164.66,
         164.29,
         159.4925,
@@ -1135,7 +1074,8 @@
         158.25,
         157.285,
         157.98,
-        157.99
+        160.01,
+        160.06
       ]
     }
   ],
