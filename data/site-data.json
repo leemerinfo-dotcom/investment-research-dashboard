@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-29T10:45:46-04:00",
+    "generatedAt": "2026-09-29T11:16:25-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -680,11 +680,11 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 103.01,
-      "changePct": -3.73,
+      "price": 102.64,
+      "changePct": -4.07,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-09-29T10:45-04:00",
+      "quoteTime": "2026-09-29T11:16-04:00",
       "sparkline": [
         102.86,
         104.01,
@@ -715,17 +715,17 @@
         96.76,
         96.81,
         102.895,
-        102.73,
-        103.01
+        102.745,
+        102.64
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 145.77,
-      "changePct": -6.64,
+      "price": 144.91,
+      "changePct": -7.2,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-09-29T10:45-04:00",
+      "quoteTime": "2026-09-29T11:16-04:00",
       "sparkline": [
         160.49,
         161.03,
@@ -756,17 +756,17 @@
         148.2601,
         147.27,
         145.196,
-        145.9,
-        145.775
+        144.85,
+        144.912
       ]
     },
     {
       "ticker": "IONS",
-      "price": 45.64,
-      "changePct": -0.24,
+      "price": 45.51,
+      "changePct": -0.54,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-09-29T10:45-04:00",
+      "quoteTime": "2026-09-29T11:16-04:00",
       "sparkline": [
         44.515,
         43.51,
@@ -797,17 +797,17 @@
         46.52,
         45.555,
         45.53,
-        45.58,
-        45.64
+        45.485,
+        45.505
       ]
     },
     {
       "ticker": "JOY.TO",
-      "price": 5.09,
-      "changePct": -4.14,
+      "price": 5.08,
+      "changePct": -4.33,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-09-29T10:45-04:00",
+      "quoteTime": "2026-09-29T11:13-04:00",
       "sparkline": [
         5.4,
         5.38,
@@ -838,17 +838,17 @@
         5.18,
         5.16,
         5.14,
-        5.11,
-        5.09
+        5.1,
+        5.08
       ]
     },
     {
       "ticker": "KTOS",
-      "price": 44.03,
-      "changePct": -6.26,
+      "price": 43.83,
+      "changePct": -6.67,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-09-29T10:45-04:00",
+      "quoteTime": "2026-09-29T11:16-04:00",
       "sparkline": [
         47.32,
         47.48,
@@ -879,17 +879,17 @@
         44.14,
         44.06,
         43.84,
-        44.1292,
-        44.03
+        43.81,
+        43.835
       ]
     },
     {
       "ticker": "LITE",
-      "price": 990.88,
-      "changePct": 4.78,
+      "price": 983.23,
+      "changePct": 3.97,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-09-29T10:45-04:00",
+      "quoteTime": "2026-09-29T11:16-04:00",
       "sparkline": [
         943.0,
         953.02,
@@ -920,17 +920,17 @@
         917.98,
         921.66,
         990.685,
-        987.41,
-        990.88
+        982.975,
+        983.2343
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 11.6,
-      "changePct": -8.59,
+      "price": 11.55,
+      "changePct": -8.98,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-09-29T10:45-04:00",
+      "quoteTime": "2026-09-29T11:16-04:00",
       "sparkline": [
         12.4456,
         12.18,
@@ -961,17 +961,17 @@
         11.54,
         11.42,
         11.59,
-        11.61,
-        11.6
+        11.55,
+        11.55
       ]
     },
     {
       "ticker": "OBE.TO",
-      "price": 14.78,
-      "changePct": -5.8,
+      "price": 14.84,
+      "changePct": -5.42,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-09-29T10:44-04:00",
+      "quoteTime": "2026-09-29T11:16-04:00",
       "sparkline": [
         16.24,
         16.05,
@@ -1002,17 +1002,17 @@
         15.26,
         15.13,
         14.92,
-        14.81,
-        14.78
+        14.82,
+        14.84
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 82.35,
-      "changePct": -6.49,
+      "price": 82.11,
+      "changePct": -6.77,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-09-29T10:45-04:00",
+      "quoteTime": "2026-09-29T11:16-04:00",
       "sparkline": [
         86.52,
         86.385,
@@ -1043,17 +1043,17 @@
         83.285,
         82.73,
         82.355,
-        82.24,
-        82.35
+        82.05,
+        82.11
       ]
     },
     {
       "ticker": "VST",
-      "price": 140.79,
-      "changePct": 0.27,
+      "price": 140.85,
+      "changePct": 0.31,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-09-29T10:45-04:00",
+      "quoteTime": "2026-09-29T11:16-04:00",
       "sparkline": [
         138.205,
         139.46,
@@ -1084,8 +1084,8 @@
         137.7,
         138.055,
         141.675,
-        140.9,
-        140.785
+        140.7901,
+        140.85
       ]
     }
   ],
