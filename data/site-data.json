@@ -1,63 +1,37 @@
 {
   "meta": {
-    "generatedAt": "2026-10-01T11:42:17-04:00",
+    "generatedAt": "2026-10-01T12:15:46-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
   },
   "executive": {
-    "action": "NONE — no material change; no capital action",
-    "gate": "PASS",
-    "urgency": "Trigger-dependent",
+    "action": "INVESTIGATE — no current decision packet; no capital action",
+    "gate": "FAIL",
+    "urgency": "Before any capital action",
     "materialChanges": [
-      "Portfolio context is connected; research calls remain independent of available cash.",
-      "No new company filing or market alert changed the investment calls.",
-      "Rates, credit spreads, and Federal Reserve evidence did not change the market view."
+      "Portfolio snapshot is stale; current holdings, concentration, cash, and sizing are unverified.",
+      "The latest approved daily brief is 80 days old; every prior call requires current evidence and valuation."
     ],
-    "catalysts": [
-      "Jul 14 — U.S. inflation report. A hotter reading could delay rate cuts and pressure expensive growth stocks.",
-      "Jul 17 — AVAV valuation review. Promote only if cash flow and downside math support a buy."
-    ],
+    "catalysts": [],
     "evidenceCutoff": [
-      "**2026-07-13 09:16 EDT.** Direct sources: [SEC company submissions](https://data.sec.gov/submissions/), [Federal Reserve press feed](https://www.federalreserve.gov/feeds/press_all.xml), [U.S. Treasury yield curve](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026), [FRED HY/CCC OAS](https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2,BAMLH0A3HYC), and [BLS release calendar](https://www.bls.gov/schedule/news_release/bls.ics).",
-      "Missing input: authoritative current broker export and constraints."
+      "Latest approved daily brief: 2026-07-13."
     ],
     "reportId": "report-office-reports-daily-2026-07-13-md",
-    "date": "2026-07-13"
+    "date": "2026-07-13",
+    "stale": true
   },
   "portfolio": {
-    "authoritative": true,
-    "gate": "PASS",
-    "status": "Portfolio connected",
+    "authoritative": false,
+    "gate": "FAIL",
+    "status": "Portfolio data stale",
     "asOf": "2026-07-14T12:04:38-04:00",
-    "missing": [],
-    "message": "Portfolio-aware buys and sizing are enabled.",
-    "actions": [
-      {
-        "instrument": "AAOI",
-        "action": "REDUCE",
-        "scope": "TFSA",
-        "reason": "The position exceeds the interim single-name ceiling and occupies nearly the entire intended 3-5-name conviction sleeve.",
-        "target": "Reduce to at most 25% of the TFSA now; 10-17% is the strategic full-position range unless underwriting earns an exception.",
-        "next": "Re-underwrite after the next results and verify the 800G/1.6T ramp, margins, working capital, customer concentration, and dilution risk."
-      },
-      {
-        "instrument": "VFV.TO",
-        "action": "HOLD",
-        "scope": "TFSA",
-        "reason": "The S&P 500 core is close to the strategic 50% portfolio target.",
-        "target": "Maintain roughly 50% of total registered assets as the strategic core.",
-        "next": "Rebalance with future contributions or conviction-sleeve sales rather than tactical market timing."
-      },
-      {
-        "instrument": "DRAM",
-        "action": "HOLD",
-        "scope": "FHSA",
-        "reason": "The long home-purchase horizon can tolerate a memory-cycle drawdown, but the FHSA is currently a single-theme account.",
-        "target": "Hold existing shares; direct future FHSA contributions to broad-market exposure until the sector position is below half the account.",
-        "next": "Begin systematic FHSA de-risking about five years before the expected home purchase."
-      }
+    "ageDays": 79.0,
+    "missing": [
+      "current portfolio snapshot"
     ],
+    "message": "Current holdings are not verified and fresh, so no buy, add, hold, reduce, or sizing call can be authorized.",
+    "actions": [],
     "margin": {
       "status": "Not linked",
       "includedAsCapital": false,
@@ -268,12 +242,12 @@
     {
       "instrument": "AAOI",
       "theme": "AI optical transceivers",
-      "stage": "held_concentration_reunderwrite",
-      "action": "REDUCE",
+      "stage": "stale_portfolio_reconciliation",
+      "action": "INVESTIGATE",
       "research_priority": "urgent",
-      "trigger": "Reduce the TFSA position to at most 25% using a limit order against the live broker ticket; as of delayed 2026-07-20 marks the position is still ~45.7% of TFSA / ~43.3% of registered assets. Independently complete current share-count, margin, working-capital, customer-concentration, capex and dilution underwriting before any re-add.",
-      "invalidation": "Do not raise the 25% interim ceiling unless forensic valuation, variant perception, independent red team, portfolio stress and execution gates all pass on current evidence.",
-      "next_event": "Broker execution of REDUCE; next issuer results and 800G/1.6T shipment, margin, working-capital and share-count update"
+      "trigger": "Obtain a current broker export and reconcile AAOI quantity, account value, cash, any transactions, and concentration before issuing a new hold/reduce/exit or sizing action; then refresh forensic underwriting on current filings and price.",
+      "invalidation": "Do not reuse the July 2026 weight or REDUCE instruction as a current portfolio action; Gate 0 remains failed until the snapshot is within the configured freshness limit.",
+      "next_event": "Current broker/account export and transaction reconciliation"
     },
     {
       "instrument": "IONS",
@@ -366,93 +340,7 @@
       "next_event": "Next Vistra guidance or filing quantifying PJM auction earnings impact"
     }
   ],
-  "marketNotes": [
-    {
-      "scope": "Broad market",
-      "notice": "U.S. equities remain resilient, while long-term bonds and oil weakened. Cash still earns about 3.85% in three-month Treasuries.",
-      "prediction": "Base case: sticky inflation with slower growth. Expect a choppy market and continued pressure on expensive, cash-burning stocks.",
-      "implication": "Demand a clear earnings or cash-flow catalyst before taking concentrated risk.",
-      "change": "Broad disinflation would help long-duration growth; wider credit spreads would signal a harder slowdown.",
-      "links": [
-        {
-          "label": "Federal Reserve",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
-        },
-        {
-          "label": "U.S. Treasury curve",
-          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026"
-        },
-        {
-          "label": "High-yield spreads",
-          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2,BAMLH0A3HYC"
-        }
-      ]
-    },
-    {
-      "scope": "AI optical networking",
-      "notice": "LITE and AAOI have moved sharply, but recent price action has not yet been tied to a new filing or a proven valuation discount.",
-      "prediction": "AI-network demand should remain strong, but stock returns will separate on margins, customer concentration, inventory, and dilution.",
-      "implication": "Treat optics as a stock-picking theme, not an automatic sector buy.",
-      "change": "Verified customer orders, improving gross margin, and clean cash conversion would support a buy rating.",
-      "links": [
-        {
-          "label": "Lumentum filings",
-          "url": "https://data.sec.gov/submissions/CIK0001633978.json"
-        },
-        {
-          "label": "Lumentum releases",
-          "url": "https://www.lumentum.com/en/newsroom/news-releases"
-        }
-      ]
-    },
-    {
-      "scope": "Defense autonomy",
-      "notice": "AVAV has US$1.183 billion of funded backlog, but fiscal-2026 operating cash flow was negative and BlueHalo integration clouds the underlying economics.",
-      "prediction": "Demand should remain durable; the stock will depend more on profitable backlog conversion than headline contract wins.",
-      "implication": "AVAV is a potential buy only if the next model shows positive free cash flow and acceptable downside.",
-      "change": "Weak funded-backlog conversion, rising debt, or dilution would move it back to avoid.",
-      "links": [
-        {
-          "label": "AVAV fiscal-2026 10-K",
-          "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/avav-20260430x10k.htm"
-        }
-      ]
-    },
-    {
-      "scope": "Biotech and gene therapy",
-      "notice": "Ionis's CARDIO-TTRansform trial missed its primary endpoint. The read-through to other ATTR programs is not yet proven.",
-      "prediction": "The group will stay highly event-driven; companies with long cash runways and independent clinical evidence should outperform weaker option-value stories.",
-      "implication": "Do not average down on price alone. Rebuild each pipeline and cash value separately.",
-      "change": "Regulatory support for a narrower eplontersen use or strong company-specific data would improve the view.",
-      "links": [
-        {
-          "label": "Ionis event filing",
-          "url": "https://www.sec.gov/Archives/edgar/data/874015/000114036126028092/ef20077664_ex99-1.htm"
-        },
-        {
-          "label": "Intellia filings",
-          "url": "https://data.sec.gov/submissions/CIK0001652130.json"
-        }
-      ]
-    },
-    {
-      "scope": "Canadian energy",
-      "notice": "Physical oil supply is tight, but government releases and recovering exports can bridge the shortage before producers turn it into shareholder cash flow.",
-      "prediction": "Base case: oil normalizes toward a 2027 surplus; EIA's July outlook places Brent near US$65 in 2027.",
-      "implication": "Avoid leveraged producers that still burn cash near US$65–75 oil.",
-      "change": "A sustained strip above US$75 plus positive free cash flow and falling debt would reopen the trade.",
-      "links": [
-        {
-          "label": "EIA July outlook",
-          "url": "https://www.eia.gov/outlooks/steo/"
-        },
-        {
-          "label": "IEA July oil report",
-          "url": "https://www.iea.org/reports/oil-market-report-july-2026"
-        }
-      ]
-    }
-  ],
+  "marketNotes": [],
   "glossary": [
     {
       "term": "Research call",
@@ -680,11 +568,11 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 104.78,
-      "changePct": 3.71,
+      "price": 104.7,
+      "changePct": 3.63,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-01T11:42-04:00",
+      "quoteTime": "2026-10-01T12:15-04:00",
       "sparkline": [
         100.79,
         102.0397,
@@ -716,17 +604,17 @@
         99.281,
         103.56,
         105.375,
-        104.84,
-        104.7786
+        104.7,
+        104.7
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 139.62,
-      "changePct": -11.94,
+      "price": 140.28,
+      "changePct": -11.52,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-01T11:42-04:00",
+      "quoteTime": "2026-10-01T12:15-04:00",
       "sparkline": [
         154.96,
         155.2466,
@@ -758,17 +646,17 @@
         142.19,
         140.76,
         138.95,
-        139.545,
-        139.62
+        140.275,
+        140.28
       ]
     },
     {
       "ticker": "IONS",
-      "price": 44.72,
-      "changePct": 2.07,
+      "price": 44.5,
+      "changePct": 1.57,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-01T11:41-04:00",
+      "quoteTime": "2026-10-01T12:15-04:00",
       "sparkline": [
         44.365,
         44.72,
@@ -800,17 +688,17 @@
         44.63,
         45.06,
         44.32,
-        44.69,
-        44.715
+        44.49,
+        44.5
       ]
     },
     {
       "ticker": "JOY.TO",
-      "price": 5.03,
-      "changePct": -6.16,
+      "price": 5.07,
+      "changePct": -5.5,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-10-01T11:36-04:00",
+      "quoteTime": "2026-10-01T12:15-04:00",
       "sparkline": [
         5.27,
         5.32,
@@ -842,17 +730,17 @@
         5.03,
         5.04,
         5.03,
-        5.02,
-        5.03
+        5.06,
+        5.065
       ]
     },
     {
       "ticker": "KTOS",
-      "price": 42.56,
-      "changePct": -9.48,
+      "price": 42.69,
+      "changePct": -9.21,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-01T11:41-04:00",
+      "quoteTime": "2026-10-01T12:15-04:00",
       "sparkline": [
         46.07,
         46.07,
@@ -884,17 +772,17 @@
         42.66,
         42.66,
         42.44,
-        42.6272,
-        42.5642
+        42.7132,
+        42.69
       ]
     },
     {
       "ticker": "LITE",
-      "price": 1064.43,
-      "changePct": 14.57,
+      "price": 1048.5,
+      "changePct": 12.86,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-01T11:42-04:00",
+      "quoteTime": "2026-10-01T12:15-04:00",
       "sparkline": [
         930.775,
         942.97,
@@ -926,17 +814,17 @@
         971.46,
         1038.2,
         1072.89,
-        1064.005,
-        1064.425
+        1048.005,
+        1048.5
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 12.39,
-      "changePct": 1.85,
+      "price": 12.28,
+      "changePct": 1.03,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-01T11:42-04:00",
+      "quoteTime": "2026-10-01T12:15-04:00",
       "sparkline": [
         11.7593,
         11.84,
@@ -968,17 +856,17 @@
         12.05,
         12.215,
         12.385,
-        12.4,
-        12.385
+        12.32,
+        12.285
       ]
     },
     {
       "ticker": "OBE.TO",
-      "price": 14.81,
-      "changePct": -6.71,
+      "price": 14.88,
+      "changePct": -6.3,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-10-01T11:41-04:00",
+      "quoteTime": "2026-10-01T12:14-04:00",
       "sparkline": [
         15.38,
         15.41,
@@ -1010,17 +898,17 @@
         14.67,
         14.91,
         14.79,
-        14.8,
-        14.815
+        14.86,
+        14.88
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 80.41,
-      "changePct": -4.16,
+      "price": 79.72,
+      "changePct": -4.98,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-01T11:41-04:00",
+      "quoteTime": "2026-10-01T12:15-04:00",
       "sparkline": [
         82.7,
         82.225,
@@ -1052,17 +940,17 @@
         83.58,
         80.83,
         79.88,
-        80.355,
-        80.41
+        79.6696,
+        79.72
       ]
     },
     {
       "ticker": "VST",
-      "price": 139.47,
-      "changePct": 1.11,
+      "price": 138.92,
+      "changePct": 0.71,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-10-01T11:42-04:00",
+      "quoteTime": "2026-10-01T12:15-04:00",
       "sparkline": [
         138.39,
         137.37,
@@ -1094,8 +982,8 @@
         138.35,
         138.265,
         139.44,
-        139.4025,
-        139.47
+        139.005,
+        138.92
       ]
     }
   ],
