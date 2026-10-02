@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-02T09:15:11-04:00",
+    "generatedAt": "2026-10-02T09:45:39-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -41,6 +41,54 @@
   "currentBuys": [],
   "buyCandidates": [],
   "decisions": [
+    {
+      "instrument": "AAOI",
+      "action": "INVESTIGATE",
+      "researchRating": "WATCH",
+      "note": {
+        "call": "WATCH — do not add capital.",
+        "why": "The sector rally was not tied to new AAOI operating evidence, while filings show heavy equity-funded expansion.",
+        "upside": "800G/1.6T demand and domestic capacity can create value if margins and cash conversion scale faster than dilution.",
+        "risk": "Dilution, fixed commitments and execution slippage can destroy per-share returns even if revenue grows.",
+        "next": "Current broker export, then Q3 share count, gross margin, working capital and cash flow."
+      },
+      "as_of": "2026-10-02T09:28:50-04:00",
+      "return_profile": {
+        "probability_weighted_expected_return_pct": null,
+        "realistic_downside_pct": null,
+        "upside_downside_ratio": null
+      },
+      "allocationPlan": {
+        "initialPct": 0,
+        "targetPct": 0,
+        "maximumPct": 0,
+        "entryMethod": "No trade and no margin; complete Gate 0, forensic valuation and independent red team",
+        "capitalIndependent": true
+      },
+      "evidenceLinks": [
+        {
+          "label": "Yahoo Finance delayed daily charts for AAOI, COHR, LITE and CRDO — 2026-10-01 close",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI?period1=1790740800&period2=1791000000&interval=1d"
+        },
+        {
+          "label": "Congress.gov S.5548 status — introduced 2026-09-24",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5548"
+        },
+        {
+          "label": "AAOI Form 10-Q for quarter ended 2026-06-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926026278/aaoi20260630_10q.htm"
+        },
+        {
+          "label": "AAOI Houston Buildings 4 and 5 leases Form 8-K — 2026-09-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006862/aaoi_8k.htm"
+        }
+      ],
+      "relatedReports": [
+        "report-office-reports-daily-2026-07-13-md",
+        "report-office-reports-weekly-2026-07-11-weekly-ic-md",
+        "report-office-reports-2026-07-10-initial-cio-note-md"
+      ]
+    },
     {
       "instrument": "AVAV",
       "action": "INVESTIGATE",
@@ -240,16 +288,6 @@
   ],
   "watchlist": [
     {
-      "instrument": "AAOI",
-      "theme": "AI optical transceivers",
-      "stage": "stale_portfolio_reconciliation",
-      "action": "INVESTIGATE",
-      "research_priority": "urgent",
-      "trigger": "Obtain a current broker export and reconcile AAOI quantity, account value, cash, any transactions, and concentration before issuing a new hold/reduce/exit or sizing action; then refresh forensic underwriting on current filings and price.",
-      "invalidation": "Do not reuse the July 2026 weight or REDUCE instruction as a current portfolio action; Gate 0 remains failed until the snapshot is within the configured freshness limit.",
-      "next_event": "Current broker/account export and transaction reconciliation"
-    },
-    {
       "instrument": "IONS",
       "theme": "RNA therapeutics / ATTR",
       "stage": "event_reunderwrite",
@@ -328,6 +366,16 @@
       "trigger": "Verify current filings, commercial volume, aircraft/logistics capital intensity, margins, reimbursement, valuation, and competitive alternatives.",
       "invalidation": "Growth depends on uneconomic logistics capital, reimbursement weakens, or margin/cash conversion fails.",
       "next_event": null
+    },
+    {
+      "instrument": "AAOI",
+      "theme": "AI optical transceivers",
+      "stage": "forensic_reunderwrite_required",
+      "action": "INVESTIGATE",
+      "research_priority": "urgent_if_currently_held",
+      "trigger": "Obtain a current broker export, then reconcile actual ATM issuance and fully diluted shares, Q3 revenue/gross margin versus guidance, working-capital growth, commissioning progress and per-share FCF before any hold/reduce/exit or new-capital decision.",
+      "invalidation": "Do not promote on the synchronized sector rally or S.5548: neither is AAOI-specific revenue evidence, and current filings show material equity-funded capital intensity and fixed commitments.",
+      "next_event": "Current broker/account export; then AAOI Q3 2026 results, date not yet verified"
     },
     {
       "instrument": "VST",
@@ -568,19 +616,12 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 107.32,
-      "changePct": 6.23,
+      "price": 109.16,
+      "changePct": 7.65,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-01T16:00-04:00",
+      "quoteTime": "2026-10-02T09:45-04:00",
       "sparkline": [
-        100.79,
-        102.0397,
-        102.95,
-        102.4899,
-        102.0801,
-        102.0,
-        101.34,
         96.75,
         94.875,
         96.02,
@@ -609,24 +650,18 @@
         106.75,
         107.3692,
         107.28,
-        107.32
+        109.18,
+        109.16
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 140.31,
-      "changePct": -11.5,
+      "price": 140.59,
+      "changePct": -7.54,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-01T16:00-04:00",
+      "quoteTime": "2026-10-02T09:45-04:00",
       "sparkline": [
-        154.96,
-        155.2466,
-        156.79,
-        154.7,
-        153.09,
-        152.865,
-        152.13,
         150.93,
         148.31,
         149.16,
@@ -655,24 +690,18 @@
         140.2515,
         140.86,
         140.33,
-        140.31
+        139.72,
+        140.59
       ]
     },
     {
       "ticker": "IONS",
-      "price": 44.0,
-      "changePct": 0.43,
+      "price": 43.5,
+      "changePct": -2.25,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-01T16:00-04:00",
+      "quoteTime": "2026-10-02T09:45-04:00",
       "sparkline": [
-        44.365,
-        44.72,
-        45.22,
-        45.145,
-        45.13,
-        44.76,
-        44.49,
         45.23,
         45.71,
         46.03,
@@ -701,24 +730,18 @@
         44.42,
         44.07,
         43.98,
-        44.0
+        43.495,
+        43.5
       ]
     },
     {
       "ticker": "JOY.TO",
-      "price": 5.0,
-      "changePct": -6.72,
+      "price": 4.9,
+      "changePct": -6.49,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-10-01T16:00-04:00",
+      "quoteTime": "2026-10-02T09:44-04:00",
       "sparkline": [
-        5.27,
-        5.32,
-        5.19,
-        5.17,
-        5.22,
-        5.24,
-        5.23,
         5.29,
         5.29,
         5.24,
@@ -747,24 +770,18 @@
         5.05,
         5.0,
         5.02,
-        5.0
+        4.84,
+        4.9
       ]
     },
     {
       "ticker": "KTOS",
-      "price": 42.82,
-      "changePct": -8.93,
+      "price": 42.8,
+      "changePct": -6.19,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-01T16:00-04:00",
+      "quoteTime": "2026-10-02T09:45-04:00",
       "sparkline": [
-        46.07,
-        46.07,
-        46.275,
-        46.04,
-        45.55,
-        45.51,
-        45.64,
         45.15,
         44.49,
         44.57,
@@ -793,24 +810,18 @@
         42.75,
         42.95,
         42.835,
-        42.82
+        42.49,
+        42.7967
       ]
     },
     {
       "ticker": "LITE",
-      "price": 1045.78,
-      "changePct": 12.57,
+      "price": 1046.0,
+      "changePct": 11.08,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-01T16:00-04:00",
+      "quoteTime": "2026-10-02T09:45-04:00",
       "sparkline": [
-        930.775,
-        942.97,
-        956.0,
-        952.1875,
-        947.34,
-        943.59,
-        941.64,
         894.895,
         886.18,
         894.49,
@@ -839,24 +850,18 @@
         1040.74,
         1046.17,
         1045.61,
-        1045.78
+        1048.835,
+        1046.0
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 12.12,
-      "changePct": -0.33,
+      "price": 12.53,
+      "changePct": 6.64,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-01T16:00-04:00",
+      "quoteTime": "2026-10-02T09:45-04:00",
       "sparkline": [
-        11.7593,
-        11.84,
-        11.92,
-        11.7999,
-        11.785,
-        11.785,
-        11.75,
         11.525,
         11.52,
         11.6605,
@@ -885,24 +890,18 @@
         12.415,
         12.265,
         12.12,
-        12.12
+        12.54,
+        12.53
       ]
     },
     {
       "ticker": "OBE.TO",
-      "price": 14.87,
-      "changePct": -6.36,
+      "price": 14.59,
+      "changePct": -3.44,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-10-01T15:30-04:00",
+      "quoteTime": "2026-10-02T09:45-04:00",
       "sparkline": [
-        15.38,
-        15.41,
-        14.88,
-        14.88,
-        14.83,
-        14.98,
-        15.1,
         15.57,
         15.53,
         15.28,
@@ -930,24 +929,19 @@
         14.83,
         14.95,
         14.89,
-        14.87
+        14.87,
+        14.49,
+        14.59
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 78.64,
-      "changePct": -6.27,
+      "price": 78.43,
+      "changePct": -8.05,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-01T16:00-04:00",
+      "quoteTime": "2026-10-02T09:45-04:00",
       "sparkline": [
-        82.7,
-        82.225,
-        85.27,
-        84.71,
-        84.8,
-        85.01,
-        85.28,
         85.16,
         83.78,
         84.16,
@@ -976,24 +970,18 @@
         78.46,
         78.67,
         78.72,
-        78.64
+        78.42,
+        78.4275
       ]
     },
     {
       "ticker": "VST",
-      "price": 139.75,
-      "changePct": 1.31,
+      "price": 140.43,
+      "changePct": 1.42,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-10-01T16:00-04:00",
+      "quoteTime": "2026-10-02T09:45-04:00",
       "sparkline": [
-        138.39,
-        137.37,
-        136.745,
-        136.255,
-        137.17,
-        138.085,
-        138.46,
         137.36,
         137.2,
         138.31,
@@ -1022,14 +1010,15 @@
         139.775,
         138.55,
         139.81,
-        139.75
+        139.49,
+        140.4297
       ]
     }
   ],
   "stats": {
     "currentBuys": 0,
     "buyCandidates": 0,
-    "decisions": 5,
+    "decisions": 6,
     "watchlist": 10,
     "reports": 4,
     "quotes": 10
