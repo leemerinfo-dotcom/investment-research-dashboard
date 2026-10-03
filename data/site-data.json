@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-03T10:41:04-04:00",
+    "generatedAt": "2026-10-03T11:11:30-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -26,7 +26,7 @@
     "gate": "FAIL",
     "status": "Portfolio data stale",
     "asOf": "2026-07-14T12:04:38-04:00",
-    "ageDays": 80.9,
+    "ageDays": 81.0,
     "missing": [
       "current portfolio snapshot"
     ],
