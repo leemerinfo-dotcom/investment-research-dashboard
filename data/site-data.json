@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-04T23:48:42-04:00",
+    "generatedAt": "2026-10-05T00:19:21-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -11,7 +11,7 @@
     "urgency": "Before any capital action",
     "materialChanges": [
       "Portfolio snapshot is stale; current holdings, concentration, cash, and sizing are unverified.",
-      "The latest approved daily brief is 83 days old; every prior call requires current evidence and valuation."
+      "The latest approved daily brief is 84 days old; every prior call requires current evidence and valuation."
     ],
     "catalysts": [],
     "evidenceCutoff": [
