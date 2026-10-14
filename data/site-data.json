@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-14T09:13:27-04:00",
+    "generatedAt": "2026-10-14T09:44:15-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -47,12 +47,12 @@
       "researchRating": "WATCH",
       "note": {
         "call": "WATCH — do not add capital.",
-        "why": "The sector rally was not tied to new AAOI operating evidence, while filings show heavy equity-funded expansion.",
-        "upside": "800G/1.6T demand and domestic capacity can create value if margins and cash conversion scale faster than dilution.",
-        "risk": "Dilution, fixed commitments and execution slippage can destroy per-share returns even if revenue grows.",
-        "next": "Current broker export, then Q3 share count, gross margin, working capital and cash flow."
+        "why": "AAOI raised about US$588 million, but the resulting share count conflicts across primary disclosures.",
+        "upside": "New capacity can create value if margins and cash generation scale faster than dilution.",
+        "risk": "Repeated equity funding can destroy per-share returns even when revenue grows.",
+        "next": "Current broker export, then exact Q3 shares, margins, working capital and cash flow."
       },
-      "as_of": "2026-10-02T09:28:50-04:00",
+      "as_of": "2026-10-14T09:16:40-04:00",
       "return_profile": {
         "probability_weighted_expected_return_pct": null,
         "realistic_downside_pct": null,
@@ -62,31 +62,115 @@
         "initialPct": 0,
         "targetPct": 0,
         "maximumPct": 0,
-        "entryMethod": "No trade and no margin; complete Gate 0, forensic valuation and independent red team",
+        "entryMethod": "No trade and no margin; complete Gate 0 and forensic reconciliation",
         "capitalIndependent": true
       },
       "evidenceLinks": [
         {
-          "label": "Yahoo Finance delayed daily charts for AAOI, COHR, LITE and CRDO — 2026-10-01 close",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI?period1=1790740800&period2=1791000000&interval=1d"
+          "label": "Applied Optoelectronics completion of US$600 million ATM — 2026-10-05",
+          "url": "https://www.prnewswire.com/news-releases/applied-optoelectronics-announces-completion-of-previously-announced-at-the-market-offering-302897857.html"
         },
         {
-          "label": "Congress.gov S.5548 status — introduced 2026-09-24",
-          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5548"
+          "label": "AAOI officer Form 144 filed 2026-10-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/1158114/000197407826000378/xsl144X01/primary_doc.xml"
         },
         {
-          "label": "AAOI Form 10-Q for quarter ended 2026-06-30",
-          "url": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926026278/aaoi20260630_10q.htm"
-        },
-        {
-          "label": "AAOI Houston Buildings 4 and 5 leases Form 8-K — 2026-09-01",
-          "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006862/aaoi_8k.htm"
+          "label": "SEC EDGAR AAOI submissions index checked 2026-10-14",
+          "url": "https://data.sec.gov/submissions/CIK0001158114.json"
         }
       ],
       "relatedReports": [
         "report-office-reports-daily-2026-07-13-md",
         "report-office-reports-weekly-2026-07-11-weekly-ic-md",
         "report-office-reports-2026-07-10-initial-cio-note-md"
+      ]
+    },
+    {
+      "instrument": "OBE.TO",
+      "action": "AVOID",
+      "researchRating": "AVOID",
+      "note": {
+        "call": "AVOID for now.",
+        "why": "Oil is supportive, but OBE has not yet proved that the stronger price converts into free cash flow and lower debt.",
+        "upside": "A clean FCF and deleveraging print could create a re-entry.",
+        "risk": "Capital needs and leverage can absorb the commodity windfall.",
+        "next": "Positive post-acquisition FCF and sequential total-debt decline."
+      },
+      "as_of": "2026-10-14T09:16:40-04:00",
+      "return_profile": {
+        "probability_weighted_expected_return_pct": null,
+        "realistic_downside_pct": null,
+        "upside_downside_ratio": null
+      },
+      "allocationPlan": {
+        "initialPct": 0,
+        "targetPct": 0,
+        "maximumPct": 0,
+        "entryMethod": "No trade; current company evidence, full forensic model, red team and Gate 0 are required",
+        "capitalIndependent": true
+      },
+      "evidenceLinks": [
+        {
+          "label": "EIA Short-Term Energy Outlook — October 2026",
+          "url": "https://www.eia.gov/outlooks/steo/"
+        },
+        {
+          "label": "Yahoo Finance delayed NYMEX WTI front month and contract curve — observed 2026-10-14 09:15 EDT",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLZ27.NYM?range=5d&interval=1d"
+        },
+        {
+          "label": "Obsidian acquisition close and updated guidance",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334388/000119312526293579/july_2_pr_acq_close_guid.htm"
+        }
+      ],
+      "relatedReports": [
+        "report-office-reports-weekly-2026-07-11-weekly-ic-md"
+      ]
+    },
+    {
+      "instrument": "JOY.TO",
+      "action": "INVESTIGATE",
+      "researchRating": "WATCH",
+      "note": {
+        "call": "WATCH — do not buy yet.",
+        "why": "Oil is supportive, but JOY is above the old price gate and current project/debt economics are not modeled.",
+        "upside": "Successful Duvernay and power execution could create a future entry.",
+        "risk": "Project delays, debt, convertibles and abandonment costs can absorb the oil benefit.",
+        "next": "Current results proving execution and stable debt, or a materially lower price."
+      },
+      "as_of": "2026-10-14T09:16:40-04:00",
+      "return_profile": {
+        "probability_weighted_expected_return_pct": null,
+        "realistic_downside_pct": null,
+        "upside_downside_ratio": null
+      },
+      "allocationPlan": {
+        "initialPct": 0,
+        "targetPct": 0,
+        "maximumPct": 0,
+        "entryMethod": "No trade; rebuild the model and clear forensic, red-team, portfolio-risk and Gate 0 requirements",
+        "capitalIndependent": true
+      },
+      "evidenceLinks": [
+        {
+          "label": "EIA Short-Term Energy Outlook — October 2026",
+          "url": "https://www.eia.gov/outlooks/steo/"
+        },
+        {
+          "label": "Yahoo Finance delayed NYMEX WTI front month and contract curve — observed 2026-10-14 09:15 EDT",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLZ27.NYM?range=5d&interval=1d"
+        },
+        {
+          "label": "Yahoo Finance delayed OBE and JOY.TO closes — 2026-10-13",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/OBE?range=10d&interval=1d"
+        },
+        {
+          "label": "Journey Q1 2026 financial statements",
+          "url": "https://www.journeyenergy.ca/wp-content/uploads/Reports/Financial_Reports/JEI_FS_Q1_2026.pdf"
+        }
+      ],
+      "relatedReports": [
+        "report-office-reports-weekly-2026-07-11-weekly-ic-md"
       ]
     },
     {
@@ -127,86 +211,6 @@
         "report-office-reports-daily-2026-07-13-md",
         "report-office-reports-weekly-2026-07-11-weekly-ic-md",
         "report-office-reports-2026-07-10-initial-cio-note-md"
-      ]
-    },
-    {
-      "instrument": "OBE.TO",
-      "action": "AVOID",
-      "researchRating": "AVOID",
-      "note": {
-        "call": "Avoid for now.",
-        "why": "The company can still burn cash at reasonable oil prices while carrying meaningful debt.",
-        "upside": "A sustained oil price above US$75 and falling debt could create a future entry.",
-        "risk": "Lower oil or weak execution could cause severe downside.",
-        "next": "Positive free cash flow and sequential debt reduction."
-      },
-      "as_of": "2026-07-10T15:12:08-04:00",
-      "return_profile": {
-        "probability_weighted_expected_return_pct": -23.0,
-        "realistic_downside_pct": -63.1,
-        "upside_downside_ratio": 1.05
-      },
-      "allocationPlan": {
-        "initialPct": 0,
-        "targetPct": 0,
-        "maximumPct": 0,
-        "entryMethod": "No trade; future staged starter only after all gates pass.",
-        "capitalIndependent": true
-      },
-      "evidenceLinks": [
-        {
-          "label": "Obsidian acquisition close and updated guidance",
-          "url": "https://www.sec.gov/Archives/edgar/data/1334388/000119312526293579/july_2_pr_acq_close_guid.htm"
-        },
-        {
-          "label": "IEA Oil Market Report — July 2026",
-          "url": "https://www.iea.org/reports/oil-market-report-july-2026"
-        }
-      ],
-      "relatedReports": [
-        "report-office-reports-weekly-2026-07-11-weekly-ic-md"
-      ]
-    },
-    {
-      "instrument": "JOY.TO",
-      "action": "INVESTIGATE",
-      "researchRating": "WATCH",
-      "note": {
-        "call": "Conditional watch.",
-        "why": "Assets and leverage look better than OBE, but the current plan remains cash-negative near US$65 oil.",
-        "upside": "A cheaper entry or successful Duvernay and power execution could improve the return profile.",
-        "risk": "Project delays, refinancing pressure, or lower oil can erase the upside.",
-        "next": "Price near C$3.40 or verified operating progress with stable debt."
-      },
-      "as_of": "2026-07-10T15:12:08-04:00",
-      "return_profile": {
-        "probability_weighted_expected_return_pct": -11.3,
-        "realistic_downside_pct": -53.0,
-        "upside_downside_ratio": 1.3
-      },
-      "allocationPlan": {
-        "initialPct": 0,
-        "targetPct": 0,
-        "maximumPct": 0,
-        "entryMethod": "No trade; future 3% staging tranche only after all gates pass, within one concentrated oil-thesis slot.",
-        "capitalIndependent": true
-      },
-      "evidenceLinks": [
-        {
-          "label": "Journey Q1 2026 MD&A",
-          "url": "https://www.journeyenergy.ca/wp-content/uploads/Reports/Financial_Reports/JEI_MDA_Q1_2026.pdf"
-        },
-        {
-          "label": "Journey Q1 2026 financial statements",
-          "url": "https://www.journeyenergy.ca/wp-content/uploads/Reports/Financial_Reports/JEI_FS_Q1_2026.pdf"
-        },
-        {
-          "label": "Journey June 2026 presentation",
-          "url": "https://www.journeyenergy.ca/wp-content/uploads/Reports/Presentations/JOURNEY_June_2026_CORPORATE_PRESENTATION.pdf"
-        }
-      ],
-      "relatedReports": [
-        "report-office-reports-weekly-2026-07-11-weekly-ic-md"
       ]
     },
     {
@@ -298,16 +302,6 @@
       "next_event": "Full trial data, regulatory strategy, and partner guidance"
     },
     {
-      "instrument": "KTOS",
-      "theme": "defense autonomy / hypersonics",
-      "stage": "event_forensic_triage",
-      "action": "INVESTIGATE",
-      "research_priority": "urgent",
-      "trigger": "By 2026-07-24, fold the July 14 ~US$400 million funding, July 20 Elroy manufacturing role, and July 21 ~US$156 million DOE NNSA C-UAS IDIQ into funded backlog, revenue, margins, cash receipts, working capital, diluted shares, net debt and current-price scenarios; compare directly with AVAV and T-bills.",
-      "invalidation": "Reject promotion if the funding is not economically additive, does not convert to normalized FCF, or valuation cannot support positive expected return and at least 3:1 upside/downside.",
-      "next_event": "Forensic AVAV/KTOS comparison refresh by 2026-07-24; next issuer filing if earlier"
-    },
-    {
       "instrument": "AVAV",
       "theme": "defense autonomy and counter-UAS",
       "stage": "gate3_forensic",
@@ -318,6 +312,16 @@
       "next_event": "Forensic completion deadline extended to 2026-07-24 after miss; next issuer filing if earlier"
     },
     {
+      "instrument": "KTOS",
+      "theme": "defense autonomy / hypersonics",
+      "stage": "acquisition_dilution_forensic",
+      "action": "INVESTIGATE",
+      "research_priority": "high",
+      "trigger": "Fold the Jetset acquisition, 547,249 closing shares and up to 121,592 earn-out shares into the overdue KTOS diluted-share, cash-flow and acquisition-return model; compare with AVAV and T-bills.",
+      "invalidation": "Reject promotion if acquisition economics, funded-backlog conversion, dilution or valuation fail the positive-EV and 3:1 upside/downside hurdle.",
+      "next_event": "Current KTOS forensic model and next quarterly filing"
+    },
+    {
       "instrument": "NTLA",
       "theme": "in-vivo gene editing / ATTR",
       "stage": "readthrough_diagnosis",
@@ -326,26 +330,6 @@
       "trigger": "Determine whether IONS read-through changes NTLA's mechanism, comparator, endpoint probability, commercial assumptions, or only sentiment; verify all current disclosures.",
       "invalidation": "Avoid if clinical/endpoint comparability makes the IONS failure directly adverse or cash runway/dilution overwhelms option value.",
       "next_event": "Company-specific clinical or regulatory update"
-    },
-    {
-      "instrument": "JOY.TO",
-      "theme": "Canadian small-cap oil / Duvernay / power",
-      "stage": "conditional_reentry",
-      "action": "INVESTIGATE",
-      "research_priority": "high_on_trigger",
-      "trigger": "Price near or below C$3.40 or verified Duvernay/power execution with stable debt and supportive strip.",
-      "invalidation": "Duvernay miss, power delay, refinancing deterioration, or <US$65 strip with unchanged capex.",
-      "next_event": "Next results, Duvernay update and power commissioning"
-    },
-    {
-      "instrument": "OBE.TO",
-      "theme": "Canadian small-cap oil",
-      "stage": "conditional_reentry_financing_update",
-      "action": "AVOID",
-      "research_priority": "high_on_trigger",
-      "trigger": "Positive post-acquisition FCF and sequential total-debt decline after the C$75 million notes add-on, plus a sustained supportive WTI strip and refreshed valuation.",
-      "invalidation": "Maintain AVOID if debt fails to decline, FCF remains negative, borrowing stress rises, or the strip falls below US$65 with cash-negative capex.",
-      "next_event": "Expected notes closing 2026-07-22 and next quarterly FCF/debt update; delayed WTI strength alone is insufficient"
     },
     {
       "instrument": "LITE",
@@ -370,12 +354,32 @@
     {
       "instrument": "AAOI",
       "theme": "AI optical transceivers",
-      "stage": "forensic_reunderwrite_required",
+      "stage": "atm_complete_share_count_reconciliation",
       "action": "INVESTIGATE",
       "research_priority": "urgent_if_currently_held",
-      "trigger": "Obtain a current broker export, then reconcile actual ATM issuance and fully diluted shares, Q3 revenue/gross margin versus guidance, working-capital growth, commissioning progress and per-share FCF before any hold/reduce/exit or new-capital decision.",
-      "invalidation": "Do not promote on the synchronized sector rally or S.5548: neither is AAOI-specific revenue evidence, and current filings show material equity-funded capital intensity and fixed commitments.",
-      "next_event": "Current broker/account export; then AAOI Q3 2026 results, date not yet verified"
+      "trigger": "Obtain a current broker export and the next issuer filing; reconcile the completed 5.694845 million-share ATM against exact basic/fully diluted shares, then model per-share FCF, margins, working capital and expansion commitments before any holding or new-capital action.",
+      "invalidation": "Do not treat the completed financing or the sector selloff as a buy signal; reject promotion if repeated equity funding, fixed commitments or customer/commissioning risk leave unbounded per-share downside.",
+      "next_event": "Current broker/account export; then AAOI Q3 2026 filing, date not yet verified"
+    },
+    {
+      "instrument": "JOY.TO",
+      "theme": "Canadian small-cap oil / Duvernay / power",
+      "stage": "macro_gate_passed_price_and_company_gates_failed",
+      "action": "INVESTIGATE",
+      "research_priority": "high_reunderwrite",
+      "trigger": "Rebuild current EV, dual FCF views and debt/convert/ARO sensitivity using the October oil curve; require verified Duvernay and power execution with stable or falling debt, or a price near the registered C$3.40 gate.",
+      "invalidation": "De-escalate if Duvernay or power execution slips, refinancing worsens, debt rises, or refreshed valuation cannot produce positive expected value and at least 3:1 upside/downside.",
+      "next_event": "Next JOY results and Duvernay/power commissioning update; delayed C$5.57 close remains above the price gate"
+    },
+    {
+      "instrument": "OBE.TO",
+      "theme": "Canadian small-cap oil",
+      "stage": "macro_gate_passed_company_gate_failed",
+      "action": "AVOID",
+      "research_priority": "urgent_reunderwrite",
+      "trigger": "Rebuild current enterprise value and normalized/guided FCF using the October oil curve; require positive post-acquisition FCF and sequential total-debt decline in a current issuer filing before reconsidering AVOID.",
+      "invalidation": "Maintain AVOID if total debt does not decline, capex remains cash-negative at normalized oil, borrowing stress rises, or refreshed downside remains incompatible with concentrated sizing.",
+      "next_event": "Next OBE quarterly results and debt/FCF reconciliation"
     },
     {
       "instrument": "VST",
@@ -616,19 +620,12 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 97.78,
-      "changePct": -24.88,
+      "price": 93.16,
+      "changePct": -23.98,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:44-04:00",
       "sparkline": [
-        122.91,
-        120.95,
-        120.91,
-        122.445,
-        123.61,
-        123.45,
-        122.5468,
         117.275,
         111.31,
         113.65,
@@ -657,24 +654,18 @@
         96.41,
         96.825,
         97.82,
-        97.78
+        93.36,
+        93.16
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 127.13,
-      "changePct": -11.43,
+      "price": 128.15,
+      "changePct": -7.71,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:44-04:00",
       "sparkline": [
-        136.25,
-        134.6899,
-        136.21,
-        137.775,
-        138.21,
-        138.8,
-        138.84,
         138.665,
         136.3061,
         137.3485,
@@ -703,24 +694,18 @@
         128.27,
         128.68,
         127.1,
-        127.13
+        127.915,
+        128.15
       ]
     },
     {
       "ticker": "IONS",
-      "price": 42.38,
-      "changePct": -3.68,
+      "price": 42.92,
+      "changePct": -2.8,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:44-04:00",
       "sparkline": [
-        44.059,
-        43.91,
-        43.8,
-        43.76,
-        43.84,
-        44.02,
-        44.16,
         43.45,
         43.38,
         42.9,
@@ -749,24 +734,18 @@
         42.86,
         42.62,
         42.41,
-        42.38
+        42.83,
+        42.925
       ]
     },
     {
       "ticker": "JOY.TO",
-      "price": 5.57,
-      "changePct": 8.79,
+      "price": 5.59,
+      "changePct": 7.71,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:42-04:00",
       "sparkline": [
-        5.17,
-        5.195,
-        5.24,
-        5.27,
-        5.26,
-        5.21,
-        5.19,
         5.28,
         5.24,
         5.23,
@@ -795,24 +774,18 @@
         5.55,
         5.56,
         5.56,
-        5.57
+        5.58,
+        5.59
       ]
     },
     {
       "ticker": "KTOS",
-      "price": 40.35,
-      "changePct": -7.69,
+      "price": 41.09,
+      "changePct": -2.03,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:44-04:00",
       "sparkline": [
-        41.25,
-        41.12,
-        41.67,
-        41.7,
-        41.795,
-        42.01,
-        41.94,
         42.44,
         41.87,
         42.085,
@@ -841,24 +814,18 @@
         40.5299,
         40.62,
         40.36,
-        40.35
+        40.8921,
+        41.09
       ]
     },
     {
       "ticker": "LITE",
-      "price": 987.99,
-      "changePct": -12.83,
+      "price": 949.39,
+      "changePct": -14.55,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:44-04:00",
       "sparkline": [
-        1107.515,
-        1101.415,
-        1101.77,
-        1112.4,
-        1114.64,
-        1112.255,
-        1111.2,
         1094.255,
         1070.14,
         1073.0,
@@ -887,24 +854,18 @@
         977.3233,
         981.865,
         988.19,
-        987.99
+        952.73,
+        949.3922
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 11.91,
-      "changePct": -3.72,
+      "price": 11.83,
+      "changePct": 1.02,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:44-04:00",
       "sparkline": [
-        12.11,
-        12.205,
-        12.115,
-        12.015,
-        12.115,
-        12.04,
-        11.71,
         12.14,
         12.01,
         11.88,
@@ -933,24 +894,18 @@
         12.055,
         12.025,
         11.93,
-        11.91
+        11.79,
+        11.83
       ]
     },
     {
       "ticker": "OBE.TO",
-      "price": 16.75,
-      "changePct": 11.44,
+      "price": 16.62,
+      "changePct": 10.14,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:44-04:00",
       "sparkline": [
-        14.99,
-        15.03,
-        15.08,
-        15.14,
-        15.18,
-        15.075,
-        15.09,
         15.18,
         15.06,
         15.04,
@@ -979,24 +934,18 @@
         16.48,
         16.68,
         16.75,
-        16.75
+        16.62,
+        16.62
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 79.14,
-      "changePct": -1.43,
+      "price": 77.9,
+      "changePct": -3.91,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:43-04:00",
       "sparkline": [
-        82.13,
-        82.505,
-        83.28,
-        83.585,
-        82.24,
-        82.0725,
-        81.07,
         79.095,
         78.22,
         78.37,
@@ -1025,24 +974,18 @@
         79.44,
         78.41,
         79.07,
-        79.135
+        77.67,
+        77.9
       ]
     },
     {
       "ticker": "VST",
-      "price": 162.36,
-      "changePct": 1.16,
+      "price": 155.07,
+      "changePct": -6.99,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-10-13T16:00-04:00",
+      "quoteTime": "2026-10-14T09:44-04:00",
       "sparkline": [
-        163.39,
-        164.03,
-        164.46,
-        164.755,
-        167.765,
-        166.99,
-        166.66,
         166.38,
         160.74,
         158.31,
@@ -1071,7 +1014,8 @@
         162.86,
         162.32,
         162.39,
-        162.36
+        155.475,
+        155.07
       ]
     }
   ],
