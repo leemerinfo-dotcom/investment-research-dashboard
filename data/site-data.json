@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-16T09:01:54-04:00",
+    "generatedAt": "2026-10-16T09:34:53-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -41,6 +41,42 @@
   "currentBuys": [],
   "buyCandidates": [],
   "decisions": [
+    {
+      "instrument": "RXRX",
+      "action": "INVESTIGATE",
+      "researchRating": "WATCH",
+      "note": {
+        "call": "INVESTIGATE — do not chase.",
+        "why": "Clinical and partner signals improved, but 85.2 million disclosed shares were added through the Q3 ATM and follow-on against the June base.",
+        "upside": "Durable FAP benefit, oncology responses and partner milestones could validate the platform and pipeline.",
+        "risk": "Small cohorts, long regulatory timelines, cash burn and dilution can overwhelm per-share value.",
+        "next": "November 2 patient-level REC-4881 data plus a fully diluted risk-adjusted SOTP."
+      },
+      "as_of": "2026-10-16T09:26:19-04:00",
+      "return_profile": {
+        "probability_weighted_expected_return_pct": null,
+        "realistic_downside_pct": null,
+        "upside_downside_ratio": null
+      },
+      "allocationPlan": {
+        "initialPct": 0,
+        "targetPct": 0,
+        "maximumPct": 0,
+        "entryMethod": "No trade; complete clinical, forensic-valuation, red-team and portfolio-risk gates",
+        "capitalIndependent": true
+      },
+      "evidenceLinks": [
+        {
+          "label": "Recursion 8-K and exhibits for clinical, partnership and financing updates",
+          "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000128/rxrx-20261015.htm"
+        },
+        {
+          "label": "Recursion final prospectus supplement for 61.54 million-share offering",
+          "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000134/rxrx-finalprosuppxoct2026o.htm"
+        }
+      ],
+      "relatedReports": []
+    },
     {
       "instrument": "AAOI",
       "action": "INVESTIGATE",
@@ -332,6 +368,16 @@
       "next_event": "Company-specific clinical or regulatory update"
     },
     {
+      "instrument": "RXRX",
+      "theme": "AI-enabled drug discovery and clinical-stage biotechnology",
+      "stage": "clinical_financing_event_triage",
+      "action": "INVESTIGATE",
+      "research_priority": "high",
+      "trigger": "Reconcile patient-level REC-4881 and REC-1245 evidence, FDA-path assumptions, pro-forma fully diluted shares, quarterly cash burn and a risk-adjusted SOTP before promotion; compare with cash and the best non-biotech candidate.",
+      "invalidation": "De-escalate or AVOID if durability/safety weakens, FDA alignment delays the registrational path, cash burn compresses the stated runway, or dilution-adjusted expected value fails the office hurdle.",
+      "next_event": "REC-4881 presentation at CGA-IGC on 2026-11-02; registrational-trial details expected later in 2026"
+    },
+    {
       "instrument": "LITE",
       "theme": "optical components / AI connectivity",
       "stage": "price_dislocation_diagnosis",
@@ -354,12 +400,12 @@
     {
       "instrument": "AAOI",
       "theme": "AI optical transceivers",
-      "stage": "broad_riskoff_alert_diagnosed",
+      "stage": "two_day_selloff_continued_q3_catalyst_dated",
       "action": "INVESTIGATE",
       "research_priority": "urgent_if_currently_held",
-      "trigger": "Obtain a current broker export now; then reconcile exact basic/fully diluted shares and Q3 per-share FCF, margins, working capital and expansion commitments before any holding or new-capital action.",
-      "invalidation": "Do not average down on the 2026-10-14 selloff: it was broad and lacked new AAOI operating evidence, while producer inflation raised the financing and valuation hurdle. Reject promotion if repeated equity funding or execution risk leaves unbounded per-share downside.",
-      "next_event": "Current broker/account export; then AAOI Q3 2026 filing, date not yet verified"
+      "trigger": "Obtain a current broker export now; at the November 5 Q3 release reconcile fully diluted shares, revenue quality, gross margin, working capital, expansion commitments and per-share free cash flow before any holding or new-capital action.",
+      "invalidation": "Do not average down on the two-day decline. Reject promotion if Q3 does not convert growth into durable margin and per-share cash flow or if financing and execution risk leave unbounded downside.",
+      "next_event": "AAOI Q3 2026 results and call — 2026-11-05 16:30 EST"
     },
     {
       "instrument": "JOY.TO",
@@ -620,19 +666,12 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 83.73,
-      "changePct": -20.93,
+      "price": 80.51,
+      "changePct": -26.57,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        111.325,
-        111.28,
-        111.79,
-        111.64,
-        110.98,
-        111.135,
-        109.63,
         101.89,
         100.6,
         100.94,
@@ -661,24 +700,18 @@
         80.77,
         84.51,
         83.73,
-        83.73
+        81.01,
+        80.51
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 123.22,
-      "changePct": -10.45,
+      "price": 123.36,
+      "changePct": -10.02,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        137.31,
-        136.75,
-        135.95,
-        136.0,
-        136.78,
-        136.545,
-        137.05,
         134.11,
         134.11,
         134.12,
@@ -707,24 +740,18 @@
         120.04,
         122.25,
         123.17,
-        123.22
+        122.88,
+        123.365
       ]
     },
     {
       "ticker": "IONS",
-      "price": 44.12,
-      "changePct": 1.89,
+      "price": 43.9,
+      "changePct": -3.05,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        45.06,
-        45.305,
-        45.695,
-        45.32,
-        45.335,
-        45.28,
-        45.25,
         44.79,
         44.53,
         44.265,
@@ -753,24 +780,18 @@
         43.645,
         44.1,
         44.12,
-        44.12
+        43.808,
+        43.9
       ]
     },
     {
       "ticker": "JOY.TO",
-      "price": 5.64,
-      "changePct": 7.63,
+      "price": 5.76,
+      "changePct": 6.86,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        5.36,
-        5.37,
-        5.35,
-        5.36,
-        5.37,
-        5.39,
-        5.38,
         5.46,
         5.52,
         5.5,
@@ -799,24 +820,18 @@
         5.64,
         5.66,
         5.635,
-        5.64
+        5.76,
+        5.76
       ]
     },
     {
       "ticker": "KTOS",
-      "price": 40.74,
-      "changePct": -2.84,
+      "price": 40.9,
+      "changePct": -3.45,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        42.2,
-        42.265,
-        42.02,
-        41.845,
-        42.16,
-        42.2799,
-        42.37,
         42.29,
         42.37,
         42.26,
@@ -845,24 +860,18 @@
         39.825,
         40.25,
         40.74,
-        40.74
+        40.93,
+        40.9
       ]
     },
     {
       "ticker": "LITE",
-      "price": 869.54,
-      "changePct": -17.08,
+      "price": 861.31,
+      "changePct": -21.94,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        1118.33,
-        1115.33,
-        1113.87,
-        1120.25,
-        1116.645,
-        1113.8,
-        1103.2,
         1028.535,
         990.695,
         993.005,
@@ -891,24 +900,18 @@
         848.4,
         868.625,
         869.66,
-        869.54
+        864.96,
+        861.31
       ]
     },
     {
       "ticker": "NTLA",
-      "price": 11.34,
-      "changePct": -10.0,
+      "price": 11.45,
+      "changePct": -12.39,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        12.64,
-        12.605,
-        12.969,
-        13.01,
-        13.09,
-        13.21,
-        13.075,
         13.05,
         12.945,
         12.825,
@@ -937,24 +940,18 @@
         11.54,
         11.7999,
         11.33,
-        11.34
+        11.46,
+        11.45
       ]
     },
     {
       "ticker": "OBE.TO",
-      "price": 16.3,
-      "changePct": 7.52,
+      "price": 16.63,
+      "changePct": 5.12,
       "currency": "CAD",
       "exchange": "TOR",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        15.68,
-        15.7,
-        15.62,
-        15.73,
-        15.79,
-        15.77,
-        15.8,
         15.95,
         16.17,
         15.93,
@@ -983,24 +980,58 @@
         16.31,
         16.23,
         16.3,
-        16.3
+        16.59,
+        16.63
+      ]
+    },
+    {
+      "ticker": "RXRX",
+      "price": 4.06,
+      "changePct": -6.88,
+      "currency": "USD",
+      "exchange": "NMS",
+      "quoteTime": "2026-10-16T09:34-04:00",
+      "sparkline": [
+        4.1412,
+        4.01,
+        3.985,
+        3.955,
+        3.975,
+        3.9804,
+        4.005,
+        3.9,
+        3.93,
+        3.9,
+        3.855,
+        3.8389,
+        3.865,
+        3.835,
+        3.8291,
+        3.7909,
+        3.7218,
+        3.705,
+        3.6834,
+        3.745,
+        3.735,
+        3.8701,
+        4.19,
+        4.265,
+        4.225,
+        4.185,
+        4.235,
+        4.16,
+        4.0782,
+        4.0601
       ]
     },
     {
       "ticker": "TMDX",
-      "price": 76.52,
-      "changePct": -3.14,
+      "price": 75.27,
+      "changePct": -3.34,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        80.6109,
-        78.22,
-        77.365,
-        77.26,
-        77.64,
-        78.41,
-        77.81,
         77.38,
         78.06,
         77.56,
@@ -1029,24 +1060,18 @@
         75.255,
         75.46,
         76.55,
-        76.52
+        75.29,
+        75.27
       ]
     },
     {
       "ticker": "VST",
-      "price": 154.17,
-      "changePct": -1.26,
+      "price": 152.95,
+      "changePct": -5.29,
       "currency": "USD",
       "exchange": "NYQ",
-      "quoteTime": "2026-10-15T16:00-04:00",
+      "quoteTime": "2026-10-16T09:34-04:00",
       "sparkline": [
-        157.91,
-        159.12,
-        159.04,
-        159.8,
-        160.82,
-        160.79,
-        161.46,
         162.575,
         160.44,
         160.24,
@@ -1075,16 +1100,17 @@
         152.615,
         154.13,
         154.18,
-        154.17
+        152.9,
+        152.945
       ]
     }
   ],
   "stats": {
     "currentBuys": 0,
     "buyCandidates": 0,
-    "decisions": 6,
-    "watchlist": 10,
+    "decisions": 7,
+    "watchlist": 11,
     "reports": 4,
-    "quotes": 10
+    "quotes": 11
   }
 }
