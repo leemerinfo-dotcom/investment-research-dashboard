@@ -1,4 +1,4 @@
-const CACHE = "gus-investment-office-c4ee1b7711fc";
+const CACHE = "gus-investment-office-e7702fe386b0";
 const SHELL = [
   "./",
   "./index.html",
