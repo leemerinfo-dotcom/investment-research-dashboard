@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-30T16:20:28-04:00",
+    "generatedAt": "2026-10-30T16:51:15-04:00",
     "title": "Gus Investment Office",
     "subtitle": "Decision status, current calls, catalysts, and investment reports",
     "publicSafety": "Public-safe executive view. Private amounts, local paths, prompts, and raw ledgers are excluded."
@@ -666,11 +666,11 @@
   "quotes": [
     {
       "ticker": "AAOI",
-      "price": 68.81,
-      "changePct": 1.93,
+      "price": 69.05,
+      "changePct": 2.28,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-30T15:30-04:00",
+      "quoteTime": "2026-10-30T16:00-04:00",
       "sparkline": [
         67.63,
         72.2,
@@ -706,16 +706,17 @@
         67.14,
         66.25,
         67.54,
-        68.81
+        69.07,
+        69.05
       ]
     },
     {
       "ticker": "AVAV",
-      "price": 126.19,
-      "changePct": 2.39,
+      "price": 126.11,
+      "changePct": 2.32,
       "currency": "USD",
       "exchange": "NMS",
-      "quoteTime": "2026-10-30T15:30-04:00",
+      "quoteTime": "2026-10-30T16:00-04:00",
       "sparkline": [
         123.815,
         125.26,
@@ -751,7 +752,8 @@
         126.57,
         124.475,
         126.34,
-        126.19
+        126.23,
+        126.11
       ]
     },
     {
@@ -940,11 +942,11 @@
     },
     {
       "ticker": "NTLA",
-      "price": 12.3,
-      "changePct": 9.68,
+      "price": 12.47,
+      "changePct": 11.24,
       "currency": "USD",
       "exchange": "NGM",
-      "quoteTime": "2026-10-30T15:30-04:00",
+      "quoteTime": "2026-10-30T16:00-04:00",
       "sparkline": [
         11.365,
         11.305,
@@ -980,7 +982,8 @@
         12.155,
         12.155,
         12.245,
-        12.295
+        12.465,
+        12.47
       ]
     },
     {
@@ -1117,7 +1120,7 @@
         65.4206,
         65.1,
         65.51,
-        65.99,
+        65.89,
         65.99
       ]
     },
@@ -1163,7 +1166,7 @@
         136.86,
         136.4,
         137.08,
-        138.37,
+        138.43,
         138.37
       ]
     }
